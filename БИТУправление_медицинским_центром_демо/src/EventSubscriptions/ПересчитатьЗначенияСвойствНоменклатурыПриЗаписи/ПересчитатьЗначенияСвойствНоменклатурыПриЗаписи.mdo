@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="61966ac7-b676-492c-a64f-a15e7178cdc4">
+  <name>ПересчитатьЗначенияСвойствНоменклатурыПриЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пересчитать значения свойств номенклатуры при записи</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.Номенклатура</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.СвойстваИЗначенияСервер.ПересчитатьЗначенияСвойствОбъекта</handler>
+</mdclass:EventSubscription>

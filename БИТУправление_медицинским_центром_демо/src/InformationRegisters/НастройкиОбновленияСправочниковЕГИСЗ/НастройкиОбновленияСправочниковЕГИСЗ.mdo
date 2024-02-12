@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1434e8d7-8b7d-47b1-83c6-8431f5803ebe">
+  <producedTypes>
+    <selectionType typeId="07511ea4-580c-4129-bc06-b8523b3328d4" valueTypeId="80450f01-be8a-404d-a2e7-54af8cfe2d12"/>
+    <listType typeId="dc916d31-ff43-4ffc-9d06-525046ad7799" valueTypeId="169145dc-84a1-4d14-8bf6-17ac28b8040b"/>
+    <managerType typeId="227e77f1-fd11-4cbe-b2ff-f289027811c3" valueTypeId="08a06d1a-2375-4be6-9726-60406d090b8a"/>
+    <recordSetType typeId="ac4679af-a3f0-4abf-bfec-80a296a0439d" valueTypeId="64b50469-70d4-4e10-891b-7820bb7c0fa0"/>
+    <recordKeyType typeId="c12cb4de-822e-46cc-bdc7-31fcb7829827" valueTypeId="cb082c78-62d1-4261-b542-79a86a8d1bea"/>
+    <recordType typeId="41bda475-626e-4065-8b3d-f858b29dc757" valueTypeId="c302b188-f4f4-42bb-86a0-338367d4b3d3"/>
+    <recordManagerType typeId="4259d67a-6ca6-4db9-89da-7605222feff8" valueTypeId="9c2f5a06-0a8f-4d7f-8c3d-f501a57cbc63"/>
+  </producedTypes>
+  <name>НастройкиОбновленияСправочниковЕГИСЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки обновления справочников ФР НСИ ЕГИСЗ</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Настройки обновления справочников ФР НСИ ЕГИСЗ РФ</value>
+  </explanation>
+  <resources uuid="9b71ba31-3039-4990-aa72-1867d696ee2d">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="19775b93-e832-4fa5-9b28-e140085566aa">
+    <name>ДатаПоследнегоОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата последнего обновления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="858ed7f0-157c-4c30-956f-bf205fb6f35b">
+    <name>РежимОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим обновления</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РежимыАвтоОбновленияСправочниковЕГИСЗ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.РежимыАвтоОбновленияСправочниковЕГИСЗ.EnumValue.Выключено</value>
+    </fillValue>
+  </resources>
+  <resources uuid="0ed0f39a-2fee-4cc3-af17-7cc5c517fd06">
+    <name>ДатаВерсии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата версии</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="172a724d-c33f-4382-85b6-d82507b167da">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="e1b917b6-f691-4f68-a38d-082e01aef018">
+    <name>Классификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классификатор</value>
+    </synonym>
+    <comment>OID классификатора</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>OID классификатора согласно ФР НСИ ЕГИСЗ РФ</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="5d627419-bbe0-4a6f-9ae8-80d3be05470a">
+    <name>УправлениеКлассификаторамиЕГИСЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управление классификаторами ФР НСИ ЕГИСЗ РФ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="1120251e-8d78-4b84-b921-c243b57b2631">
+    <name>УправлениеКлассификаторамиЕГИСЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классификаторы ФР НСИ ЕГИСЗ</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Управление классификаторами ФР НСИ ЕГИСЗ РФ</value>
+    </toolTip>
+  </commands>
+</mdclass:InformationRegister>

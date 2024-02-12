@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f099071-a9f4-4973-b505-a9e13eceeb0e">
+  <producedTypes>
+    <objectType typeId="df812aa4-3352-42b9-a9c8-bd35cb2026c6" valueTypeId="cdd892a4-fa93-4246-9b02-4bf83fda5f52"/>
+    <refType typeId="55c2b340-3eb2-46bc-9fee-e855d8096f80" valueTypeId="76d6ab42-aa5d-47b3-9191-5b2ba7678ff3"/>
+    <selectionType typeId="94fbf104-a99a-4507-81e1-45dc12198195" valueTypeId="627f5391-394a-41af-bab3-582d84c0e2de"/>
+    <listType typeId="f08a6898-60bc-4a33-9fc1-f2ebbcd0be83" valueTypeId="5bfcb3b8-e04f-48f1-a079-d3c6c111f17f"/>
+    <managerType typeId="6fbff4d7-49a1-429e-ab67-db190538dcf5" valueTypeId="ce67f1e4-8522-4f67-b553-8080ff7f83d3"/>
+  </producedTypes>
+  <name>ВводНачальныхОстатковПоНакоплениямСкидок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод начальных остатков по накоплениям скидок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ВводНачальныхОстатковПоНакоплениямСкидок.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ВводНачальныхОстатковПоНакоплениямСкидок.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ВводНачальныхОстатковПоНакоплениямСкидок.Form.ФормаСписка</defaultListForm>
+  <auxiliaryObjectForm>Document.ВводНачальныхОстатковПоНакоплениямСкидок.Form.ФормаДокумента</auxiliaryObjectForm>
+  <auxiliaryListForm>Document.ВводНачальныхОстатковПоНакоплениямСкидок.Form.ФормаСписка</auxiliaryListForm>
+  <registerRecords>AccumulationRegister.НакопленияПоСкидкам</registerRecords>
+  <attributes uuid="d11780c2-fa05-41ef-a8dc-84f3bc08776b">
+    <name>Филиал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиника</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Филиалы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Клиника, филиал</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5f5471c4-e8a3-489f-827b-c6317b5c2b92">
+    <name>ВидСкидки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид скидки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыСкидок</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид скидки/наценки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="99883246-ddec-4375-8ab6-389ba55e0703">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="11c33a10-9b20-413b-bc5b-6b08c0126e6e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="79d17848-d758-47df-abd5-03b6d76112eb">
+    <producedTypes>
+      <objectType typeId="26bbf43e-02b8-414e-9e71-9dee27921d2c" valueTypeId="9d2d7d21-4a00-4007-b6b8-3cbbd4aa9fe8"/>
+      <rowType typeId="6e7d7177-9c64-4f55-b341-228933667d28" valueTypeId="5f2981e2-eb8a-49fe-a096-8778c59e417a"/>
+    </producedTypes>
+    <name>Накопления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Накопления</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Накопления по скидкам</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="eff501fe-72bb-45a5-8272-119cbdc4dfc6">
+      <name>Получатель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получатель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Клиенты</types>
+        <types>CatalogRef.КартыСкидок</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Получатель скидки</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="beb209d1-a475-4d17-9b7b-3f938e9bd47a">
+      <name>Накопление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Накопление</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Сумма накопления</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

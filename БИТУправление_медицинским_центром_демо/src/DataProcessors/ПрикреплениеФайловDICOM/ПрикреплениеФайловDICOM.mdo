@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1bd1883-9335-4d86-b49a-cab8c6fb26d7">
+  <producedTypes>
+    <objectType typeId="b650755e-0b18-4e80-bd49-c602bcd0a175" valueTypeId="e7248586-53ba-44c5-8e1f-3106852cae61"/>
+    <managerType typeId="c074bbb5-38af-4d64-b316-d9b10902a687" valueTypeId="ab4e94f2-5b69-4c8b-975c-cc81da727d2e"/>
+  </producedTypes>
+  <name>ПрикреплениеФайловDICOM</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прикрепление файлов DICOM</value>
+  </synonym>
+  <comment>Выбор файлов DICOM</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПрикреплениеФайловDICOM.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <explanation>
+    <key>ru</key>
+    <value>Выбирает файлы DICOM, хранящиеся на диске</value>
+  </explanation>
+  <forms uuid="55680be1-515a-4cd6-ad38-fa06ec81eef2">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment>Выбор файлов DICOM</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="244ac1be-4261-434e-8787-d02e6e2a7b2c">
+  <name>ДокументПриПроведенииЗаполнениеФилиалаРегистровНакопления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документ при проведении заполнение филиала регистров накопления</value>
+  </synonym>
+  <source>
+    <types>DocumentObject</types>
+  </source>
+  <event>Posting</event>
+  <handler>CommonModule.РаботаСДокументамиСервер.ДокументПриПроведенииЗаполнениеФилиалаРегистровНакопленияОбработкаПроведения</handler>
+</mdclass:EventSubscription>

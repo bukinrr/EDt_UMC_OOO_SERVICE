@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c8cfac0-456b-4c9d-9308-7fb79c0afff5">
+  <producedTypes>
+    <objectType typeId="eb70c525-3acf-4e2d-bfba-f14c74ff5141" valueTypeId="8a142dd9-bdcb-4038-96ce-16219600e679"/>
+    <managerType typeId="4e6cf140-c508-40e2-a6ff-7bc18804380a" valueTypeId="f9293e94-580b-4e9d-9f8e-adbd7b7404a3"/>
+  </producedTypes>
+  <name>Звонки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Звонки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.Звонки.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="33aaa268-d5ff-47b7-a032-d37c2acec5fa">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="649b8984-4918-480d-9412-877cac9dfade">
+    <name>ОткрытьОтчетЗвонки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет &quot;Звонки&quot;</value>
+    </synonym>
+    <group>CommandGroup.ИнформацияВФорме</group>
+    <commandParameterType>
+      <types>DocumentRef.ЛистОжидания</types>
+      <types>DocumentRef.Событие</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

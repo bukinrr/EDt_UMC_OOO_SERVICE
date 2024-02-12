@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24b133d8-9f46-440f-a0b9-0fae7497591d">
+  <producedTypes>
+    <objectType typeId="5f98140e-0070-4794-99fb-ae2c42b9192e" valueTypeId="e4347ec2-b707-4905-ae1e-20216e2582ee"/>
+    <managerType typeId="d80c0ed9-09ae-478a-af95-514d34d4f7d1" valueTypeId="8a431e2e-b728-4521-9368-56bc41611b21"/>
+  </producedTypes>
+  <name>invАРМПС2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инвитро АРМПС</value>
+  </synonym>
+  <defaultForm>DataProcessor.invАРМПС2.Form.Форма</defaultForm>
+  <tabularSections uuid="70eb581b-02f8-4cb9-bb82-26b757240db7">
+    <producedTypes>
+      <objectType typeId="0a77c567-eb95-4963-9877-723f12a76185" valueTypeId="cec7ba5d-349f-4310-81d3-8b5e65fd5dc1"/>
+      <rowType typeId="43fd6cb0-3497-4971-8a08-c03bce6053e0" valueTypeId="6a89a2e5-6a39-4bf6-ad00-8cdb2615e262"/>
+    </producedTypes>
+    <name>Option</name>
+    <synonym>
+      <key>ru</key>
+      <value>Option</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="2f1163f6-77ec-464e-b66e-ed9205bf9506">
+      <name>ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>ID</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>40</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="89d7d84a-14b3-4f46-af50-e030d288f307">
+      <name>BiomaterialId</name>
+      <synonym>
+        <key>ru</key>
+        <value>Biomaterial id</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="24365b48-7423-4fe0-b9b3-d18f5ed73fe4">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9a1b498d-10c1-4cbd-9fc9-b2cd22fedc6b">
+    <name>ВыборДопМедИнформации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор доп мед информации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cdc2dada-2643-456f-9b6a-d9d198d1523e">
+    <name>ФормаКаталогПродуктов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма каталог продуктов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="73baaefd-7554-4049-a69f-ab7596cf15d1">
+    <name>ВыборСпособаУведомления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор способа уведомления</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="24e41403-4b7f-4374-9175-2c0867dd5f4c">
+    <name>ФормаВыбораБиоматериала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора биоматериала</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

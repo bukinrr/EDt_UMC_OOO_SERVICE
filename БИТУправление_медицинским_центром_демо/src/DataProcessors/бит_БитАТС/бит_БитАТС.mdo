@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4eca4ec-1431-4d51-9350-ea2f56825045">
+  <producedTypes>
+    <objectType typeId="aa1eae64-17f7-42b6-bf41-8aca48fc1f37" valueTypeId="bef88047-13e1-46ea-92a6-7ca2b7aef544"/>
+    <managerType typeId="1bd873be-7402-4dc8-834c-803877f3fe8b" valueTypeId="2726e94c-c29c-42ae-8b63-01379888cada"/>
+  </producedTypes>
+  <name>бит_БитАТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка на БИТ.АТС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.бит_БитАТС.Form.ВыгрузкаНаАТС</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <explanation>
+    <key>ru</key>
+    <value>Выгрузка данных клиент-менеджера на БИТ.АТС</value>
+  </explanation>
+  <forms uuid="8ccdde5a-462a-49e3-921d-c4dd053f13c2">
+    <name>ВыгрузкаНаАТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка на АТС</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b8610ae0-303d-4879-97cc-cc9eb87d74d9">
+    <name>ИнформацияОчередь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация очередь</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b5f52192-ce62-4dda-b39d-15d46764643c">
+    <name>ИнформацияТранк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация транк</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="baa349c7-dd15-4069-afc2-97f2abe9eb3e">
+    <name>ЛегендаСтатусов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Легенда статусов</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="775c4584-8533-44f6-95eb-e5c86002875a">
+    <name>Монитор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Монитор</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e84033f5-b838-48bc-8b7c-428a48128f77">
+    <name>НаборНомера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор номера</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5002f050-789f-4832-a7c6-4582457f3a3f">
+    <name>ПанельАдминистратора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Панель администратора</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e8ba24f7-6667-42f6-95eb-0b4e72885f69">
+    <name>СкриптСозданияБД_MSSQL</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скрипт создания БД MSSQL</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <commands uuid="71449534-69c3-47fa-ab81-0937e6454136">
+    <name>ПанельАдминистратора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Панель управления звонками БИТ.АТС</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Управление звонками БИТ.АТС</value>
+    </toolTip>
+  </commands>
+  <commands uuid="0b05815f-42f7-4696-9fe1-41512cd2d757">
+    <name>Монитор</name>
+    <synonym>
+      <key>ru</key>
+      <value>БИТ.Phone (монитор  БИТ.АТС)</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть форму БИТ.Phone (монитора  БИТ.АТС)</value>
+    </toolTip>
+  </commands>
+</mdclass:DataProcessor>

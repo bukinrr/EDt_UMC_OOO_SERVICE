@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="61f0f53c-522b-4c29-a28a-e852b62fe982">
+  <producedTypes>
+    <objectType typeId="26d8da94-a28f-40d5-8e8a-211734b05ed1" valueTypeId="24884ba1-3656-4bbf-86e9-f0f0b5830189"/>
+    <refType typeId="a0ba0729-bfd2-4ace-9bab-124c633d7c4e" valueTypeId="a479f328-6c2e-4543-9bdc-5a6ddbbb0e68"/>
+    <selectionType typeId="035a6422-1dbc-410e-ba65-f84eaf62d2c1" valueTypeId="051c91dd-400c-4a12-8f8c-2a916615e284"/>
+    <listType typeId="51ca750d-7264-453a-bc92-629781921011" valueTypeId="58fa13df-e450-4380-a13f-e9d65503dc41"/>
+    <managerType typeId="94c365fc-ebab-4a21-ba5d-193a6da6918d" valueTypeId="884bd63a-8985-4866-8349-0deaf7212477"/>
+  </producedTypes>
+  <name>ПричиныНеявкиНаМедосмотр</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины неявки на медосмотр</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПричиныНеявкиНаМедосмотр.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПричиныНеявкиНаМедосмотр.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>40</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="fad77bd8-4fdb-4506-b10b-ecff859acbac">
+      <name>БольничныйЛист</name>
+      <description>Больничный лист</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="a9a0eb4a-aa38-4eb9-96b8-ed876768a147">
+      <name>Командировка</name>
+      <description>Командировка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="d4c9b964-2f13-419e-8bce-7821e90de522">
+      <name>ОбследованиеПоМестуЖительства</name>
+      <description>Обследование по месту жительства</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="29ea11f9-421a-4922-825b-847c0299d1c5">
+      <name>Отказ</name>
+      <description>Отказ от прохождения</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="603ba65d-70ce-4a82-bf44-3485d599379d">
+      <name>Отпуск</name>
+      <description>Отпуск</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="6d802373-1982-43bc-9c50-0a55111f73e6">
+      <name>Увольнение</name>
+      <description>Увольнение</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

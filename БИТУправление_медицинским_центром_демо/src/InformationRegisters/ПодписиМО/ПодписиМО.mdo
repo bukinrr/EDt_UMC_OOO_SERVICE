@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2de06b8c-b871-4d30-b667-68e29a7444d2">
+  <producedTypes>
+    <selectionType typeId="d2b0e0c8-380f-4ed7-9354-84cea4183c72" valueTypeId="fda7eca6-e9b6-4f76-8217-875f7f6397b2"/>
+    <listType typeId="dec5b426-d1b1-4be2-91ef-68c619d04878" valueTypeId="a2f72404-e27e-4772-88a3-7611406136d4"/>
+    <managerType typeId="87bf2058-98ae-461c-a893-70769779753f" valueTypeId="19330702-c48e-4b0f-8e02-3824797ab00b"/>
+    <recordSetType typeId="3a4fc046-a5a5-4cf0-94f4-7b8898aea6f3" valueTypeId="4d89d04b-bee8-4538-a703-1df0c99cbc2e"/>
+    <recordKeyType typeId="0d2cc931-a1c0-4676-a7f7-d4ae6cac6b39" valueTypeId="4d11a3e5-82c2-4893-9a94-e64ec13b0bde"/>
+    <recordType typeId="9f7c3f29-9d55-4b74-a53c-3ae88c0979a6" valueTypeId="14d32846-5293-4ab4-b805-f9a4096dae03"/>
+    <recordManagerType typeId="d9fea0f1-8985-4e95-a0c9-0caf4473b5ce" valueTypeId="80372f4e-8ec8-4b54-bd42-618708833e0d"/>
+  </producedTypes>
+  <name>ПодписиМО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подписи мед организаций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="5e047eac-a8a1-433f-9c7e-1fb9b9bf44dd">
+    <name>Филиал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация/Филиал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+      <types>CatalogRef.Филиалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1b3305fe-28e5-4a67-8f53-4c170c75e27e">
+    <name>Сертификат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сертификат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СертификатыКлючейЭлектроннойПодписиИШифрования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

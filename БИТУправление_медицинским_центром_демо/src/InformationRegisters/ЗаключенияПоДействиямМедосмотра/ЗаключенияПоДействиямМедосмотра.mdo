@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a05ca7a-2312-44ff-9395-43f22dcf00be">
+  <producedTypes>
+    <selectionType typeId="a029b485-d8ba-4466-a494-9d7a0d2d5726" valueTypeId="99f62e5b-66bd-457f-ae8a-fbb5404bf98d"/>
+    <listType typeId="b41a9a53-75ce-4295-bf8b-76eb3e1a4230" valueTypeId="1fae7dff-de9f-4d9d-b71a-faffbad30cf3"/>
+    <managerType typeId="34879610-d136-46d0-83a6-5b952659a645" valueTypeId="421a6a4d-6e12-4f88-85de-73a3b07e83fc"/>
+    <recordSetType typeId="93422927-3936-4e7e-bceb-caa886034d07" valueTypeId="d9bff33d-3709-4450-8566-55189d20e574"/>
+    <recordKeyType typeId="79b9c063-579f-4abe-85a3-8a97b778ee7f" valueTypeId="07faaa68-53a3-4608-823c-00f4f3849a4f"/>
+    <recordType typeId="ff77b0a5-278b-4b20-8884-f28e6233308b" valueTypeId="1b1e4ad6-e057-4012-a5ba-a14eff6c1117"/>
+    <recordManagerType typeId="19c47d95-f914-4089-a52f-b73db367c509" valueTypeId="3be9f115-f4d1-43b5-891d-f110f79b1465"/>
+  </producedTypes>
+  <name>ЗаключенияПоДействиямМедосмотра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заключения по действиям медосмотра</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="066809d7-eead-4d29-9494-19431468b172">
+    <name>Заключение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заключение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="60f81ff2-9f64-472c-b23c-8cfc48f99410">
+    <name>ДатаВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выполнения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ab7e521f-d999-4027-a636-977d04f61aea">
+    <name>Действие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действие</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДействияМедосмотра</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6859f43a-db57-4990-a341-3d611000a915">
+    <name>ПрохождениеМедОсмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прохождение мед осмотра</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПрохождениеМедосмотра</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="7371e692-8696-48ef-a844-723ddce070bb">
+    <name>ЗаключенияМедосмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заключения медосмотра</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

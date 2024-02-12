@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9962ba7e-2ab0-4ac1-aa01-5baebee0a71c">
+  <producedTypes>
+    <refType typeId="0c7a247c-f923-4f73-a559-76fb3d57587e" valueTypeId="dd2c4199-a5d0-426b-9130-f45303f629be"/>
+    <listType typeId="7ef9ad94-e14b-4a18-a5f7-cda0b72017aa" valueTypeId="8ac2319a-550b-4932-b067-fc72cbae6cb1"/>
+    <managerType typeId="0689948b-9a03-4c9d-be57-2b57ebe4e21f" valueTypeId="3615f7d9-6a72-435d-8955-32a15bc2079f"/>
+  </producedTypes>
+  <name>СпискиЖНиВЛП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Списки ЖНиВЛП</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bec565d6-99da-48f7-9e8d-57e9f31a8d31">
+    <name>ЖНиВЛПБезКонтроляЦены</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЖНиВЛП без контроля цены</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="02081e11-eb99-41be-84c4-814a9e36d159">
+    <name>ЖНиВЛПСКонтролемЦены</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЖНиВЛП с контролем цены</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b113184a-7831-4860-bec9-7a33461347c4">
+    <name>НеВключен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не включено в перечень ЖНиВЛС</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

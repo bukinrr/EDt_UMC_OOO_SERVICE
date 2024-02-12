@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e7c721f-6133-480e-aacb-8134f6bd16c4">
+  <producedTypes>
+    <managerType typeId="541b514e-07ad-4343-997c-2a5d90a906aa" valueTypeId="212543b2-9646-4924-b803-fed6dfeadd23"/>
+    <valueManagerType typeId="84aac662-ce69-4bd1-b020-35726b92b051" valueTypeId="f607418e-3844-4d31-9cba-4aeb88e39f23"/>
+    <valueKeyType typeId="5a8be1e0-43da-526c-8289-e46160b3e84a" valueTypeId="66754641-b15a-5fe5-b9dd-2d6dbd329b09"/>
+  </producedTypes>
+  <name>MWLSCP_КаталогФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каталог файлов MWLSCP</value>
+  </synonym>
+  <comment>Каталог файлов MWLSCP</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>1000</length>
+    </stringQualifiers>
+  </type>
+  <explanation>
+    <key>ru</key>
+    <value>В каталоге для WorkList должен быть создан подкаталог с именем указанного AETitle, в нем должен быть создан пустой файл lockfile</value>
+  </explanation>
+  <toolTip>
+    <key>ru</key>
+    <value>В каталоге для WorkList должен быть создан подкаталог с именем указанного AETitle, в нем должен быть создан пустой файл lockfile</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

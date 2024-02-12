@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60303bee-16c6-4889-a32a-6c08c32e72ee">
+  <producedTypes>
+    <selectionType typeId="179930bd-17e3-450f-be2b-652b9a615ad6" valueTypeId="e9f0e62e-0a6d-4e6b-a7e9-8209750b0feb"/>
+    <listType typeId="82112fcb-4406-4857-834f-28e87a597822" valueTypeId="16c7b541-259a-4702-a7a3-7e1bfa397c2b"/>
+    <managerType typeId="943ab117-4140-43c1-b4c5-11fe4530aeb5" valueTypeId="44687423-6dfb-4c06-b2b9-641c8ff12119"/>
+    <recordSetType typeId="36ec7669-e35e-49b3-87ea-1bdcaa9e43ed" valueTypeId="36a0f158-48cc-40dc-8092-cdd1e2ad73db"/>
+    <recordKeyType typeId="ec43cdc7-1d38-41b9-85e0-8ffefacbccf1" valueTypeId="b937ac71-4c7e-433d-b302-1ca6cace7306"/>
+    <recordType typeId="76ec1ff4-f0c7-45f5-ae5c-0cecab705e54" valueTypeId="533a08ca-1f32-48a9-a925-a097d9243bbb"/>
+  </producedTypes>
+  <name>ДенежныеСредства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Денежные средства</value>
+  </synonym>
+  <defaultListForm>AccumulationRegister.ДенежныеСредства.Form.ФормаСпискаУпр</defaultListForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="0c258c85-ecd9-4d54-97b5-c9a1aea12b39">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сумма денежных средств</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="216a2471-6543-4d31-9afb-f0aafbdff101">
+    <name>Касса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Касса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Кассы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Касса со средствами</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <forms uuid="a621790c-c7b5-4b08-a73d-9f161ddadfbd">
+    <name>ФормаСпискаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:AccumulationRegister>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="372fc87a-eab1-4ea1-87da-00ea36c24862">
+  <name>ИнтеграцияВнешниеЛаборатории</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с внешними лабораториями</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.НоменклатураАнализов</content>
+  <content>Document.ОписьЗаказовЛаборатории</content>
+  <content>Document.ЗаказВоВнешнююЛабораторию</content>
+  <content>InformationRegister.ПериодыНедоступностиАнализов</content>
+  <content>Enum.СостоянияЗаказовЛаборатории</content>
+  <content>DataProcessor.НастройкаПриоритетовЛабораторийИНедоступностиАнализов</content>
+  <content>InformationRegister.ПриоритетыРаспределенияАнализовПоЛабораториям</content>
+  <content>Report.СтатусыЗаказовВоВнешниеЛаборатории</content>
+  <content>Enum.ВнешниеЛаборатории</content>
+  <content>InformationRegister.ОчередьНаОтправкуРезультатовВнешнихЛабораторийПоЭлектроннойПочте</content>
+  <content>DataProcessor.ЗагрузкаСправочниковВнешнихЛабораторий</content>
+  <content>FunctionalOption.ИспользуетсяИнтеграцияСВнешнимиЛабораториями</content>
+  <content>Report.ДоступностьИсследованийВнешнихЛабораторий</content>
+  <subsystems>HelixЛаборатории</subsystems>
+  <subsystems>ИнвитроЛаборатории</subsystems>
+  <subsystems>СитиЛаб_Лаборатории</subsystems>
+  <subsystems>КДЛ_Лаборатории</subsystems>
+  <subsystems>Гемотест_Лаборатории</subsystems>
+  <parentSubsystem>Subsystem.ЛабораторныеИсследования</parentSubsystem>
+</mdclass:Subsystem>

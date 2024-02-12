@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d46320b-0301-4f7a-a6b4-b0d1b569d612">
+  <producedTypes>
+    <objectType typeId="f1ffc52a-608c-4d87-8604-c364ffb83e2c" valueTypeId="2d74ddc8-95a5-42a1-a36b-1d2d5a443746"/>
+    <managerType typeId="31973680-f801-4b4a-aac7-e6cf1f914f10" valueTypeId="145e035f-4ee6-4a7b-b013-32d52e850343"/>
+  </producedTypes>
+  <name>ПоискДокументовРЭМД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поиск документов РЭМД</value>
+  </synonym>
+  <comment>searchRegistryItem</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПоискДокументовРЭМД.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="badb0f59-ed02-48ed-8ea4-087ffafad233">
+    <name>СНИЛС</name>
+    <synonym>
+      <key>ru</key>
+      <value>СНИЛС</value>
+    </synonym>
+    <comment>Страховой номер индивидуального лицевого счета пенсионного свидетельства </comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>14</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Страховой номер индивидуального лицевого счета пенсионного свидетельства (СНИЛС)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="fef486f2-a728-4422-8834-7c2d643a8bd0">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="07b14973-0937-4222-b021-0dfdd1d4a62c">
+    <name>XSLСхема</name>
+    <synonym>
+      <key>ru</key>
+      <value>XSLСхема</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>

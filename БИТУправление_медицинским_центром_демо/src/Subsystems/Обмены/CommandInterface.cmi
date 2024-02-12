@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>InformationRegister.ОшибкиОбменовДанными.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>InformationRegister.ОшибкиОбменовДанными.StandardCommand.OpenList</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>InformationRegister.ОшибкиОбменовДанными.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+  <subsystemsOrder>
+    <subsystems>Subsystem.Обмены.Subsystem.ВыполнениеОбмена</subsystems>
+    <subsystems>Subsystem.Обмены.Subsystem.МониторОбмена</subsystems>
+    <subsystems>Subsystem.Обмены.Subsystem.НастройкаОбмена</subsystems>
+    <subsystems>Subsystem.Обмены.Subsystem.ОбъектыОбмена</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

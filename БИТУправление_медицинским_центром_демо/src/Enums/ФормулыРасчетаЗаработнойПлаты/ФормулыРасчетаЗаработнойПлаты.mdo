@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2915e143-3191-4179-bf2a-ed0af9604f4a">
+  <producedTypes>
+    <refType typeId="829f163e-d9d1-4911-a513-2e0f9629f896" valueTypeId="ee2ae152-6bff-4e35-95b6-06ebf88e293d"/>
+    <listType typeId="c634b79a-9f5f-4cc4-adb0-6556a0a5b057" valueTypeId="ae53d9d3-2cb7-40bf-be84-18135a21f500"/>
+    <managerType typeId="0277f8cd-ea94-4140-96dc-3a2ffd32f94a" valueTypeId="b67c18a5-07c6-4b9c-a511-daf4adecc9d2"/>
+  </producedTypes>
+  <name>ФормулыРасчетаЗаработнойПлаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формулы расчета заработной платы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b51e419f-318e-4e3e-9722-7580ac209f23">
+    <name>ФиксированнаяСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фиксированная сумма</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cbc4236f-3f45-4fb5-b642-6c6ff7252d32">
+    <name>Процент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент</value>
+    </synonym>
+    <comment>(Показатель 1 * Показатель 2) / 100%</comment>
+  </enumValues>
+  <enumValues uuid="e390ae34-9e01-4582-811a-e9d7aaab5e90">
+    <name>Разность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разность</value>
+    </synonym>
+    <comment>Показатель 1 - Показатель 2</comment>
+  </enumValues>
+  <enumValues uuid="3a9ce56a-eb5b-42ec-913a-0c19ec4134d4">
+    <name>ПроцентОтРазности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент от разности</value>
+    </synonym>
+    <comment>(Показатель 1 - Показатель 2) * Показатель 3 / 100%</comment>
+  </enumValues>
+  <enumValues uuid="e3c83751-c25d-4e0b-b2e2-5f84d3be1c96">
+    <name>Произведение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Произведение</value>
+    </synonym>
+    <comment>Показатель 1 * Показатель 2</comment>
+  </enumValues>
+  <enumValues uuid="9eb0d053-cc77-4183-b6b0-8a952bb000e3">
+    <name>МинимальныйОклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальный оклад</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="821ad971-69d7-4719-b918-396d906f9e81">
+    <name>ТройноеПроизведение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тройное произведение</value>
+    </synonym>
+    <comment>Показатель 1 * Показатель 2 * Показатель 3</comment>
+  </enumValues>
+  <enumValues uuid="56843fa8-3aaa-4815-bb9a-559b5e5ea4d9">
+    <name>Деление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Деление</value>
+    </synonym>
+    <comment>Показатель 1 / Показатель 2</comment>
+  </enumValues>
+  <enumValues uuid="e08d2c5c-4689-419f-a708-cf6ec22544ac">
+    <name>ДелениеПроизведения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Деление произведения</value>
+    </synonym>
+    <comment>Показатель 1 * Показатель 2 / Показатель 3</comment>
+  </enumValues>
+</mdclass:Enum>

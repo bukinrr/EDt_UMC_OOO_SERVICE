@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d99bfb1-78ee-413f-8df1-cafd9fa9c4de">
+  <producedTypes>
+    <selectionType typeId="2aa72f11-6b23-4889-b1dc-dbd5d1b62a4d" valueTypeId="7b2dbc0f-d084-4daf-8ee7-2b75416bae08"/>
+    <listType typeId="77603326-f47e-4f70-bf73-3243f4959800" valueTypeId="f2edfdfa-a483-4092-854c-b1925ce8a6c9"/>
+    <managerType typeId="5d4fb2da-206a-4d86-b21a-37f1a61861be" valueTypeId="bb67db04-f82d-46dd-b758-d5019d2cddad"/>
+    <recordSetType typeId="73c0e338-fcad-4639-8f91-d8f321a84f37" valueTypeId="524ec64f-259e-4b8b-96db-0c986c3677b5"/>
+    <recordKeyType typeId="c22b5d1a-d380-4fe7-9c8a-c98c76080328" valueTypeId="807d9b5d-1a1a-4715-8581-4bb42e1f3aca"/>
+    <recordType typeId="5239759e-e4ec-4ac8-95da-7b035b5c75a9" valueTypeId="d24341da-684a-490d-a47c-1baa9d161691"/>
+    <recordManagerType typeId="66db69d5-27ec-40df-9514-7d52c56319a4" valueTypeId="5538d74b-cfd5-4dd0-bd27-a5e081c930fb"/>
+  </producedTypes>
+  <name>ОчередьНаПодтверждениеОперацииЭС_НСПК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очередь подтверждения продаж НСПК</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ОчередьНаПодтверждениеОперацииЭС_НСПК.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="1db782a0-f374-47e2-9c23-79af425ac445">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ОказаниеУслуг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="6294db97-c4d9-4b90-b2fa-e418437daca9">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

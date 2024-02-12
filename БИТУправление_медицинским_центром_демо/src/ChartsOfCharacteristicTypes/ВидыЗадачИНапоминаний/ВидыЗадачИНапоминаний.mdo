@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ccc0991-b28e-4b84-b848-cdcb3005839b">
+  <producedTypes>
+    <objectType typeId="94340d32-d4fb-4119-a449-e62f4bb90139" valueTypeId="f81fd9b2-34cb-459f-b8f5-93ec68e3a094"/>
+    <refType typeId="a38244f2-1cb6-40a4-b76c-c6bb97e7ccc7" valueTypeId="1598a7eb-2b0e-4452-a486-91984a21fc06"/>
+    <selectionType typeId="c638c88f-c427-49a8-a1a7-c58df598cc32" valueTypeId="f2cddf00-a905-4d9b-b2af-00cf527251b0"/>
+    <listType typeId="40a9c234-c5c3-4215-a6c2-5516750cfeda" valueTypeId="cf4c31dd-0e5f-4351-8828-4701eb6f0f17"/>
+    <managerType typeId="be5beb96-487d-4da5-a3b4-cd5f3bae3df0" valueTypeId="511b3772-9c6f-4612-b12b-be70fe81ba65"/>
+    <containerType typeId="bee392da-2fb2-4411-a887-a2c4da56497a" valueTypeId="3b4257d4-021d-47ac-a81e-9a81a577de29"/>
+  </producedTypes>
+  <name>ВидыЗадачИНапоминаний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды задач и напоминаний</value>
+  </synonym>
+  <comment>Характеристика выступает в качестве объекта задачи</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ВидыЗадачИНапоминаний.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ВидыЗадачИНапоминаний.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ValueType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родитель</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>CatalogRef.Клиенты</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>CatalogRef.Сертификаты</types>
+    <types>CatalogRef.Сотрудники</types>
+    <types>CatalogRef.Оборудование</types>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="b782d8fb-965a-4ce9-a341-4f7e4b6f8422">
+      <name>ДеньРождения</name>
+      <description>День рождения</description>
+      <code>000000001</code>
+      <type>
+        <types>CatalogRef.Клиенты</types>
+      </type>
+    </items>
+    <items id="29d8844b-315c-43a7-8572-4bd062e68026">
+      <name>ДлительныйСрокОтсутствияВКлинике</name>
+      <description>Длительный срок отсутствия в клинике</description>
+      <code>000000004</code>
+      <type>
+        <types>CatalogRef.Клиенты</types>
+      </type>
+    </items>
+    <items id="8c8aef12-b52e-492d-bdc1-e4c2d3516e2c">
+      <name>ОкончаниеСрокаСертификата</name>
+      <description>Окончание срока действия сертификата</description>
+      <code>000000002</code>
+      <type>
+        <types>CatalogRef.Сертификаты</types>
+      </type>
+    </items>
+    <items id="4efb0f23-ef0a-4fd5-b293-00fd1bb65d82">
+      <name>ОтменаПриема</name>
+      <description>Отмена приема</description>
+      <code>000000003</code>
+      <type>
+        <types>CatalogRef.Клиенты</types>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ChartOfCharacteristicTypes.ВидыЗадачИНапоминаний.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="b5b02d27-4f24-470c-9214-5af4d3b66a6a">
+    <name>АвтоматическиФормироватьЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматически формировать задачи</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что задачи формируются автоматически</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="af4a4095-36fd-44d3-9ea5-2bda687cb952">
+    <name>ЗапасДнейПриСозданииЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запас дней при создании задач</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Число запаса дней при создании задач </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="322b2261-1acc-47dd-8138-ca3f0db1f441">
+    <name>НапоминатьОЗадаче</name>
+    <synonym>
+      <key>ru</key>
+      <value>Напоминать о задаче</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак напоминания о задаче</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d3884132-33cc-4ebf-a050-f72e2d675f80">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пояснение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Полное наименование задачи или напоминания</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e6de1b2c-f568-4193-9321-fd378839c2bd">
+    <name>ПоказыватьВФормеМассовогоОбзвона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать в форме массового обзвона</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="eb6a903d-a731-4f62-8906-2c8936075a3e">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ChartOfCharacteristicTypes>

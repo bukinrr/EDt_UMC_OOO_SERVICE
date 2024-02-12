@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f21596f7-e0b6-4751-9328-f0b276c23386">
+  <producedTypes>
+    <refType typeId="86bb922d-6324-4e6f-9bcc-5a453f90552a" valueTypeId="3cb5e77e-4614-4e27-bc46-6478ab446c16"/>
+    <listType typeId="74957bf4-ad4c-49e2-9141-f058726973ec" valueTypeId="936ebce2-d3d1-4c89-8d28-105ce1d69adc"/>
+    <managerType typeId="add02fca-bcd0-4d1e-8f2e-18c5f3280eaa" valueTypeId="56fedf2b-2771-47d5-a67b-28521d777852"/>
+  </producedTypes>
+  <name>ОперацииОбменаМДЛП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операции обмена МДЛП</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d6959e9c-7739-498b-9f25-6658f96c4a5c">
+    <name>Получение_КвитанцияОФиксации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат фиксации сведений в ИС «Маркировка»</value>
+    </synonym>
+    <comment>200</comment>
+  </enumValues>
+  <enumValues uuid="66cb845f-3608-453e-a6aa-2c832073edcd">
+    <name>Получение_РезультатФиксацииИзменений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат фиксации сведений о внесении изменений в ИС &quot;Маркировка&quot;</value>
+    </synonym>
+    <comment>201</comment>
+  </enumValues>
+  <enumValues uuid="c5e330e2-e23f-4c41-85b0-08e1ab6d8a70">
+    <name>ПередачаДанных_ЗапросСоставаУпаковки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос информации по SSCC (что находится в упаковке)</value>
+    </synonym>
+    <comment>210</comment>
+  </enumValues>
+  <enumValues uuid="fcd9ac5d-8c8c-4d1b-ac03-4f62a224e118">
+    <name>ПередачаДанных_ЗапросИнформацииОКиЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос информации об SGTIN</value>
+    </synonym>
+    <comment>210</comment>
+  </enumValues>
+  <enumValues uuid="32ab66ab-45fa-4da6-a066-e3d877151550">
+    <name>Получение_СоставУпаковки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация по SSCC (что находится в данной упаковке)</value>
+    </synonym>
+    <comment>211</comment>
+  </enumValues>
+  <enumValues uuid="0eafc793-4480-4b0a-a14c-2e0f3bf925ce">
+    <name>Получение_ИнформацияОКиЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация об SGTIN</value>
+    </synonym>
+    <comment>211</comment>
+  </enumValues>
+  <enumValues uuid="8fa8ccd2-7d73-407b-9636-f7a91fab19b1">
+    <name>ПередачаДанных_ИзменениеСпискаДоверенныхКонтрагентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение списка доверенных контрагентов</value>
+    </synonym>
+    <comment>212</comment>
+  </enumValues>
+  <enumValues uuid="66a96269-6dad-4b90-b8e9-bad04f8a4858">
+    <name>ПередачаДанных_ЗапросИерархииВложенностиУпаковок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос информации об иерархии вложенности SSCC</value>
+    </synonym>
+    <comment>220</comment>
+  </enumValues>
+  <enumValues uuid="ba2ab1a3-bf87-4df3-b0b9-59441e97d98e">
+    <name>Получение_ИерархияВложенностиУпаковок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация об иерархии вложенности SSCC</value>
+    </synonym>
+    <comment>221</comment>
+  </enumValues>
+  <enumValues uuid="e64219ee-e13f-4d24-a305-c9aa2263fce4">
+    <name>ПередачаДанных_ОтказОтРанееСовершеннойОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений в об отзыве/отмене ранее совершенной операции</value>
+    </synonym>
+    <comment>250</comment>
+  </enumValues>
+  <enumValues uuid="673600a7-b107-4feb-b978-15c1257f82e7">
+    <name>ПередачаДанных_ОтзывПереданногоТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений об отзыве отправителем переданного товара</value>
+    </synonym>
+    <comment>251</comment>
+  </enumValues>
+  <enumValues uuid="40f1f0c4-afe8-11e7-db87-485d606103c6">
+    <name>ПередачаДанных_ОтказОтПриемкиТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений об отказе получателя от приемки товара или постановки/снятия арбитража</value>
+    </synonym>
+    <comment>252</comment>
+  </enumValues>
+  <enumValues uuid="45094980-ccc2-4738-ad1a-b74dba294186">
+    <name>ПередачаДанных_ПередачаКМТаможенномуСкладу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о передаче кодов маркировки таможенному складу</value>
+    </synonym>
+    <comment>300</comment>
+  </enumValues>
+  <enumValues uuid="101a0718-29f4-4d74-9433-b225b260a655">
+    <name>ПередачаДанных_ЗавершениеЭтапаОкончательнойУпаковки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о завершении этапа окончательной упаковки</value>
+    </synonym>
+    <comment>311</comment>
+  </enumValues>
+  <enumValues uuid="ade6122d-7a3e-47cd-8018-68615f7f666b">
+    <name>ПередачаДанных_ОтборОбразцовДляПодтвержденияКачества</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор образцов для подтверждения качества</value>
+    </synonym>
+    <comment>312</comment>
+  </enumValues>
+  <enumValues uuid="7ddd9f78-3987-45db-8bf4-b0f1a1aa09a2">
+    <name>ПередачаДанных_ВыпускГотовойПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о выпуске готовой продукции</value>
+    </synonym>
+    <comment>313</comment>
+  </enumValues>
+  <enumValues uuid="08134e0f-65f1-4efd-be62-219928ac0f45">
+    <name>ПередачаДанных_ОтгрузкаЛПДляВыпускаГотовойПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений об отгрузке лекарственных препаратов для выпуска готовой продукции</value>
+    </synonym>
+    <comment>314</comment>
+  </enumValues>
+  <enumValues uuid="e1d0b19e-d481-41d6-89ab-0f8a98dd3e7c">
+    <name>ПередачаДанных_ВозвратКонтрактномуПроизводителю</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация в сведений о возврате лекарственных препаратов контрактному производителю</value>
+    </synonym>
+    <comment>315</comment>
+  </enumValues>
+  <enumValues uuid="370017c4-053b-4082-9cc5-46c6c93b53e7">
+    <name>ПередачаДанных_ВыпускГотовойПродукцииЗаПределамиРФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о выпуске готовой продукции за пределами территории Российской Федерации</value>
+    </synonym>
+    <comment>321</comment>
+  </enumValues>
+  <enumValues uuid="003dc74c-07b4-4271-92be-55921be86531">
+    <name>ПередачаДанных_ОтгрузкаЛПвРФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений об отгрузке лекарственных препаратов в Российскую Федерацию</value>
+    </synonym>
+    <comment>331</comment>
+  </enumValues>
+  <enumValues uuid="7cc9a524-e97b-47f4-bbdd-4c8a55b35f7d">
+    <name>ПередачаДанных_ЗагрузкаСведенийОВвозеЛПвРФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о ввозе лекарственных препаратов в Российскую Федерацию</value>
+    </synonym>
+    <comment>332</comment>
+  </enumValues>
+  <enumValues uuid="02d951ac-7d4b-4170-a498-74aec28cab8b">
+    <name>ПередачаДанных_ВвозЛекарственныхПрепаратовВРФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о ввозе лекарственных препаратов в Российскую Федерацию</value>
+    </synonym>
+    <comment>332</comment>
+  </enumValues>
+  <enumValues uuid="051b79bd-6788-4095-badc-05498fa7a07a">
+    <name>ПередачаДанных_ВвозЛекарственныхПрепаратовВРФБезИмпортера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о ввозе лекарственных препаратов в Российскую Федерацию без импортера</value>
+    </synonym>
+    <comment>333</comment>
+  </enumValues>
+  <enumValues uuid="bc333f88-aa29-412b-9399-b5387637eee5">
+    <name>ПередачаДанных_ПеремещениеЛПМеждуЗТК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о перемещении лекарственных препаратов между зонами таможенного контроля</value>
+    </synonym>
+    <comment>334</comment>
+  </enumValues>
+  <enumValues uuid="cdf08283-9232-40b0-8e21-0257f45b6647">
+    <name>ПередачаДанных_ТаможенноеОформление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о результатах таможенного оформления</value>
+    </synonym>
+    <comment>335</comment>
+  </enumValues>
+  <enumValues uuid="81b2effa-e9cd-488c-8763-35292f29c176">
+    <name>ПередачаДанных_УсловияВвозаЛПвРФМаркированныхВЗТК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений об условиях ввоза в Российскую Федерацию ЛП, маркированных на таможенном складе</value>
+    </synonym>
+    <comment>336</comment>
+  </enumValues>
+  <enumValues uuid="e989412f-8260-44fc-a07f-6747a04141af">
+    <name>ПередачаДанных_ПриемкаЛПНаСкладИмпортера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о приемке лекарственных препаратов на склад импортера (логистического оператора)</value>
+    </synonym>
+    <comment>341</comment>
+  </enumValues>
+  <enumValues uuid="99d68838-541c-4cd9-af3e-f32e3179e8d4">
+    <name>ПередачаДанных_ВводЛекарственныхПрепаратовВОборотРФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о вводе лекарственных препаратов в оборот на территории Российской Федерации</value>
+    </synonym>
+    <comment>342</comment>
+  </enumValues>
+  <enumValues uuid="dfd7349f-96ec-4158-92c7-27950ee3b946">
+    <name>ПередачаДанных_СменаСобственникаНаТаможне</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о смене собственника лекарственных препаратов</value>
+    </synonym>
+    <comment>351</comment>
+  </enumValues>
+  <enumValues uuid="ab2027c8-2c4d-4268-9500-1f7337d0e033">
+    <name>ПередачаДанных_ВвозСобственныхЛекарственныхПрепаратовВРФизЕСЭС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о ввозе собственных лекарственных препаратов в Российскую Федерацию из стран ЕАЭС</value>
+    </synonym>
+    <comment>360</comment>
+  </enumValues>
+  <enumValues uuid="865a91e0-fb5f-45dd-a474-c3db8d258b53">
+    <name>ПередачаДанных_ВвозЛекарственныхПрепаратовВРФизЕСЭС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о ввозе из стран ЕАЭС и приемке лекарственных препаратов на склад покупателя</value>
+    </synonym>
+    <comment>362</comment>
+  </enumValues>
+  <enumValues uuid="bce0b0cb-1a5c-415c-82eb-82ec58efb7b3">
+    <name>ПередачаДанных_ВводЛекарственныхПрепаратовВОборот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о вводе лекарственных препаратов в оборот на территории Российской Федерации</value>
+    </synonym>
+    <comment>363</comment>
+  </enumValues>
+  <enumValues uuid="d92ccadc-aab0-4f9f-86b4-4ae21865aa93">
+    <name>ПередачаДанных_ПередачаЛПСобственнику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о передаче лекарственных препаратов собственнику</value>
+    </synonym>
+    <comment>381</comment>
+  </enumValues>
+  <enumValues uuid="1f3cdd8e-67ca-4b90-adfd-b1b58336d576">
+    <name>ПередачаДанных_ПовторныйВводВОборот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о повторном вводе лекарственного препарата в оборот</value>
+    </synonym>
+    <comment>391</comment>
+  </enumValues>
+  <enumValues uuid="acf2d894-18bb-419a-bf6b-d08011002548">
+    <name>ПередачаДанных_ОтгрузкаЛПСоСклада</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений об отгрузке лекарственных препаратов со склада продавца</value>
+    </synonym>
+    <comment>415</comment>
+  </enumValues>
+  <enumValues uuid="4551e929-d89e-4f5b-a0ac-72268cc926fb">
+    <name>ПередачаДанных_ПриемкаЛПНаСклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о приеме лекарственных препаратов на склад покупателя</value>
+    </synonym>
+    <comment>416</comment>
+  </enumValues>
+  <enumValues uuid="cc591796-5048-4f15-a534-358e76fca1ac">
+    <name>ПередачаДанных_ВозвратПриостановленныхЛП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о возврате приостановленных лекарственных препаратов</value>
+    </synonym>
+    <comment>417</comment>
+  </enumValues>
+  <enumValues uuid="9a52a325-6ccf-4ecc-ad8b-13339ec6be01">
+    <name>ПередачаДанных_ПеремещениеЛП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о перемещении лекарственных препаратов между различными адресами мест осуществления деятельности</value>
+    </synonym>
+    <comment>431</comment>
+  </enumValues>
+  <enumValues uuid="79746330-1afe-4299-90ca-19c5bac42f4e">
+    <name>Получение_ПеремещениеЛП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о перемещении лекарственных препаратов между различными адресами мест осуществления деятельности на стороне Получателя</value>
+    </synonym>
+    <comment>431</comment>
+  </enumValues>
+  <enumValues uuid="eb028b4b-c75e-4eb5-80d3-1e157aa548f6">
+    <name>ПередачаДанных_ОтгрузкаЛПСоСкладаНезарегистрированномуУчастнику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений об отгрузке лекарственных препаратов незарегистрированному участнику</value>
+    </synonym>
+    <comment>441</comment>
+  </enumValues>
+  <enumValues uuid="fe919984-8e9f-4395-bd9e-59aa5b07e538">
+    <name>ПередачаДанных_ПриемкаЛПНаСкладРанееНеЗарегистрированный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о приеме на склад лекарственных препаратов, ранее отгруженных на незарегистрированное место деятельности</value>
+    </synonym>
+    <comment>442</comment>
+  </enumValues>
+  <enumValues uuid="cce02fb7-33b1-487e-a3f8-e5a368aca9f3">
+    <name>ПередачаДанных_ОтгрузкаЛПСоСкладаЕАЭС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о вывозе лекарственных препаратов с территории Российской Федерации на территорию государства члена ЕАЭС</value>
+    </synonym>
+    <comment>461</comment>
+  </enumValues>
+  <enumValues uuid="6e0578ab-da97-4f39-b0c7-5636da36daa4">
+    <name>ПередачаДанных_ПеремещениеЛП_ГЛО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о перемещении лекарственных препаратов между различными адресами осуществления деятельности в рамках государственного лекарственного обеспечения</value>
+    </synonym>
+    <comment>470</comment>
+  </enumValues>
+  <enumValues uuid="f10d8caf-9c96-4a0a-89e5-9167eb4a5c22">
+    <name>Получение_ПеремещениеЛП_ГЛО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о перемещении лекарственных препаратов между различными адресами осуществления деятельности в рамках государственного лекарственного обеспечения</value>
+    </synonym>
+    <comment>470</comment>
+  </enumValues>
+  <enumValues uuid="45058f0a-3e4e-46cb-8d44-3c76a35a8dce">
+    <name>ПередачаДанных_ОтгрузкаЛПСоСкладаВРамкахГЛО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений об отгрузке лекарственных препаратов новому владельцу в рамках гос. обеспечения</value>
+    </synonym>
+    <comment>471</comment>
+  </enumValues>
+  <enumValues uuid="e9bc0bf8-fc7d-4576-8cf1-067bdfdc76e8">
+    <name>ПередачаДанных_ОтгрузкаЛПСоСкладаВРамкахАгентскогоДоговора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений об отгрузке лекарственных препаратов со склада отправителя в рамках агентского договора</value>
+    </synonym>
+    <comment>472</comment>
+  </enumValues>
+  <enumValues uuid="b89e35b1-61df-4695-a781-09db0b0c8904">
+    <name>ПередачаДанных_ПриемкаЛПАгентомВРамкахАгентскогоДоговора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о приемке лекарственных препаратов агентом в рамках агентского договора</value>
+    </synonym>
+    <comment>473</comment>
+  </enumValues>
+  <enumValues uuid="cdda19b9-7215-43b4-80a4-f0ad80acf663">
+    <name>ПередачаДанных_ПостановкаСнятиеАрбитража</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о постановке в арбитраж/снятии арбитража</value>
+    </synonym>
+    <comment>481</comment>
+  </enumValues>
+  <enumValues uuid="ebe2f6ff-1456-4dfa-ba7d-d5d78464e4b3">
+    <name>ПередачаДанных_РозничнаяПродажаЛП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о розничной продаже маркированной продукции</value>
+    </synonym>
+    <comment>511</comment>
+  </enumValues>
+  <enumValues uuid="b9d4fba3-1a8e-47f9-83a2-f3e7edfc1f53">
+    <name>ПередачаДанных_ОтпускЛППоДокументамОтличнымОтЧека</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передача данных отпуск ЛП по документам отличным от чека</value>
+    </synonym>
+    <comment>512</comment>
+  </enumValues>
+  <enumValues uuid="a3a4da55-81a0-4748-ad76-a7203f7abbe9">
+    <name>ПередачаДанных_ОтпускЛППоЛьготнымРецептам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений об отпуске лекарственного препарата по льготному рецепту</value>
+    </synonym>
+    <comment>521</comment>
+  </enumValues>
+  <enumValues uuid="087c028f-d4d5-4063-a945-54443a870bd7">
+    <name>ПередачаДанных_ВыдачаЛПДляОказанияМедицинскойПомощи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о выдаче лекарственного препарата с центрального аптечного склада в отделения для оказания медицинской помощи</value>
+    </synonym>
+    <comment>531</comment>
+  </enumValues>
+  <enumValues uuid="0277116f-7ce2-4b39-a7cc-29c4abb33ef9">
+    <name>ПередачаДанных_ПередачаЛПНаУничтожение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о передаче лекарственных препаратов на уничтожение </value>
+    </synonym>
+    <comment>541</comment>
+  </enumValues>
+  <enumValues uuid="f1e9bc18-2be6-4c8e-a065-3c10e5251333">
+    <name>ПередачаДанных_УничтожениеЛП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о факте уничтожения лекарственных препаратов</value>
+    </synonym>
+    <comment>542</comment>
+  </enumValues>
+  <enumValues uuid="520001fc-ba5c-11e7-3483-485d606103c6">
+    <name>ПередачаДанных_Реэкспорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений об оформлении таможенной процедуры реэкспорта</value>
+    </synonym>
+    <comment>551</comment>
+  </enumValues>
+  <enumValues uuid="7c8231e1-427e-48f1-9efe-ebf05fcd70f2">
+    <name>ПередачаДанных_ВыводИзОборотаЛППоРазличнымПричинам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о выводе из оборота лекарственных препаратов с учетом различных типов вывода</value>
+    </synonym>
+    <comment>552</comment>
+  </enumValues>
+  <enumValues uuid="eaa2f12b-b5f3-49ab-91d4-23d24310beb8">
+    <name>Получение_ВыводИзОборотаЛППоРазличнымПричинам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о выводе из оборота лекарственных препаратов с учетом различных типов вывода</value>
+    </synonym>
+    <comment>552</comment>
+  </enumValues>
+  <enumValues uuid="b2f10bb0-85b2-423b-8ab9-d12d627402c5">
+    <name>Получение_ОтгрузкаЛПСоСкладаПродавца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление об отгрузке лекарственных препаратов со склада продавца</value>
+    </synonym>
+    <comment>601</comment>
+  </enumValues>
+  <enumValues uuid="1f4920a1-9d04-4d5f-99aa-6680c152a2ba">
+    <name>Получение_ПриемкаЛПНаСкладПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление о приеме лекарственных препаратов на склад покупателя</value>
+    </synonym>
+    <comment>602</comment>
+  </enumValues>
+  <enumValues uuid="881137ef-cea3-451b-a07d-31b504024cd0">
+    <name>Получение_ПередачаЛПСобственнику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление о передаче лекарственных препаратов собственнику</value>
+    </synonym>
+    <comment>603</comment>
+  </enumValues>
+  <enumValues uuid="ee171c54-6457-4ae0-8d9a-bf31abd5d37e">
+    <name>Получение_ОтзывОтправителемПереданногоТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление об отзыве отправителем переданного товара</value>
+    </synonym>
+    <comment>605</comment>
+  </enumValues>
+  <enumValues uuid="c27250b5-0303-406f-a8fb-217df1502ab4">
+    <name>Получение_ОтказПолучателяОтПриемкиТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление об отказе получателя от приемки товара или постановки/снятия арбитража</value>
+    </synonym>
+    <comment>606</comment>
+  </enumValues>
+  <enumValues uuid="98daf773-8e95-4034-ae3f-28d308a5e9e7">
+    <name>Получение_ПодтверждениеСведенийОПриемке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление о подтверждении (акцептовании) сведений</value>
+    </synonym>
+    <comment>607</comment>
+  </enumValues>
+  <enumValues uuid="17c7daf8-830b-45c7-8620-57ad9192e528">
+    <name>Получение_ВыводЛПИзОборотаПоКассе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление о выводе ЛП из оборота по кассе</value>
+    </synonym>
+    <comment>608</comment>
+  </enumValues>
+  <enumValues uuid="0b20e3e3-6db4-41f5-ba54-040b01420014">
+    <name>Получение_СменаСобственникаНаТаможне</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление нового собственника о смене собственника лекарственных препаратов</value>
+    </synonym>
+    <comment>609</comment>
+  </enumValues>
+  <enumValues uuid="6ee14073-8d58-49ec-a464-3926707a28c4">
+    <name>Получение_ВозвратПриостановленныхЛП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление о возврате приостановленных лекарственных препаратов</value>
+    </synonym>
+    <comment>610</comment>
+  </enumValues>
+  <enumValues uuid="f5e904b4-ffe0-4693-b327-3d3d55063db1">
+    <name>Получение_РегистрацияПолучателяИПриемкаНаСклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление отправителя о регистрации получателя и приемке на склад лекарственных препаратов, ранее отгруженных на незарегистрированное место деятельности</value>
+    </synonym>
+    <comment>611</comment>
+  </enumValues>
+  <enumValues uuid="05b2b86c-438d-4789-bb7d-fa03336b5a51">
+    <name>Получение_ОтгрузкаЛПСоСкладВРамкахГЛО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление нового владельца об отгрузке лекарственных препаратов в рамках гос. обеспечения</value>
+    </synonym>
+    <comment>612</comment>
+  </enumValues>
+  <enumValues uuid="de9c4c6a-0165-4aa8-ae1c-c2b6e418fc22">
+    <name>Получение_ОтгрузкаЛПвРФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление об отгрузке лекарственных препаратов в Российскую Федерацию</value>
+    </synonym>
+    <comment>613</comment>
+  </enumValues>
+  <enumValues uuid="332e61ba-8637-41eb-911c-97b7d22c2fff">
+    <name>Получение_ВвозЛекарственныхПрепаратовВРФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление о ввозе лекарственных препаратов в Российскую Федерацию</value>
+    </synonym>
+    <comment>614</comment>
+  </enumValues>
+  <enumValues uuid="4de11270-b682-438e-b581-8495cd647750">
+    <name>Получение_ОтгрузкаЛПвРФизЕАЭС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление об отгрузке лекарственных препаратов в Российскую Федерацию из стран ЕАЭС</value>
+    </synonym>
+    <comment>615</comment>
+  </enumValues>
+  <enumValues uuid="71d9beb2-0912-4ddc-9e4a-1445a8c23890">
+    <name>Получение_ОшибкиПриПриемкеЛПНаСкладеПолучателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление отправителя об ошибках при приемке лекарственных препаратов на склад получателя</value>
+    </synonym>
+    <comment>617</comment>
+  </enumValues>
+  <enumValues uuid="eed0a4b0-892b-44eb-a4c1-c8501679c7e0">
+    <name>Получение_ОтгрузкаЛПДляВыпускаГотовойПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление собственника об отгрузке лекарственных препаратов для выпуска готовой продукции</value>
+    </synonym>
+    <comment>618</comment>
+  </enumValues>
+  <enumValues uuid="9e6be7db-d9a6-4f3e-8bcf-298a30a8a4cf">
+    <name>Получение_ОтгрузкаЛПвРамкахАгентскогоДоговора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление получателя об отгрузке лекарственных препаратов со склада отправителя в рамках агентского договора</value>
+    </synonym>
+    <comment>619</comment>
+  </enumValues>
+  <enumValues uuid="150c9bc9-d498-4141-a3d7-32a169691b83">
+    <name>Получение_УсловияВвозаЛПвРФМаркированныхВЗТК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление импортера о регистрации сведений об условиях ввоза ЛП в Российскую Федерацию</value>
+    </synonym>
+    <comment>620</comment>
+  </enumValues>
+  <enumValues uuid="dd9eb587-d84a-4d65-9186-87772d9129e5">
+    <name>Получение_ПостановкаСнятиеАрбитража</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление о постановке в арбитраж/снятие арбитража</value>
+    </synonym>
+    <comment>621</comment>
+  </enumValues>
+  <enumValues uuid="118223b2-9cde-49e0-bf21-0ffc3237ebb5">
+    <name>Получение_ВозвратКонтрактномуПроизводителю</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление о возврате лекарственных препаратов контрактному производителю</value>
+    </synonym>
+    <comment>622</comment>
+  </enumValues>
+  <enumValues uuid="c641e6f3-d57a-437f-bee4-0242bf711489">
+    <name>Получение_ПриемкаЛПвРамкахАгентскогоДоговора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление отправителя о приемке лекарственных препаратов агентом в рамках агентского договора</value>
+    </synonym>
+    <comment>624</comment>
+  </enumValues>
+  <enumValues uuid="26feb800-b1f7-46be-b53e-ba1eceac8cd0">
+    <name>Получение_УведомлениеВладельцаОбОприходовании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление владельца о регистрация сведений об оприходовании</value>
+    </synonym>
+    <comment>627</comment>
+  </enumValues>
+  <enumValues uuid="e4e6e1a9-7eee-4c8a-8def-6cd5ef256ac1">
+    <name>Получение_УведомлениеВладельцаОбОприходованииИмпорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление владельца о регистрация сведений об оприходовании (импорт)</value>
+    </synonym>
+    <comment>628</comment>
+  </enumValues>
+  <enumValues uuid="83855088-35a8-47a0-a5c1-aafff0377832">
+    <name>Получение_АвтоматическоеСписаниеЛПсИстекшимСрокомГодности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление об автоматическом списании ЛП с истекшим сроком годности</value>
+    </synonym>
+    <comment>632</comment>
+  </enumValues>
+  <enumValues uuid="1c936a32-b1ff-4e6e-aedf-583f727248a0">
+    <name>ПередачаДанных_ПодтверждениеСведенийОПриемке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация подтверждения (акцептования) сведений</value>
+    </synonym>
+    <comment>701</comment>
+  </enumValues>
+  <enumValues uuid="a6bc5f68-0fa9-4315-a93d-f6732cdff5d2">
+    <name>ПередачаДанных_Оприходование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений об оприходовании</value>
+    </synonym>
+    <comment>702</comment>
+  </enumValues>
+  <enumValues uuid="5b5688cf-5c76-4fb3-9357-6a0ec951ea6a">
+    <name>ПередачаДанных_ОприходованиеИмпорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений об оприходовании (импорт)</value>
+    </synonym>
+    <comment>703</comment>
+  </enumValues>
+  <enumValues uuid="7921bb39-efdc-4270-8044-03b49e507f0e">
+    <name>ПередачаДанных_ПерепаковкаИПеремаркировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о переупаковке и перемаркировке лекарственных препаратов</value>
+    </synonym>
+    <comment>811</comment>
+  </enumValues>
+  <enumValues uuid="ca412114-2bcf-4f43-ae14-51a15080761b">
+    <name>ПередачаДанных_Агрегирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений об операции упаковки в транспортную тару</value>
+    </synonym>
+    <comment>911</comment>
+  </enumValues>
+  <enumValues uuid="23bc4e61-9a3a-4ba7-82b2-3d02f9b8384a">
+    <name>ПередачаДанных_РасформированиеТранспортнойУпаковки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений об операции расформирования транспортной упаковки</value>
+    </synonym>
+    <comment>912</comment>
+  </enumValues>
+  <enumValues uuid="ef4aff1a-cd39-4419-a8fa-8bf71074e1d9">
+    <name>ПередачаДанных_ИзъятиеЭлементовУпаковки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений об операции изъятия элементов упаковки</value>
+    </synonym>
+    <comment>913</comment>
+  </enumValues>
+  <enumValues uuid="bd086daa-e6f5-4a58-9c38-4590a07637dd">
+    <name>ПередачаДанных_ВключениеЭлементовВТранспортнуюУпаковку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений об операции включения элементов в транспортную упаковку</value>
+    </synonym>
+    <comment>914</comment>
+  </enumValues>
+  <enumValues uuid="95df2b83-479b-4db0-8d72-a82d0cd571f8">
+    <name>ПередачаДанных_АгрегированиеВоМножествоУпаковок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений об агрегировании во множество третичных (заводских, транспортных) упаковок</value>
+    </synonym>
+    <comment>915</comment>
+  </enumValues>
+  <enumValues uuid="dd73bbf9-67c1-4b03-8006-54bea8174eda">
+    <name>ПередачаДанных_ВключениеЭлементовВоМножествоТранспортныхУпаковок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений об операции включения элементов во множество транспортных упаковок</value>
+    </synonym>
+    <comment>916</comment>
+  </enumValues>
+  <enumValues uuid="76cf0b2d-a522-4bff-88b4-9332ddeb9578">
+    <name>Получение_ЭмиссияКМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений об эмиссии кодов маркировки (информация от СУЗ)</value>
+    </synonym>
+    <comment>10300</comment>
+  </enumValues>
+  <enumValues uuid="8fca6115-1c10-41c6-94fc-1a7db4c53f46">
+    <name>Получение_ЗавершениеОкончательнойУпаковкиСКЗКМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о завершении этапа окончательной упаковки (информация с СКЗКМ)</value>
+    </synonym>
+    <comment>10311</comment>
+  </enumValues>
+  <enumValues uuid="a6e14d32-87d8-4272-98fa-5bc2ff60d092">
+    <name>Получение_УпаковкаЗаПределамиРФСКЗКМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений об упаковке лекарственного препарата и нанесении средств идентификации за пределами территории РФ (информация с СКЗКМ)</value>
+    </synonym>
+    <comment>10319</comment>
+  </enumValues>
+  <enumValues uuid="f8f07917-caf6-4318-a91f-7f1ebae91732">
+    <name>Получение_РозничнаяПродажаККТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о продаже лекарственного препарата в рамках розничной торговли с использованием ККТ</value>
+    </synonym>
+    <comment>10511</comment>
+  </enumValues>
+  <enumValues uuid="6a2d7e5c-39f0-4a27-970a-d44bfe076cda">
+    <name>Получение_ОтпускЛППоЛьготнымРецептамСКЗКМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений об отпуске лекарственного препарата по льготному рецепту (информация с СКЗКМ)</value>
+    </synonym>
+    <comment>10521</comment>
+  </enumValues>
+  <enumValues uuid="86c5e8bb-c695-4e69-bc22-f48d1dff5631">
+    <name>Получение_ОтпускЛППоЛьготнымРецептамККТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений об отпуске лекарственного препарата по льготному рецепту с использованием ККТ</value>
+    </synonym>
+    <comment>10522</comment>
+  </enumValues>
+  <enumValues uuid="e6aec991-1cb4-4353-937c-8c86e6d43a84">
+    <name>Получение_ОтпускЛПСНевалиднымКМПоЛьготнымРецептамСКЗКМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений об отпуске лекарственного препарата с невалидными КМ по льготному рецепту (информация с СКЗКМ)</value>
+    </synonym>
+    <comment>10523</comment>
+  </enumValues>
+  <enumValues uuid="f42d5c03-8db7-4d7a-af36-0f4430cb2975">
+    <name>Получение_ВыдачаЛПДляОказанияМедицинскойПомощиСКЗКМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о выдаче лекарственного препарата для оказания медицинской помощи (информация с СКЗКМ)</value>
+    </synonym>
+    <comment>10531</comment>
+  </enumValues>
+  <enumValues uuid="f7a2b5ee-c82a-4ff8-9c6a-ae8dc9418bd9">
+    <name>Получение_ВыдачаЛПСНевалиднымКМДляОказанияМедицинскойПомощиСКЗКМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений о выдаче лекарственных препаратов с невалидными КМ для оказания медицинской помощи (информация с СКЗКМ)</value>
+    </synonym>
+    <comment>10532</comment>
+  </enumValues>
+  <enumValues uuid="057dc9e1-d56d-42c0-bc3a-0ea19b0e2c7e">
+    <name>Получение_КвитанцияОПринятии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получение квитанция о принятии</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f2d7862a-9adf-4826-8e73-843504da645e">
+    <name>ПередачаДанных_ОтпускЛППоЛьготнымРецептамСКЗКМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений об отпуске лекарственного препарата по льготному рецепту в СКЗКМ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f746c6a2-c9ec-4328-8cf0-c6f641670a11">
+    <name>ПередачаДанных_ВыдачаЛПДляОказанияМедицинскойПомощиСКЗКМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация выдачи ЛП для оказания медицинской помощи в СКЗКМ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4747bdec-aa39-457f-b93e-f954e280828d">
+    <name>ПередачаДанных_ОтсутствиеЛПНаБалансеМДЛП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация сведений об отсутствии ЛП на балансе</value>
+    </synonym>
+    <comment>705</comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ab07809-e5d7-497b-ba4e-5dbb7fc87fe5">
+  <name>УстановитьСтатусПроверкиДляДокументаПриЗаписиЭлектроннойПодписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить статус проверки для документа при записи электронной подписи</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.ЭлектронныеПодписи</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.бит_СертификатыЭЦП.УстановитьСтатусПроверкиДляДокументаПриЗаписиЭлектроннойПодписи</handler>
+</mdclass:EventSubscription>

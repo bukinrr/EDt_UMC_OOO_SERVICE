@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb0dd6db-7d30-423c-850f-0a0a29939e3d">
+  <producedTypes>
+    <selectionType typeId="b7fa2859-96be-432a-9937-a08916fc4706" valueTypeId="f4eb8054-97a0-4b7a-b4e3-1df7c3d65f32"/>
+    <listType typeId="cf036ced-b3aa-4610-b9f4-c69ee1f99ee4" valueTypeId="d0c98caa-fb66-4889-966f-9ba43af96611"/>
+    <managerType typeId="dfee5138-8f3f-4371-9d69-f7c2019bb12d" valueTypeId="422c1080-242d-42f1-8bb2-54edd8b1cf74"/>
+    <recordSetType typeId="dee381b3-2854-4779-8f09-f6b0a3179f5f" valueTypeId="4f7d8775-b8e0-4b28-98eb-2fe65c250159"/>
+    <recordKeyType typeId="0e34b10e-4750-4e8f-b608-b213968d2dce" valueTypeId="48acc8c8-fe96-4598-a7f3-fc74b4170be4"/>
+    <recordType typeId="fd81afc5-10fb-4858-a734-53e610a76eb4" valueTypeId="d648f5d9-b0a4-4666-b707-5312e69a9203"/>
+    <recordManagerType typeId="160ab5a7-d395-47b0-b4f1-16b0bb24d398" valueTypeId="79985378-8a14-474a-9f9e-fe4dc0b9c1f6"/>
+  </producedTypes>
+  <name>СтандартыЛеченияВПланеЛечения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стандарты лечения в плане лечения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.СтандартыЛеченияВПланеЛечения.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="05b4d540-ae0d-4839-ab03-ba34aabb6710">
+    <name>ИдентификаторНазначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор назначения</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="669a601d-1aa2-40a3-97b3-7bbb2f25153a">
+    <name>НоменклатураМедицинскихУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура медицинских услуг</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НоменклатураМедицинскихУслуг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a0f08231-bf7c-494c-8446-ec868f199db4">
+    <name>ВидНазначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид назначения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыНазначений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="69a40be0-a404-459e-bb8b-3577ca6b00cd">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

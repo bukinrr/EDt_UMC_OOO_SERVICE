@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>DataProcessor.ЗакрытиеМесяца.Command.ЗакрытиеМесяца</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>DataProcessor.ЗакрытиеМесяца.Command.ЗакрытиеМесяца</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>DataProcessor.ЗакрытиеМесяца.Command.ЗакрытиеМесяца</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Document.ОтражениеЗатратПоЗарплате.StandardCommand.OpenList</commands>
+      <commands>Document.РаспределениеЗатрат.StandardCommand.OpenList</commands>
+      <commands>Document.ПравилаРаспределенияЗатрат.StandardCommand.OpenList</commands>
+      <commands>Catalog.ПравилаРаспределенияЗатрат.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

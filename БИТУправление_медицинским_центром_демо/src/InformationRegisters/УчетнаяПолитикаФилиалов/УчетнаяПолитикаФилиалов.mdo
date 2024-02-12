@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ae0bb10-ab58-45d1-be33-24437dbada85">
+  <producedTypes>
+    <selectionType typeId="810f8e8b-00fb-44b7-968b-ca43d63e7735" valueTypeId="90a4c878-0c98-4e10-a1c5-bad7944d9fee"/>
+    <listType typeId="f9d28bf0-87ce-4d07-a5f1-3979bb692511" valueTypeId="e2c0c971-9925-4c36-a606-e38091a88f21"/>
+    <managerType typeId="c4a2c6de-cade-4593-a507-858afe01ebcb" valueTypeId="fcbba37a-355b-4631-bf1c-cb9a460f7075"/>
+    <recordSetType typeId="9f2841a5-7d6e-4b33-a424-935ec9ea9b90" valueTypeId="1a38f380-47d1-4347-a51c-6c41852444d5"/>
+    <recordKeyType typeId="f10b6cab-cdd2-4533-aa7b-e75b2fd91f18" valueTypeId="cd8c466f-d9ed-47a8-b34e-460a5b0f5d03"/>
+    <recordType typeId="7d01035a-1a52-43a2-b0b2-36a6b1028025" valueTypeId="60fa3041-213f-40fa-905a-7243aeda740d"/>
+    <recordManagerType typeId="292ed10a-3cc2-41d7-9e95-0878d28e24d6" valueTypeId="1b7cb0e3-fefb-4df7-9c58-16c60e01b01a"/>
+  </producedTypes>
+  <name>УчетнаяПолитикаФилиалов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетная политика филиалов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.УчетнаяПолитикаФилиалов.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="428b39ac-1e47-4097-9bb3-cb357e768d84">
+    <name>ОсновнойПрейскурант</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной прейскурант</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Прейскуранты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6eba6e4c-cb8e-49da-bc8e-f38d41ca7096">
+    <name>ПрефиксМедицинскойКарты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Префикс филиала для медицинских карт</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="47603c92-b8bf-482b-9d34-1fb84b808ba3">
+    <name>ОсновнаяЛаборатория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная лаборатория</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Лаборатории</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f0b32d88-711a-466b-aead-7adcc251b679">
+    <name>НастройкаСводногоОтчетаЗаСутки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка сводного отчета за сутки</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="720d984d-a9cf-45aa-a524-8c050590065d">
+    <name>АвторРеестраФСС_ЭЛН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор реестра ЭЛН в ФСС</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="eca15e45-6fa4-4ce8-84e8-95e472984ed6">
+    <name>Филиал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиника</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Филиалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="d29fb77b-6afe-4e8c-b808-a6ea5d1f7ab1">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88822a5f-3aa2-4522-ab53-f43a00b355a9">
+  <producedTypes>
+    <selectionType typeId="df5051a9-afb4-40f8-8df8-e8fbfd89245a" valueTypeId="940cee2b-eddc-4977-a9e5-d95a9917cd8a"/>
+    <listType typeId="8dedcafe-9ff1-4961-97fd-d650299f910d" valueTypeId="e94baecc-2719-4b2f-9c49-4d10df0656dc"/>
+    <managerType typeId="829445ad-68c0-41fe-9e4d-4de97294b97f" valueTypeId="3b88c1a2-ba5d-494b-b6b4-b04d57ec58a2"/>
+    <recordSetType typeId="87d354fe-d1bf-49ff-a5d6-09f8c4422afe" valueTypeId="3dea7f94-32f4-45e6-9c35-287049693e7d"/>
+    <recordKeyType typeId="b7f0f11f-cbb0-4284-8b3b-dcd06e12910b" valueTypeId="12eb0327-c610-4766-bc3f-445e8262c949"/>
+    <recordType typeId="e8af0b0a-012c-47a2-9b75-4bb513d7f3ac" valueTypeId="2ba6bddc-f932-4893-991c-5c02861d6e9c"/>
+    <recordManagerType typeId="33c73cfd-5873-4474-bfb0-9625b083adc1" valueTypeId="d8ca69d9-480c-4625-bb3e-896105b66896"/>
+  </producedTypes>
+  <name>УдалитьВредныеФакторыУсловияРаботКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вредные факторы и условия работ клиентов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.УдалитьВредныеФакторыУсловияРаботКлиентов.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.УдалитьВредныеФакторыУсловияРаботКлиентов.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="45c84cf8-3590-4318-a9b2-6eaa2d734db0">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пациент</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7ae49e1b-90c4-4ad8-a192-3386f1458147">
+    <name>ПереченьВредныхФакторовИРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вредный фактор / работа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПереченьВредныхФакторовИРабот</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вредный фактор или работа</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+  </dimensions>
+  <forms uuid="f8e3038b-b84f-4849-ba58-8e33364f82c7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0286991f-9316-4f19-af6c-f453cb9361c9">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

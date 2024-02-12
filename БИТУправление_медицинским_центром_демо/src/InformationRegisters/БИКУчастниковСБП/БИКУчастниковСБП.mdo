@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c568be8-a996-4d30-8b12-178218d6aead">
+  <producedTypes>
+    <selectionType typeId="dea94d77-a0e0-4c63-bafd-37072d21d6ff" valueTypeId="32210493-db1b-41c1-b4e6-217330b0bcb0"/>
+    <listType typeId="51f32180-a4d2-4f21-982f-925d12c10da2" valueTypeId="9cb1a179-2beb-4865-b861-b3f48b86cdcf"/>
+    <managerType typeId="38e199de-3adc-4e03-bd90-bf778ca94289" valueTypeId="38f94ed8-4c02-43e2-865f-f9cc26737d38"/>
+    <recordSetType typeId="79408515-2f70-417c-94d1-5249158dc492" valueTypeId="cc829db5-cd0f-4767-aae6-f50e0ceba285"/>
+    <recordKeyType typeId="6d4e6ed5-3829-4586-91c5-1f6caf75471b" valueTypeId="ea18b95d-a63e-4234-b69e-53f45f8de2bf"/>
+    <recordType typeId="2ac3db95-51fa-458f-a203-92a28510beef" valueTypeId="ddcbeb9c-9328-4509-9e72-bedda5342e27"/>
+    <recordManagerType typeId="2333a6b9-5016-47f8-b58c-b29237ff87b1" valueTypeId="e9b27620-5c36-48b3-aa29-cea909616306"/>
+  </producedTypes>
+  <name>БИКУчастниковСБП</name>
+  <synonym>
+    <key>ru</key>
+    <value>БИК участников СБП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="dd4ba727-984a-4a04-9344-8077f1dbfac4">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f338c3f9-8333-45ea-936e-c36f815b34b3">
+    <name>БИК</name>
+    <synonym>
+      <key>ru</key>
+      <value>БИК</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

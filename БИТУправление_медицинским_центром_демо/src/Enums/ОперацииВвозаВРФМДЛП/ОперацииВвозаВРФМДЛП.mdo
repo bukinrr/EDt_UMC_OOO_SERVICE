@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05f44747-2cfe-4220-bccf-3ea139cc74fc">
+  <producedTypes>
+    <refType typeId="09f0ef06-f1a0-405b-8dd3-5e33ec418385" valueTypeId="1fe7ae84-5f73-4676-9986-9ac4e8a349af"/>
+    <listType typeId="6b57c715-4776-4f92-a001-d947871eb815" valueTypeId="5eb5686c-b107-4010-ad51-80fdff27a22e"/>
+    <managerType typeId="6198f427-b89c-4de9-8e1c-9fe1dee24fd6" valueTypeId="b36f1624-a5d4-4878-999d-c1cf4d70182b"/>
+  </producedTypes>
+  <name>ОперацииВвозаВРФМДЛП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операции ввоза в РФ МДЛП</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9ed775be-732f-49b2-8696-9d49e9019502">
+    <name>ВвозСМаркировкойПроизводителем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввоз (маркировка производителем)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="20f29c3a-1951-41d3-9fc7-1ebab4215f2c">
+    <name>ВвозСМаркировкойВЗТК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввоз (маркировка в ЗТК)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

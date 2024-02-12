@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30f4f45b-3788-4374-a87f-0a638e63fbe7">
+  <name>ПриемПриЗаписиПроверкаИзмененияПодписанныхЭЦП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прием при записи проверка изменения подписанных ЭЦП</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.Прием</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ЭЦП_УМЦ_Сервер.ПриемПриЗаписиПроверкаИзмененияПодписанныхЭЦППриЗаписи</handler>
+</mdclass:EventSubscription>

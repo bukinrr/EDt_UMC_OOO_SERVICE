@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>InformationRegister.ИсполнителиХозяйственныхОпераций.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.ГруппыПользователей.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>InformationRegister.ИсполнителиХозяйственныхОпераций.StandardCommand.OpenList</commands>
+      <commands>Catalog.ГруппыПользователей.StandardCommand.OpenList</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Document.УстановкаГрафиковХозяйственныхПроцедур.StandardCommand.OpenList</commands>
+      <commands>Catalog.ГрафикиХозяйственныхПроцедур.StandardCommand.OpenList</commands>
+      <commands>Catalog.ХозяйственныеПроцедуры.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>InformationRegister.ИсполнителиХозяйственныхОпераций.StandardCommand.OpenList</commands>
+      <commands>Catalog.ГруппыПользователей.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

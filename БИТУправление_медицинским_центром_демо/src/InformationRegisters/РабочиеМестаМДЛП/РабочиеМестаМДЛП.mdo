@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9de3750b-ab7a-4f9e-b035-c7952b9d60c9">
+  <producedTypes>
+    <selectionType typeId="7b6651a7-1869-4937-bfd6-d582895728f7" valueTypeId="f6f28ad8-fcc2-48cc-8926-69793206c36e"/>
+    <listType typeId="5ef7d0d8-0f16-45f0-92b0-f543b042926c" valueTypeId="39366110-e22b-4349-a099-a71d62dc8ed8"/>
+    <managerType typeId="f32ca456-6f46-4b4e-8d01-341c63c05613" valueTypeId="5d6a7d8f-30dc-4589-a140-7250d0111882"/>
+    <recordSetType typeId="8ed23d8c-b7df-46d6-b22d-0e6863031759" valueTypeId="4046c774-8a56-4171-8f29-f8c6d24d2d0c"/>
+    <recordKeyType typeId="86bca17c-5d34-40ec-bbfb-9bd72c44bfa8" valueTypeId="dd713874-1145-4e7b-817c-59a25d1881dc"/>
+    <recordType typeId="9ec1df89-efc7-4ac5-94a0-459622d8d8bf" valueTypeId="94a38abd-8a87-470d-8c90-fb45cbafc95a"/>
+    <recordManagerType typeId="99fafeaf-12fc-4992-84f8-8a577f8210f0" valueTypeId="4a437a91-02d1-41fd-88f1-6b2a6bff198f"/>
+  </producedTypes>
+  <name>РабочиеМестаМДЛП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочие места МДЛП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="70ff51b6-e88e-45eb-8125-697c29d0eb48">
+    <name>РегистраторВыбытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистратор выбытия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РегистраторыМДЛП</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.РабочиеМестаМДЛП.Dimension.МестоДеятельности</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="61ff8da6-ab0a-45ff-ba68-7799188fdf18">
+    <name>РабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РабочиеМеста</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="33e05a88-aa40-42c4-8116-f8f20db93c2a">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОрганизацииМДЛП</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.СобственнаяОрганизация</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="771530b3-127a-4862-bfc1-dda2a431b29b">
+    <name>МестоДеятельности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место деятельности</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МестаДеятельностиМДЛП</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Отбор.Организация</name>
+      <field>InformationRegister.РабочиеМестаМДЛП.Dimension.Организация</field>
+    </choiceParameterLinks>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51420a5a-d76d-4f3a-9061-217eaea6a998">
+  <producedTypes>
+    <refType typeId="d96c56c0-daf8-464d-bd6b-21f094007ec5" valueTypeId="642b7bd3-256b-4181-ba7d-84d3f88601ae"/>
+    <listType typeId="c219f611-4802-4739-a47b-b94b55dde7d9" valueTypeId="ea9d61c6-ba77-45b7-9494-92d241a5ee7b"/>
+    <managerType typeId="d1525e92-d592-4e43-bdc7-f5fa3bc403cb" valueTypeId="b7d8b149-f235-41d5-aac3-7c76134406e6"/>
+  </producedTypes>
+  <name>ПравилаПечатиЧековЕНВД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Правила печати чеков ЕНВД</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2fcb9d7c-92dc-4220-ab27-09a518efedb3">
+    <name>НеФискальноОднойСтрокой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не фискально одной строкой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ad598846-2667-468d-96ab-efcb2c606097">
+    <name>НеФискальноМногострочно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не фискально подробно</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

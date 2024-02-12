@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb66477a-7bb3-4b01-9017-b7ae8e53ef4c">
+  <producedTypes>
+    <selectionType typeId="b07e653a-0aa8-439d-9903-529097597628" valueTypeId="892ff369-c138-4693-b30e-2350b6e8985e"/>
+    <listType typeId="1821fe43-a3fc-46c1-a655-0b72aefc9da9" valueTypeId="4de116bc-85db-464c-87ad-071c9c542772"/>
+    <managerType typeId="8ec84df9-b62b-4930-94f3-84e4bc3949d0" valueTypeId="22123286-2aa3-4c1d-98f5-7d9b50cccdbd"/>
+    <recordSetType typeId="7508ec3b-4d08-4d7b-8991-e0cb8869f4c6" valueTypeId="7be3f36b-0b3a-4c0c-9cc5-5c078fe3a03a"/>
+    <recordKeyType typeId="fbbfcdf5-0c18-452d-a73c-23eef8b2dd32" valueTypeId="e99f015c-070f-4a71-9bc8-52f6cee4eee9"/>
+    <recordType typeId="eb1bcedc-7eb3-46a7-b263-d696a682e4d9" valueTypeId="4a742838-6aa9-4a97-9111-eecde7eeb769"/>
+    <recordManagerType typeId="a34676ee-cc79-4a4c-95bf-1f3ef888d623" valueTypeId="ee7b1e60-3d79-4039-9c42-ce69c914364d"/>
+  </producedTypes>
+  <name>НастройкиМедицинскогоУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки медицинского учета</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.НастройкиМедицинскогоУчета.Form.ФормаЗаписиУпр</defaultRecordForm>
+  <defaultListForm>InformationRegister.НастройкиМедицинскогоУчета.Form.ФормаСпискаУпр</defaultListForm>
+  <auxiliaryRecordForm>InformationRegister.НастройкиМедицинскогоУчета.Form.ФормаЗаписиУпр</auxiliaryRecordForm>
+  <auxiliaryListForm>InformationRegister.НастройкиМедицинскогоУчета.Form.ФормаСпискаУпр</auxiliaryListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="2608f7ca-e796-4c9c-84b8-391cf623cfc3">
+    <name>ИспользоватьЛабораторныеИсследования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать лабораторные исследования</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="162b7b2e-dab5-448b-bade-9b95c4bd33f8">
+    <name>ИспользуетсяРасширеннаяВнутренняяЛаборатория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутренние лаборатории используют учет по контейнерам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4eaf34c2-a1c1-445d-aa83-9503ecc0ba3f">
+    <name>ИспользуетсяИнтеграцияСВнешнимиЛабораториями</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется интеграция с внешними лабораториями</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e2af19e5-28c6-49dd-917a-4a6c6094f6dc">
+    <name>ЛабораторияПоПостоплатеПрименяется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лаборатория по постоплате применяется</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="174f5986-16f5-4d66-8e11-9148a46bf19f">
+    <name>Helix_ИспользуетсяИнтеграцияСHelix</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется интеграция с Helix-лабораториями</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="519bc115-3126-4026-8d19-430413c55fc7">
+    <name>ПакетСоставныхФразРеакцииНаАллергены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пакет составных фраз реакции на аллергены</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПакетыСоставныхФраз</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8329e009-92f0-4b94-9069-c767407685dd">
+    <name>ОтправлятьРезультатыВнешнихЛабораторийПоЭлектроннойПочте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлять результаты внешних лабораторий по электронной почте</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="102229ed-36e3-47fa-a6f1-ec81fef53f7a">
+    <name>ОтправлятьПриемыВАрхивеСПаролем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упаковывать приёмы и защищать архив паролем при отправке электронных сообщений </value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="04680145-3186-4751-92be-152ff6fe15ea">
+    <name>ЭлектроннаяПочтаДляРассылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронная почта для рассылки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="090c38ba-3d27-48da-832e-a76cb33d3718">
+    <name>Invitro_ИспользуетсяИнтеграцияСInvitro</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется интеграция с Invitro-лабораториями</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4da23e5b-f967-46c0-af32-3e815b37d35e">
+    <name>Использоватьwkhtmltopdf</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать wkhtmltopdf</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e33cc769-6036-4bf5-a14e-7598b31428e8">
+    <name>Адресwkhtmltopdf</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расположение программы wkhtmltopdf</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Полный путь до файла программы wkhtmltopdf на сервере (при работе в клиент-серверном варианте). Путь должен быть доступен при обращении компьютера-сервера под пользователем службы сервера 1С.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value>C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe</value>
+    </fillValue>
+  </resources>
+  <resources uuid="a431fb5e-1191-4d67-97e6-1213b2f5f7ec">
+    <name>УпрощеннаяЛабораторияИспользуется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Применяется упрощенный забор анализов без указания лаборатории</value>
+    </synonym>
+    <comment>Допускается упрощенное указание забора без лаборатории и с кодом пробы</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d75641aa-c162-429a-af44-2c1e27543d5c">
+    <name>ИспользоватьЕГИСЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется интеграция с подсистемами ЕГИСЗ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ba6111b1-b3d7-4e77-8991-5ac2d41da8c2">
+    <name>СитиЛаб_ИспользуетсяИнтеграцияССитиЛаб</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется интеграция с Ситилаб-лабораториями</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5c821c07-b1d9-4303-bcee-208d4e7bba0d">
+    <name>КДЛ_ИспользуетсяИнтеграцияСКДЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется интеграция с КДЛ-лабораториями</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ef6e2914-435b-4110-adfb-3654fb76224e">
+    <name>РабочийРежимОбменаСФСС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим работы обмена с ФСС</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>БЛ=Тестовый; БИ=Рабочий</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>БЛ=Тестовый; БИ=Рабочий</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="179f4bb2-673b-48d1-9f9f-1b13e7d47747">
+    <name>ПутьККонвертеруPDFAGhostScript</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь Ghost Script (конвертер PDF>>PDF/A)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="6809011f-cbb1-4c67-beb9-7bc72c8a8b64">
+    <name>АдресФедеральногоСервисаГИП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес федерального сервиса ГИП</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="accc84be-8b34-4298-a220-f8cb7db9ecf3">
+    <name>АдресФедеральногоСервисаРЭМД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес федерального сервиса РЭМД</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="74c363c1-deda-4099-9d94-b5e767b9a6a9">
+    <name>СертификатФССТестовый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сертификат ФССТестовый</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6e629646-e71e-48c8-8caf-28d0a3578a3e">
+    <name>СертификатФССРабочий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сертификат ФССРабочий</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4a80db40-0899-4c6a-9708-8ffc56bd101e">
+    <name>Гемотест_ИспользуетсяИнтеграцияСГемотест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется интеграция с Гемотест-лабораториями</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3e13d01a-7bdc-4ba8-8314-378dec767d79">
+    <name>ОтключитьКонтрольСертификатовФСС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отключить контроль сертификатов подписания по пользователям для ЭЛН</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="38d1f012-e0d7-4be7-acf6-4249588887ea">
+    <name>ИспользоватьЛистыНетрудоспособности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать листы нетрудоспособности</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8825ceba-eb5a-4882-b82a-69323d2236c6">
+    <name>ПостоплатаПоПриемамИспользуется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Постоплата по приемам используется</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="03506c46-97f8-4f6f-97e4-1575ad31c436">
+    <name>ИспользоватьЭлектронныеПодписиЭМК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать электронные подписи ЭМК</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a9a07ceb-25ad-4d8c-9591-578dcbd5ea65">
+    <name>ОтладочныйРежимРаботыЕГИСЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отладочный режим работы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f5a40888-d886-48c1-9785-a9d2cd78db09">
+    <name>ХранитьФайлыЭМДВоВнешнемАрхиве</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранить файлы ЭМД во внешнем архиве</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5441ca52-6640-4747-8b55-f8635b0a6b68">
+    <name>ПутьКАрхивуЭМД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к архиву ЭМД</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="7433b05e-5a56-4a42-9e43-55026fadb6c5">
+    <name>ПутьКАрхивуИзображений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к архиву изображений шаблонов приёмов</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <forms uuid="8c687002-91dd-4528-ac01-d8cef7512f73">
+    <name>ФормаЗаписиУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a155a192-8269-448b-932d-cb6bef6feb5f">
+    <name>ФормаСпискаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bdad4d78-3dea-4fda-ae01-0b3bdbf0ed89">
+    <name>НастройкаИсточниковПостоплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка источников постоплаты</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

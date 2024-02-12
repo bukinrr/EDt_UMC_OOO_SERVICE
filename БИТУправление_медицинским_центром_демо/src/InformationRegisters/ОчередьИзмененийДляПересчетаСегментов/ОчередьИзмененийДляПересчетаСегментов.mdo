@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48faae60-d80d-4dd6-94e1-8ac12c36ec6e">
+  <producedTypes>
+    <selectionType typeId="0af1e83c-8c95-4091-a3fb-c63d5c426ae6" valueTypeId="93537263-a549-47d5-8b86-2025672bb7a4"/>
+    <listType typeId="6b86c009-c264-4f5e-8fe3-20b69ac7c602" valueTypeId="fb2a8668-b35d-45cc-aa81-9c03cec0f6c6"/>
+    <managerType typeId="7054a194-3e3a-4c43-a66f-f7bd74d2d3a4" valueTypeId="161bc384-a814-47ba-a5bb-83a758c59252"/>
+    <recordSetType typeId="7acf7c14-0044-4053-9a73-1eb4a83ca2fc" valueTypeId="414443d9-4d21-4e82-92f9-ffc53fb7f33f"/>
+    <recordKeyType typeId="0a160b62-bb76-45d4-933b-c2cb92c2a5f0" valueTypeId="33d7cb03-98ab-4304-a9f3-1fc8bfd37794"/>
+    <recordType typeId="1900b4f4-cdcf-4636-a698-5b1bc9006580" valueTypeId="3409f62b-2aad-4085-9ff6-54127a4d36ee"/>
+    <recordManagerType typeId="2ccf58a3-2c33-4ee5-b411-dd3a7d542fa5" valueTypeId="f3e791a8-bd2e-4159-8992-b876b0ecaff7"/>
+  </producedTypes>
+  <name>ОчередьИзмененийДляПересчетаСегментов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очередь изменений для пересчета сегментов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="47d6e181-8803-4089-92fa-1431e5603de2">
+    <name>Источник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

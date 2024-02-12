@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="495a4894-7b7b-4a64-8ea8-679abf2da7c5">
+  <producedTypes>
+    <selectionType typeId="2927fa89-71cd-4ee4-aa4d-ce2f9eb235e9" valueTypeId="0ac0c9d3-7302-42df-822f-829947c574d9"/>
+    <listType typeId="a9acc209-1015-4eb4-8273-f7a1fa78f796" valueTypeId="7f53058d-70fb-4661-9987-c2e93b612fd9"/>
+    <managerType typeId="56e6cfe1-9fc2-4587-a996-5de76a89f3cb" valueTypeId="c560ed58-2f7b-4c23-afd3-49163b30df54"/>
+    <recordSetType typeId="b62fd3bc-d549-49bc-98d1-2a05022bf551" valueTypeId="e6c1a0e5-ac93-4142-8eff-a0ecfcf55b7c"/>
+    <recordKeyType typeId="013367b5-c5b1-4e73-8832-917e0fa56bf7" valueTypeId="efe60dd4-cee7-47bc-b4e9-e523aec89e26"/>
+    <recordType typeId="860ad9db-8bf0-4609-8a16-ce7531a5f97b" valueTypeId="92c80a68-baf6-4847-b594-d51558e8b920"/>
+    <recordManagerType typeId="055cb775-8827-49f4-89a7-542164179cfc" valueTypeId="262bd17d-6cec-422c-95b6-39f6df08e32f"/>
+  </producedTypes>
+  <name>Helix_ПодготовкаКИсследованиюПациента</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Helix-Лаборатории) Подготовка к исследованию пациента</value>
+  </synonym>
+  <comment>PatientPreparations.xml</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a49cf935-baae-471c-a498-305644e79472">
+    <name>PREP_GROUP</name>
+    <synonym>
+      <key>ru</key>
+      <value>PREP GROUP</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="7fbaf62a-83fe-4033-ad94-bfaecdebf537">
+    <name>GROUP_WEIGHT</name>
+    <synonym>
+      <key>ru</key>
+      <value>GROUP WEIGHT</value>
+    </synonym>
+    <comment>Вес (для сортировки)</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a7c0e6d3-752a-4a2f-979d-9e09c4e9fade">
+    <name>DESCRIPTION</name>
+    <synonym>
+      <key>ru</key>
+      <value>DESCRIPTION</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="6ab5d0b1-ea20-47b0-8a06-b6ad082c412e">
+    <name>Name</name>
+    <synonym>
+      <key>ru</key>
+      <value>Name</value>
+    </synonym>
+    <comment>Код подготовки</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

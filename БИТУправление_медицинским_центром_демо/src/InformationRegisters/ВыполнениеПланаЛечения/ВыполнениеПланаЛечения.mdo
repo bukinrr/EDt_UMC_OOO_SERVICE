@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4780d02-6538-47d6-b16a-9363cfa75136">
+  <producedTypes>
+    <selectionType typeId="1eec40aa-5c60-4548-8d8c-63ec4014bdb3" valueTypeId="67af4745-c070-46f2-a24b-2ce140d8655d"/>
+    <listType typeId="3283da87-efd1-40e3-824d-66db897d5f0d" valueTypeId="12413fc7-0662-452b-ae76-fee2edf359f0"/>
+    <managerType typeId="6d81a1ed-e767-470f-9192-a2289bfa2c17" valueTypeId="7c85b60b-2a9b-478f-99aa-700cbf6fd069"/>
+    <recordSetType typeId="6f9eed22-0ab8-4115-b655-c582acd9589f" valueTypeId="d58fa760-4367-498b-9a2d-a4cd782b4dd4"/>
+    <recordKeyType typeId="a77c6eb2-ea1b-418f-86e1-751af1fc05f3" valueTypeId="eabb9c61-c523-436d-beb4-d5ce78bdcb91"/>
+    <recordType typeId="68047045-5e5f-44ad-b420-51a2e6c824a6" valueTypeId="0e3243a6-f06e-41d3-83db-9d790a4335c8"/>
+    <recordManagerType typeId="7e09be57-5d84-40b3-a627-e6efae624c89" valueTypeId="1254fb82-520a-438b-b1a4-7d62fed46300"/>
+  </producedTypes>
+  <name>ВыполнениеПланаЛечения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнение плана лечения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ВыполнениеПланаЛечения.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="78be6bd2-7e1e-4780-a566-7ca445959b0e">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a253eea8-52b6-41cc-be34-3d8e887b1bbc">
+    <name>ПервичныйПрием</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первичный прием</value>
+    </synonym>
+    <comment>Документ, созданный первым в рамках одного обращения пациента</comment>
+    <type>
+      <types>DocumentRef.Прием</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a17f7ddb-a4b3-4721-bd09-997387a88a0d">
+    <name>ИдентификаторЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор элемента</value>
+    </synonym>
+    <comment>Собственный идентификатор элемента плана лечения</comment>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="c25e9ca7-8bf8-4ffa-9e63-468513d4b879">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

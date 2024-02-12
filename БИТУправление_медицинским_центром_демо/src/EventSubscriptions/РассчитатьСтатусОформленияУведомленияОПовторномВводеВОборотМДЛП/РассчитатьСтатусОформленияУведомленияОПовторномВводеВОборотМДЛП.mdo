@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96245912-afe6-4193-bc16-78f4f2e43232">
+  <name>РассчитатьСтатусОформленияУведомленияОПовторномВводеВОборотМДЛП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассчитать статус оформления уведомления о повторном вводе в оборот МДЛП</value>
+  </synonym>
+  <source>
+    <types>DefinedType.ОснованиеУведомленияОПовторномВводеВОборотМДЛПОбъект</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ИнтеграцияМДЛП.РассчитатьСтатусОформленияУведомленияОПовторномВводеВОборот</handler>
+</mdclass:EventSubscription>

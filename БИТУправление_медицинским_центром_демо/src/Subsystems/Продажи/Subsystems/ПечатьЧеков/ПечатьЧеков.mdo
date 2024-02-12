@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14b958b1-0b68-4a2a-a228-2be95e82f30f">
+  <name>ПечатьЧеков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать чеков ККМ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonCommand.УправлениеФискальнымУстройством</content>
+  <content>CommonCommand.УправлениеЭквайринговымТерминалом</content>
+  <content>Report.ЧекиККТСПередачейДанных</content>
+  <content>Enum.СпособФискализацииРасходныхМатериалов</content>
+  <content>Report.ЧекиККМ</content>
+  <content>CommonCommand.ВыбратьРМТекущегоСеанса</content>
+  <content>InformationRegister.ОчередьНаПодтверждениеОперацииЭС_НСПК</content>
+  <content>CommonCommand.ПроверитьСвязьССервисамиНСПК</content>
+  <parentSubsystem>Subsystem.Продажи</parentSubsystem>
+</mdclass:Subsystem>

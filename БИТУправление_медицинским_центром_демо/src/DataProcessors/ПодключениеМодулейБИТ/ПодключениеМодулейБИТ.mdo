@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26e293c5-343d-4f7a-b637-9a6bffa23118">
+  <producedTypes>
+    <objectType typeId="db162aa9-f98b-4461-8b66-fb8e4b086325" valueTypeId="a5b65533-d918-4174-8988-6ab74dd98432"/>
+    <managerType typeId="9c583fd9-0b0d-4380-adcb-c86713db72c1" valueTypeId="6e8aea03-f0cb-498a-933b-4fb3058b5e95"/>
+  </producedTypes>
+  <name>ПодключениеМодулейБИТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключение дополнительных модулей</value>
+  </synonym>
+  <defaultForm>DataProcessor.ПодключениеМодулейБИТ.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="7454be16-6394-40b6-a29a-36da8d23a889">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="11cb2564-9747-47ca-a37d-f0863e606467">
+    <name>Блоки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блоки</value>
+    </synonym>
+  </templates>
+  <commands uuid="85a0c8f2-327a-402f-9669-66706fca78aa">
+    <name>ПодключитьИнтеграциюСЛабораторией</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начать работу с внешней лабораторией</value>
+    </synonym>
+    <group>CommandGroup.Информация</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="be74b0e3-5c29-4da6-a5b6-9aafe003379e">
+    <name>ПодключитьДополнительныйМодуль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подключить дополнительный модуль</value>
+    </synonym>
+    <group>CommandGroup.Информация</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e5c0e03-3549-4e1e-8e84-56be9878cab9">
+  <name>ПриУстановкеНовогоКодаСправочника</name>
+  <synonym>
+    <key>ru</key>
+    <value>При установке нового кода справочника</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.Сотрудники</types>
+    <types>CatalogObject.Филиалы</types>
+    <types>CatalogObject.ВнешниеОбработки</types>
+    <types>CatalogObject.Подразделения</types>
+    <types>CatalogObject.ВидыКартСкидок</types>
+    <types>CatalogObject.Валюты</types>
+    <types>CatalogObject.Районы</types>
+    <types>CatalogObject.КатегорииОбъектов</types>
+    <types>CatalogObject.ЕдиницыИзмерения</types>
+    <types>CatalogObject.Контрагенты</types>
+    <types>CatalogObject.ЗначенияСвойствОбъектов</types>
+    <types>CatalogObject.ВидыСостоянийЗаявок</types>
+    <types>CatalogObject.СтатьиЗатрат</types>
+    <types>CatalogObject.Прейскуранты</types>
+    <types>CatalogObject.СтруктураПрайслистов</types>
+    <types>CatalogObject.ИсточникиИнформации</types>
+    <types>CatalogObject.КартыСкидок</types>
+    <types>CatalogObject.Склады</types>
+    <types>CatalogObject.Сертификаты</types>
+    <types>CatalogObject.Пользователи</types>
+    <types>CatalogObject.Оборудование</types>
+    <types>CatalogObject.ВидыКонтактнойИнформации</types>
+    <types>CatalogObject.Кассы</types>
+    <types>CatalogObject.СтатьиДвиженияДенежныхСредств</types>
+    <types>CatalogObject.Смены</types>
+    <types>CatalogObject.Клиенты</types>
+    <types>CatalogObject.ВидыСертификатов</types>
+    <types>CatalogObject.Номенклатура</types>
+    <types>CatalogObject.КатегорииВыработки</types>
+    <types>CatalogObject.БанковскиеСчета</types>
+  </source>
+  <event>OnSetNewCode</event>
+  <handler>CommonModule.ОбщегоНазначения.ПриУстановкеНовогоКодаСправочникаПриУстановкеНовогоКода</handler>
+</mdclass:EventSubscription>

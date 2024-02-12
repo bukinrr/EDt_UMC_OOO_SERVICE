@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47ceb3a9-8a4d-45f7-9eda-b46cc391f3f2">
+  <producedTypes>
+    <selectionType typeId="249aca97-b829-4e54-a959-e8673e06b5e2" valueTypeId="2b8034d1-aa68-4eb0-b48c-308bc1c981d9"/>
+    <listType typeId="abcdd990-e0eb-4afa-b924-f2003bc32a14" valueTypeId="8896fdf4-c4ab-432b-aa48-ef4cfdd537d0"/>
+    <managerType typeId="83f64044-539d-437b-9e1b-0399fad4a445" valueTypeId="2b3cc523-bdca-42bc-a64a-fe4feb08fee4"/>
+    <recordSetType typeId="c7391529-5391-496d-a7ce-493925fcf402" valueTypeId="3d3c3d5e-3154-4f70-bbfd-9eaa05af31d0"/>
+    <recordKeyType typeId="cd61b40d-2db3-486b-bd12-91495b5b563c" valueTypeId="f11abeba-5c8e-47a2-bea7-145f1f2450de"/>
+    <recordType typeId="be02f9f5-0249-4575-8a32-3343df1be40a" valueTypeId="cf832bba-a8d0-4447-9087-6d10deb3a088"/>
+    <recordManagerType typeId="2b7d26d9-f0f8-4870-9273-ec01f519f28c" valueTypeId="93b005f8-196c-45a9-9d33-1ccc5d3cdf82"/>
+  </producedTypes>
+  <name>СитиЛаб_ГруппыИсследований</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Ситилаб-лаборатории) Группы исследований</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="ccd85424-25e3-498d-a16c-d2cd1f99f293">
+    <name>Лаборатория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лаборатория</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Лаборатории</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="81ac4ac4-7dac-4597-ab8d-68c92885b56e">
+    <name>Target</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор исследования (Target)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6a075bb2-9b28-4e2a-9226-b3ddc9a75dcf">
+    <name>Department</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор группы исследования (Department)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

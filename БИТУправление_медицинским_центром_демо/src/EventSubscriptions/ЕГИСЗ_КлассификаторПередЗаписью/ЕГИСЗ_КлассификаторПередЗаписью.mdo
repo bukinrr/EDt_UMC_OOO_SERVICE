@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a100ddc-1ba8-44d7-9d6f-2767dbeda8fd">
+  <name>ЕГИСЗ_КлассификаторПередЗаписью</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЕГИСЗ классификатор перед записью</value>
+  </synonym>
+  <source>
+    <types>CatalogObject</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ИнтеграцияЕГИСЗСлужебныйСервер.ЕГИСЗ_КлассификаторПередЗаписью</handler>
+</mdclass:EventSubscription>

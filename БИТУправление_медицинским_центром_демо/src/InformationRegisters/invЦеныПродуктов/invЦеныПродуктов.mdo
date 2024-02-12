@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8d1415d-3900-4720-85ba-adece14f8a33">
+  <producedTypes>
+    <selectionType typeId="c3f348d3-a0de-45c7-a4c2-e9b560977309" valueTypeId="9b4d08c6-df27-495e-b5a1-c4b0a0898942"/>
+    <listType typeId="2c40106e-680a-4f8e-b5ca-3246acfc2a54" valueTypeId="59192384-4e39-41c6-946c-27cc47267785"/>
+    <managerType typeId="ae22c8cc-179a-449c-956c-78cdf973766f" valueTypeId="71322988-d36a-43e6-9623-247232f03595"/>
+    <recordSetType typeId="cbb04c89-0c43-4c3a-b69b-455e4254a3d9" valueTypeId="7ef210a8-516d-4c11-8d51-11d91172241f"/>
+    <recordKeyType typeId="46cf1aca-1902-4e3b-a3a0-1de05f7795fe" valueTypeId="2703eba0-0455-4207-86c6-3f3e08e54169"/>
+    <recordType typeId="c22915e2-5b95-4df4-93ae-397f8efdd8fb" valueTypeId="2913f0e4-9ce6-4485-928c-f5b843bca9f7"/>
+    <recordManagerType typeId="95531633-2860-4107-a1c1-e5e00de26d09" valueTypeId="44b31105-1660-4392-9aba-a3a9c311850d"/>
+  </producedTypes>
+  <name>invЦеныПродуктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Invitro) Цены продуктов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e0e47d25-6721-4294-8deb-557c53e332c1">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="cf9a0f64-d7b1-488c-aaca-1caaa797b203">
+    <name>Продукт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.invПродукт</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

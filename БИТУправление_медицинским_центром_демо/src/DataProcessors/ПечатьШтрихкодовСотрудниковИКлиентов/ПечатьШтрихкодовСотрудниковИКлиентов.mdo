@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1782b20-64ba-4c3b-86c2-dd4997b1f36d">
+  <producedTypes>
+    <objectType typeId="87a11536-a48e-4de4-9122-0d9e0f560c08" valueTypeId="ea440e1a-8fbd-4aaf-8515-074028928266"/>
+    <managerType typeId="0b5c2697-93bd-4e2f-898e-31890413d9f7" valueTypeId="2833ad45-6ee8-4ca9-ba71-b51191ecedb9"/>
+  </producedTypes>
+  <name>ПечатьШтрихкодовСотрудниковИКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать штрихкодов сотрудников и клиентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПечатьШтрихкодовСотрудниковИКлиентов.Form.ФормаУпр</defaultForm>
+  <auxiliaryForm>DataProcessor.ПечатьШтрихкодовСотрудниковИКлиентов.Form.ФормаУпр</auxiliaryForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="acb4e105-6f13-45f6-9b86-249a5e4230e4">
+    <name>ФормаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="21d3cc00-5b01-41f0-bf3d-515c6a423953">
+    <name>ПоляШаблона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поля шаблона</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="7b81c888-c415-426e-b582-4a3aeccdb093">
+    <name>ЭталонныйМакет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эталонный макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="a9f1fbd5-c382-4bd1-8fac-b3d5e5e459ca">
+    <name>ПоляШаблонаК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поля шаблона клиентов</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="d40f3573-3392-4eae-a993-eb5721853f92">
+    <name>СКДКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>СКД Клиенты</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="e581e779-383b-4e60-9afa-6e902e7d0835">
+    <name>СКДСотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>СКД Сотрудники</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="c856fca0-40f4-40c3-b878-1db83ae7a6e5">
+    <name>ЭталонныйМакетУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эталонный макет</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

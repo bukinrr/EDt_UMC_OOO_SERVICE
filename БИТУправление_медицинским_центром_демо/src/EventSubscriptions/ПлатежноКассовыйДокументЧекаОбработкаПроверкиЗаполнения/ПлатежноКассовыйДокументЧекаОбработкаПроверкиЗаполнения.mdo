@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b58a514-8851-4ed4-a815-dddd88fd6866">
+  <name>ПлатежноКассовыйДокументЧекаОбработкаПроверкиЗаполнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Платежно кассовый документ чека обработка проверки заполнения</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ОплатаПлатежнойКартой</types>
+    <types>DocumentObject.РасходныйКассовыйОрдер</types>
+    <types>DocumentObject.ПриходныйКассовыйОрдер</types>
+  </source>
+  <event>FillCheckProcessing</event>
+  <handler>CommonModule.РаботаСДокументамиСервер.ПлатежноКассовыйДокументЧекаОбработкаПроверкиЗаполнения</handler>
+</mdclass:EventSubscription>

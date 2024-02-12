@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="760e7fac-e782-498d-ae5f-879bf4bf5127">
+  <producedTypes>
+    <selectionType typeId="b53aeda7-a0cd-4306-9693-fe6fff1923d5" valueTypeId="94723087-75ed-43e5-ac17-f00c477779ae"/>
+    <listType typeId="9af1c1a9-60fb-4645-bcd1-bbd2fa0d1dc6" valueTypeId="09921c80-3a67-4d88-85cd-2f03fc2d920e"/>
+    <managerType typeId="3d385e6c-7d47-4154-b08c-061b2fe59dea" valueTypeId="fcf8a7e2-4b3f-429c-ad17-9e13eae97619"/>
+    <recordSetType typeId="0a21b7e7-4524-469d-a1da-61fa55b55f5e" valueTypeId="74b58102-b393-4128-ad21-5273b5b5cc0c"/>
+    <recordKeyType typeId="3bf30d2a-41c7-44f8-ba79-5554c35e4c3a" valueTypeId="cd2ff651-c110-4d56-9b79-b22855cdb451"/>
+    <recordType typeId="2d086f9a-b8c5-4ff8-b46c-c67c88f7b49c" valueTypeId="2f312a5e-f234-4d4b-a5a5-48e667956736"/>
+    <recordManagerType typeId="003e5394-9d0c-439e-9535-b92f901cb290" valueTypeId="db66afe7-0a39-4670-bbfb-761f3990813a"/>
+  </producedTypes>
+  <name>СегментационныеСвязиДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сегментационные связи данных</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="16ed6a74-a512-4bdc-8bec-840e4d0ca1b6">
+    <name>ВидСегментации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид сегментации</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыСегментации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d0b0ee63-982d-4d94-a7d3-85afd15fc95a">
+    <name>СегментационныйРегистратор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сегментационный регистратор</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СегментационныеРегистраторы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

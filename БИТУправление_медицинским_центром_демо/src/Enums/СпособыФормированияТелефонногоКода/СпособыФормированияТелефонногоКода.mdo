@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec571ab0-7f09-49bb-afc7-5e0073c2a366">
+  <producedTypes>
+    <refType typeId="06c2f6f1-bb45-43c8-847e-fc99584c7c46" valueTypeId="47142880-774b-4f76-9b05-0d777f257c41"/>
+    <listType typeId="98ba911b-9bf3-4b45-95d3-160eebf49d72" valueTypeId="f260c2df-1acd-49a6-9d62-37b964f0ce6b"/>
+    <managerType typeId="7def8da4-f9f6-47f1-83ac-490e3c05a904" valueTypeId="259e6bea-57ac-4fa4-8a78-8673a7d35e73"/>
+  </producedTypes>
+  <name>СпособыФормированияТелефонногоКода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формат первой цифры телефона в ОФД для SMS покупателю</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="25dca264-9903-4464-8861-7063aa3c8a6b">
+    <name>Код8</name>
+    <synonym>
+      <key>ru</key>
+      <value>8</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a1251c17-44b3-4ab6-ae09-28a6bd65fcda">
+    <name>КодПлюс7</name>
+    <synonym>
+      <key>ru</key>
+      <value>+7</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8e6f8b92-1788-4b76-b1ef-4ddd3359a9f2">
+    <name>КодПустой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсекать код страны</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

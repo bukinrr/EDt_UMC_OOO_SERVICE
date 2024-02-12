@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa9c9076-6b50-48a5-ba5b-ec9f9e13825d">
+  <producedTypes>
+    <refType typeId="c836a8eb-606e-4cb6-baf3-f1bbd9ac9b03" valueTypeId="f3b352eb-7e53-4f84-b53f-0094045ba539"/>
+    <listType typeId="c4d0462d-94a9-4778-963b-4f70a5880df9" valueTypeId="e84b557b-bdd7-4d61-983f-e379c5b2a7e2"/>
+    <managerType typeId="d1d5efb3-c69b-4ae4-ac06-a46c2608187f" valueTypeId="7a802099-f069-4d8e-bf30-4de86d088309"/>
+  </producedTypes>
+  <name>СпособФормированияЦеныМедосмотра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ формирования цены медосмотра</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bb09589c-b538-4cf1-a1e1-9b85ef458c86">
+    <name>ЦенаНоменклатурыПоПрайсу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена номенклатуры по прайсу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7e217038-1931-4c66-a12f-195cb0475bc7">
+    <name>ЦенаРассчитываетсяПоДействиямБезРедактирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена рассчитывается по действиям без редактирования</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3a7fc505-9235-4fd7-9995-dab393ecb31e">
+    <name>ЦенаРассчитываетсяПоДействиямСРедактированием</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена рассчитывается по действиям с редактированием</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

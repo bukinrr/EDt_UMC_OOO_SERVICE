@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d36a05e0-d2dd-4b19-8106-7b59d07115e7">
+  <producedTypes>
+    <selectionType typeId="93952188-ee6f-4e6f-b8d0-6ed7052331e3" valueTypeId="524aaf9e-08e9-4da9-b5c3-cf315a6110f8"/>
+    <listType typeId="6ef03085-777e-4b08-a895-870add84d7c3" valueTypeId="262b945a-23a8-4385-9783-5e5f6fdf12d9"/>
+    <managerType typeId="e022f626-1446-4e3b-9507-a5672d2c7561" valueTypeId="f1041e16-95e2-4eb3-81a8-70351a5d5622"/>
+    <recordSetType typeId="8b75392b-06f8-4823-b687-97cb732f42e0" valueTypeId="8d537b2b-dbd1-4fcf-9f4f-1a7441c4fa0a"/>
+    <recordKeyType typeId="fd303811-4ce1-4a16-8da1-f2c0b801c703" valueTypeId="dde38acb-f090-4726-aae0-9d4a0c6e7136"/>
+    <recordType typeId="adb72f9c-fecb-44b9-bb9f-0fd15ed12790" valueTypeId="8eb495e2-7041-4ac4-9cf6-804222c29cc3"/>
+    <recordManagerType typeId="256c6f16-e154-441f-8524-e82fd5f02260" valueTypeId="1dd7819a-b325-4b03-882b-23b38e50d021"/>
+  </producedTypes>
+  <name>ИсторияСегментовКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>История сегментов клиентов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="209f05ea-f7b3-474f-a0b3-27b304a41de4">
+    <name>Сегмент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сегмент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сегменты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ae91f25b-ec21-47e1-8f28-0ab9c12f162f">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b6d948e7-125e-4972-9ba3-63f7de1b2a30">
+    <name>ВидСегментации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид сегментации</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыСегментации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="cdb35a61-45e4-4d1e-8975-14bd27a24559">
+    <name>СегментыКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сегменты клиента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="d9b0a606-4973-407a-986f-298a3138c38c">
+    <name>ДавностьПосещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Давность посещения</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="ce2991fc-3b58-42e5-962c-495f25b046da">
+    <name>ПолоВозрастная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Половозрастная сегментация</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:InformationRegister>

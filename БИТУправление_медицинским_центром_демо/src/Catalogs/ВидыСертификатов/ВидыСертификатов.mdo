@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55bc9dab-41ae-495a-bc6b-8420f7e53ec7">
+  <producedTypes>
+    <objectType typeId="c4719104-c9e8-4a85-8f60-30e7d78c246b" valueTypeId="1567f14f-f1f8-4dd3-a969-7d28c690f692"/>
+    <refType typeId="c17dca53-c314-4c6f-b120-b0591dca1e99" valueTypeId="75119a38-e6a8-4e30-9c97-0fe27276fc6d"/>
+    <selectionType typeId="28c5a202-5d44-4c98-9c16-26cc5e4d8c4c" valueTypeId="f14b64aa-4294-4c94-b49a-b874c055892c"/>
+    <listType typeId="97085114-88bd-49f1-8b10-cc8b2551352a" valueTypeId="f18f92e2-e534-4ec0-8ea1-6823821d8683"/>
+    <managerType typeId="375588d7-83d5-4725-b50e-7e1e5a4e799f" valueTypeId="d242a406-0d36-4ae8-8db8-589484256df1"/>
+  </producedTypes>
+  <name>ВидыСертификатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды сертификатов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыСертификатов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыСертификатов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВидыСертификатов.Form.ФормаЭлементаУпр</defaultObjectForm>
+  <defaultListForm>Catalog.ВидыСертификатов.Form.ФормаСпискаУпр</defaultListForm>
+  <defaultChoiceForm>Catalog.ВидыСертификатов.Form.ФормаВыбораУпр</defaultChoiceForm>
+  <attributes uuid="a352fcfb-82c0-480e-a35a-475a7aaf4c6c">
+    <name>Номинал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номинал</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номинал сертификата</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="90da85f9-a795-4c98-8cba-d18e1e8cfb8d">
+    <name>Именной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Именной</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что сертификат именной</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a1b45782-946b-43b1-9c38-ee0092d8b69f">
+    <name>ТипСертификата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип сертификата</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыСертификатов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбрать тип сертификата</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9b9b6e81-2fb3-4897-86d5-c17075529377">
+    <name>ВключатьВыполнениеРаботВВыработку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включать выполнение работ в выработку</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что выполненные работы попадут в выработку</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="045654b5-c7e8-4353-af83-7c0c8296eb52">
+    <name>СпособРасчетаСуммыВыработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ расчета суммы выработки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыРасчетаСтоимостиВыработкиПоРаботеАбонемента</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Способ расчета суммы выработки от сертификата</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="23ba0511-bf4f-43ba-9e94-eb8517c12f8a">
+    <name>Прейскурант</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прейскурант</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Прейскуранты</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбранный прейскурант</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5c104361-1d6d-4b5c-948b-c73fa720e1c5">
+    <name>КатегорияВыработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Специализация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КатегорииВыработки</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбор категории выработки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6400f103-a29c-4da7-926b-d693d1aa6bc0">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура продажи сертификата</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбранная номенклатура</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ВидНоменклатуры</name>
+      <value xsi:type="core:FixedArrayValue">
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.ВидыНоменклатуры.EnumValue.Материал</value>
+        </values>
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.ВидыНоменклатуры.EnumValue.Услуга</value>
+        </values>
+      </value>
+    </choiceParameters>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c5605659-9112-47bc-999e-38d89dc10938">
+    <name>СрокДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок действия</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Срок действия сертификата</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2e9b4af4-532e-421c-a474-4f125745f1fe">
+    <name>ПорогПредупрежденияОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порог предупреждения об окончании</value>
+    </synonym>
+    <comment>Остаток, начиная с которого выполняются предупреждения о завершении</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Порог предупреждения об окончании срока действия</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b53ef704-4f98-4a1f-971a-9b676db68825">
+    <name>КомплексныйСертификат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплексный сертификат</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Это комплексный сертификат</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0335f101-16a3-4598-91c3-7a5393f917af">
+    <name>ПополняемыйСертификат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пополняемый сертификат</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Это пополняемый сертификат</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3a83c48c-be75-400b-8d32-67b84c38fa0c">
+    <name>ПополнятьТолькоНоменклатуройСертификата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пополнять только номенклатурой, указанной в виде сертификата</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e6f2bc8f-1e42-4adf-8df9-ee8fe93c3737">
+    <name>ОграничиватьПоДнямНедели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ограничивать по дням недели</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что скидка работает в определённые дни недели</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="447ff5a1-7413-45db-a74b-cd47d9be6be0">
+    <name>НоминалРавенСтоимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номинал равен стоимости продажи</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номинал, начисляемый при продаже равен стоимости продажи</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="36820e71-ea22-497b-a0aa-3b2f3e344928">
+    <name>ПополнениеПоЦенеСертификата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пополнение по цене сертификата</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="30f1d3a1-75d8-4815-b818-a44ea8a05502">
+    <name>СпособРасчетаЦеныПриВозврате</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ расчета цены при возврате</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыРасчетаЦеныСертификатаПриВозврате</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="4fe63eea-5cb7-4477-a7ff-370514fc9d0d">
+    <producedTypes>
+      <objectType typeId="2b4f278b-1411-4686-9e8a-8db2e44f269a" valueTypeId="8fc32bf8-3c81-4fea-923c-b1d099127f32"/>
+      <rowType typeId="7330e28b-0f28-4731-b792-ea7227023250" valueTypeId="fbc37a8b-9726-4614-b3ef-811b8f273db2"/>
+    </producedTypes>
+    <name>Услуги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуги</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Табличная часть услуг</value>
+    </toolTip>
+    <attributes uuid="1625357d-182e-4dcb-a86a-21662f21960b">
+      <name>Фильтр</name>
+      <synonym>
+        <key>ru</key>
+        <value>Услуга</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Фильтр услуг</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+      <choiceParameters>
+        <name>Отбор.ВидНоменклатуры</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.ВидыНоменклатуры.EnumValue.Услуга</value>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ff193a5f-eec7-4f91-890c-1bdcf4505db8">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество услуг</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="38ca0a0f-5307-43c6-8332-fbc63f1d28fc">
+    <producedTypes>
+      <objectType typeId="c7e84267-3acd-49ae-8b38-096aaa83adf3" valueTypeId="d7c818c6-593d-4311-95a6-c53fe200c6a8"/>
+      <rowType typeId="e1cb1b43-7876-4a79-bde8-064b2d5f8f85" valueTypeId="b3c96f23-29b9-4c88-8125-6c356378870e"/>
+    </producedTypes>
+    <name>ВремяПоДнямНедели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время по дням недели</value>
+    </synonym>
+    <comment>Время действия скидки</comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Табличная часть для определения времени действия скидки по дням недели</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="81e1d306-b832-45bf-81f8-c79f5f335527">
+      <name>Выбран</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выбран</value>
+      </synonym>
+      <comment>Признак выбранного дня недели</comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Признак того, что день недели выбран</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="97261b47-483b-4cd3-b47f-9e1922d8d7ba">
+      <name>ДеньНедели</name>
+      <synonym>
+        <key>ru</key>
+        <value>День недели</value>
+      </synonym>
+      <comment>День недели</comment>
+      <type>
+        <types>EnumRef.ДниНедели</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>День недели для скидки</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="39322088-0d74-424c-aa19-710582622f74">
+      <name>ВремяНачала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время начала</value>
+      </synonym>
+      <comment>Время начала действия скидки</comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Time</dateFractions>
+        </dateQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Время начала действия скидки</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7e03a7fa-91f5-4d5c-9e6a-5da8c361729e">
+      <name>ВремяОкончания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время окончания</value>
+      </synonym>
+      <comment>Время окончания действия скидки</comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Time</dateFractions>
+        </dateQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Время окончания действия скидки</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="f82a4e2c-2e7f-4e90-ae05-d6cd92b4e291">
+    <name>ФормаСпискаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1a1a236f-74e7-4de8-9585-2eca3118a595">
+    <name>ФормаЭлементаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b0376c09-3d53-49ad-a495-d7ce79e635b3">
+    <name>ФормаВыбораУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

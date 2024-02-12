@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Document.Событие.StandardCommand.OpenList</commands>
+      <commands>Task.ЗадачиПользователя.StandardCommand.OpenList</commands>
+      <commands>Document.Рассылка.StandardCommand.OpenList</commands>
+      <commands>Document.РассылкаПисемEmail.StandardCommand.OpenList</commands>
+      <commands>Document.бит_СписокОбзвона.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelReports</group>
+      <commands>Report.ОтчетПоСобытиямКлиентов.StandardCommand.Open</commands>
+      <commands>Report.ОтчетПоПросроченнымЗаявкам.StandardCommand.Open</commands>
+      <commands>Report.ВоронкаПродаж.StandardCommand.Open</commands>
+      <commands>Report.СобытияВоронкиПродаж.StandardCommand.Open</commands>
+    </orderFragments>
+  </commandsOrder>
+  <subsystemsOrder>
+    <subsystems>Subsystem.Продажи.Subsystem.CRM.Subsystem.СегментацияКлиентов</subsystems>
+    <subsystems>Subsystem.Продажи.Subsystem.CRM.Subsystem.ОбратнаяСвязь</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

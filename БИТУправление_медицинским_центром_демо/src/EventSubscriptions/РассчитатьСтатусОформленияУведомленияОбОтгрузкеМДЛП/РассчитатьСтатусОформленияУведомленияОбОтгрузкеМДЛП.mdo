@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f603ae21-4e77-470f-b980-fd9685e9ec5e">
+  <name>РассчитатьСтатусОформленияУведомленияОбОтгрузкеМДЛП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассчитать статус оформления уведомления об отгрузке МДЛП</value>
+  </synonym>
+  <source>
+    <types>DefinedType.ОснованиеУведомленияОбОтгрузкеМДЛПОбъект</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ИнтеграцияМДЛП.РассчитатьСтатусОформленияУведомленияОбОтгрузке</handler>
+</mdclass:EventSubscription>

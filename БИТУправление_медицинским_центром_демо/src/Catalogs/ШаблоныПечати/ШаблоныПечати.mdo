@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a34ddadf-3cf8-4700-a175-9763421d6771">
+  <producedTypes>
+    <objectType typeId="e022b23b-bcd3-44eb-a2d2-31796f008225" valueTypeId="5e9c5606-e966-48db-b72c-56e5b6567ae0"/>
+    <refType typeId="7772b87c-f0d9-4c69-816e-c6a7714a6cd7" valueTypeId="da45f4ba-6c5b-4c1c-aa1c-70aca8e7a0ac"/>
+    <selectionType typeId="0ad04f30-8c6e-463e-ba4c-c97194a58528" valueTypeId="2e2ed9d4-3a97-4806-b553-6a781fadefbe"/>
+    <listType typeId="78d007ca-411f-414b-b58a-04fc089e4685" valueTypeId="22cfa531-43b5-4192-a1d2-ae1e2e5f600c"/>
+    <managerType typeId="3ac724e4-4a8d-4de8-90f8-3eef038dfcea" valueTypeId="a5a75f74-fbad-4581-8cc1-e9bc126163ac"/>
+  </producedTypes>
+  <name>ШаблоныПечати</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблоны печати Word</value>
+  </synonym>
+  <comment>Шаблоны печати в формате MS Word</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ШаблоныПечати.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родитель</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.ШаблоныПечати.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Шаблоны печати в формате WORD</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ШаблоныПечати.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ШаблоныПечати.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="c43a964f-2d81-4695-9ff3-efebd2e4aa19">
+    <name>ФайлМакета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл макета</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Макет</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8cebf820-e6bf-4a9e-a16e-66417caa97e3">
+    <name>ИмяФайлаМакета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла макета</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя файла</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5bbb0ba5-cf96-4465-b189-b131cd55836e">
+    <name>ПечатьБезПредварительногоПросмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать без предварительного просмотра</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Печать сразу без предварительного просмотра</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9e5adc75-9296-41d3-a189-8dd5562efcf5">
+    <name>КоличествоЭкземпляров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество экземпляров печати</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество экземпляров</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="b57257b9-ac5f-442f-9ce9-2d3171a08d88">
+    <producedTypes>
+      <objectType typeId="2ede5b92-692a-4022-8223-95fedb5256ba" valueTypeId="f2a8332a-829b-4c0b-bdb7-b9423d9b5509"/>
+      <rowType typeId="9e3dfe2a-86cc-491b-a56c-6a420f57e702" valueTypeId="57f8aad6-d3ee-468b-982b-be1959b5b868"/>
+    </producedTypes>
+    <name>ПараметрыПечати</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры печати</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Шаблоны реквизитов печати</value>
+    </toolTip>
+    <attributes uuid="6f62f224-463e-4356-a30b-19643e8e4c44">
+      <name>ИмяПараметра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Параметр в макете</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Имя реквизита</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ee058d53-8540-45ce-9fc9-33055dcad988">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Алгоритм расчета (для расчетных) или значение по умолчанию (для вводимых вручную)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="de7e5fef-9bcb-4185-8579-72f065ce58fe">
+      <name>ВводитсяВручную</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вводится вручную</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="248e83d2-6f29-4775-9652-ba609ed1db6f">
+      <name>Описание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="133763a5-fea4-44ea-aaf1-806fe6f5acc7">
+    <producedTypes>
+      <objectType typeId="e4264060-88dd-42a1-8ec7-a042d2dfe341" valueTypeId="00c971bb-8f11-4230-921d-a87046edf41f"/>
+      <rowType typeId="390a4210-b543-46f4-81a0-186d03eb6f65" valueTypeId="da854c9b-a601-4667-95a7-9d789d8abaef"/>
+    </producedTypes>
+    <name>Принадлежность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принадлежность</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Табличная часть принадлежности</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="d02a245b-6a68-4ab3-a450-f89d8ca69a73">
+      <name>ПредставлениеОбъекта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление объекта</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Представление объекта обработки</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="74e25ff7-abfd-4f19-aaee-51f5115d19fc">
+      <name>СсылкаОбъекта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ссылка объекта</value>
+      </synonym>
+      <type>
+        <types>DocumentRef</types>
+        <types>CatalogRef</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Ссылка объекта для внешней обработки</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="26c702e9-6318-4c3b-8075-6ff36abbfa07">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="07993e2e-db8b-4e06-a57f-a01a4f53a2ad">
+    <name>ЗаполнениеАлгоритмаПараметраШаблона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение алгоритма параметра шаблона</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="80ba2392-fc3f-4378-b9c5-778e5ae4ff03">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d7f1a211-0a33-4ed6-a3f1-721285b427ce">
+    <name>ФормаВыбораПринадлежностиУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора принадлежности</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bffe1e30-b161-4920-80d8-d16b2b99dfea">
+    <name>ВыборВстроенногоАлгоритмаПараметра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор встроенного алгоритма параметра</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="c3696d0a-59fd-444d-b147-74d1c43bf115">
+    <name>ПравилаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила обмена для экспорта-импорта шаблонов Word между информационными базами</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="ac2dfe9f-4e01-4ae5-88fd-6f5cbe53294b">
+    <name>ОбразцыПараметровШаблонаПечати</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образцы параметров шаблона печати</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

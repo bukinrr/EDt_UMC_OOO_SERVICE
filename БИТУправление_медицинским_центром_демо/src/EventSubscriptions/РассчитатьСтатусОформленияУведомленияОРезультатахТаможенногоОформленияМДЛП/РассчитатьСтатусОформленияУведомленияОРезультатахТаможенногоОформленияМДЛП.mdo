@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51d70ae4-877b-47d0-958e-5cf6b65f3bbb">
+  <name>РассчитатьСтатусОформленияУведомленияОРезультатахТаможенногоОформленияМДЛП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассчитать статус оформления уведомления о результатах таможенного оформления МДЛП</value>
+  </synonym>
+  <source>
+    <types>DefinedType.ОснованиеУведомленияОРезультатахТаможенногоОформленияМДЛПОбъект</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ИнтеграцияМДЛП.РассчитатьСтатусОформленияУведомленияОРезультатахТаможенногоОформления</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6ed6634-e503-4ba6-8fb2-721be66a3092">
+  <producedTypes>
+    <selectionType typeId="415078f0-bf4c-42c2-aabe-71f7d03b51ed" valueTypeId="2c15e847-388a-42d9-8878-caeb7b9381c1"/>
+    <listType typeId="5a410ed7-be1f-4233-a4fd-d9d1bbfe12ff" valueTypeId="2b06becf-7d6f-4725-8665-b13ec6c0f85d"/>
+    <managerType typeId="1b925adf-3f52-4dd0-991d-11e6e115e686" valueTypeId="16ebebd5-e538-4561-aff4-919ad4eb1ec3"/>
+    <recordSetType typeId="dd6545df-cde2-4656-92ee-3afc975c171a" valueTypeId="74728c98-f2d7-4a85-a3f2-e6ae89f7571f"/>
+    <recordKeyType typeId="c6b1026f-be7c-46fd-b6be-8683967a5e18" valueTypeId="b654e762-adb2-4f86-a274-9914f1106249"/>
+    <recordType typeId="d44def63-4aa2-4567-8590-14e223a532a6" valueTypeId="df50288f-8734-462c-b2d1-21f91a0c2371"/>
+    <recordManagerType typeId="68447b92-ce65-4194-a6b7-48d9a159bc6f" valueTypeId="e40875bb-91f9-4034-bd8a-298de61638d4"/>
+  </producedTypes>
+  <name>ФотографииСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фотографии сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d91f18a2-cd27-4bbf-a66a-49a2a3165c1e">
+    <name>Хранилище</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Хранилище файла изображения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="5923e980-9299-44fd-bbea-50fa37c37c3f">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сотрудник-владелец фотографии</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

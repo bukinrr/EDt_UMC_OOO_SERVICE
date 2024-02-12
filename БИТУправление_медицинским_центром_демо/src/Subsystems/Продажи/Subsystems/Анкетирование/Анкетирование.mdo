@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="887cc157-d9cf-43ba-89f3-3567059c1b94">
+  <name>Анкетирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анкетирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.Анкетирование</content>
+  <content>CommonModule.АнкетированиеКлиент</content>
+  <content>CommonModule.АнкетированиеКлиентСервер</content>
+  <content>Catalog.ВариантыОтветовАнкет</content>
+  <content>Catalog.ВопросыШаблонаАнкеты</content>
+  <content>Catalog.ШаблоныАнкет</content>
+  <content>Document.Анкета</content>
+  <content>Document.НазначениеОпросов</content>
+  <content>Enum.ТипыВопросовШаблонаАнкеты</content>
+  <content>Enum.ТипыТабличныхВопросов</content>
+  <content>ChartOfCharacteristicTypes.ВопросыДляАнкетирования</content>
+  <content>FunctionalOption.ИспользоватьАнкетирование</content>
+  <content>CommonPicture.Анкета</content>
+  <content>CommonPicture.АрхивАнкета</content>
+  <content>CommonPicture.ВосклицательныйЗнакСерый</content>
+  <content>CommonPicture.КоллекцияДеревоАнкеты</content>
+  <content>CommonPicture.КоллекцияДоступныеАнкеты</content>
+  <content>DefinedType.Интервьюер</content>
+  <content>DefinedType.Респондент</content>
+  <content>Role.ДополнительныеПраваАдминистрированиеАнкетирования</content>
+  <subsystems>СозданиеАнкетИОпросов</subsystems>
+  <subsystems>ХодАнкетированияИАнализ</subsystems>
+  <parentSubsystem>Subsystem.Продажи</parentSubsystem>
+</mdclass:Subsystem>

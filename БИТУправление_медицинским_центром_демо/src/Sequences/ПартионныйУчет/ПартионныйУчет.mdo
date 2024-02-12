@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Sequence xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0249f8e-888d-48c7-8fc4-d442bcb18cb5">
+  <producedTypes>
+    <recordType typeId="2c10e2a8-b7b5-402a-b2bc-8a04b387406b" valueTypeId="d5aae22a-9fbb-444b-86af-58d802e6b5fc"/>
+    <managerType typeId="46c9fb47-9c37-4c0d-9925-cd009272e6e0" valueTypeId="b89a60fa-bd74-47df-8470-637e7ae07b1b"/>
+    <recordSetType typeId="67baf863-91d3-4111-8b37-3e8ae807a3a1" valueTypeId="c007112e-2a1e-4d98-95ec-8d0270465e98"/>
+  </producedTypes>
+  <name>ПартионныйУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Партионный учет</value>
+  </synonym>
+  <moveBoundaryOnPosting>DontMove</moveBoundaryOnPosting>
+  <documents>Document.СписаниеТоваров</documents>
+  <documents>Document.ОказаниеУслуг</documents>
+  <documents>Document.ПеремещениеМатериалов</documents>
+  <documents>Document.ВозвратТоваровПоставщику</documents>
+  <registerRecords>AccumulationRegister.ПартииТоваровНаСкладах</registerRecords>
+</mdclass:Sequence>

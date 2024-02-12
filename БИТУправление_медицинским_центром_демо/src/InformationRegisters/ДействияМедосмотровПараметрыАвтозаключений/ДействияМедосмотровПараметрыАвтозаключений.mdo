@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d67b873a-142f-44be-910c-29a0789c2cc3">
+  <producedTypes>
+    <selectionType typeId="02031a0b-580b-4b80-9608-6a291c0d9628" valueTypeId="3a5d37a3-fb87-497b-8247-055a15a8207f"/>
+    <listType typeId="e80530b4-62a8-4d55-b930-6a0ccb4b39a8" valueTypeId="6adaa90f-734b-4697-b32b-680b74c96e53"/>
+    <managerType typeId="8c6840ff-a7c4-4279-acd6-63a7bf94479e" valueTypeId="4172aba4-9f6b-41d7-ba30-4e0a609bd1f3"/>
+    <recordSetType typeId="2a034a5c-e116-455a-a975-ee6e34a87e01" valueTypeId="a00e15ff-6000-4f55-adc6-b7fa4ae3bd20"/>
+    <recordKeyType typeId="3f3988e5-1dc5-4fda-8916-c4f52da36dd6" valueTypeId="fd096d66-8734-4c10-8292-ae21f5746c07"/>
+    <recordType typeId="a78d79ba-1785-44b7-b305-9c6c938f0ffe" valueTypeId="8a26043d-955c-4a24-9b83-b336f9488ceb"/>
+    <recordManagerType typeId="168e82ce-c697-4341-9a4e-6c2df00ae36c" valueTypeId="f88093a5-f78e-4cff-88fc-7005ecd06c1a"/>
+  </producedTypes>
+  <name>ДействияМедосмотровПараметрыАвтозаключений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Действие мед. осмотра и параметры</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ДействияМедосмотровПараметрыАвтозаключений.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ДействияМедосмотровПараметрыАвтозаключений.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d8134415-16c2-4467-a823-66dbfe5e2fa3">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заголовок</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="d851b299-475a-4a5f-9f90-978ef4b18e75">
+    <name>ДействиеМедосмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действие медосмотра</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДействияМедосмотра</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c9706682-7208-4cba-b432-f2b60d7cf525">
+    <name>ШаблонОсмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон осмотра</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШаблоныHTML</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e4659140-8fc3-48bf-84a4-39104703bb9e">
+    <name>Параметр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ПараметрыHTML</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e30a2176-1890-4a82-9f9a-51200b47de76">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8e575d8d-8b82-4ddf-8b7d-83868cc4be19">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

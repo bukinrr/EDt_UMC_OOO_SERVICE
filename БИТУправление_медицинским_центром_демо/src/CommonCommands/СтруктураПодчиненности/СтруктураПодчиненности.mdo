@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b305b28a-3399-4afd-bf65-cefddf62ac21">
+  <name>СтруктураПодчиненности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Структура подчиненности</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>DocumentRef.ПоступлениеТоваровУслуг</types>
+    <types>DocumentRef.ВозвратТоваровПоставщику</types>
+    <types>DocumentRef.ОказаниеУслуг</types>
+    <types>DocumentRef.ПередачаЗаказаВМастерскую</types>
+    <types>DocumentRef.Заявка</types>
+    <types>DocumentRef.ВыполнениеЗаказа</types>
+    <types>DocumentRef.Прием</types>
+    <types>DocumentRef.ИнвентаризацияТоваров</types>
+    <types>DocumentRef.РасходныйКассовыйОрдер</types>
+    <types>DocumentRef.Событие</types>
+    <types>DocumentRef.РаботыПоРекламации</types>
+    <types>DocumentRef.ПриходныйКассовыйОрдер</types>
+    <types>DocumentRef.ОбратнаяСвязь</types>
+    <types>DocumentRef.СписаниеТоваров</types>
+    <types>DocumentRef.ПриемЗаказаИзМастерской</types>
+    <types>DocumentRef.ОприходованиеТоваров</types>
+    <types>DocumentRef.ОплатаПлатежнойКартой</types>
+    <types>CatalogRef.Сотрудники</types>
+    <types>DocumentRef.КомплексныйРасчетКлиента</types>
+    <types>DocumentRef.ВозвратМатериаловИзПроизводства</types>
+    <types>DocumentRef.ПрохождениеМедосмотра</types>
+    <types>CatalogRef.Пользователи</types>
+    <types>CatalogRef.ФизическиеЛица</types>
+    <types>DocumentRef.Рекламация</types>
+  </commandParameterType>
+  <representation>Picture</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ИерархическийСписок</picture>
+  </picture>
+</mdclass:CommonCommand>

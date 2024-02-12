@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf2c4d2e-2818-4eeb-aa90-b247a884cd04">
+  <producedTypes>
+    <selectionType typeId="e8bcabd5-21d5-4e0f-853a-35e80feef27b" valueTypeId="2cfcf629-eae3-4b81-8f5f-366b03d25a1d"/>
+    <listType typeId="7dd0ab9c-9041-47d1-8e2f-9e1b083158e2" valueTypeId="ecdefc58-a1f7-4506-ad39-efa13dc9723d"/>
+    <managerType typeId="786e520e-f78a-4531-a0c8-12a42ef56707" valueTypeId="7245133b-261c-4ca4-9055-2e8ab20f456a"/>
+    <recordSetType typeId="66dabb34-335d-4628-b0c7-844466b2ee91" valueTypeId="b5192e68-0b8b-4460-ac42-0fb149ebd2b0"/>
+    <recordKeyType typeId="01ef2f7e-d4b8-464c-807e-da4fed06e4e5" valueTypeId="ac2a947e-7e42-4e31-98c4-bb7dad2144ac"/>
+    <recordType typeId="104eb461-e12e-461d-bc51-684467c59433" valueTypeId="0999d15b-d6b1-461e-8db1-6cb5ee0d65f5"/>
+    <recordManagerType typeId="4f779fee-9812-4880-8a92-9024cd04a209" valueTypeId="2678ad46-188f-4e87-977a-455f511f049b"/>
+  </producedTypes>
+  <name>ЛьготыКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Льготы клиентов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ЛьготыКлиентов.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="7aa4d061-2005-4811-9d64-f24c3a988d8d">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fae144cc-e386-4a43-88cc-3821854224e8">
+    <name>Льгота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Льгота</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлассификаторыМинЗдрава</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="b9e3f3dc-e4e4-400a-99f4-ae982be6f339">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

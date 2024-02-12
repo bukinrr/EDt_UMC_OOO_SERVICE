@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b097f04d-fb1d-4ec2-8ebf-9e5d47ce2d77">
+  <producedTypes>
+    <refType typeId="7b032460-2132-4531-825a-9e458d74d54b" valueTypeId="a4857771-1cf7-433a-959d-66a3d1e9e07a"/>
+    <listType typeId="afab816d-8d85-4663-ace5-c5fbf49405c6" valueTypeId="f6f1e72a-1368-4f52-b652-454ae2721bc6"/>
+    <managerType typeId="9fba849b-a3cd-46d0-a489-2e53cc59eed0" valueTypeId="79bad1bb-5a28-43ca-92e4-4cf411a8c3fc"/>
+  </producedTypes>
+  <name>ПараметрыУчетнойПолитики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры учетной политики</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="06253d64-899d-4a8b-8977-142235fbbf1f">
+    <name>ШрифтКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шрифт клиент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="77c48af6-557d-4a91-b192-236f73bc4d98">
+    <name>ШрифтРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шрифт работ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cb48e913-87b9-42fd-b2a5-256d96b6f1ff">
+    <name>ЗапретитьРучнойВводШККартыСкидокКлиенты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запретить ручной ввод штрихкодов карт скидок и клиентов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b6c7e74f-1dc4-4e10-ae3c-c020428c43b3">
+    <name>ЗапретитьРучнойВводШКСертификатов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запретить ручной ввод штрихкодов сертификатов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="728aa90f-afbe-47f1-9bfe-adf912ec0ff9">
+    <name>ОсновнойВидОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной вид оплаты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="05fed2c7-6599-42cd-b561-b4a2a48e6e84">
+    <name>ПересчитыватьСкидкиПриВыбореКартыКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пересчитывать скидки при выборе карты клиента</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="edcf2449-8090-4fd3-9ae9-34657e20cc4f">
+    <name>ИспользоватьХочуРаньшеВЗаявках</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать поиск возможности переноса заявку на более ранний срок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a47d72ee-07dc-4067-9e36-85b2e3d97937">
+    <name>ИспользоватьОграничениеДоступаНаУровнеЗаписей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать ограничение доступа на уровне записей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a1e9b56d-1f87-4bc2-8729-883b206d30b3">
+    <name>ЗапретитьАдминистраторуЗаписьКлиентаНеВСвойФилиал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запретить администратору запись клиента не в свой филиал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d193d8af-c19a-4684-b927-abf6f22bcba9">
+    <name>ОграничиватьЧтениеФилиаломПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>При использовании ограничения на уровне записей ограничивать чтение филиалом пользователя, а не на уровне всех филиалов базы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8a7e5e44-dfed-47f1-bbbc-78ce174073af">
+    <name>ЗапретитьЗаписьНаНерабочееВремяСотрудника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запретить запись на нерабочее время сотрудника</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="793f8116-0a5c-4d96-b958-5796a2f9d7c3">
+    <name>НеЗаполнятьОплатуПоСуммеДокументаАвтоматически</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не заполнять оплату по сумме документа &quot;Оказание услуг&quot; автоматически</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e8480db2-22d1-4b8c-97ea-af073f373079">
+    <name>ДатыЗаписейЛистовОжидания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Даты записей листов ожидания</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="065bbaa8-bf47-4c75-aeda-12f153d94afc">
+    <name>ПериодыЗаписиЛистовОжидания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периоды записи листов ожидания</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ae8f612b-62d9-4753-8804-3aa6da1f3794">
+    <name>СпособОбработкиСчитыванияШкКлиентаВЖЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ обработки считывания штрихкода  клиента в журнале записи</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7bbd3ae1-2a46-422a-b8b3-a300887e4e30">
+    <name>ОсновнаяСтрана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная страна</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f497f6b5-f385-4c89-972e-67c60b9af13e">
+    <name>ИспользоватьЭлектронныеПодписиЭМК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать электронные подписи ЭМК</value>
+    </synonym>
+    <comment>Перенесена в регистр НастройкиМедицинскогоУчета</comment>
+  </enumValues>
+  <enumValues uuid="f4f92ed7-df73-4612-8564-52f307bff11b">
+    <name>ИспользоватьОбменС1СБольничные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать обмен с 1С:Больничные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cd2d6439-e24f-4099-85b1-622f1b0ce5d3">
+    <name>ОсновнойМакетОформленияСКД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной макет оформления СКД</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a0287003-754d-4729-a9b2-44828f8e9aa3">
+    <name>ОсновнойВидМедКартДляПрофОсмотров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной вид мед. карт для проф. медосмотров</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8e16e583-f837-464f-87ae-bbf8fad216bb">
+    <name>МедкартуДляПрофосмотраСоздаватьАвтоматически</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создавать автоматически медкарту для медосмотра</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5e76cb65-7163-4cb1-bd1f-faf226571c23">
+    <name>МедкартуДляПрофосмотраИскатьДругие025у</name>
+    <synonym>
+      <key>ru</key>
+      <value>Искать другие медкарты других видов 025/у</value>
+    </synonym>
+    <comment>Искать другие медкарты других видов 025/у для подстановки в прохождение медосмотра</comment>
+  </enumValues>
+  <enumValues uuid="e7fb83cd-a76f-4fac-80a6-e662b9bf7b72">
+    <name>ПоискКлиентаПоПодстрокеПоказыватьСДатойРождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать дату рождения клиента при поиске по подстроке в основных документах</value>
+    </synonym>
+    <comment>Только в документах с нашим запрограммированным поиском по подстроке</comment>
+  </enumValues>
+  <enumValues uuid="9f762d64-9c8e-4cb1-b436-ad4e6e5dbc42">
+    <name>АвтозаполнениеПолучателяИИНН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автозаполнение получателя и ИНН</value>
+    </synonym>
+    <comment>Подставляет по выбранному клиенту данные о ФИО и ИНН в поля документов, из которых фискализируются кассовые чеки.</comment>
+  </enumValues>
+  <enumValues uuid="59fb61ff-efc5-4420-b211-3514f75fab60">
+    <name>ЗапретитьЗаписьКлиентаНаДваПосещенияОдновременно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запретить запись на два посещения одновременно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="980dc2c4-1807-4ecf-ada6-5518b6922344">
+    <name>НоменклатураОжиданияКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура ожидания клиента</value>
+    </synonym>
+    <comment>Для автопоиска времени записи клиента - для интервалов ожидания клиента между услугами</comment>
+  </enumValues>
+  <enumValues uuid="acc89f14-abdc-4e58-9f10-a3f368ee2fcc">
+    <name>ПодборВремениЗаписиМаксВремяОжидания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Допустимое по умолчанию время ожидания клиента при автопоиске времени записи на несколько услуг</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="821b58c7-f7ca-4953-bec2-bf5331f3893a">
+    <name>ПредлагатьСобиратьЗаявкиЗаДеньВДокументПродажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предлагать собирать заявки за день в единый документ продажи</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ef289eaf-45d3-4cd0-8d43-59b10f899897">
+    <name>ОсновнаяСтатьяЗатратЗарплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья затрат начисления зарплаты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f7076623-effd-469e-b6ce-7cc44ede9d32">
+    <name>ИспользоватьКартыСкидок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать карты скидок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cfecd341-6fb8-45ef-848f-e92a8b6b76dd">
+    <name>ВестиУчетТорговойДеятельности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вести учет торговой деятельности</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c76a3c85-8179-4350-be01-6d25f3c01001">
+    <name>ОсновнаяОбработкаSMSРассылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная обработка SMS-Рассылки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="98f71d9f-c77c-4793-b1a1-8b88e9841f46">
+    <name>ОсновнойВидДУЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной вид документа удостоверяющего личность</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f73fb6ba-9170-480c-ad65-4339be1143c2">
+    <name>АвтоподстановкаИмениОтчества</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоподстановка имени отчества</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6d441b9d-1e45-42c2-8b9f-f7730a170902">
+    <name>АвтозаполнениеНаправившегоВрача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматически заполнять направившего врача в документе &quot;Оказание услуг&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c489db5c-9704-4499-b490-74a04a26fd01">
+    <name>ФормаУчастияДляНаправившегоВрача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма участия для направившего врача</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6b5285b4-fa70-4f2a-b89b-a59154bd1285">
+    <name>ПризнакПодтвержденнойЗаявки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Признак подтвержденной заявки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7d352b37-5c2e-4717-9f9c-334d3bd550f7">
+    <name>ПериодОбновленияНепросмотренныхДокументовССайта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период обновления непросмотренных документов с сайта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e0c0af0e-7225-40d4-9eed-921ab2eceb20">
+    <name>ИспользоватьАвтоПодборКлиентовПоИмениИФамилии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать авто подбор клиентов по имени и фамилии</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="99ac0734-b341-42df-b321-8d72ca844329">
+    <name>ИспользоватьШтрихкодированиеСотрудников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать штрихкодирование сотрудников</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="63802e46-4baf-4616-bfbe-cceaafa97367">
+    <name>СрокЖизниЛида</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок жизни лида, по которому нет активности</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b76c506f-39bb-4e25-9ffa-1119a977eab3">
+    <name>ИспользоватьАвтоподборКлиентовПоКоду</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать автоподбор клиентов по коду</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1097a45d-d7b7-4c76-a4d0-763283c94a5d">
+    <name>ПоказыватьСопутствующиеТовары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать сопутствующие товары</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0dab6999-a8f2-49b2-84b9-a428ed9c3d0b">
+    <name>РежимРазметкиКлиентскойОбластиШаблоновПриема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать в шаблонах приема разметки клиентских и медицинских областей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6e37db7e-7940-4973-bf8b-7be0e2fdbb7c">
+    <name>ОсновнаяНастройкаОбменаССайтом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная настройка обмена с сайтом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="842db510-c7b8-4d36-870b-19a109c91a6b">
+    <name>БонусыЗапретОтрицательныхОстатков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запретить изменения документов, приводящие к отрицательным остаткам бонусов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a981f528-8bf0-42fa-bb3c-ce8fd1fbeb78">
+    <name>ИспользоватьПродажуМаркированныхТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать продажу маркированных товаров</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c9766065-5607-4477-8e08-f88ba584f26d">
+    <name>МедосмотрыПравилоОпределенияНезавершивших</name>
+    <synonym>
+      <key>ru</key>
+      <value>Медосмотры правило определения не завершивших</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="05362c35-3d2a-4ed1-8090-509525d1b0ed">
+    <name>ЧекиЭлектронноПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чеки электронно по умолчанию</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="22b703f8-7564-451d-b7d4-be6b2af9d8ed">
+    <name>ЧекКММВыводитьQRКодНаДисплейПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чек КММВыводить QRКод на дисплей покупателя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d0c3d7d0-b61e-4ee9-981a-1d0acfa633e2">
+    <name>ЧекККМВариантПечатиДополнительнойРасшифровкиПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чек ККМВариант печати дополнительной расшифровки платежа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c9c108a3-5fd9-4306-bddc-326851b7815d">
+    <name>КонтролироватьЗаполнениеШКМаркированногоТовараПриПродаже</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контролировать заполнение ШКМаркированного товара при продаже</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="26709ef3-1674-4380-b646-e880f7a5db50">
+    <name>ЗаСчетФирмыВидОплатыИспользуется</name>
+    <synonym>
+      <key>ru</key>
+      <value>За счет фирмы вид оплаты используется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4dad00bb-1e6f-4960-a739-8ebeedfeed6b">
+    <name>АдресСервисаНСПК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес сервиса НСПК</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1ad3d1bd-7874-416b-8e97-9987b70efab1">
+    <name>КалендарьЖурналаЗаписиРастягивать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Календарь журнала записи растягивать</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

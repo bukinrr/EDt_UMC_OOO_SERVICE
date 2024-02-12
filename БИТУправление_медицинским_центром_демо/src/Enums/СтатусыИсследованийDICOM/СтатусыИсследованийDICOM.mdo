@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9026c73c-1eb6-460d-bd0f-0964b7cce58e">
+  <producedTypes>
+    <refType typeId="aa508d3a-3f17-4393-8960-a3fdfb6760fe" valueTypeId="dd6605aa-ce0c-4ba1-98ad-6aad2b07a33a"/>
+    <listType typeId="50f2f2cc-a33d-4299-ade7-a210b4bd6bd0" valueTypeId="7aeb4ded-ac5f-4a3b-b6f0-285d78878c55"/>
+    <managerType typeId="1f657b6a-c06f-4ff3-95e9-a644cdd19401" valueTypeId="5c0dc55b-4d98-4092-8a41-e1f85b69fd23"/>
+  </producedTypes>
+  <name>СтатусыИсследованийDICOM</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы исследований DICOM</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6c1c3480-3e91-44e2-af91-9d9410cef556">
+    <name>PLANNED</name>
+    <synonym>
+      <key>ru</key>
+      <value>PLANNED</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cf54fcb2-67fe-407b-9d1b-53b2b0351b75">
+    <name>COMPLETED</name>
+    <synonym>
+      <key>ru</key>
+      <value>COMPLETED</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ed1b1277-131a-447c-b815-ebe496a1fb5c">
+    <name>INPROGRESS</name>
+    <synonym>
+      <key>ru</key>
+      <value>INPROGRESS</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c3dc71fe-b974-4619-a76c-51f28b932612">
+    <name>DISCONTINUED</name>
+    <synonym>
+      <key>ru</key>
+      <value>DISCONTINUED</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

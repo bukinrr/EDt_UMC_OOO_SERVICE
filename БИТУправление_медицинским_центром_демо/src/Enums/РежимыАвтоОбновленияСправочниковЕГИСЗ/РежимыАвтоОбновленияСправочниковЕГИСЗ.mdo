@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="480b199b-bb29-484e-81ed-56a6f14d74bb">
+  <producedTypes>
+    <refType typeId="6011ff5d-17b0-4121-b444-5646712fb57e" valueTypeId="e5c25415-0de9-47c2-9656-f20150721239"/>
+    <listType typeId="483abc17-d8f7-4640-bae3-3a7c7f91bb04" valueTypeId="3d5367b4-d2a5-4b21-ac6b-5ac29251ecf7"/>
+    <managerType typeId="179df806-3e31-4e5d-a72b-4e7592ea47d3" valueTypeId="ccae2bd3-4a33-4be4-bd03-5a166b849fa5"/>
+  </producedTypes>
+  <name>РежимыАвтоОбновленияСправочниковЕГИСЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режимы авто обновления справочников ЕГИСЗ</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f8113507-47b9-4c87-a3a0-1eead776758c">
+    <name>Выключено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выключено</value>
+    </synonym>
+    <comment>Автообновление выключено</comment>
+  </enumValues>
+  <enumValues uuid="42d93942-46ae-47cb-9bcd-4f00f34ebe97">
+    <name>Полное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное</value>
+    </synonym>
+    <comment>Полностью автоматическое обновление</comment>
+  </enumValues>
+  <enumValues uuid="c33bdbec-df19-42e4-aca7-f06ed7231285">
+    <name>ТолькоЗагруженных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только загруженных</value>
+    </synonym>
+    <comment>Автоматически обновлять только загруженные ранее</comment>
+  </enumValues>
+</mdclass:Enum>

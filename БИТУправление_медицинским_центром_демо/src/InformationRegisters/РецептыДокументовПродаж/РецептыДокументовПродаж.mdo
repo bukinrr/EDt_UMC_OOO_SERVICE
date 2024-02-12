@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b95324d9-412d-402f-b3e5-04ce438318d4">
+  <producedTypes>
+    <selectionType typeId="fd0e78f1-c434-48d0-a987-426db4e12d7d" valueTypeId="0d275516-9893-4fbb-b0ca-a44f2c71d617"/>
+    <listType typeId="b027a7b0-a7c6-4c7f-a3c0-1c314e15052e" valueTypeId="8f1d0b1a-7344-4406-8f4d-46e123b8a31e"/>
+    <managerType typeId="b8900b6f-42d9-40c6-895c-ce0bfd3e813b" valueTypeId="80f15e12-d769-4f67-9822-7e1eb310812f"/>
+    <recordSetType typeId="136fb2f5-3dd7-4847-ac2c-f8c365a09593" valueTypeId="4c9eda15-4bbb-4922-b786-187cf1c3e511"/>
+    <recordKeyType typeId="855d541c-93bb-4ffd-9ef0-e04e695dc443" valueTypeId="7c3b7665-8d67-4384-83d8-1eb408adbf06"/>
+    <recordType typeId="38bf70ea-b59b-4ce7-b59e-c8fdc0c4e2ea" valueTypeId="f4fd1cad-7d36-4c7d-b42a-e4d3c55b3c32"/>
+    <recordManagerType typeId="28d10ed9-5a7b-43fb-b016-2e9c2490b7e3" valueTypeId="45e83b37-a2e1-40c8-bc29-a3b13b5868ea"/>
+  </producedTypes>
+  <name>РецептыДокументовПродаж</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рецепты документов продаж</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.РецептыДокументовПродаж.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2103f284-466b-438c-a997-491bef810526">
+    <name>НомерРецепта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер рецепта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="c3842b57-f671-404a-b756-d80580e3f799">
+    <name>ДатаРецепта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата рецепта</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7d66f4ea-c29e-4772-a51b-71d5eadac329">
+    <name>СерияРецепта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серия рецепта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="bfe1f0ed-13db-4587-a7b7-7cac599055b5">
+    <name>ИдентификаторМестаДеятельности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор места деятельности</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>14</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="d0670cf3-2d12-4eea-9798-01ea7d74a80d">
+    <name>ПроцентЛьготы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент льготы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="01e6d520-12e6-4910-971f-35ad1cd90928">
+    <name>ДокументПродажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ продажи</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ОказаниеУслуг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="a53f41a5-f1d5-4ed5-bf80-a36c374acbe7">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

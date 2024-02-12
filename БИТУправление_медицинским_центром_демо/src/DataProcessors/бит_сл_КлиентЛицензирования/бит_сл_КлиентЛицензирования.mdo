@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a6fdb44-9356-429d-8974-09cb60f765b6">
+  <producedTypes>
+    <objectType typeId="d3dfaeff-0b57-4a7b-9de4-4fd1f75039e2" valueTypeId="931030e3-21d0-4ff7-af91-9fa290c309d4"/>
+    <managerType typeId="6311fd5c-759f-45ab-aa65-f5219ad8524a" valueTypeId="5578e905-7f1e-4e71-b8fb-a6ec82112101"/>
+  </producedTypes>
+  <name>бит_сл_КлиентЛицензирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>БИТ:Клиент лицензирования 1.6</value>
+  </synonym>
+  <defaultForm>DataProcessor.бит_сл_КлиентЛицензирования.Form.СистемаЛицензирования_упр</defaultForm>
+  <auxiliaryForm>DataProcessor.бит_сл_КлиентЛицензирования.Form.СистемаЛицензирования_упр</auxiliaryForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="de74a68d-d938-4a77-b9e0-85b5706c29c0">
+    <name>АдресСервераИПорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес сервера и порт</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f7b04e70-87b6-465c-9bec-d8b3e1a7f346">
+    <name>ПортАссистентаСервераЛицензий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порт ассистента сервера лицензий</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4657b54b-e2a0-415c-84ec-ca991904acd8">
+    <name>UDPПорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>UDPПорт</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="191fb42d-1434-4988-b101-1e8685ec46df">
+    <name>ВремяОжиданияДоАктивации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время ожидания до активации</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3ea35343-55b9-48ca-9fb1-6cf1d8878eb0">
+    <name>ОсновнаяНадпись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная надпись</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ef7cce34-158b-40c0-9998-e68e17e5f420">
+    <name>СостояниеАктивации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние активации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d2edbc7b-8f0b-4e87-9ee2-525648e849ea">
+    <name>СостояниеСоединения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние соединения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a405dc40-34f0-44eb-9ffc-39c2ec862ab7">
+    <name>ВерсияКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия клиента</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="299b29b7-0e84-410a-a5b0-bba8f88fe48b">
+    <name>ВерсияСервера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия сервера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d48059ec-ea9b-4dc3-8e69-eaf03973a526">
+    <name>ВерсияКлиентаИСервера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия клиента и сервера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="27ae7a6e-0812-4a1f-be89-41fbb11248be">
+    <name>ФильтроватьСписок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фильтровать список</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="08b7cca7-102b-435a-90ad-54e53225a39a">
+    <name>ЧислоПовторов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Число повторов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c1495862-54bd-447f-878c-3eaf8889ec65">
+    <name>общ_UDPПорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общий UDPПорт</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="357e6569-464c-431d-9af8-3c681f4313f9">
+    <name>ИспользоватьProxyСервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать proxy сервер</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d7685106-c38d-4357-a6a6-442380d36474">
+    <name>ИнформацияДляТехПоддержки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация для тех поддержки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="414b8884-fc57-4726-b278-69946658582c">
+    <name>МожетТребоватьсяИзменениеВерсии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Может требоваться изменение версии</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d26095a9-8560-4571-9ae0-a9186eac1518">
+    <name>КлиентСоздан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент создан</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9beaf21d-6181-4b8f-93ab-c42c6d544d3e">
+    <name>общ_СписокИсключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список исключения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c249a8a4-4bf1-4b16-8d64-1271ce1a42f2">
+    <name>общ_АдресСервераИПорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общий адрес сервера и порт</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5eee8524-4519-4e8c-abce-177afc3ed0e8">
+    <name>общ_ПортАссистентаСервераЛицензий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общий порт ассистента сервера лицензий</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="696873f9-6c54-4662-a526-de7fc7c3a646">
+    <name>общ_ВремяОжиданияДоАктивации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общее время ожидания до активации</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="59ab1483-92ce-4e55-b30c-702fbe482465">
+    <name>общ_ПубликацияНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Публикация настроек</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="19442202-cd94-4b1f-9207-bf04a5f0c251">
+    <name>общ_ИспользоватьProxyСервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать proxy сервер</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="d93734d4-e2f2-4d4c-824e-ce1b1a05ca74">
+    <producedTypes>
+      <objectType typeId="bd308261-fca0-42a9-a216-4a36e2151fe0" valueTypeId="7e1936b3-126a-4c7e-a3b1-f20dba1240d0"/>
+      <rowType typeId="1af9f89b-8377-4838-afbd-a0b192e52d07" valueTypeId="4564f540-394d-499a-aca8-9ecc0051ce8e"/>
+    </producedTypes>
+    <name>СписокСерверов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список серверов</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="50628e30-1031-445f-91d0-f03aad540bac">
+      <name>IPАдрес</name>
+      <synonym>
+        <key>ru</key>
+        <value>IP адрес</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="6188e081-17fc-466a-8cd7-3222037155a9">
+      <name>TCPПорт</name>
+      <synonym>
+        <key>ru</key>
+        <value>TCP порт</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="1b10102b-7882-4ffd-8bae-184051c64a8f">
+      <name>Совместимость</name>
+      <synonym>
+        <key>ru</key>
+        <value>Совместимость</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="649a2ded-f4ea-4c35-82ca-2219a8eead2f">
+      <name>ЕстьЛицензия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Есть лицензия</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7c362ba0-8493-4ad6-bb0b-97e61495121e">
+      <name>Загруженность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Загруженность</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5a563be7-0b9a-4c22-82bd-eec3a4ec6586">
+      <name>ВерсияСервера</name>
+      <synonym>
+        <key>ru</key>
+        <value>Версия сервера</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="31e25e9f-46ce-4770-85f6-54f62a7ee8f0">
+    <producedTypes>
+      <objectType typeId="2ced9f6a-57f7-4f51-84d7-e5f5fce9a7c6" valueTypeId="f6c51c3f-c5d0-4e2e-b25d-7360367e43e0"/>
+      <rowType typeId="1c8bf6b8-5190-45a1-b877-7a1b316075ae" valueTypeId="66254818-42aa-4883-8bfe-34022a1002f5"/>
+    </producedTypes>
+    <name>СписокПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список пользователей</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="a63c870a-da80-4070-a041-9e4a34e5625d">
+      <name>Исключить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Исключить</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="2d57815b-745c-4910-bed5-ddfb681c0352">
+      <name>ПользовательИБ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пользователь ИБ</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="8b0fcf1d-b10c-4d8a-9d6c-a1acce3a8d42">
+      <name>Идентификатор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="1b136603-5a19-495c-a27e-d97cdf36ae77">
+    <name>СистемаЛицензирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Система лицензирования</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="456be162-6f76-4163-ad67-e3e294951ee0">
+    <name>СистемаЛицензирования_упр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Система лицензирования</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a5d8181c-9ba4-4667-b9e2-62e25a165b72">
+    <name>СписокПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список пользователей</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="74e511ed-39d5-4c8f-a04d-b58f26d45528">
+    <name>СистемаЛицензирования_упр_8_3_6</name>
+    <synonym>
+      <key>ru</key>
+      <value>Система лицензирования</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e6ed67f1-69af-4cf3-b524-154fcfda0af2">
+    <name>СистемаЛицензирования_упр_8_2_13</name>
+    <synonym>
+      <key>ru</key>
+      <value>Система лицензирования</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1ca44cdc-c937-4b09-89e4-798936d03141">
+    <name>СписокПользователей_упр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список пользователей</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="23374136-e7fe-4ec9-8d97-819a78b368b7">
+    <name>СписокПользователей_упр_8_3_6</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список пользователей</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="66d95597-6efe-4c52-a523-f96af5e6c859">
+    <name>СписокПользователей_упр_8_2_13</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список пользователей</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="5a08094a-3643-4fdb-8068-3f422b79e9db">
+    <name>ls_client</name>
+    <synonym>
+      <key>ru</key>
+      <value>License system client</value>
+    </synonym>
+    <comment>Клиент системы лицензирования</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="d8cc875e-6c75-4e8a-b0f9-046fb02d1642">
+    <name>ls_client_version_str</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия файла в макете ls_client</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="5ee63dff-97db-4387-ba47-a349264fa351">
+    <name>ls_client_supported_version_list</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список поддерживаемых версий клиента лицензирования</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="74dbcf44-74ca-4550-ac99-94f0bc4d5fd1">
+    <name>ls_версия_обработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия обработки</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

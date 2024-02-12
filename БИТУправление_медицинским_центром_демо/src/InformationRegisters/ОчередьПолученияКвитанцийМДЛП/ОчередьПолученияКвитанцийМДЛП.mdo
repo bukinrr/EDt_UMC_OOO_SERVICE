@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d546b7af-a6dd-42e3-a773-187a850a7fc8">
+  <producedTypes>
+    <selectionType typeId="da87e3ca-b7ce-496c-953c-2f8608d6e6fb" valueTypeId="0d66700f-aae4-4d07-a7a3-0427c9121252"/>
+    <listType typeId="65febafd-2b60-4163-894c-3bd71b303cc1" valueTypeId="bac61629-a44b-44d5-bc09-1f32c8ee1bc8"/>
+    <managerType typeId="8ceee742-bf66-48d9-919b-ecff106597c9" valueTypeId="dcb6ad3b-64e4-4089-a03c-bf32bc5b8441"/>
+    <recordSetType typeId="8d671501-952b-4daf-8047-76c74ff56be6" valueTypeId="1803fca8-199a-4e40-9e74-a87d2cca28d4"/>
+    <recordKeyType typeId="84888637-298b-4549-9afa-04bf6ef6a044" valueTypeId="f5caecc2-4831-4dd6-8891-8fe5ac99ce27"/>
+    <recordType typeId="732c78ca-030a-4729-814f-5b6ccf619cd4" valueTypeId="eef515ea-6482-41e3-97f6-148bbad04101"/>
+    <recordManagerType typeId="47d9902a-23c3-4c2e-a5d4-20533211bf0e" valueTypeId="d71bf6eb-9610-4b67-a7b8-68181ac6cd84"/>
+  </producedTypes>
+  <name>ОчередьПолученияКвитанцийМДЛП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очередь получения квитанций МДЛП</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ОчередьПолученияКвитанцийМДЛП.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="75705091-3492-4198-8c50-db0d769d65e0">
+    <name>ИдентификаторОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор организации</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ИдентификаторСубъектаОбращенияОбщийМДЛП</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="52d5499d-eb70-423a-baf2-c197a006335b">
+    <name>ОбновитьСостояниеПодтверждения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновить состояние подтверждения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8a4dc40d-304b-4a83-94f2-026c5fdfbe4b">
+    <name>РегистраторВыбытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистратор выбытия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РегистраторыМДЛП</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="9d8b92a5-1453-4774-a7a1-8d2e9859f4fa">
+    <name>Сообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МДЛППрисоединенныеФайлы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="bf1b7a9b-fade-4578-9737-bef16165429c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

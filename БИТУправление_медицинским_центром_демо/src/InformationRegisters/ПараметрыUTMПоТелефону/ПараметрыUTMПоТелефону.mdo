@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c467dfd5-7e0c-4603-b517-879d3e684bcb">
+  <producedTypes>
+    <selectionType typeId="c355649e-1ad8-4648-8fa8-dfae83941f9c" valueTypeId="3f275c84-4988-4e33-94be-ecadb580b185"/>
+    <listType typeId="93b49eca-8b7f-4682-89e6-67b026d19444" valueTypeId="f4332e68-d9e1-4d64-add0-21465100a279"/>
+    <managerType typeId="fd42d558-275a-4e3b-af6f-a266fc63c482" valueTypeId="dc3cbf25-bb65-4e87-9e91-0bbd671bd42d"/>
+    <recordSetType typeId="cc91b7b7-7e2f-4bb1-b0cf-d27ed3939e4c" valueTypeId="39b97f82-5ae9-4a48-ac3d-a612821c5692"/>
+    <recordKeyType typeId="97eaa19d-632a-4839-af01-593d5a3683c0" valueTypeId="8be2774e-0c8d-4787-8ccf-bdf8c405377f"/>
+    <recordType typeId="575c78ae-0682-488c-938c-3dc264b57ac0" valueTypeId="26150c33-f6ba-471a-b0f0-f42739766fbe"/>
+    <recordManagerType typeId="e789560a-6340-4a69-9bfa-e7e83c304edf" valueTypeId="48c29cc2-5cbc-4225-aaca-23d2681415e3"/>
+  </producedTypes>
+  <name>ПараметрыUTMПоТелефону</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источники рекламы внешних номеров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ПараметрыUTMПоТелефону.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ПараметрыUTMПоТелефону.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ce9dc9d8-bd40-4640-a60e-817ba91bbbae">
+    <name>ТипРекламы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип рекламы</value>
+    </synonym>
+    <comment>UTM_MEDIUM</comment>
+    <type>
+      <types>CatalogRef.ТипыРекламы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="94c254d3-84e3-4438-bf38-5d78640f176e">
+    <name>ИсточникИнформации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник информации</value>
+    </synonym>
+    <comment>UTM_SOURCE</comment>
+    <type>
+      <types>CatalogRef.ИсточникиИнформации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e30e052d-40bf-4c65-97bf-088626198402">
+    <name>РекламнаяКомпания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рекламная компания</value>
+    </synonym>
+    <comment>UTM_CAMPAIGN</comment>
+    <type>
+      <types>CatalogRef.РекламныеКомпании</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e98d7485-f5bd-4f7a-90d7-8a4d276cb321">
+    <name>НомерТелефона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер телефона</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="c81f4e7b-2af4-48e2-8079-f7934e8f5f16">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8b45a19c-5e25-419e-bb81-2f6c2aaeb328">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

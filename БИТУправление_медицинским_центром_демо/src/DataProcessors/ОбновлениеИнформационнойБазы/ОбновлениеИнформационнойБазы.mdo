@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ee2e11d-9434-4878-9fc3-a86fd35f542f">
+  <producedTypes>
+    <objectType typeId="29d533bf-d8e2-4685-b97f-61a638b0bb47" valueTypeId="a5fdfb55-e009-47ff-8c63-0b4dbad5e3c7"/>
+    <managerType typeId="ccb42acd-0ced-4b2f-8868-987497f63a76" valueTypeId="85b168d2-49b7-4fa9-bf44-8e188c9db12e"/>
+  </producedTypes>
+  <name>ОбновлениеИнформационнойБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление информационной базы</value>
+  </synonym>
+  <defaultForm>DataProcessor.ОбновлениеИнформационнойБазы.Form.ОписаниеОбновленийУпр</defaultForm>
+  <auxiliaryForm>DataProcessor.ОбновлениеИнформационнойБазы.Form.ОписаниеОбновленийУпр</auxiliaryForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="6c92af30-2193-4a9d-bc6c-0abbaa5b440f">
+    <name>ОписаниеОбновленийУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание обновлений упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="8e7a718c-5ddc-46fe-a3ad-10f3a8b8322c">
+    <name>ОписаниеОбновлений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание обновлений</value>
+    </synonym>
+  </templates>
+  <commands uuid="853e0a57-ce33-418c-a6da-3ea728200a0f">
+    <name>СписокИзменений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список изменений в версиях</value>
+    </synonym>
+    <group>CommandGroup.Информация</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

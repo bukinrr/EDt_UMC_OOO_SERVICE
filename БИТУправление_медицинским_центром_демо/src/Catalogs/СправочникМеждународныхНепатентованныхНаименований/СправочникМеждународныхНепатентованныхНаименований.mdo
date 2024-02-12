@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2459331-00d9-407e-84af-f3374d5b534e">
+  <producedTypes>
+    <objectType typeId="d7689d49-8702-4990-a485-d437ad95cbad" valueTypeId="82a8cbf8-2613-4d46-b239-d37b0d33640e"/>
+    <refType typeId="03437bdb-7eea-4fdd-ad3b-7f15c77689bf" valueTypeId="698953fa-55a0-497f-b83b-ecd543e66488"/>
+    <selectionType typeId="3ea78004-5196-4587-a035-bbaad06aeac5" valueTypeId="e5d600e9-e9ae-4d55-b2d8-9a0d64d57ff5"/>
+    <listType typeId="a6703480-9b9e-4bdc-a8ac-c901d124f6d4" valueTypeId="ec5fcfb0-bca9-402d-8c22-a7d8ac5f44b4"/>
+    <managerType typeId="5c71c4bc-2959-4da3-8ac5-0cf28d10774e" valueTypeId="e033157f-b618-4edb-982a-f2d189fdfab1"/>
+  </producedTypes>
+  <name>СправочникМеждународныхНепатентованныхНаименований</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стандартизованные международные непатентованные наименования (СМНН ЕСКЛП)</value>
+  </synonym>
+  <comment>1.2.643.5.1.13.13.99.2.611</comment>
+  <inputByString>Catalog.СправочникМеждународныхНепатентованныхНаименований.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СправочникМеждународныхНепатентованныхНаименований.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>СМНН</value>
+  </listPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>СМНН (ЕСКЛП)</value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>50</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.СправочникМеждународныхНепатентованныхНаименований.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.СправочникМеждународныхНепатентованныхНаименований.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="363809e9-c399-41f4-a2d3-b1914f27802e">
+    <name>ПолноеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cb614263-88d0-44f7-8687-4718a2fcc86c">
+    <name>МНН</name>
+    <synonym>
+      <key>ru</key>
+      <value>МНН</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9079fe1b-16f6-41ac-a2cf-6d9ff973f299">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="24e7dd4c-974d-4ecf-8757-2019da774007">
+    <name>Доза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доза</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="52360ac1-4f85-428f-9764-dab401892357">
+    <name>КодАТХ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код АТХ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="40b08876-96cf-4cbc-af0e-5376c292128a">
+    <name>НаименованиеАТХ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование АТХ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7006e924-a090-4b3a-a2b9-ccf6cc969c8a">
+    <name>КодОКЕИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код ОКЕИ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ec61cd11-37e6-4b63-a79d-d5e67054d16a">
+    <name>ЖНВЛС</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЖНВЛС</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="49e64aea-5ccb-4237-be62-051403d9923e">
+    <name>Наркотическое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наркотическое</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="319c8800-0d7a-474a-9cbb-59327edcf3fa">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлассификаторЕдиницИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="9903e6c3-160f-46b0-a912-0ec2bc185121">
+    <producedTypes>
+      <objectType typeId="3f87c085-23a9-4465-b7bf-547ad3eaecd5" valueTypeId="7cb557fd-6485-4822-9286-f05a82e7dee8"/>
+      <rowType typeId="606a1b50-564b-4fcb-bc8e-98e20cec5e26" valueTypeId="aa95f432-88ef-447f-ba51-67c37349b5a9"/>
+    </producedTypes>
+    <name>Атрибуты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Атрибуты</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="bdf6da57-6e2b-4b57-9842-5f8131ac61c2">
+      <name>Ключ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ключ</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e849b909-f2c3-40ff-be1e-9f4f65675ca3">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="433a18ea-5aec-41e1-b5ea-f3c1a0a16758">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="42f8f624-5461-4049-a844-496649e14215">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

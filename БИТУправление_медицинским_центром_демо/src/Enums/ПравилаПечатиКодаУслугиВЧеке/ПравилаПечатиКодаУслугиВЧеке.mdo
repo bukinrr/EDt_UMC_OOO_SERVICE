@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ac0db52-db74-4bed-b072-e72270d60d03">
+  <producedTypes>
+    <refType typeId="55ea3353-9a69-49ae-b385-e866357115bf" valueTypeId="135edc11-7822-4292-bd62-8ace3082a189"/>
+    <listType typeId="dd2e2543-14ff-4dd9-94d0-b1e7ad664191" valueTypeId="5b081b7a-63cd-43ae-9165-e0b0c0644752"/>
+    <managerType typeId="7d32b978-5c46-40ce-b227-66617f130165" valueTypeId="76136177-c74c-400c-a09d-02292cf36254"/>
+  </producedTypes>
+  <name>ПравилаПечатиКодаУслугиВЧеке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Правила печати кода услуги в чеке</value>
+  </synonym>
+  <comment>Для вывода кода номенклатуры медицинских услуг в онлайн-чек</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4efe77ae-b799-4422-855c-0aeb692a5e11">
+    <name>НеПечатать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не печатать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9c0c2ce1-5bb7-432f-b013-7943baed4158">
+    <name>ТолькоКодНМУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код номенклатуры мед. услуг</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4b485daa-50e7-4542-9049-77810530de85">
+    <name>ТолькоАртикулНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Артикул номенклатуры</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cd8e2dca-db82-412b-93ce-990c7d6ef2d9">
+    <name>АртикулНоменклатурыЕслиНеУказанаНМУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Артикул номенклатуры, если не указана номенклатура мед. услуг, иначе её код</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

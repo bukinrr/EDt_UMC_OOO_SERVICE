@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c4f977a4-c85d-43f5-9ce0-fae0c3759a14">
+  <producedTypes>
+    <refType typeId="d5a04f3c-2569-4397-8cdf-b4be84cc9425" valueTypeId="c81ffcb9-e4d2-44cf-948b-6f511f88e2f5"/>
+    <listType typeId="dbe983d8-45a2-4cfd-a90c-c904027e60e8" valueTypeId="cf991009-66e8-40ef-beda-6258c404dc90"/>
+    <managerType typeId="1b3a0a67-5932-4250-b9af-d38b3c78a165" valueTypeId="4a6af47b-a439-41dd-845b-794f4643affc"/>
+  </producedTypes>
+  <name>ВидыОтбораОбразцовМДЛП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды отбора образцов МДЛП</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="dd66aaad-2d80-4329-9579-abae3207352b">
+    <name>ОтборКонтрольныхОбразцов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор контрольных образцов в рамках процесса контроля качества</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7501bd1b-0b5a-4d5d-8a8d-db68169296f8">
+    <name>ОтборАрхивныхОбразцов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор архивных образцов в рамках процесса контроля качества</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ceca56e6-ea55-41db-8720-3fd7e4d56e90">
+    <name>ОтборОбразцовДляПодтвержденияСоответствия</name>
+    <synonym>
+      <key>ru</key>
+      <value>отбор образцов для подтверждения соответствия в рамах технического регулирования</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

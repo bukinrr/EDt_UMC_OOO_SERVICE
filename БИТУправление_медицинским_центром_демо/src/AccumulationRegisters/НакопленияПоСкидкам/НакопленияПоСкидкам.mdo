@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="addb9738-5223-4315-a25a-f812574e4b79">
+  <producedTypes>
+    <selectionType typeId="fec3b5c6-68f9-4289-baae-8b38eed96fff" valueTypeId="5648dc46-0715-4a7d-9b07-b3fd4595dc66"/>
+    <listType typeId="9e813698-e573-4a84-9432-843b0aa66bec" valueTypeId="b45a8d97-1d7c-4537-bc9b-733c330f3fa3"/>
+    <managerType typeId="6556c3f4-4a54-43ff-996e-7601dc5b14da" valueTypeId="bf26a85c-3454-48e3-85cd-b2712a5b492b"/>
+    <recordSetType typeId="4cabb392-2ad9-4349-a4fc-93112ad01d19" valueTypeId="af758358-1118-47db-9e20-720386adb042"/>
+    <recordKeyType typeId="49b7ee41-564f-48c8-8514-fc77537c1311" valueTypeId="dddb5843-8999-443e-b192-ba88764d74f9"/>
+    <recordType typeId="d914782b-4bea-4079-823a-dc9ace00d234" valueTypeId="f41a711f-cb90-49e5-970b-0dab5a9d14d3"/>
+  </producedTypes>
+  <name>НакопленияПоСкидкам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Накопления по скидкам</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RecordType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="256db73b-1fb5-4dc4-9469-96c06c8c918b">
+    <name>Накопление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Накопление</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="5319a2de-21d5-43ea-ab60-eb26868f3447">
+    <name>Получатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получатель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+      <types>CatalogRef.КартыСкидок</types>
+      <types>CatalogRef.ВидыКартСкидок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="1f8a2e9d-144a-413e-8cda-ace05a7fe125">
+    <name>ВидСкидки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид скидки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыСкидок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

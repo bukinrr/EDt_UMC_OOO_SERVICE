@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93ba2f07-6789-4532-a53b-c558c63b2292">
+  <producedTypes>
+    <objectType typeId="f3f3eae0-f8b7-484a-b574-c59a8e93da09" valueTypeId="c0045b3d-a047-4a75-ac88-d638e85f8048"/>
+    <refType typeId="0e25dc02-70e0-44e7-bc72-6c2b1a477b97" valueTypeId="4067679c-78e8-4c33-b21e-9cf8184e564a"/>
+    <selectionType typeId="314f1ef6-7369-4678-b07b-e03ac3eac04c" valueTypeId="8ee1021c-ba3a-4d5f-94fd-5a9760ec94e8"/>
+    <listType typeId="0c2712b5-2e66-4e14-9615-2f82a132ff7e" valueTypeId="344cfb7c-c83d-456e-9e39-5b3fc15c4ad0"/>
+    <managerType typeId="4e03af83-9519-4e37-bff4-6a2e58500e30" valueTypeId="50b1b238-8f06-426c-9937-25ef7d828312"/>
+  </producedTypes>
+  <name>ОграниченияДействийМедосмотра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ограничения действий медосмотра</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ОграниченияДействийМедосмотра.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ОграниченияДействийМедосмотра.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ОграниченияДействийМедосмотра.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ОграниченияДействийМедосмотра.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="4c53ba88-9ca5-4c59-822c-3ef26d071644">
+    <name>Возраст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возраст</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Возраст, по которому оценивается применимость ограничения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f68e434f-f325-43ba-8801-8e797e98199a">
+    <name>ВозрастОценкаДостижения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возраст для оценки достижения</value>
+    </synonym>
+    <comment>Ложь - Старше, Истина - Младше</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Возраст для оценки достижения: старше/младше</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7c18ff20-98d8-46e0-a492-e348b01f9bf9">
+    <name>Пол</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пол</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПолФизическихЛиц</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Применимость ограничения по полу</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="4e78faac-b9a1-44b9-8ac4-5f01b42319d7">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ab506054-5166-4ec6-8d6d-ca8dc525a4a8">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ecc4e2f2-3b0c-4519-9ee4-40168d4e7ef1">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95db26e6-4d85-4fde-b484-df94ccd7116b">
+  <producedTypes>
+    <selectionType typeId="c1a77ec5-ca93-4801-8390-463391c462dc" valueTypeId="7b9a021d-d83d-4b91-9c3b-ca8b09b97a51"/>
+    <listType typeId="9324198b-5c60-425e-94ab-98cba7ccf952" valueTypeId="ab048eca-c1e6-4824-9d11-7733b5d525b5"/>
+    <managerType typeId="0656ddde-5ac2-4e0e-aaeb-164253693858" valueTypeId="133b1df7-f80a-4d7c-ba84-d89b9bbab7e4"/>
+  </producedTypes>
+  <name>УчетЗатрат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет затрат</value>
+  </synonym>
+  <defaultForm>DocumentJournal.УчетЗатрат.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ПрочиеЗатраты</registeredDocuments>
+  <registeredDocuments>Document.РаспределениеПрочихЗатрат</registeredDocuments>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <listPresentation>
+    <key>ru</key>
+    <value>Документы учета затрат</value>
+  </listPresentation>
+  <columns uuid="e4f56168-45b7-494c-b82b-43987cc73188">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <references>Document.ПрочиеЗатраты.Attribute.Ответственный</references>
+    <references>Document.РаспределениеПрочихЗатрат.Attribute.Ответственный</references>
+  </columns>
+  <columns uuid="03356509-4dc6-4c5a-bfd3-6e2f8abf8a30">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <references>Document.ПрочиеЗатраты.Attribute.Комментарий</references>
+    <references>Document.РаспределениеПрочихЗатрат.Attribute.Комментарий</references>
+  </columns>
+  <columns uuid="cd731b17-29eb-4f62-acd0-ae8267d23c79">
+    <name>Филиал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Филиал</value>
+    </synonym>
+    <references>Document.ПрочиеЗатраты.Attribute.Филиал</references>
+    <references>Document.РаспределениеПрочихЗатрат.Attribute.Филиал</references>
+  </columns>
+  <forms uuid="896e7973-7023-4f8b-b3de-488ae6140b94">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40444d6a-cd83-4b89-8ce6-da32433f1a59">
+  <producedTypes>
+    <selectionType typeId="7ad9db6e-40f0-4b2a-8923-313655565642" valueTypeId="70534285-1d28-4806-a576-70208a46857a"/>
+    <listType typeId="07035ec9-737f-451b-bb6f-8c5f83e71be4" valueTypeId="33f8c8b4-5ac7-4ab9-ba7f-9084be2fb513"/>
+    <managerType typeId="cde8f423-1569-4898-aa68-5b4ddbe685a4" valueTypeId="12ff9a6f-7731-48e9-a410-4301fe8d2f24"/>
+    <recordSetType typeId="57fc415e-d4da-4bf8-abe3-6f85897714ef" valueTypeId="8504e337-ea30-4401-95ab-4ee19c6c5dba"/>
+    <recordKeyType typeId="a1efcd06-3ce7-4a8b-b00c-dd9643c542bb" valueTypeId="946bc11b-b17d-46dd-b04b-5698809771a1"/>
+    <recordType typeId="d3703d78-fdab-448c-bc74-bde4cca8cee2" valueTypeId="438f9a73-9986-4261-a78e-0c95fca7b55d"/>
+    <recordManagerType typeId="7baa08a8-2fae-49dd-a226-b97ac76afca6" valueTypeId="eeb09514-f439-4826-aa41-4152c9343fab"/>
+  </producedTypes>
+  <name>Гемотест_Биоматериалы</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Гемотест) Биоматериалы</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="05e65e7f-ed86-4529-9c48-d0713318da2e">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="308e333a-8297-45e5-83c2-16ace5bef070">
+    <name>Архив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архив</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="ee43e138-6599-49dc-8ac9-ca742d8c575d">
+    <name>biomaterial_id</name>
+    <synonym>
+      <key>ru</key>
+      <value>Biomaterial id</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

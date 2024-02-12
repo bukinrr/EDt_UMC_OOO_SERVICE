@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7398a409-77b9-4c0b-b351-1dc4ffd3f0d7">
+  <name>ОформитьКоррекцию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оформить коррекцию</value>
+  </synonym>
+  <group>CommandGroup.Создать</group>
+  <commandParameterType>
+    <types>DefinedType.ОснованиеФискальнойОперацииБПО</types>
+  </commandParameterType>
+  <representation>PictureAndText</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.QueryWizard</picture>
+  </picture>
+</mdclass:CommonCommand>

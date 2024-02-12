@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d4a7033-9d7a-4bc0-b149-37f39704a91e">
+  <name>ЗапретИзмененияЗакрытогоМесяца</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запрет изменения закрытого месяца</value>
+  </synonym>
+  <source>
+    <types>AccumulationRegisterRecordSet.Затраты</types>
+    <types>AccumulationRegisterRecordSet.НачисленияСотрудникам</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ЗакрытиеМесяца.ЗапретИзмененияЗакрытогоМесяцаПередЗаписью</handler>
+</mdclass:EventSubscription>

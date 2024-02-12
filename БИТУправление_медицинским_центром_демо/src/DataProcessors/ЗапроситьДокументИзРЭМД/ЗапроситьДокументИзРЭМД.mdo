@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5973be0f-a8be-496d-8612-28b44a0c7cb6">
+  <producedTypes>
+    <objectType typeId="8583e6a7-a294-40e7-be10-a7347a3b5219" valueTypeId="fc14343d-2723-4e56-9681-ea540d2e6d6e"/>
+    <managerType typeId="964d6750-664d-4d40-8424-ad00041f2c99" valueTypeId="b78a84d5-9916-4386-8ac9-79438779681e"/>
+  </producedTypes>
+  <name>ЗапроситьДокументИзРЭМД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запросить документ из РЭМД</value>
+  </synonym>
+  <comment>demandContent</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗапроситьДокументИзРЭМД.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="02761660-6b05-45dd-8e5b-ac51701008bf">
+    <name>ИдентификаторРЭМД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор документа в РЭМД</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="9f419e05-0a85-479d-b76b-4fdd0bab09ec">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

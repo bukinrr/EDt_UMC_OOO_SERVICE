@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3fcc1108-c69c-44c9-b2b3-4090d4c9dc07">
+  <name>ПланОбменаПолныйПриЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>План обмена полный при записи</value>
+  </synonym>
+  <source>
+    <types>ExchangePlanObject.Полный</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ПроцедурыОбменаДанными.ПланОбменаПолныйПриЗаписи</handler>
+</mdclass:EventSubscription>

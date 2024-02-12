@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4336d64c-4324-4ab0-a75b-dc807210c6a9">
+  <producedTypes>
+    <objectType typeId="4492d85c-f315-4dd8-89e7-55869941f518" valueTypeId="dbe01907-2b43-45ff-97ec-5564bda045c5"/>
+    <managerType typeId="824dadfe-84d3-4a9d-838d-1e96a22549d3" valueTypeId="37b086ad-7684-4ef0-b85d-cd1d443e1424"/>
+  </producedTypes>
+  <name>ЗначенияСвойствОбъекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения свойств объекта</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="6762bf5f-3895-48fd-953c-dba4f684b197">
+    <name>НазначениеСвойств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение свойств</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.НазначенияСвойствКатегорийОбъектов</types>
+      <types>ValueList</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Назначение свойств объекта</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c4e7e1bd-92df-412d-bad1-54121133e859">
+    <name>ОбъектОтбораЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект отбора значений</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+      <types>CatalogRef</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбранный объект</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="82fc3338-85b5-4085-a67e-3f8294c23da8">
+    <name>ОбъектОтбораНазначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект отбора назначений</value>
+    </synonym>
+    <type>
+      <types>Characteristic.НазначенияСвойствКатегорийОбъектов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбранный объект</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="bd6aff37-6e31-4492-93e8-83517f06c7db">
+    <producedTypes>
+      <objectType typeId="f1030f5c-fe87-4f6a-97d0-55c62eaff699" valueTypeId="02ea3ada-e9ce-483d-b998-58aeb8acb1bc"/>
+      <rowType typeId="d3dda073-d3e7-4407-8ae0-1f54711c68ad" valueTypeId="4bd4fcc7-1c7f-441e-bbe6-190fa41c571d"/>
+    </producedTypes>
+    <name>СвойстваИЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойства и значения</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Дополнительные свойства объекта</value>
+    </toolTip>
+    <attributes uuid="4fd32abc-efc1-4b32-900d-f2d8ac814769">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>Characteristic.СвойстваОбъектов</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Значение свойства</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>DataProcessor.ЗначенияСвойствОбъекта.TabularSection.СвойстваИЗначения.Attribute.Свойство</field>
+      </choiceParameterLinks>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="21b65ccf-fe6c-4d8e-9e31-a34f4ea42d11">
+      <name>ПометкаУдаления</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пометка удаления</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Признак удаления</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7ce5d715-9343-4ae0-bd1e-91113f378db7">
+      <name>Свойство</name>
+      <synonym>
+        <key>ru</key>
+        <value>Свойство</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.СвойстваОбъектов</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Выбранное свойство</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f2af38d6-5fbd-44a8-9030-4576c84cab15">
+      <name>АвтоматическийРасчет</name>
+      <synonym>
+        <key>ru</key>
+        <value>Автоматический расчет</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+</mdclass:DataProcessor>

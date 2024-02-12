@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f8c3be6-945c-4c4b-a1c1-a56c6354553d">
+  <name>Ценообразование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ценообразование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ЦеныИСкидки</picture>
+  </picture>
+  <content>Catalog.Прейскуранты</content>
+  <content>Document.УстановкаЦен</content>
+  <content>Report.СтоимостьМатериаловУслуг</content>
+  <content>Report.ПрайсЛист</content>
+  <content>Catalog.СтруктураПрайслистов</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Report.СкидкиКлиентов</content>
+  <content>Report.ПрайсЛистПоНоменклатуре</content>
+  <content>Report.ИзмененияЦенНоменклатуры</content>
+  <content>Report.ИсторияИзмененияЦенЗакупа</content>
+  <content>Report.НаценкаНаТовары</content>
+  <subsystems>СкидкиАкции</subsystems>
+</mdclass:Subsystem>

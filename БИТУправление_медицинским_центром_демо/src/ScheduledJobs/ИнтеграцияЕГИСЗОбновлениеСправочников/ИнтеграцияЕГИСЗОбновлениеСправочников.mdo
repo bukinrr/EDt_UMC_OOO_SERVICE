@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b018436-021e-4023-8dda-8e1838acf0b1">
+  <name>ИнтеграцияЕГИСЗОбновлениеСправочников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция ЕГИСЗ: Обновить справочники Минздрава</value>
+  </synonym>
+  <methodName>CommonModule.ИнтеграцияЕГИСЗСервер.ОбновитьВсеСправочники</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

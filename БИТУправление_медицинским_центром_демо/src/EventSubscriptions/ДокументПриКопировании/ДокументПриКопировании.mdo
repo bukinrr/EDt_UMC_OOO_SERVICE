@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71c50cfa-8345-4441-9ba3-aab5edbf1412">
+  <name>ДокументПриКопировании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документ при копировании</value>
+  </synonym>
+  <comment>Для документов, имеющих учет по филиалу ввода</comment>
+  <source>
+    <types>DocumentObject</types>
+  </source>
+  <event>OnCopy</event>
+  <handler>CommonModule.РаботаСДокументамиСервер.ДокументПриКопировании</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6c265c7-1127-462a-81a7-0fd819bb2a1b">
+  <name>Обмены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Обмен данными с другими информационными системами</value>
+  </explanation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ОбменДанными</picture>
+  </picture>
+  <content>DataProcessor.ПомощникИнтерактивногоОбменаДанными</content>
+  <content>CommonCommand.ВыполнитьОбменДанными</content>
+  <content>CommonPicture.ОбменДанными</content>
+  <content>InformationRegister.ОшибкиОбменовДанными</content>
+  <subsystems>ВыполнениеОбмена</subsystems>
+  <subsystems>МониторОбмена</subsystems>
+  <subsystems>НастройкаОбмена</subsystems>
+  <subsystems>ОбъектыОбмена</subsystems>
+</mdclass:Subsystem>

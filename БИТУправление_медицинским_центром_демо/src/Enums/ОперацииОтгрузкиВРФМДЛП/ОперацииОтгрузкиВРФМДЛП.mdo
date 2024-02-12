@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18ea8992-48d5-4b9b-978e-1d95b339e829">
+  <producedTypes>
+    <refType typeId="d9184142-a074-47c3-84fa-42bc8f6611e6" valueTypeId="7773fe51-7b5b-48bf-9b95-439de89d52a4"/>
+    <listType typeId="e211514c-f4f9-4573-b571-6d87298164f2" valueTypeId="2270199c-9e4f-44ac-9dbb-17b0a52c0b10"/>
+    <managerType typeId="d508365e-95cb-4fca-8e33-aac048d0f0b2" valueTypeId="9ea4b882-4f7a-457b-ac5f-45e0aea5105c"/>
+  </producedTypes>
+  <name>ОперацииОтгрузкиВРФМДЛП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операции отгрузки в РФ МДЛП</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="56880af8-905c-46f5-9b20-697c0a4a58f6">
+    <name>ОтгрузкаСМаркировкойПроизводителем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгрузка (маркировка производителем)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eb1774d2-dc73-4530-999a-cb9e39ad9147">
+    <name>ОтгрузкаСМаркировкойВЗТК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгрузка (маркировка в ЗТК)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

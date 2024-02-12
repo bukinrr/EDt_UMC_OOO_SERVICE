@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="400d731f-6f0d-4a1d-a895-337157987659">
+  <name>ЛабораторныеИсследования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лабораторные исследования</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ЛабораторныеИсследования</picture>
+  </picture>
+  <content>Document.ДействияНадАнализами</content>
+  <content>InformationRegister.удалитьИсследования</content>
+  <content>Enum.ВидыОперацийАнализов</content>
+  <content>Enum.СостоянияИсследований</content>
+  <content>DataProcessor.ЛабораторныеИсследования</content>
+  <content>CommonCommand.ОткрытьРабочееМестоЛабИсследования</content>
+  <content>CommonPicture.ЛабораторныеИсследования</content>
+  <content>InformationRegister.МаршрутыАнализов</content>
+  <content>CommonForm.ВыборУслугДляСозданияДокумента</content>
+  <parentSubsystem>Subsystem.Медицина</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b48e41e-1220-41d4-a37a-1bb57cb3ad2a">
+  <producedTypes>
+    <selectionType typeId="8805ef84-6ff3-49c9-920a-405fa4a31f25" valueTypeId="be19312d-7ce1-49b4-9aa5-70f6edcd42ac"/>
+    <listType typeId="5ad74166-b06f-4c24-ae3f-1d55689dd043" valueTypeId="b269e058-8586-4899-8143-b8c6276d4361"/>
+    <managerType typeId="6f7f9c6a-b76c-46ce-af7e-e5c5f426d2d8" valueTypeId="ec4c82e4-ab17-4e33-a9cc-5b05e13791d9"/>
+    <recordSetType typeId="8396c202-b623-4410-b699-e52c47438989" valueTypeId="a54a94a4-c97f-4196-a8a5-e0f0c0750ef2"/>
+    <recordKeyType typeId="b4ece6ff-672a-415a-9351-f1335846fba2" valueTypeId="82a56ffc-5296-4e3c-b862-1182344ebbf5"/>
+    <recordType typeId="655cfaf1-9403-4fc5-b3ed-27261ad9dcf8" valueTypeId="52413bce-6524-4b37-9395-4bb0669a078c"/>
+    <recordManagerType typeId="6bcd043c-8adc-4ad7-b452-ccbb93a18936" valueTypeId="4c5c5b3a-db6d-4828-b34c-d6a88a1fc64f"/>
+  </producedTypes>
+  <name>ИсключаемыеДействияМедосмотра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исключаемые действия медосмотра</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="53d3ce1a-5478-4a78-8238-901d42400e6b">
+    <name>ДействиеМедосмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действие медосмотра</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДействияМедосмотра</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Действие при медосмотре</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

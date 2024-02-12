@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbbaef2a-1559-426f-8186-dddc7648ffad">
+  <producedTypes>
+    <objectType typeId="edf03321-1944-45b7-822e-9ec9e0adb07a" valueTypeId="fb746ad6-08e6-4575-ba87-8e41ddedfe08"/>
+  </producedTypes>
+  <name>Бит_ЛистНазначений_ПФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бит_Лист назначений печатная форма</value>
+  </synonym>
+  <comment>Бит_Лист назначений печатная форма для документа &quot;Прием&quot;</comment>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="c0871e96-bd68-43f7-82f1-31ba2e6f09dc"/>
+  <defaultForm>ExternalDataProcessor.Бит_ЛистНазначений_ПФ.Form.Форма</defaultForm>
+  <attributes uuid="e0db9687-fa13-449e-ba67-94e1ec94e590">
+    <name>СсылкаНаОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на объект</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="0eebc6ec-e4bf-424c-9ed7-328a0ffd81fd">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="159e8c0e-2c72-4144-b0f7-38430f10e491">
+    <name>ЛистНазначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лист назначения</value>
+    </synonym>
+  </templates>
+</mdclass:ExternalDataProcessor>

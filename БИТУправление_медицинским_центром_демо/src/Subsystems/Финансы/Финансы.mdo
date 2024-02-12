@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab2fcc53-83ca-49f6-a618-5b8add80bd9a">
+  <name>Финансы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Финансы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ФинансыПродажи</picture>
+  </picture>
+  <content>Report.ФинансовыйРезультатТК</content>
+  <content>CommonPicture.ФинансыПродажи</content>
+  <content>Report.ВзаиморасчетыСКлиентами</content>
+  <content>Report.Оплаты</content>
+  <content>Catalog.КатегорииВыработки</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Report.ВзаиморасчетыСКонтрагентами</content>
+  <content>Catalog.НоменклатураМедицинскихУслуг</content>
+  <subsystems>ДенежныеСредства</subsystems>
+  <subsystems>Затраты</subsystems>
+  <subsystems>Медицина</subsystems>
+  <subsystems>СправкиОбОплатеДляНалоговой</subsystems>
+</mdclass:Subsystem>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2223c277-08b7-4f85-ada5-48868c7d1120">
+  <name>СообщенияРассылкиПередЗаписью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сообщения рассылки перед записью</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.СообщенияЭлектроннойПочты</types>
+    <types>InformationRegisterRecordSet.СообщенияSMS</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ФормированиеСообщений.СообщенияРассылкиПередЗаписью</handler>
+</mdclass:EventSubscription>

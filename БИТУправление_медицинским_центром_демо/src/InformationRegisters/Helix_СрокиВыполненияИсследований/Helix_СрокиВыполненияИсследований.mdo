@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f47b095c-7098-4eb1-aee7-b162fe7b8665">
+  <producedTypes>
+    <selectionType typeId="896a814c-2aa4-4446-9121-92148cce29cb" valueTypeId="8c1f95a5-2ef5-4c45-a507-cb67f344605f"/>
+    <listType typeId="8a8c99cf-d71a-47e2-a50f-632d827a1491" valueTypeId="430eef7a-d71a-47b1-be9d-c58e56aea8a8"/>
+    <managerType typeId="62ed4667-92d7-4c7c-ab78-c9a08b84f8a0" valueTypeId="b3c46928-5979-4294-ad78-83f94980aeb2"/>
+    <recordSetType typeId="c10c605a-5223-4634-b0d1-9612413d1eb4" valueTypeId="89263019-7b61-4570-bcb0-058789792267"/>
+    <recordKeyType typeId="8cd15b2e-1224-4236-8ae9-6770faa5349b" valueTypeId="fe2b0e2c-db3d-4195-b714-e0ef413c6adc"/>
+    <recordType typeId="5f891b7f-0fc9-43b2-97d9-487229c0ee28" valueTypeId="9d839f18-a19b-4110-82e4-d987da790a98"/>
+    <recordManagerType typeId="8bb07f7b-9426-4126-9011-ba822df329a8" valueTypeId="251b166a-1710-4e5a-97b7-eb56d2467d55"/>
+  </producedTypes>
+  <name>Helix_СрокиВыполненияИсследований</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Helix-Лаборатории) Сроки выполнения исследований</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="14106ee1-e412-4252-9da5-0ff56329f0e9">
+    <name>PerfTime</name>
+    <synonym>
+      <key>ru</key>
+      <value>Perf Time</value>
+    </synonym>
+    <comment>Срок выполнения исследования</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="51438fc4-122c-434f-8d55-cd1113ecb535">
+    <name>Лаборатория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лаборатория</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Лаборатории</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Внешняя лаборатория</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="79abe45a-4001-4715-b798-f518ab137488">
+    <name>HXID</name>
+    <synonym>
+      <key>ru</key>
+      <value>HXID</value>
+    </synonym>
+    <comment>Код номенклатуры исследования</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

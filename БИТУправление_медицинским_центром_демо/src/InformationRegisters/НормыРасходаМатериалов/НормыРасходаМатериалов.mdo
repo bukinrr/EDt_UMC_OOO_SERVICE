@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2d5412c-6f7c-4c3c-93a3-923aad7fa327">
+  <producedTypes>
+    <selectionType typeId="69641436-2ab5-4322-9f3e-351f1732250b" valueTypeId="79955b67-544d-4444-921e-32de3b0f40f5"/>
+    <listType typeId="605fce4e-479f-4eeb-9a38-4548a5d65fec" valueTypeId="67920894-112d-4208-99aa-ef314ce2c61b"/>
+    <managerType typeId="6a44fb81-8fa9-4c25-add2-f72cc13a2d12" valueTypeId="db906343-3f60-48c1-89a4-fa12b4543266"/>
+    <recordSetType typeId="38dcca36-0f4e-440e-882e-2e84b1336c2b" valueTypeId="431da730-449c-4af0-b735-00eb9cd50510"/>
+    <recordKeyType typeId="871c22fd-7d4f-4fb0-a5a5-611d497ba6af" valueTypeId="277b464d-4c18-448b-9cb2-a99d59a15083"/>
+    <recordType typeId="477586ed-f470-4f88-a409-c2c380522fc5" valueTypeId="651d6daa-7523-40a2-a713-111e328dfb0e"/>
+    <recordManagerType typeId="088b5a15-db10-490c-a58a-e50f87894510" valueTypeId="671eddfd-0e96-4762-8883-d20acbe3ab2f"/>
+  </producedTypes>
+  <name>НормыРасходаМатериалов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нормы расхода материалов</value>
+  </synonym>
+  <defaultRecordForm>InformationRegister.НормыРасходаМатериалов.Form.ФормаЗаписиУпр</defaultRecordForm>
+  <defaultListForm>InformationRegister.НормыРасходаМатериалов.Form.ФормаСпискаУпр</defaultListForm>
+  <auxiliaryRecordForm>InformationRegister.НормыРасходаМатериалов.Form.ФормаЗаписиУпр</auxiliaryRecordForm>
+  <auxiliaryListForm>InformationRegister.НормыРасходаМатериалов.Form.ФормаСпискаУпр</auxiliaryListForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="21f4a860-c6a7-48c6-8051-2ae426f71e3b">
+    <name>Норма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Норма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Норма расхода</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f70d62f8-89b1-4ef4-a7fb-92e1716cb69b">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЕдиницыИзмерения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Единица измерения номенклатуры</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.НормыРасходаМатериалов.Dimension.Материал</field>
+    </choiceParameterLinks>
+    <choiceParameters>
+      <name>Отбор.ТипЕдиницы</name>
+      <value xsi:type="core:FixedArrayValue">
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.ТипыЕдиницИзмерения.EmptyRef</value>
+        </values>
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.ТипыЕдиницИзмерения.EnumValue.ОбычнаяЕдиницаИзмерения</value>
+        </values>
+      </value>
+    </choiceParameters>
+    <quickChoice>Use</quickChoice>
+    <createOnInput>DontUse</createOnInput>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2446afbf-c374-4b00-b408-cf5588a2db73">
+    <name>ВходитВСтоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входит в стоимость</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что норма входит в стоимость</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b17f4399-182f-4f10-84ac-22c5ce81297d">
+    <name>Производственная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производственная</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f1cd320f-c4ed-428b-a318-45b314d1fd69">
+    <name>ДляВнешнегоПроизводства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для внешнего производства</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8bbc706f-93d1-4688-afde-944f778f1232">
+    <name>ОбщийРасходНаУслугиДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общий расход на услуги документа</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Влияет на количество расхода при заполнении по нормам. Расход расходника происходит одновременно на все услуги, где он занормирован.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="56811666-f492-4aff-9491-1794e6bce01e">
+    <name>НеЗависитОтКоличестваУслуги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не зависит от количества услуги</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Норма расхода фиксирована и не зависит от количества услуги в строке документа</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="21e62d46-c75e-44bd-9011-dbc857a586cc">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбранная номенклатура</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e248b017-2b42-455f-a23d-6e51d6ec04b0">
+    <name>ХарактеристикаНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика номенклатуры</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбранная характеристика номенклатуры</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.НормыРасходаМатериалов.Dimension.Номенклатура</field>
+    </choiceParameterLinks>
+    <quickChoice>Use</quickChoice>
+    <createOnInput>DontUse</createOnInput>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a967e6ba-ee31-46e3-85e0-c087c21b45ab">
+    <name>Материал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбор номенклатуры</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d23ec3bb-590c-4a44-974c-6b0dfc421ee8">
+    <name>ХарактеристикаМатериала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика материала</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбранная характеристика материала</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.НормыРасходаМатериалов.Dimension.Материал</field>
+    </choiceParameterLinks>
+    <quickChoice>Use</quickChoice>
+    <createOnInput>DontUse</createOnInput>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e61886ac-b057-4c71-acc1-fcbd3928577a">
+    <name>ФормаСпискаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="484b393b-0c82-4ad6-9409-0b0f4b6a866c">
+    <name>ФормаЗаписиУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

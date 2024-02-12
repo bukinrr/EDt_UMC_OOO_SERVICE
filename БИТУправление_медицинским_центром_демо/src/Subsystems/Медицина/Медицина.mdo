@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0a11c72-8c08-4de9-b440-f336c38c3674">
+  <name>Медицина</name>
+  <synonym>
+    <key>ru</key>
+    <value>Медицинская деятельность</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Медицина</picture>
+  </picture>
+  <content>CommonPicture.Медицина</content>
+  <content>Catalog.Клиенты</content>
+  <content>Document.Прием</content>
+  <content>Catalog.Диагнозы</content>
+  <content>Document.ДоговорСКлиентом</content>
+  <content>InformationRegister.ЛекарственнаяНепереносимость</content>
+  <content>Catalog.ВидыДоговоров</content>
+  <content>DataProcessor.ПросмотрМедКарт</content>
+  <content>Catalog.СтандартыЛечения</content>
+  <content>Document.ЛистокНетрудоспособности</content>
+  <content>InformationRegister.АнамнезыЖизни</content>
+  <content>Document.Рецепт</content>
+  <content>Catalog.КлассификаторИсходовЗаболевания</content>
+  <content>Report.ОтчетПоВыявляемымДиагнозам</content>
+  <content>Report.ОтчетПоИсходамЗаболеваний</content>
+  <content>DefinedType.ПервичныйПрием</content>
+  <content>Report.ДинамикаПоказателей</content>
+  <content>Catalog.КатегорииВыработки</content>
+  <content>InformationRegister.МестонахожденияМедкарт</content>
+  <content>Report.МестонахождениеМедкарт</content>
+  <content>Catalog.ВидыМедицинскихКарт</content>
+  <content>Report.ПрименениеВнутреннихСтандартовЛечения</content>
+  <content>Catalog.ДействующиеВеществаЛекарственныхПрепаратов</content>
+  <content>CommonCommand.ОткрытьВыписанныеРецепты</content>
+  <content>Catalog.ПричиныНетрудоспособности</content>
+  <content>Catalog.стомСостоянияЗубов</content>
+  <content>Report.СведенияОЧислеЗаболеваний</content>
+  <content>Catalog.ШаблоныПечати</content>
+  <content>CommonPicture.АптечкаЛупа16</content>
+  <content>Catalog.НоменклатураМедицинскихУслуг</content>
+  <content>ChartOfCharacteristicTypes.ПараметрыМедицинскойКарты</content>
+  <content>Report.ПрименениеРегламентированныхСтандартовЛечения</content>
+  <content>Catalog.РазделыМедицинскихКарт</content>
+  <content>InformationRegister.ШаблоныРазделовМедицинскихКарт</content>
+  <content>Enum.ГруппыИнвалидности</content>
+  <content>InformationRegister.НастройкиОбновленияСправочниковЕГИСЗ</content>
+  <content>InformationRegister.ЗначенияПараметровШаблоновПечати</content>
+  <content>CommonPicture.Стационар</content>
+  <content>CommonForm.РедактированиеМедикаментозныхНазначений</content>
+  <content>CommonForm.ФормаМестонахожденияМедкарты</content>
+  <content>Report.ДокументыБезПодписи</content>
+  <content>InformationRegister.СерииРецептов</content>
+  <content>CommonForm.РедактированиеКартинки</content>
+  <content>Catalog.МедицинскоеОборудование</content>
+  <content>Report.ОсновныеПоказателиОрганизмаПациента</content>
+  <subsystems>ШаблоныОсмотра</subsystems>
+  <subsystems>ЛабораторныеИсследования</subsystems>
+  <subsystems>МедицинскиеОсмотры</subsystems>
+  <subsystems>МедицинскаяОтчетность</subsystems>
+  <subsystems>ФСС</subsystems>
+</mdclass:Subsystem>

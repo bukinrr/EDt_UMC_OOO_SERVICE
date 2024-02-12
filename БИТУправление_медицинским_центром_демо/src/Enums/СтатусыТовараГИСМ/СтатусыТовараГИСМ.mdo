@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed9b7261-2b18-4c75-bc1b-456e0e007053">
+  <producedTypes>
+    <refType typeId="a7210551-b2cd-4be2-8292-001f11316d6c" valueTypeId="6960e5b5-e817-4bdf-b227-b5f46289fb37"/>
+    <listType typeId="0c23d4a1-51e2-4af0-b10f-e5ebcb5a4b1d" valueTypeId="e518bc06-a34b-4875-8704-997f2e185686"/>
+    <managerType typeId="e33db63f-3129-498c-bef4-fafef60c80fb" valueTypeId="12cf2327-1e3b-46e6-9ea7-02385dd7cb50"/>
+  </producedTypes>
+  <name>СтатусыТовараГИСМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы товара ГИСМ</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="07edda4c-f7bc-4bac-ab1e-35a9896cd370">
+    <name>ПланируемыйСтатусТовараКорректен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Планируемый статус товара корректен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6cb09c69-bc0c-47e1-b7e5-27d257d139c0">
+    <name>ПланируемыйСтатусТовараНекорректен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Планируемый статус товара некорректен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c7982628-7410-49d2-9b0f-dcd1c1a5fb34">
+    <name>ОборотТовараПриостановлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборот товара приостановлен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a87d3750-2d86-4fe7-950f-6e67c2875a89">
+  <producedTypes>
+    <objectType typeId="5ca49d38-53b0-4561-a722-fc6b88155e42" valueTypeId="f8b50704-0f63-406a-8e66-14a9071f987c"/>
+    <refType typeId="181e3e05-93a4-43fe-9f7a-38502b7c2053" valueTypeId="1121e5e8-42ae-4aec-9ca1-d13409a627d2"/>
+    <selectionType typeId="4d7e697a-c9f9-4e2b-8a65-141db6ffcaad" valueTypeId="677a12eb-19b9-45eb-9d89-630ba2cf6cd8"/>
+    <listType typeId="478ee3f5-a196-44bc-8166-42d38eea4889" valueTypeId="c99df771-6bc8-49c8-9a27-a6c1816c3728"/>
+    <managerType typeId="466e9fa0-8b7f-461d-aa23-be0c52d46b0c" valueTypeId="4ec3116a-6966-4093-97ec-3a547d419be7"/>
+  </producedTypes>
+  <name>ИзменениеСоставаСтрахуемых</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение состава страхуемых</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ИзменениеСоставаСтрахуемых.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ИзменениеСоставаСтрахуемых.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ИзменениеСоставаСтрахуемых.Form.ФормаСписка</defaultListForm>
+  <registerRecords>InformationRegister.СоставыСтрахуемых</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="813549ce-aee3-42e0-b748-714bff7cbf54">
+    <name>ВидПолиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид полиса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыПолисов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид страхового полиса</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.СоставСтрахуемыхФиксируетсяДокументально</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ac068683-d0a8-4cc8-9684-bee5a85e5644">
+    <name>ВидОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид операции</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыОперацийИзмененияСоставаСтрахуемых</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид операции изменения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="14b50ff8-2692-4a83-9dad-f01a3a4003a3">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="73e1d6e1-bb21-4c01-b8af-f433481cd5a5">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="16a2990b-f658-44f7-9c8d-f2e9ce5768ce">
+    <producedTypes>
+      <objectType typeId="63620629-fdc3-4e48-8500-30938b97342d" valueTypeId="52987eb3-065f-466d-b6b2-6b4df0754fc4"/>
+      <rowType typeId="ff1bfdb2-5c87-46d9-9b3a-8b21fb703668" valueTypeId="c5b5f996-cc01-455f-8892-57d4024bb144"/>
+    </producedTypes>
+    <name>Страхуемые</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страхуемые</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Страхуемые лица</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="22e24855-8e06-4be7-9383-f549d8d78f87">
+      <name>Клиент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Клиент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Клиенты</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Страхуемый клиент</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="13bc3da7-d0ca-49a6-afe2-a39cee948ddf">
+      <name>Полис</name>
+      <synonym>
+        <key>ru</key>
+        <value>Полис</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтраховыеПолисы</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Полис клиента</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="faadc5b2-af46-4298-bb03-b1859aa5c5d5">
+      <name>СерияПолиса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Серия полиса</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>6</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Серия</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="73b39c31-7ee9-484c-bed0-72b3d11d2377">
+      <name>НомерПолиса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер полиса</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>15</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>№ полиса</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

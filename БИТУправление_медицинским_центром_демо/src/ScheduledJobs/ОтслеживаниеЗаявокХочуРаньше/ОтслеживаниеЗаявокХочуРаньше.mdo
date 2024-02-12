@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86b461e4-aff3-413f-bf14-1f352a92b179">
+  <name>ОтслеживаниеЗаявокХочуРаньше</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет возможности переноса заявок клиентов</value>
+  </synonym>
+  <methodName>CommonModule.УправлениеЗаявками.ОбновитьСтатусЗаявокХочуРаньше</methodName>
+  <description>Отслеживание заявок, которые можно перенести на более ранний срок</description>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

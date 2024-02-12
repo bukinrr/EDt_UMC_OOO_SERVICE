@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0654402d-1589-404e-b505-d7d45f9bfc1a">
+  <producedTypes>
+    <selectionType typeId="d5e4f7d7-67a5-4622-96d6-dfc45f11d9f9" valueTypeId="06f70e13-1f08-4c70-9aaa-ffda78a32c96"/>
+    <listType typeId="68d7b72f-ac3f-47c3-94ac-cefb871caa2c" valueTypeId="39a77ed0-7276-432f-995c-1b3a27d9b8a6"/>
+    <managerType typeId="7048badb-adb0-4b63-8d75-6c72058b68da" valueTypeId="378d2fec-3791-479a-95bd-b9d67eb041ac"/>
+    <recordSetType typeId="43d84ab6-fa25-479f-b288-85a9d70256c4" valueTypeId="2edbd708-f904-43a2-bd23-cebee48c4ac6"/>
+    <recordKeyType typeId="4ffa45d1-db89-4862-bc41-d380e1bb5eb8" valueTypeId="e0420a39-933f-442d-892b-8eb0c1831039"/>
+    <recordType typeId="f2ddb8c3-ec12-471c-9e59-144e39115290" valueTypeId="92d6e985-7492-4484-bc12-28f6f3097558"/>
+    <recordManagerType typeId="09efc300-3c54-4afa-b6b8-f40dfe117ad9" valueTypeId="63bd5f36-43ee-4146-abbc-d6ba80899c39"/>
+  </producedTypes>
+  <name>УдалитьБ24_ИДКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Битрикс24: Идентификаторы клиентов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="8f43f42e-b0ac-464b-9354-d62954353c14">
+    <name>ИдентификаторКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор клиента</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2c879e2b-47ac-4dde-a8ef-047c59b88c29">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

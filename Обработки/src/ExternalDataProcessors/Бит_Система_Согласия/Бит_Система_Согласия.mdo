@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e4bb781-f597-4362-9774-7882b6993a05">
+  <producedTypes>
+    <objectType typeId="1a0df5d7-80f2-4738-99db-e80c9dba7308" valueTypeId="d9e6b6c8-11a0-4507-b88c-d3f8ac9ad2f1"/>
+  </producedTypes>
+  <name>Бит_Система_Согласия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бит система согласия</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="9b676f7d-9fb4-4452-86c7-4d96526d2354"/>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="7949ee8e-c7de-4a0a-aa51-73b29d07a9e8">
+    <name>СсылкаНаОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на объект</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="1d258404-04ad-4dd6-ba79-122c2a5076dc">
+    <name>СогласиеМРТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласие МРТ</value>
+    </synonym>
+  </templates>
+  <templates uuid="4aa44147-937d-4507-bb62-ee0fddd86058">
+    <name>СогласиеПрочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласие прочее</value>
+    </synonym>
+  </templates>
+</mdclass:ExternalDataProcessor>

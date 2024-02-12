@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26e50b45-7876-4b1d-bba7-ca12a2b0008e">
+  <producedTypes>
+    <selectionType typeId="c90609e0-5414-436f-8f22-665510c38b94" valueTypeId="2fb549ff-c717-4ba6-ac44-72a21d27f8d0"/>
+    <listType typeId="03bb1876-88d3-424c-a60d-1c25036fe40b" valueTypeId="cad4760d-cfdf-4b64-8cf8-f48527c39024"/>
+    <managerType typeId="5fe96268-d5c4-4745-993a-e4aa9fc49dfa" valueTypeId="6b31fe9b-0a89-4980-843a-17c6c8ac0fce"/>
+    <recordSetType typeId="68ed122b-4e71-47f2-9612-a0495fa244ee" valueTypeId="f917cc21-8b46-4cb4-b098-a6c3a6af215b"/>
+    <recordKeyType typeId="19a626d8-b355-4c7c-abff-a866dd2c4234" valueTypeId="1000b17e-0839-46ab-a6d6-2a013af77924"/>
+    <recordType typeId="9227962f-5b9a-4cb8-a594-346de05b42db" valueTypeId="6f517317-cb9e-42e7-8c7d-dfaf9269e372"/>
+    <recordManagerType typeId="b67fdcc5-88ba-4584-8488-24229e236523" valueTypeId="4849034e-ade3-49c2-ae41-87ca7f93862e"/>
+  </producedTypes>
+  <name>Б24_ИдентификаторыОбрабатываемыхСущностей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Битрикс24: Идентификаторы обрабатываемых сущностей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="fd6e8c3d-458d-4a68-ac2e-ab7be0558220">
+    <name>ИдентификаторБ24</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор Б24</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="269eedab-f099-423c-a652-edcc985457ea">
+    <name>СущностьБ24</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сущность</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Б24_Сущности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

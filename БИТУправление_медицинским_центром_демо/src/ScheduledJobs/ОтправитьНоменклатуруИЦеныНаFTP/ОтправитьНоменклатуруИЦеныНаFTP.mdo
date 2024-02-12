@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ef6c775-3174-4110-a8cb-4ae85ce2faf8">
+  <name>ОтправитьНоменклатуруИЦеныНаFTP</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с сайтом: Отправить номенклатуру и цены на FTP</value>
+  </synonym>
+  <methodName>CommonModule.ВебИнтеграция.ОтправитьНоменклатуруИЦеныНаFTP</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

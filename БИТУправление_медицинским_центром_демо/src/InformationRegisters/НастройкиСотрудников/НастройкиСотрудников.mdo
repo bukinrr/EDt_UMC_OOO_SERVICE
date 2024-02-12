@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3676d6b-9d7e-4b5f-a4d9-bf46296b309c">
+  <producedTypes>
+    <selectionType typeId="3bc688c2-28c2-48dc-b994-347ef7c4978a" valueTypeId="b679f0f4-555c-4ce9-adf3-f3c0c12b282c"/>
+    <listType typeId="9b747f0b-bcfc-459c-bc58-2dd6711c624a" valueTypeId="16d84110-9ffd-4fdb-859a-00198c5da612"/>
+    <managerType typeId="7b9d698f-f823-4ed6-aaf3-777638e4b30b" valueTypeId="4673223c-819a-4328-ae97-2431773c28b5"/>
+    <recordSetType typeId="de10eeaf-e3ca-4bf8-acd5-dac9e1fec312" valueTypeId="2d478057-991f-420b-a125-25f16474fd49"/>
+    <recordKeyType typeId="17375083-f44e-4985-93e3-a34345171fe7" valueTypeId="ba4e48d6-2c02-44e6-a17f-3ee73708b0f5"/>
+    <recordType typeId="4bae509c-ec97-4509-9af5-ce240aac86b2" valueTypeId="3dd37d47-94da-4ed0-9560-aec02e2df0ae"/>
+    <recordManagerType typeId="6941d444-c4c0-4e3e-b50d-d15de37761b1" valueTypeId="26108d55-61f0-4eb5-9cd6-bbf8630df2a2"/>
+  </producedTypes>
+  <name>НастройкиСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки сотрудников</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="f6cbf236-447e-49c5-bf3b-4721e4f6399d">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Characteristic.НастройкиСотрудников</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Значение настройки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="28b0f070-e9e1-4d05-9148-ae5c44cd9942">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбранный сотрудник</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c2eb0136-37a3-417a-b4ae-65cc7cc29cd3">
+    <name>Настройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.НастройкиСотрудников</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Настройка сотрудника</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="542193d0-f5cf-43fe-bdb8-04a8dbb525e6">
+    <name>Филиал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Филиал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Филиалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="b50aed17-db5c-4a9f-a56a-a8d049a5e208">
+    <name>ФормаЗаписиУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3d00d33b-c54e-4b77-a6ce-055ff29dac5b">
+    <name>ФормаСпискаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

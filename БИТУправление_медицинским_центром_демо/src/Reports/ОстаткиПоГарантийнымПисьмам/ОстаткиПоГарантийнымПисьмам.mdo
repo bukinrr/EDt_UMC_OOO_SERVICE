@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb8b1767-0fec-4207-9d9b-b5ec71e487e6">
+  <producedTypes>
+    <objectType typeId="11075d75-6fc9-4c18-90e0-d79cae03e07f" valueTypeId="7d787829-e0bc-4c02-b171-efa0ede9bbf1"/>
+    <managerType typeId="d27fb5d2-3eb6-462a-9e69-dad521f4f013" valueTypeId="241d10f8-a5e7-483d-8d0b-6d4d00095a73"/>
+  </producedTypes>
+  <name>ОстаткиПоГарантийнымПисьмам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки по гарантийным письмам</value>
+  </synonym>
+  <comment> </comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОстаткиПоГарантийнымПисьмам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="1c03a604-1004-4ad0-b4d0-0a66b32c1560">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="3716f6f9-8211-4a28-8aaa-5186954ea36a">
+    <name>ОткрытьОтчетОстаткиПоГарантийнымПисьмам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остатки по гарантийным письмам</value>
+    </synonym>
+    <group>ActionsPanelReports</group>
+    <commandParameterType/>
+    <representation>PictureAndText</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть отчет &quot;Остатки по гарантийным письмам&quot;</value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Report</picture>
+    </picture>
+  </commands>
+</mdclass:Report>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0732a6ad-cba7-440d-ba44-ada5445bbebc">
+  <producedTypes>
+    <objectType typeId="57bf956d-7a18-4aba-a7e9-31413dc8845b" valueTypeId="d7053563-db20-41ab-9828-c9a50784345e"/>
+    <managerType typeId="544ff5ef-ad4c-44dd-aec0-2bdb510818f9" valueTypeId="a6ca32c4-b193-4be6-ac27-0be1ef4dcdf6"/>
+  </producedTypes>
+  <name>ПроведениеПоПартиям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Восстановление последовательности складского учета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПроведениеПоПартиям.Form.ФормаУпр</defaultForm>
+  <auxiliaryForm>DataProcessor.ПроведениеПоПартиям.Form.ФормаУпр</auxiliaryForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="e6a093bc-6de8-45e4-904e-506c05c1f3ad">
+    <name>ДатаКонцаОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата конца обработки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата окончания обработки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a4c1b42d-88e3-40e1-aff0-8f60300bc942">
+    <name>Останавливаться</name>
+    <synonym>
+      <key>ru</key>
+      <value>Останавливаться</value>
+    </synonym>
+    <comment>Останавливаться на первом документе, который не провелся по партиям</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что обработка будет останавливаться на первом документе, который не провелся по партиям</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="58c8d247-091e-49f3-838d-c5013ebfa36e">
+    <name>МаксимальноеКоличествоСтрокВТранзакции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальное количество строк в транзакции</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Максимальное количество строк</value>
+    </toolTip>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f5824c8c-6395-43ec-bd3c-e0480de8ee1e">
+    <name>МаксимальноеКоличествоДокументовВВыборке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальное количество документов в выборке</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Максимальное количество строк</value>
+    </toolTip>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="f2f6fde9-4114-4620-9e7d-40be92c7f1ba">
+    <name>ФормаНастройкиУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cb80969b-b5cf-4ee9-9bc8-691b4d6f03ce">
+    <name>ФормаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b6e5e88-e0db-4840-ae0f-d05fdd90b61d">
+  <producedTypes>
+    <selectionType typeId="d09644f6-b22e-4a6e-b356-8d2b7aad8bd2" valueTypeId="6d0f4e0a-90b3-46a6-ae73-e75db7bdc6d6"/>
+    <listType typeId="99862fbb-031e-4d04-b6dc-e37db16fad44" valueTypeId="e3786d7d-52bb-49f3-a301-0e862219fa48"/>
+    <managerType typeId="c0cf612a-4bd1-4a7a-b071-189fea349fec" valueTypeId="e6fca275-5437-45df-a41b-3d2f7e049234"/>
+    <recordSetType typeId="ad4a0fcd-a309-4490-a654-ace3ab104625" valueTypeId="4830a740-5709-412b-95ff-85672408676b"/>
+    <recordKeyType typeId="b9fce6d5-9024-4de6-979b-8fcd11a07191" valueTypeId="36c097bc-d6cd-4d2d-9a3c-728583204984"/>
+    <recordType typeId="69f27b80-c5f6-4ba1-a436-a18b8fbe4d1f" valueTypeId="6d6002f1-e05e-4309-8805-d4b0a77c73f9"/>
+    <recordManagerType typeId="2415358a-ee65-42e3-9a95-8713822e456e" valueTypeId="da42b280-dc3b-4489-b401-946e44fde452"/>
+  </producedTypes>
+  <name>ЛекарственнаяНепереносимость</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лекарственная непереносимость</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ЛекарственнаяНепереносимость.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ЛекарственнаяНепереносимость.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="cf7d3414-6550-4058-b551-cef65bf12fed">
+    <name>Реакция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реакция</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="db80a094-71de-4f57-838c-60fa2cdc9e2e">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6ac70aeb-acba-4a3b-bb3b-63c960970527">
+    <name>ДействующееВещество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действующее вещество</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДействующиеВеществаЛекарственныхПрепаратов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="321f7b2c-3cee-4583-954a-893dbe925211">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0934a5a7-071a-4290-8e84-2b39e4649276">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="40a4aebf-9f37-4a23-98bc-df1da2d5cd0d">
+    <name>ОткрытьЛекарственнуюНепереносимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лекарственная непереносимость пациента</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.Клиенты</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

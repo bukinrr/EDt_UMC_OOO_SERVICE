@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0873fbf9-60a9-4aeb-8d86-b3439b15831a">
+  <producedTypes>
+    <selectionType typeId="21f101c3-0b33-4508-a5a2-961e8afe7169" valueTypeId="ca242a0a-9792-401c-9594-ac3c0842281a"/>
+    <listType typeId="e4e4ed05-3108-49fd-852b-1a7564f28fc1" valueTypeId="37ce61d3-d7c8-4e8a-9d7c-8e7f5675ee7e"/>
+    <managerType typeId="1424e5e4-9845-4343-a25c-f54e9526d2f1" valueTypeId="5a2fcb98-986d-42b5-ab19-f6b928427eae"/>
+    <recordSetType typeId="927aebdc-7e52-4087-b32a-e8c9ea62bb47" valueTypeId="05eefde7-b32b-415b-b4da-0a6227c938c5"/>
+    <recordKeyType typeId="0fc2d145-aeec-4514-a667-377be9e9047d" valueTypeId="754273a4-4b31-4e26-8281-594f566833b3"/>
+    <recordType typeId="37989025-2e93-493c-bea4-55ce2fb96d13" valueTypeId="64b20e39-0bd3-45aa-be1f-3c42a393665f"/>
+    <recordManagerType typeId="9a52db9f-4ec2-4563-9e3c-9d8b749c4929" valueTypeId="219f759f-3e63-4fd5-a1a7-1de8c108d96f"/>
+  </producedTypes>
+  <name>ЗначенияПараметровHTML</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения параметров HTML</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ЗначенияПараметровHTML.Form.ФормаСписка</defaultListForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Параметр и значение</value>
+  </recordPresentation>
+  <resources uuid="bd096a7e-8f4d-4403-820e-20ed103c7369">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ПараметрыHTML</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.ЗначенияПараметровHTML.Dimension.Параметр</field>
+    </choiceParameterLinks>
+    <linkByType>
+      <field>InformationRegister.ЗначенияПараметровHTML.Dimension.Параметр</field>
+    </linkByType>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a28e796a-8bf5-4c66-b122-e51f5476d81e">
+    <name>Параметр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ПараметрыHTML</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="688d24e5-d1fb-4941-9c5a-925c748c15fc">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДокументУстановкиЗначенияПараметраПриема</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="48bd3987-97d8-49e0-b1a0-4fa1bc748302">
+    <name>ИндексШаблона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индекс шаблона</value>
+    </synonym>
+    <comment>Индекс строки шаблона приема в документе</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧН=0</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧН=0</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="281677ee-2257-45ee-8fee-24766646ed8b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

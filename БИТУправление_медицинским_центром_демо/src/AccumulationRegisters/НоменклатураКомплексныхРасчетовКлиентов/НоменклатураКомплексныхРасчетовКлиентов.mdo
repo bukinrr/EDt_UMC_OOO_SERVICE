@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae618edd-f9e0-4ce5-9527-e643a5985e93">
+  <producedTypes>
+    <selectionType typeId="5bfddebe-ab16-4b98-a233-59dafd526cd0" valueTypeId="e7037df0-e3f0-43fb-9815-0e56869c2754"/>
+    <listType typeId="29c7038d-886c-47b2-b96b-0c7b4521a854" valueTypeId="a0a9addb-a6d8-4674-a389-71d0c267c47c"/>
+    <managerType typeId="ecc1d469-7ece-4953-a7e2-a589766200fc" valueTypeId="1c7177e6-e2e9-4cee-9c55-a88061d78d22"/>
+    <recordSetType typeId="0f94a232-b6f6-42c0-83c8-4093f578ae14" valueTypeId="f3489c30-f5f2-4af3-b3db-4d8c7f7c4d3a"/>
+    <recordKeyType typeId="feaaa9fd-0177-49f8-bf22-9a862ba4d90e" valueTypeId="6b81f26d-fd65-4d54-86d5-b501922cbc40"/>
+    <recordType typeId="526d23d4-5f4a-4c6f-8fcb-ab7ed8776b30" valueTypeId="4568c561-cfd1-43e6-a2ce-3dfae991c153"/>
+  </producedTypes>
+  <name>НоменклатураКомплексныхРасчетовКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура комплексных расчетов клиентов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RecordType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Период записи</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="50103ac7-3774-4207-b010-366c33f09b5f">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество позиций расчета</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="93330838-0d57-4fb8-b700-ac0d304a97e9">
+    <name>КомплексныйРасчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплексный расчет</value>
+    </synonym>
+    <type>
+      <types>DefinedType.КомплексныйРасчетКлиента</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Комплексный расчет движения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="f0377428-4728-42db-9b17-45794349c438">
+    <name>КлючСтроки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ строки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлючиСтрокКомплексныхРасчетов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ключ строки расчета</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

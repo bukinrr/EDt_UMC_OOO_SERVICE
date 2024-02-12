@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="927264a9-c150-4e3d-837f-8c6754fb8c2f">
+  <producedTypes>
+    <objectType typeId="dce88d7f-7fa6-4246-af6e-fdccc91eb9fa" valueTypeId="a506450f-cb04-4835-bb6c-e2c648515244"/>
+    <refType typeId="fcae7516-834d-40fe-b75e-7600ff50e53f" valueTypeId="d7b1b397-4cb3-450e-a6db-3833a49b7d56"/>
+    <selectionType typeId="d5aad209-4b47-4215-9f80-100fcf104bc8" valueTypeId="ac5d3844-734a-4847-8bf9-611a04cc1962"/>
+    <listType typeId="1c4a6c85-922b-4e75-91c9-9aaa3c86e121" valueTypeId="ad6b1ebc-30db-4979-b4a5-dfedf88dc7c1"/>
+    <managerType typeId="01f08d2e-4e50-437d-9a60-a1c67b31e19d" valueTypeId="8fbd2f32-9d9b-4489-b1d9-803d480bc959"/>
+    <containerType typeId="efe91ef4-5e12-4092-87b9-3ef8839309f1" valueTypeId="0609359e-bd87-4029-9fdb-f65d9fea3b1f"/>
+  </producedTypes>
+  <name>НастройкиПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки пользователей</value>
+  </synonym>
+  <inputByString>ChartOfCharacteristicTypes.НастройкиПользователей.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.НастройкиПользователей.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ValueType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родитель</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>ChartOfCharacteristicTypes.НастройкиПользователей.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>CatalogRef.Склады</types>
+    <types>CatalogRef.Кассы</types>
+    <types>Boolean</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>CatalogRef.Филиалы</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <types>CatalogRef.КлассификаторЕдиницИзмерения</types>
+    <types>CatalogRef.Пользователи</types>
+    <numberQualifiers>
+      <precision>5</precision>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>300</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <hierarchical>true</hierarchical>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="46add4f2-38f0-4bc5-9d89-bf46ac809fc1">
+      <name>НастройкиИнтерфейса</name>
+      <description>Настройки интерфейса пользователя</description>
+      <isFolder>true</isFolder>
+      <code>000000066</code>
+      <type/>
+      <content id="4829fd8d-0437-4867-a583-7f6e7e3db2ba">
+        <name>ЗапрашиватьПодтверждениеПриЗакрытии</name>
+        <description>Запрашивать подтверждение при закрытии программы</description>
+        <code>000000068</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="a69d0eaf-6834-4f84-8afd-e048d11ae9ee">
+        <name>ПоказыватьПодменюПерейти</name>
+        <description>Показывать подменю &quot;Перейти&quot; в документах</description>
+        <code>000000067</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="f079a40f-a9ef-4bd0-b74c-c7f2df622c22">
+        <name>ИспользуетсяРежимВводаПриемаПоОдномуШаблону</name>
+        <description>Режим ввода приема по одному шаблону используется</description>
+        <code>000000069</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="8cea3c89-9b9e-4280-bc38-1366e39ff95d">
+        <name>СкрыватьОповещенияОПриходеКлиентов</name>
+        <description>Скрывать оповещения о приходе клиентов</description>
+        <code>000000082</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="a0212a3d-29b9-4ad0-9d7f-d17dd2ed0719">
+        <name>СоздаватьПовторныеПриемыПоЗаявкеИзЖурналаЗаписи</name>
+        <description>Создавать повторные приемы по заявке из журнала записи</description>
+        <code>000000070</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="952d18d3-490b-47db-9178-0d6e2af7cb8e">
+        <name>СохранятьОтборЖурналаЗаписиМеждуСеансами</name>
+        <description>Сохранять отбор журнала записи между сеансами</description>
+        <code>000000071</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+    </items>
+    <items id="df7a5d9f-7631-4d72-aaca-64aff320677e">
+      <name>НастройкиОповещений</name>
+      <description>Настройки оповещений</description>
+      <isFolder>true</isFolder>
+      <code>000000075</code>
+      <type/>
+      <content id="8ff6c4a9-5fdf-4bd0-bc9d-a77b86a3e5c6">
+        <name>ВыводитьОповещения</name>
+        <description>Выводить оповещения</description>
+        <code>000000076</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="1be826a5-3c42-4be1-9fc5-8c644dce1dce">
+        <name>ЧастотаПроверкиНаличияОповещений</name>
+        <description>Частота проверки наличия оповещений</description>
+        <code>000000077</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>5</precision>
+          </numberQualifiers>
+        </type>
+      </content>
+    </items>
+    <items id="2f3e760f-306d-4ca4-8a6b-dea355022642">
+      <name>НастройкиОтправкиДокументовВPDFНаКлиенте</name>
+      <description>Настройки отправки документов в PDF на клиенте</description>
+      <isFolder>true</isFolder>
+      <code>000000083</code>
+      <type/>
+      <content id="f6b1e46f-5597-4150-b03d-7aa3cc4d6022">
+        <name>РасположениеПрограммыWkhtmltopdfНаКлиенте</name>
+        <description>Расположение программы wkhtmltopdf на клиенте</description>
+        <code>000000085</code>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>300</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="4be1f97a-c99e-4ba8-8099-a88d22a607b2">
+        <name>ФормироватьPDFНаКлиенте</name>
+        <description>Формировать PDF на клиенте</description>
+        <code>000000086</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+    </items>
+    <items id="a86e9a5b-7fb2-4ef4-bf35-6302a800945e">
+      <name>НастройкиРаботыСSMS</name>
+      <description>Настройки работы c SMS</description>
+      <isFolder>true</isFolder>
+      <code>000000065</code>
+      <type/>
+      <content id="0ba5acaf-f0ec-445b-a73c-8c90bb49c12a">
+        <name>НеФормироватьАвтоSMS</name>
+        <description>Не формировать автоматические SMS</description>
+        <code>000000063</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+    </items>
+    <items id="6f7446a8-cdc0-4172-bca7-bc96999245b5">
+      <name>НастройкиЧековККМОнлайн</name>
+      <description>Настройки чеков ККМОнлайн</description>
+      <isFolder>true</isFolder>
+      <code>000000080</code>
+      <type/>
+      <content id="4a734bbc-cc6e-4e7c-932d-766f082cc8de">
+        <name>ИННКассира</name>
+        <description> ИНН Кассира</description>
+        <code>000000081</code>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>50</length>
+          </stringQualifiers>
+        </type>
+      </content>
+    </items>
+    <items id="7bbbf04c-d322-46ce-bd80-b295b1d69a91">
+      <name>ОсновныеЗначенияДляПодстановки</name>
+      <description>Основные значения для подстановки в документы и справочники</description>
+      <isFolder>true</isFolder>
+      <code>000000056</code>
+      <type/>
+      <content id="327eff3e-6d46-4331-bea7-ceff0fcf7de5">
+        <name>ОсновнаяКасса</name>
+        <description>Основная касса</description>
+        <code>000000058</code>
+        <type>
+          <types>CatalogRef.Кассы</types>
+        </type>
+      </content>
+      <content id="b9610fe3-ef38-4683-86be-f502abba4e59">
+        <name>ОсновнойФилиал</name>
+        <description>Основная клиника (филиал, медицинский центр)</description>
+        <code>000000062</code>
+        <type>
+          <types>CatalogRef.Филиалы</types>
+        </type>
+      </content>
+      <content id="9ca1bb82-1573-4190-8c81-46dd8536ea5b">
+        <name>ОсновнойСкладЗаказов</name>
+        <description>Основной склад заказов</description>
+        <code>000000060</code>
+        <type>
+          <types>CatalogRef.Склады</types>
+        </type>
+      </content>
+      <content id="524347d5-2383-49ac-93ac-5f4353827f7f">
+        <name>ОсновнойСкладОстатковЗаказов</name>
+        <description>Основной склад остатков для заказов</description>
+        <code>000000059</code>
+        <type>
+          <types>CatalogRef.Склады</types>
+        </type>
+      </content>
+    </items>
+    <items id="6c0a3165-7261-49d3-a480-dd38969463f2">
+      <name>ПерсональныеНастройкиОграниченияПрав</name>
+      <description>Персональные дополнительные настройки ограничения прав</description>
+      <isFolder>true</isFolder>
+      <code>000000069</code>
+      <type/>
+      <content id="4204fec9-aa73-465c-a158-e3967bcac2d8">
+        <name>ВсегдаРазрешатьЗаписыватьНаНерабочееВремяСотрудников</name>
+        <description>Всегда разрешать записывать на нерабочее время сотрудников</description>
+        <code>000000074</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="1c660fce-5ac4-4c2b-a0fa-2c5eae2a282a">
+        <name>ЗапретитьИзменениеРучныхСкидок</name>
+        <description>Запретить изменение ручных скидок при продаже</description>
+        <code>000000079</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="cc62a538-d5bc-4020-b40f-a244c1ae69ea">
+        <name>ЗапретитьИзменениеЦен</name>
+        <description>Запретить изменение цен при продаже</description>
+        <code>000000078</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="23ba5d2c-8d3e-4282-8523-5c0730b5e852">
+        <name>НеРаспространятьОграниченияНаУровнеЗаписей</name>
+        <description>Не применять к пользователю ограничения на уровне записей его ролей</description>
+        <code>000000072</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="1606459a-53fe-4af3-99e1-2b526f77559c">
+        <name>РазрешитьМенятьФилиалВДокументах</name>
+        <description>Разрешить менять филиал в документах</description>
+        <code>000000073</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+    </items>
+  </predefined>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

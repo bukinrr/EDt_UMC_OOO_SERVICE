@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82a98589-b9aa-43ea-8ce1-122b8ec8036f">
+  <producedTypes>
+    <refType typeId="f9318231-1620-44a6-899d-cea73036e274" valueTypeId="c29e1925-e9e2-436f-8090-51a2630ec117"/>
+    <listType typeId="3fef8506-0413-4cef-94f2-8e5fe5fb3a9e" valueTypeId="c980c3c4-c8b0-4211-b76d-229c88ccc6f9"/>
+    <managerType typeId="d9079ba9-ba4b-4c5a-8e39-5d5647083fcf" valueTypeId="f37675d1-2138-4bfa-8741-43c6928d380e"/>
+  </producedTypes>
+  <name>ТипыВыводаИзОборотаМДЛП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы вывода из оборота МДЛП</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="20ab2397-23bd-434f-8e35-5315088ec82a">
+    <name>ВыбылаПоДокументу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбыла по документу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="18074f13-99cb-4e27-beac-0e897fe55a3b">
+    <name>ВыбылаПоККТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбыла по ККТ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="727e2c53-55a9-4419-bef6-3d5523578346">
+    <name>ВыбылаЧерезРВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбыла через РВ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4f8070d0-a942-47a8-8d4a-497ae464d88a">
+    <name>ВыбылаЧерезРВДляОказанияМедПомощи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбыла через РВ для оказания мед. помощи</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d2b58b36-b642-460c-8883-5aa262760e65">
+    <name>ВыбылаЧерезРВПоЛьготномуРецепту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбыла через РВ по льготному рецепту</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cc342d7c-ea55-44ba-b432-784a83bc2d0f">
+    <name>ПроданаЧерезДистанционнуюТорговлю</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продан через дистанционную торговлю</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

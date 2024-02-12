@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a888efdb-1956-4230-b8c9-3428a30262ee">
+  <producedTypes>
+    <objectType typeId="8602bbea-6ea1-440b-9e88-adcc6ca1175e" valueTypeId="076d8efd-d614-4edc-9606-77474aaa3e10"/>
+    <managerType typeId="2879f0d2-cc41-4621-b520-5c6a05b88ee7" valueTypeId="28976c3e-1b4f-4663-85ba-477b3e7312b2"/>
+  </producedTypes>
+  <name>бит_Битфон</name>
+  <synonym>
+    <key>ru</key>
+    <value>БИТ.Phone (софтфон)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.бит_Битфон.Form.ОсновнаяФорма</defaultForm>
+  <auxiliaryForm>DataProcessor.бит_Битфон.Form.ОсновнаяФорма</auxiliaryForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <explanation>
+    <key>ru</key>
+    <value>Открыть форму БИТ.Phone (софтфона)</value>
+  </explanation>
+  <tabularSections uuid="144130a1-748f-46fc-83c7-d238f951a060">
+    <producedTypes>
+      <objectType typeId="e62f367d-f401-4c10-9573-cd79bc4df839" valueTypeId="d0ada159-b84a-4ef5-bf9a-49826ac7d064"/>
+      <rowType typeId="77b3f86b-853a-4477-a916-74cb7a77deb4" valueTypeId="68fa3244-5c85-48db-92b9-2cc486a292f1"/>
+    </producedTypes>
+    <name>ИсторияЗвонковВходящие</name>
+    <synonym>
+      <key>ru</key>
+      <value>История звонков входящие</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="92707be6-05d2-42b4-8029-ea8dccbc2291">
+      <name>Дата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дата входящего звонка</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0482caff-e275-4778-ad83-48833fa8a201">
+      <name>Абонент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Абонент</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <types>AnyRef</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Абонент входящего звонка</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="ff62c1e6-3a58-4c68-ac9a-9d13942c7eb8">
+      <name>КонтактноеЛицо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контактное лицо</value>
+      </synonym>
+      <type>
+        <types>AnyRef</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Контактное лицо входящего звонка</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7264acf4-4cbe-41d3-a614-9c433cc93ffc">
+      <name>Номер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Номер входящего звонка</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="a3307d3e-b8ee-42cb-93d8-9b13192318d7">
+      <name>ТипЗвонка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип звонка</value>
+      </synonym>
+      <type>
+        <types>EnumRef.бит_ТипЗвонка</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Тип звонка - входящий</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="07da9510-e6fb-497f-9b0a-8eb1f83e3c14">
+      <name>Успешность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Успешность</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Успешность входящего звонка</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:BooleanValue">
+        <value>true</value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="44ef3aab-bca5-44cb-8ed2-7b6139958f16">
+      <name>ДлительностьЗвонка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Длительность звонка</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Длительность входящего звонка</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c7217d00-394a-4b20-b7b9-65e4be5c0b1c">
+      <name>ЗаписьРазговора</name>
+      <synonym>
+        <key>ru</key>
+        <value>Запись разговора</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Путь к файлу записи разговора</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="157a6111-1688-496d-907d-b9939325389b">
+      <name>ВыводДата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вывод дата</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="db965c69-49c6-46b5-9ba4-4f8f2797fc89">
+      <name>НабранныйНомер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Набранный номер</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="cbb63e7a-22b1-4471-bcd8-d11874811419">
+      <name>ВыводДлительностьЗвонка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вывод длительность звонка</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="58f60e63-49de-4ad8-bf7f-c8ee4755aad9">
+    <producedTypes>
+      <objectType typeId="dde1187f-2e5a-48aa-9796-b389b05fe301" valueTypeId="59960a9f-9fe0-4060-8553-e3ec09aa9409"/>
+      <rowType typeId="cd731740-c281-45c0-a2eb-2165f4a03bd6" valueTypeId="3b70421f-3f29-4ce4-9eba-2510894de68d"/>
+    </producedTypes>
+    <name>ИсторияЗвонковИсходящие</name>
+    <synonym>
+      <key>ru</key>
+      <value>История звонков исходящие</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="89120fac-ad3b-4e8e-b57c-1fe2d4a0aa9c">
+      <name>Дата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дата исходящего звонка</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7dbf62a9-6d48-4240-be14-8e00a4fff009">
+      <name>Абонент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Абонент</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <types>AnyRef</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Абонент исходящего звонка</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="0bfa9c50-e2df-4791-8b6e-c4d32d9e9af4">
+      <name>КонтактноеЛицо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контактное лицо</value>
+      </synonym>
+      <type>
+        <types>AnyRef</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Контактное лицо исходящего звонка</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="18e07932-e95c-4a39-b444-4d1cc0120882">
+      <name>Номер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Номер исходящего звонка</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="79913689-8100-4239-9a1a-a2d94a6394ce">
+      <name>ТипЗвонка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип звонка</value>
+      </synonym>
+      <type>
+        <types>EnumRef.бит_ТипЗвонка</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Тип звонка - исходящий</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ff1416c7-f990-4b49-82d1-0fe2b0c1b68a">
+      <name>Успешность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Успешность</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Успешность исходящего звонка (всегда Истина)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:BooleanValue">
+        <value>true</value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="0b037a16-ac3c-434f-88fe-2aae81b852e8">
+      <name>ДлительностьЗвонка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Длительность звонка</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Длительность исходящего звонка</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5acd5fd5-8f19-4023-87a1-a029481c51dd">
+      <name>ЗаписьРазговора</name>
+      <synonym>
+        <key>ru</key>
+        <value>Запись разговора</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Путь к файлу записи разговора</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="1ed5f4bf-6feb-4141-ae8e-1ed427124f78">
+      <name>ВыводДата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вывод дата</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="7d519667-eed4-4328-bc68-f12817bcd745">
+      <name>ВыводДлительностьЗвонка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вывод длительность звонка</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="8f5cb966-b4cb-4902-ba5e-855583641a8f">
+    <name>ОбработкаВызова</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка вызова</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4b1f3f6d-7e8e-4412-9111-59d0cc6fca34">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b505e7b1-e74e-4414-b734-fc60d763b73e">
+    <name>ОтправкаЗапросаВТехподдержку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправка запроса в техподдержку</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ed7cb20e-6646-4047-a73c-d57f417e9f89">
+    <name>ФормаАдминистратора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма администратора</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="05ca3ccd-975d-4862-b5d3-646677a29127">
+    <name>ФормаКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма контрагента</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cc8e595d-e1de-4390-9005-5d128951180d">
+    <name>ФормаОператора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма оператора</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

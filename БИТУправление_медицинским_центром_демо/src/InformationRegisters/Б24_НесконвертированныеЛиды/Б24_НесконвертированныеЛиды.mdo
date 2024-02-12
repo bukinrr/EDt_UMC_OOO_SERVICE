@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6381f5c8-22a5-47e5-afd8-726897dfec65">
+  <producedTypes>
+    <selectionType typeId="38a2d00f-2e04-4c61-98a7-0f49336ab1bf" valueTypeId="26e58564-a52c-4deb-997c-08691762ffc2"/>
+    <listType typeId="782bf11f-cf87-4550-b39a-0415438d4466" valueTypeId="593c9670-ad12-4b70-98e2-abcff390cfbd"/>
+    <managerType typeId="5ecdb275-670b-46b8-9e56-65cc877b05d7" valueTypeId="58ea8491-ff4a-45f6-8e3b-fc54205ecc1c"/>
+    <recordSetType typeId="460857c4-3429-4a27-abc9-5c38ce3d212f" valueTypeId="d3abfc16-1b0c-42c1-b51b-57fa7af23b92"/>
+    <recordKeyType typeId="32919296-1db5-445b-9e99-8d604e59176e" valueTypeId="9114fb0e-14ed-49c8-b5d0-313fa3a6565f"/>
+    <recordType typeId="e19c59da-42e5-4688-8474-72eeef939e22" valueTypeId="8e82f205-1e4f-45d5-aa39-db564cb982a3"/>
+    <recordManagerType typeId="909928e9-dfcb-4d3a-b75a-0298ff37053d" valueTypeId="a2e519d4-3641-4782-800d-afe7278b1800"/>
+  </producedTypes>
+  <name>Б24_НесконвертированныеЛиды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Битрикс24: Несконвертированные лиды</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.Б24_НесконвертированныеЛиды.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Несконвертированные лиды</value>
+  </listPresentation>
+  <dimensions uuid="5b3f6296-a8d6-4a54-9a05-b91305d9b9f9">
+    <name>ИдентификаторЛида</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор лида</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="796f2aef-ec5b-47e8-aaef-8375eba0162b">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ОказаниеУслуг</types>
+      <types>DocumentRef.Заявка</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="a7d610a0-e0a5-46e0-82c4-ddece84f5746">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

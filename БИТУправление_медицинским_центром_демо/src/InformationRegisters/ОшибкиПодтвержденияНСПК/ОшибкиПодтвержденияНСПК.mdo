@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c9cc6af-0137-4a99-a5b4-c208ce7b5800">
+  <producedTypes>
+    <selectionType typeId="734336b0-69b3-40d8-8f26-334103f0052c" valueTypeId="7d9d8dc0-344d-4590-9fb7-f504c9ef8209"/>
+    <listType typeId="cedaf579-3ef2-4667-899a-ebcee66d2d24" valueTypeId="ce954c63-4c6a-464c-96e0-21f30a135ba6"/>
+    <managerType typeId="4f0077af-dab0-4e0d-a55d-72ffd4a5c354" valueTypeId="b3936560-006e-4b87-8d06-1cc5adef6413"/>
+    <recordSetType typeId="474da7d7-f2d4-488a-a8a5-04a42dcfc0d9" valueTypeId="15d7e956-e5ab-4c9e-a3d0-c9383ec54651"/>
+    <recordKeyType typeId="c971ab0d-79c8-461d-a96e-01aa18462753" valueTypeId="5a9a4fa1-7742-46c3-b179-b13ab411d6e1"/>
+    <recordType typeId="f19164b5-c071-4892-8d34-40d06eb34c1c" valueTypeId="84ea046d-8843-42bd-aaa9-3701949b1a63"/>
+    <recordManagerType typeId="4a7bcc23-3037-4975-9dc3-0eca6718d5d2" valueTypeId="3e743fe3-3620-44ef-854c-5394dd3d91a2"/>
+  </producedTypes>
+  <name>ОшибкиПодтвержденияНСПК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ошибки подтверждения НСПК</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ОшибкиПодтвержденияНСПК.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="208989e9-ccc3-49e4-9345-108a46da99a9">
+    <name>КодРезультата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код результата</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="772e1950-ff96-48f9-b1e7-09b5197b5234">
+    <name>ОписаниеОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание ошибки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="738837de-ea7d-431f-8408-41092c1a3369">
+    <name>ОснованиеФискальнойОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание фискальной операции</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ОснованиеФискальнойОперацииБПО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="0341bb42-d1a5-4749-9e02-1852707e1300">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

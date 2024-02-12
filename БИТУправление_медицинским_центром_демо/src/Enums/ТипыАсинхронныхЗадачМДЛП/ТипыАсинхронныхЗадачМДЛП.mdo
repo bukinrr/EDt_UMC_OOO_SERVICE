@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0081feb-26ee-43e9-b92f-b255d58a04f4">
+  <producedTypes>
+    <refType typeId="039f0018-9641-44fe-ba27-d201a2e70bf5" valueTypeId="c7bbcd68-acfe-415b-b874-253cae517790"/>
+    <listType typeId="84534750-d1aa-4345-9a66-54157b56a338" valueTypeId="b65ba933-f89d-473b-bc7e-22e9f8a46bce"/>
+    <managerType typeId="24a2f6d6-9371-461b-98ea-043a6c10caba" valueTypeId="0e7b91ec-6cec-4b98-91c5-7e0fe6efb9b9"/>
+  </producedTypes>
+  <name>ТипыАсинхронныхЗадачМДЛП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы асинхронных задач МДЛП</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8693868d-cedc-4f71-8739-c90908600769">
+    <name>ВыгрузкаДетализированнойИнформацииПоДвижениюЛП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка детализированной информации по движению ЛП</value>
+    </synonym>
+    <comment>detail_batch_movements</comment>
+  </enumValues>
+  <enumValues uuid="a40fde8d-89b4-435c-8a03-514e0d283caa">
+    <name>ВыгрузкаИерархииУпаковок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка иерархии упаковок</value>
+    </synonym>
+    <comment>sscc_hierarchy</comment>
+  </enumValues>
+  <enumValues uuid="642b62fb-365b-4a57-859e-416a34b9c21f">
+    <name>ВыгрузкаОтчетаПоОстаткамЛП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка отчета по остаткам ЛП</value>
+    </synonym>
+    <comment>remaining_medicines</comment>
+  </enumValues>
+  <enumValues uuid="bb344065-b7d1-4c57-bb16-b80537284a87">
+    <name>ВыгрузкаОтчетаПоВыбытиюЛП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка отчета по выбытию ЛП</value>
+    </synonym>
+    <comment>medicine_disposal</comment>
+  </enumValues>
+  <enumValues uuid="f337ac05-bfa7-41ca-a9e3-ec6014b4f908">
+    <name>ВыгрузкаОтчетаПоОстаткамНаМД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка отчета по остаткам на МД</value>
+    </synonym>
+    <comment>remaining_medicines_branches</comment>
+  </enumValues>
+  <enumValues uuid="00ac17fa-7e1f-4a8f-9bab-29da8a8f423f">
+    <name>ВыгрузкаОбщедоступнойИнформацииПоSGTIN</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка общедоступной информации по SGTIN</value>
+    </synonym>
+    <comment>public_sgtins</comment>
+  </enumValues>
+  <enumValues uuid="b05daa95-6665-48b9-a341-f29b5c723353">
+    <name>ВыгрузкаДанныхИзРеестраКИЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка данных из реестра КИЗ</value>
+    </synonym>
+    <comment>sgtins</comment>
+  </enumValues>
+</mdclass:Enum>

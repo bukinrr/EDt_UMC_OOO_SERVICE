@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1ffae22-bf6e-458c-b692-28b025d0e5d8">
+  <name>CRM</name>
+  <synonym>
+    <key>ru</key>
+    <value>CRM</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.Событие</content>
+  <content>Task.ЗадачиПользователя</content>
+  <content>Enum.СпособыОтправкиСообщений</content>
+  <content>Enum.ВидыСобытий</content>
+  <content>Document.Рассылка</content>
+  <content>Document.РассылкаПисемEmail</content>
+  <content>Report.ОтчетПоСобытиямКлиентов</content>
+  <content>Report.ОтчетПоПросроченнымЗаявкам</content>
+  <content>Report.ВоронкаПродаж</content>
+  <content>DataProcessor.УниверсальныйПоискКлиентов</content>
+  <content>Enum.ВидыНастроекРасположенияОтборовФормыПодбораКлиентов</content>
+  <content>Catalog.НастройкиПоискаКлиентов</content>
+  <content>CommonForm.СводкаПоКлиенту</content>
+  <content>CommonForm.ЛистыОжиданияКлиента</content>
+  <content>CommonCommand.ОткрытьСводкуПоКлиенту</content>
+  <content>CommonCommand.ОткрытьСегментыКлиента</content>
+  <content>Report.СобытияВоронкиПродаж</content>
+  <content>Report.ЗадачиИНапоминания</content>
+  <content>DataProcessor.МассовыеОбзвоны</content>
+  <content>Document.бит_СписокОбзвона</content>
+  <content>Report.АнализОбращений</content>
+  <subsystems>СегментацияКлиентов</subsystems>
+  <subsystems>ОбратнаяСвязь</subsystems>
+  <parentSubsystem>Subsystem.Продажи</parentSubsystem>
+</mdclass:Subsystem>

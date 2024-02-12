@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6454b5f-65cd-4fa8-b422-47416631c3d1">
+  <producedTypes>
+    <selectionType typeId="7b2cba96-a141-4a0a-b138-630d84a403db" valueTypeId="465c24a1-4045-4528-9e99-dadf187ad43c"/>
+    <listType typeId="a32313d5-ff1a-48f0-8854-2aa2d7776b5a" valueTypeId="942638f7-0a67-4660-b904-72aada7edfb4"/>
+    <managerType typeId="69cdbec9-a938-48d4-9d37-29119d505ea0" valueTypeId="e1ba32c4-03fe-4c93-862a-6f42759c5e4b"/>
+    <recordSetType typeId="062a9fb2-c767-4e47-a295-42c39a6cb07d" valueTypeId="de1e20f7-0ea5-4f4a-b626-31741db189c5"/>
+    <recordKeyType typeId="03af4075-daf3-4f19-8d7b-5d63015b071a" valueTypeId="e6490f26-96a4-40db-974d-939f101e2e13"/>
+    <recordType typeId="6ec54e29-b083-4ac2-ae7d-913888c1ce04" valueTypeId="b7494e6a-36b5-44eb-a1b8-2bdc751f8de6"/>
+    <recordManagerType typeId="c222de71-1a23-4c8c-9be8-50f309a44c1d" valueTypeId="6cd9378c-6c94-40b4-92a0-a3e5ca78f933"/>
+  </producedTypes>
+  <name>удалитьДействияНоменклатурыМедосмотров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Действия номенклатуры медосмотров</value>
+  </synonym>
+  <comment>Используется для номенклатуры, реализующей медосмотры на получение справок</comment>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.удалитьДействияНоменклатурыМедосмотров.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Действия номенклатуры медосмотров, справок</value>
+  </explanation>
+  <resources uuid="f0f96654-5ae3-4d30-bc6f-12217e81037d">
+    <name>Пол</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пол</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПолФизическихЛиц</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Ссылка</name>
+      <value xsi:type="core:FixedArrayValue">
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.ПолФизическихЛиц.EnumValue.Мужской</value>
+        </values>
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.ПолФизическихЛиц.EnumValue.Женский</value>
+        </values>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b77d7757-f4fb-412c-9b6a-bd7b1e52a94c">
+    <name>НеТребуетОтметкиВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не требует отметки выполнения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f3ef50a6-7383-4076-8abf-29c896bc0a1a">
+    <name>НеУчитываетсяПриРасчетеЦены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не учитывается при расчете цены</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="0991115b-9487-4da9-bf97-44392dfd672a">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбранная номенклатура</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6d037def-c914-4830-b43f-5a557889aab9">
+    <name>Действие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действие</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДействияМедосмотра</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="1acc7147-8a95-42c3-aafb-196bbae8493f">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="f64b2ad0-e2cb-403e-8fda-1ee93b6d2c8f">
+    <name>МедицинскоеЗаключениеНаОружие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Медицинское заключение на оружие (форма N 002-О/у)</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="1841cfe3-0fe1-49f1-a6c4-b1511f0f0581">
+    <name>МедкомиссияВодителейCDE</name>
+    <synonym>
+      <key>ru</key>
+      <value>Медкомиссия водителей (форма №003-В/у) категории &quot;С&quot;, &quot;D&quot;, &quot;СЕ&quot;, &quot;DE&quot;, &quot;Tm&quot;, &quot;Тb&quot;</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="b66802de-38aa-4fc0-a828-b65ae2d93bb7">
+    <name>МедкомиссияВодителейАВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Медкомиссия водителей (форма №003-В/у) категории &quot;М&quot;, &quot;А&quot;, &quot;А1&quot;, &quot;В&quot;, В1&quot;, &quot;ВЕ&quot;</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="c142b295-2891-48b3-a9d7-b26cf37d7a1e">
+    <name>Справка001ГС_МедосмотрПриПоступленииНаГосслужбу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справка 001-ГС/у Медосмотр при поступлении на госслужбу</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="f6ab8d67-7b02-4d4f-9119-1aa3bec3fcde">
+    <name>Справка072у_04СанаторноКурортнаяКарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справка 072_у-04 Санаторно-курортная карта</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="2a3afb1a-70f1-442b-ba41-17459340f405">
+    <name>Справка082уМедкомиссияДляВыезжающихЗаГраницу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справка 082/у Медкомиссия для выезжающих за границу</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="3f16390b-b55d-417e-8069-0538c6e20c83">
+    <name>Справка086уДляПоступающихВУчебныеЗаведения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справка 086/у для поступающих в учебные заведения</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="b54122bf-81fb-40e6-9c93-4703daa9ba0f">
+    <name>Справка989нНаРаботуСИспользованиемСведенийСоставляющихГосударственнуюТайну</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справка 989н на работу с использованием сведений составляющих государственную тайну</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="9cc1d618-b7af-4998-bc06-8a7f1bf5c5ee">
+    <name>СправкаВБассейнВзрослые</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справка в бассейн (Взрослые)</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="469b423b-76ea-474e-8a92-7d4da82b8452">
+    <name>СправкаВБассейнДети</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справка в бассейн (Дети)</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="df9f89b7-3fcf-4fc5-b110-d3c64bb70f51">
+    <name>СправкаВБассейнПоФорме083_4_89_Взрослые</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справка в бассейн по форме 083_4_89 (Взрослые)</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:InformationRegister>

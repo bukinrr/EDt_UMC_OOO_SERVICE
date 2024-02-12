@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6743307-4621-456b-872a-0c652aa73199">
+  <producedTypes>
+    <refType typeId="dca56879-138c-42fb-b67b-4788e8b4abb5" valueTypeId="96c3e908-6546-479a-8267-203c0c938617"/>
+    <listType typeId="019f38a4-3d86-41db-8a4d-0f95431ff3bf" valueTypeId="7568ecee-4451-4375-9030-02de36b0d314"/>
+    <managerType typeId="dbc207a4-3c2a-4ef5-99a8-8687a5f0e2c5" valueTypeId="5f7c20a5-c1b6-48f6-997a-29a2aaf6ef50"/>
+  </producedTypes>
+  <name>ВнешниеЛаборатории</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внешние лаборатории</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Enum.ВнешниеЛаборатории.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Enum.ВнешниеЛаборатории.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="072d5b6c-07b8-49ef-a69a-f1d060443025">
+    <name>Helix</name>
+    <synonym>
+      <key>ru</key>
+      <value>Helix</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="799af3f0-ebf4-47e6-8e6b-2551d4b63fd4">
+    <name>Invitro</name>
+    <synonym>
+      <key>ru</key>
+      <value>Invitro</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8cb09c1b-5e47-43f8-8875-f17f153e1234">
+    <name>СитиЛаб</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ситилаб</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="79d564c1-db29-4ff1-a48e-29abb8367e67">
+    <name>КДЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>КДЛ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="03d199de-f97a-4d96-8969-2acbaa7ac727">
+    <name>Гемотест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гемотест</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="a196deeb-eaf6-4996-90b5-76f55180839c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3c799367-9700-4f91-94a1-4353b71aec4e">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

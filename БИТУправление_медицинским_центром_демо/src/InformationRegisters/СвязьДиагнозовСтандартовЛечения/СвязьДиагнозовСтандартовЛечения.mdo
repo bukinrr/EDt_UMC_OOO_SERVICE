@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="959dbb11-c708-4cee-872a-ca77569953e1">
+  <producedTypes>
+    <selectionType typeId="10e7fbe6-9f26-40f0-b92c-94fda1e002c2" valueTypeId="4c65c1c9-8a19-419c-85b5-f2f798b44a9c"/>
+    <listType typeId="b1b68bad-4e27-4967-83c7-f88d1e98aedc" valueTypeId="4d9a6928-6d47-4f5a-81b0-c7a2d3aed416"/>
+    <managerType typeId="8f3de15e-b772-4926-9d9d-eebc5709698e" valueTypeId="cf5c6f4c-cc1e-45e1-ab60-8e81eaba1055"/>
+    <recordSetType typeId="d420e33c-5035-4112-b0d3-8a8ba395e216" valueTypeId="f50e1ac8-1d38-402a-9657-12fa1f190531"/>
+    <recordKeyType typeId="6331c6a4-af2e-43da-a209-689a98885c74" valueTypeId="310d527c-8a2d-41bb-a30c-2d7ed0c3af63"/>
+    <recordType typeId="a665d292-0d94-4d53-ba42-f42a6ca30e0c" valueTypeId="97cf27a5-bec6-4eac-aad6-f02fe23ffc26"/>
+    <recordManagerType typeId="ce86449e-0850-4ec0-b2ce-5eb6037bb88f" valueTypeId="0ce95ace-a05d-4623-876e-d40bfa77d26f"/>
+  </producedTypes>
+  <name>СвязьДиагнозовСтандартовЛечения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связь диагнозов и стандартов лечения</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.СвязьДиагнозовСтандартовЛечения.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="f9265bc8-a1de-4edb-9ff9-1e9c6ca82445">
+    <name>Диагноз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диагноз</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Диагнозы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1fe66b10-0498-41ec-b155-f9d9fb3967ac">
+    <name>СтандартЛечения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандарт лечения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтандартыЛечения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="620b4e62-3cae-4c3c-a0d3-5f62a881c35d">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

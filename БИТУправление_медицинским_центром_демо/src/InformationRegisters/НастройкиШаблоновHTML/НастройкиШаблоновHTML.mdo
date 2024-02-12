@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7902d320-a982-47e3-bd7e-03a288e8e3e6">
+  <producedTypes>
+    <selectionType typeId="efde0775-9e46-412d-b41d-a27f22dc19e1" valueTypeId="05243f39-4736-4046-be95-9045b6eb891e"/>
+    <listType typeId="a7270b17-a64a-45c3-a759-e4025aa46e7d" valueTypeId="cbf9e49c-9672-4949-8ff9-27d727570c73"/>
+    <managerType typeId="1c654e82-1778-41ce-9fc9-3e87301bd405" valueTypeId="9c565457-d890-44ec-8a89-7c2bd41f8991"/>
+    <recordSetType typeId="f7677f1b-1bc5-4732-b26d-b889aea9375b" valueTypeId="de715c7b-4480-4c3d-9aa7-48782ac70fbc"/>
+    <recordKeyType typeId="e177d844-1900-4417-a0a8-e1180bf1d8c7" valueTypeId="085e6914-cbc4-451c-8cb4-a7bcb3972900"/>
+    <recordType typeId="a79b8062-d619-4522-a263-42d8f8c473a4" valueTypeId="04b186f3-5249-42a8-91ae-1b7bc8da042a"/>
+    <recordManagerType typeId="b739f937-51f5-449b-a24c-f2e2e96c4f63" valueTypeId="f1ada0da-e56d-473c-9062-cb72b0669366"/>
+  </producedTypes>
+  <name>НастройкиШаблоновHTML</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки шаблонов приёма</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.НастройкиШаблоновHTML.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует с</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9abe597b-b319-499d-9436-54a0dd847c94">
+    <name>МедицинскаяШапка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шапка медицинской версии шаблонов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШаблоныHTML</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="024dd695-8005-4031-a456-dcfae0a4db35">
+    <name>КлиентскаяШапка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шапка клиентской версии шаблонов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШаблоныHTML</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="82b797b6-4c15-47f9-8852-79414f456dc7">
+    <name>Филиал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Филиал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Филиалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="7f2eba36-9475-440b-a76a-07043a944515">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

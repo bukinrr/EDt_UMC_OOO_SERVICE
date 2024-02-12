@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="011e90cd-1bcc-483f-8ec7-80d3cdfacd42">
+  <producedTypes>
+    <selectionType typeId="f1a18bc5-a6da-4b7e-8633-4c826982a097" valueTypeId="1076f59e-3eac-4956-bd92-0551e3a696f9"/>
+    <listType typeId="34309f61-cc05-426c-8270-33be30044477" valueTypeId="437a45de-65c0-4a7e-97af-febc0688a771"/>
+    <managerType typeId="22ab0758-affe-46a7-91aa-025ad9dc20fb" valueTypeId="0aff6786-d6a7-4e66-84c3-86f48b25bd1e"/>
+    <recordSetType typeId="bf54d7f6-2208-4ec9-905e-05ba01874f88" valueTypeId="33620094-11d8-43c0-bf04-4860c1804059"/>
+    <recordKeyType typeId="a72a4374-9129-4aa9-b44b-07ba61865f78" valueTypeId="520d0f83-5385-4d23-8181-6dba8a5f477c"/>
+    <recordType typeId="2a458a16-b996-42a3-a15c-6646aa6ab5f3" valueTypeId="719b8e64-1d7f-435e-a2e6-683c6cc25449"/>
+    <recordManagerType typeId="f13f5dd8-04c4-49d8-8575-5d99298120d4" valueTypeId="649899e7-95a8-42b5-ac37-ce6bbfce8cef"/>
+  </producedTypes>
+  <name>ШаблоныРазделовМедицинскихКарт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблоны разделов медицинских карт</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ШаблоныРазделовМедицинскихКарт.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="73bb082c-b8f2-4735-9435-7f20a9b64bdb">
+    <name>Раздел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РазделыМедицинскихКарт</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ed034247-ec9e-42b3-ac78-49c2188549bc">
+    <name>ШаблонПриема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон приема</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШаблоныHTML</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="983d4461-8141-44f3-a0dc-f31745f842a0">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

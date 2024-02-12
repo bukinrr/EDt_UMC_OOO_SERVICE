@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="890a87ed-6f9e-4614-9b01-bf50c35a662f">
+  <producedTypes>
+    <refType typeId="7cdf7ae2-63c4-4761-af81-9adabfc67b27" valueTypeId="24cd0b7b-da5c-4d0b-8681-c10b60896b69"/>
+    <listType typeId="4991ee69-bf5a-474e-9df4-63079aecfcbc" valueTypeId="1200f94b-ff3e-435e-92ad-63b3b0ecb1a2"/>
+    <managerType typeId="0e0d7f79-e7b4-4685-9639-f2d4ca0e3036" valueTypeId="8eafd781-1ee7-4f87-ba89-3a0948cb3ffb"/>
+  </producedTypes>
+  <name>СтатусыФСС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы ФСС</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9e094e75-8a57-4de0-a5ef-35fff8cd002f">
+    <name>ЭЛНОткрыт</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЭЛН открыт</value>
+    </synonym>
+    <comment>010</comment>
+  </enumValues>
+  <enumValues uuid="4e44a5ef-47ac-48f5-805b-f21389ce2429">
+    <name>ЭЛНПродлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЭЛН продлен</value>
+    </synonym>
+    <comment>020</comment>
+  </enumValues>
+  <enumValues uuid="1c51e831-1975-4d4d-891f-ca1084f49046">
+    <name>ЭЛНЗакрыт</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЭЛН закрыт</value>
+    </synonym>
+    <comment>030</comment>
+  </enumValues>
+  <enumValues uuid="c8e64349-5ccf-426f-b6f6-eb838c5a3ce4">
+    <name>ЭЛННаправлениеНаМСЭ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЭЛН направление на МСЭ</value>
+    </synonym>
+    <comment>040</comment>
+  </enumValues>
+  <enumValues uuid="cb9a5e57-5c19-4584-a46d-803532c84462">
+    <name>ЭЛНДополненДаннымиМСЭ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЭЛН дополнен данными МСЭ</value>
+    </synonym>
+    <comment>050</comment>
+  </enumValues>
+  <enumValues uuid="c699427c-69a5-4a2e-87ae-0b75663a21de">
+    <name>ЭЛНЗаполненСтрахователем</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЭЛН заполнен Страхователем</value>
+    </synonym>
+    <comment>060</comment>
+  </enumValues>
+  <enumValues uuid="e5151748-1ae8-45ae-a1ed-0237a08c9439">
+    <name>ЭЛНЗаполненСтрахователемПВСО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЭЛН заполнен Страхователем  (реестр ПВСО)</value>
+    </synonym>
+    <comment>070</comment>
+  </enumValues>
+  <enumValues uuid="d7077dd7-db23-4745-a62e-049a42f16b0e">
+    <name>ПособиеВыплачено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пособие выплачено</value>
+    </synonym>
+    <comment>080</comment>
+  </enumValues>
+  <enumValues uuid="db6f9ff3-5517-491e-a6c0-450fde92ddc1">
+    <name>ДействияПрекращены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действия прекращены</value>
+    </synonym>
+    <comment>090</comment>
+  </enumValues>
+  <enumValues uuid="b232862e-101b-4012-9288-7aab25f4348f">
+    <name>Черновик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="78e223d8-ac83-407b-8e37-b2fa7e31a6cc">
+    <name>ОтправленУспешно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлен в ФСС успешно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="94af0564-07f3-4851-ba47-9e7126afadf9">
+    <name>НеПринятФСС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не принят ФСС из-за ошибок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="87cc3886-6442-4b45-9022-6f50ba916ee3">
+    <name>Обновлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновлен из ФСС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="77026332-a0fd-473d-bc2f-5a5ef2828cda">
+    <name>Аннулирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аннулирован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cf3872bd-6536-456f-9618-35d0aa224ef9">
+    <name>Редактируется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактируется</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

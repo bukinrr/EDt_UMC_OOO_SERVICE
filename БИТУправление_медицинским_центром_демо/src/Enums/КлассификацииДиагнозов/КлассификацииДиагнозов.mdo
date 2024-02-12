@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0671b7dc-96c6-4818-83fd-c5327284261c">
+  <producedTypes>
+    <refType typeId="b4435498-00f2-4656-8211-33c6eb08c0f9" valueTypeId="8a5e4700-000d-4f86-980e-40cd3f525536"/>
+    <listType typeId="9e8eaea6-2757-4ccf-bb8f-31686192fdaa" valueTypeId="7a495543-8431-48e0-a4ca-620981ffccb6"/>
+    <managerType typeId="a2681a46-02fb-4933-9831-8ad7fa33b26f" valueTypeId="5be05e2d-638b-4605-ae99-297ee716905d"/>
+  </producedTypes>
+  <name>КлассификацииДиагнозов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Классификации диагнозов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9f0a39fd-489c-4cd9-8dbb-842957f531c9">
+    <name>Предварительный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предварительный</value>
+    </synonym>
+    <comment>Степень обоснованности диагноза (1.2.643.5.1.13.13.11.1076)</comment>
+  </enumValues>
+  <enumValues uuid="414a66da-3d5b-4d24-9ae1-fce7f2ae8c7c">
+    <name>Окончательный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заключительный клинический</value>
+    </synonym>
+    <comment>Степень обоснованности диагноза (1.2.643.5.1.13.13.11.1076)</comment>
+  </enumValues>
+  <enumValues uuid="28ae2d45-b6ca-4030-bf15-474bf6557e6d">
+    <name>РискЗаболевания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Риск заболевания</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="36b203b9-6500-4cf3-97bb-b83574fce955">
+    <name>Острое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Острое</value>
+    </synonym>
+    <comment>Характер заболевания (1.2.643.5.1.13.13.11.1049)</comment>
+  </enumValues>
+  <enumValues uuid="359c2e68-445a-4199-9e11-d11a29a32ff6">
+    <name>ХроническоеВпервыеВыявленное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Впервые в жизни установленное хроническое</value>
+    </synonym>
+    <comment>Характер заболевания (1.2.643.5.1.13.13.11.1049)</comment>
+  </enumValues>
+  <enumValues uuid="49d38e9b-3f30-4523-ae93-b511a4392061">
+    <name>ХроническоеРанееВыявленное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ранее установленное хроническое</value>
+    </synonym>
+    <comment>Характер заболевания (1.2.643.5.1.13.13.11.1049)</comment>
+  </enumValues>
+  <enumValues uuid="144ff056-ad3c-42f5-84e1-f46838c189e1">
+    <name>ОбострениеХронического</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обострение хронического</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a6cd3281-cd49-48fb-815b-f32352296036">
+    <name>ОсновноеЗаболевание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основное заболевание</value>
+    </synonym>
+    <comment>Виды нозологических единиц диагноза (1.2.643.5.1.13.13.11.1077)</comment>
+  </enumValues>
+  <enumValues uuid="ad6567b9-0def-44b5-a943-19028f66909f">
+    <name>ОсложнениеОсновногоЗаболевания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Осложнение основного</value>
+    </synonym>
+    <comment>Виды нозологических единиц диагноза (1.2.643.5.1.13.13.11.1077)</comment>
+  </enumValues>
+  <enumValues uuid="41a5c60a-20da-460c-a36e-abb26a2ad53c">
+    <name>СопутствующееЗаболевание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сопутствующее заболевание</value>
+    </synonym>
+    <comment>Виды нозологических единиц диагноза (1.2.643.5.1.13.13.11.1077)</comment>
+  </enumValues>
+  <enumValues uuid="6f3fe020-7f92-4707-8486-3e18fca5b49f">
+    <name>ОсложнениеСопутствующегоЗаболевания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Осложнение сопутствующего</value>
+    </synonym>
+    <comment>Виды нозологических единиц диагноза (1.2.643.5.1.13.13.11.1077)</comment>
+  </enumValues>
+  <enumValues uuid="be0e35cb-ef4d-43ad-9179-39dd350c57f5">
+    <name>КонкурирующееЗаболевание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конкурирующее заболевание</value>
+    </synonym>
+    <comment>Виды нозологических единиц диагноза (1.2.643.5.1.13.13.11.1077)</comment>
+  </enumValues>
+  <enumValues uuid="c9c8e5ef-4221-453b-b928-695c15c07214">
+    <name>ФоновоеЗаболевание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фоновое заболевание</value>
+    </synonym>
+    <comment>Виды нозологических единиц диагноза (1.2.643.5.1.13.13.11.1077)</comment>
+  </enumValues>
+  <enumValues uuid="74f325c0-ea8c-4177-9eb0-523c17d36f6f">
+    <name>ВнешняяПричина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешняя причина</value>
+    </synonym>
+    <comment>Виды нозологических единиц диагноза (1.2.643.5.1.13.13.11.1077)</comment>
+  </enumValues>
+</mdclass:Enum>

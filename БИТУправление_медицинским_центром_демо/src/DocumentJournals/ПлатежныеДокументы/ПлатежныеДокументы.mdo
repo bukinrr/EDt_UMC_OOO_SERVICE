@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b038a647-8113-4cf3-a3fc-dc12d23d2c3c">
+  <producedTypes>
+    <selectionType typeId="8219944c-1f73-454d-a620-9f1797857ea2" valueTypeId="130fa2cd-88ee-4ff5-87f6-a13ea2bb29f1"/>
+    <listType typeId="0cca6e9a-906a-472d-967f-a22dc29f83cb" valueTypeId="764d9b2f-e8cd-4956-88c8-67b73abb06ab"/>
+    <managerType typeId="a64ef01e-a99e-4791-9c13-2ac18a237fcc" valueTypeId="ac8934e0-cdc8-4c53-a511-5c07c5c1612d"/>
+  </producedTypes>
+  <name>ПлатежныеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Платежные документы</value>
+  </synonym>
+  <registeredDocuments>Document.ПриходныйКассовыйОрдер</registeredDocuments>
+  <registeredDocuments>Document.РасходныйКассовыйОрдер</registeredDocuments>
+  <registeredDocuments>Document.ПлатежноеПоручениеВходящее</registeredDocuments>
+  <registeredDocuments>Document.ПлатежноеПоручениеИсходящее</registeredDocuments>
+  <registeredDocuments>Document.ОплатаПлатежнойКартой</registeredDocuments>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <columns uuid="c5abcc26-9917-4719-8f36-1dd7f0acf31f">
+    <name>Касса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Касса</value>
+    </synonym>
+    <references>Document.ПриходныйКассовыйОрдер.Attribute.Касса</references>
+    <references>Document.РасходныйКассовыйОрдер.Attribute.Касса</references>
+  </columns>
+  <columns uuid="73de7273-b6b2-4738-a3fa-6859a179f95b">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <references>Document.ПриходныйКассовыйОрдер.Attribute.СуммаДокумента</references>
+    <references>Document.РасходныйКассовыйОрдер.Attribute.СуммаДокумента</references>
+    <references>Document.ПлатежноеПоручениеВходящее.Attribute.СуммаДокумента</references>
+    <references>Document.ПлатежноеПоручениеИсходящее.Attribute.СуммаДокумента</references>
+    <references>Document.ОплатаПлатежнойКартой.Attribute.СуммаДокумента</references>
+  </columns>
+  <columns uuid="bfbe1d05-2667-4c3c-86ea-0fa5b4a3cb7b">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <references>Document.ПриходныйКассовыйОрдер.Attribute.Клиент</references>
+    <references>Document.РасходныйКассовыйОрдер.Attribute.Контрагент</references>
+    <references>Document.ПлатежноеПоручениеВходящее.Attribute.Контрагент</references>
+    <references>Document.ПлатежноеПоручениеИсходящее.Attribute.Контрагент</references>
+    <references>Document.ОплатаПлатежнойКартой.Attribute.Клиент</references>
+  </columns>
+  <columns uuid="771a2ba8-5452-403c-8d4a-185c42d2fb2e">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <indexing>Index</indexing>
+    <references>Document.ПриходныйКассовыйОрдер.Attribute.ДокументОснование</references>
+    <references>Document.РасходныйКассовыйОрдер.Attribute.ДокументОснование</references>
+    <references>Document.ПлатежноеПоручениеВходящее.Attribute.ДокументОснование</references>
+    <references>Document.ПлатежноеПоручениеИсходящее.Attribute.ДокументОснование</references>
+    <references>Document.ОплатаПлатежнойКартой.Attribute.ДокументОснование</references>
+  </columns>
+  <columns uuid="1f85d0f4-caa9-4759-82aa-936e74e3c699">
+    <name>ВидОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид операции</value>
+    </synonym>
+    <references>Document.РасходныйКассовыйОрдер.Attribute.ВидОперации</references>
+    <references>Document.ПриходныйКассовыйОрдер.Attribute.ВидОперации</references>
+  </columns>
+  <columns uuid="794a011f-d19d-4c17-96c6-7d3b19702da4">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <references>Document.ПриходныйКассовыйОрдер.Attribute.Ответственный</references>
+    <references>Document.РасходныйКассовыйОрдер.Attribute.Ответственный</references>
+    <references>Document.ПлатежноеПоручениеВходящее.Attribute.Ответственный</references>
+    <references>Document.ПлатежноеПоручениеИсходящее.Attribute.Ответственный</references>
+    <references>Document.ОплатаПлатежнойКартой.Attribute.Ответственный</references>
+  </columns>
+  <columns uuid="be00924e-fcac-4422-9725-7a6e60b1d1b5">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <references>Document.ПриходныйКассовыйОрдер.Attribute.Комментарий</references>
+    <references>Document.РасходныйКассовыйОрдер.Attribute.Комментарий</references>
+  </columns>
+  <columns uuid="f1e3e172-f456-4a9d-a1db-52837cc786d0">
+    <name>Филиал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Филиал</value>
+    </synonym>
+    <references>Document.ПриходныйКассовыйОрдер.Attribute.Филиал</references>
+    <references>Document.РасходныйКассовыйОрдер.Attribute.Филиал</references>
+    <references>Document.ПлатежноеПоручениеИсходящее.Attribute.Филиал</references>
+    <references>Document.ПлатежноеПоручениеВходящее.Attribute.Филиал</references>
+    <references>Document.ОплатаПлатежнойКартой.Attribute.Филиал</references>
+  </columns>
+</mdclass:DocumentJournal>

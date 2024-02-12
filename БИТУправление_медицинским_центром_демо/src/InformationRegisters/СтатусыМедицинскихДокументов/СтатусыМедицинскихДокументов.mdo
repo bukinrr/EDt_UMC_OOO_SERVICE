@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="778a20ff-90ad-4d71-9dfc-40fb9807982d">
+  <producedTypes>
+    <selectionType typeId="47f71f04-e578-4edf-b3ab-8a98ac0d210c" valueTypeId="564b077e-5140-463e-8367-9228459ee548"/>
+    <listType typeId="cb783999-f6dd-4c55-a130-84a039dbc478" valueTypeId="78146f33-33a4-4557-9e33-0c0ecfa9d315"/>
+    <managerType typeId="1f481634-fab8-4251-9fa0-da2ab1e57271" valueTypeId="88787543-e256-43e8-8117-614b3f1775db"/>
+    <recordSetType typeId="6fae40e4-7d3e-43b0-b653-eecf3c860bba" valueTypeId="da6c7e47-ccd2-47b8-adfe-94bb989d6b8a"/>
+    <recordKeyType typeId="f5a6e4f8-9926-4c9e-af9b-d94352e81605" valueTypeId="1b659c13-496e-40d9-bddb-e6a016aec4c5"/>
+    <recordType typeId="e85f83a7-ac59-4de5-9f33-66837e66a531" valueTypeId="620b7482-849f-4f70-8abc-b84f6d66b54a"/>
+    <recordManagerType typeId="37547f8e-1006-48e2-b4af-f89f4a4a694c" valueTypeId="1177d933-91bc-4933-9b7f-fb5c65714fe4"/>
+  </producedTypes>
+  <name>СтатусыМедицинскихДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы медицинских документов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="e0f9d559-6f75-4429-a1f5-96ebdb3fa26a">
+    <name>ДатаМД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата МД</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="91f312e7-b0f9-4dd4-95c8-cc770ad35991">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1a9cb2fc-ecac-4d86-8b5c-32bf8d2b5d83">
+    <name>СтатусТелаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус тела документа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Статус готовности тела медицинского документа</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="5e70e7d9-23cb-4580-8901-994ca01dd81c">
+    <name>МедицинскийДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Медицинский документ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Файлы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

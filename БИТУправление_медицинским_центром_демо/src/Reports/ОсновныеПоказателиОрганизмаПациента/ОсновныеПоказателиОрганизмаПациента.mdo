@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00a48bc3-f641-49fb-a8ad-07766f90f7d0">
+  <producedTypes>
+    <objectType typeId="5c03e213-9957-44e3-85e6-d7b9f8d804f6" valueTypeId="c05f10aa-b4f3-4b2c-b41a-c415d4150dec"/>
+    <managerType typeId="3a6325a0-dbae-45a4-8437-31d9c5682b07" valueTypeId="f7c9200f-2e36-4484-94c6-dda2e0628a40"/>
+  </producedTypes>
+  <name>ОсновныеПоказателиОрганизмаПациента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основные показатели функций организма пациента</value>
+  </synonym>
+  <defaultForm>Report.ОсновныеПоказателиОрганизмаПациента.Form.ФормаОтчета</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="3f869764-3f81-48a8-afd3-d8eee0f7a951">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="decef560-7fe2-4c58-bdbf-670fdc426f8b">
+    <name>ОсновныеПоказателиОрганизмаПациента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основные показатели организма пациента</value>
+    </synonym>
+  </templates>
+  <commands uuid="1dca5fbb-3563-41ca-88f0-d0235c9440b3">
+    <name>ОсновныеПоказателиПациента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основные показатели функций организма пациента</value>
+    </synonym>
+    <group>CommandGroup.НеОтображаемыеКоманды</group>
+    <commandParameterType>
+      <types>CatalogRef.Клиенты</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.ФорматTXT</picture>
+    </picture>
+  </commands>
+</mdclass:Report>

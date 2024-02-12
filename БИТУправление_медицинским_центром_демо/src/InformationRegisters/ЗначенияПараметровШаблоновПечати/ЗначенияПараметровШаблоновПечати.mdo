@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b121ff3-c808-4a74-9cda-5675cdfa1a95">
+  <producedTypes>
+    <selectionType typeId="167afc59-690f-4df0-a361-991b146daff8" valueTypeId="a9a6b3ac-3d18-4e5a-b845-ad46d048026a"/>
+    <listType typeId="a5463e14-c361-46c1-a240-4cee876890dc" valueTypeId="b8bf3ac6-295c-4308-b207-ca66abe13416"/>
+    <managerType typeId="fd572aad-0dda-4f96-8a75-04ce9e7f2e3a" valueTypeId="54a5fb11-bf1f-4c13-a770-e0eae26901f5"/>
+    <recordSetType typeId="af3cbcec-f3bc-43b8-b902-c1b1d4576ded" valueTypeId="51e42b32-996b-4a94-8c4c-78428e418537"/>
+    <recordKeyType typeId="068894b4-0668-477e-9c56-70bd1c2655ee" valueTypeId="77942bce-4044-48fd-83cb-2079db2d6481"/>
+    <recordType typeId="40823274-33bf-4fb1-95a2-0df47f0aa9a7" valueTypeId="926f50dc-781c-4b0b-b3fc-fd78d45c1a05"/>
+    <recordManagerType typeId="efc3f148-4102-452b-84c1-8b7a9299e1ba" valueTypeId="46090da3-9eb4-4ace-9558-dc86ae8d942c"/>
+  </producedTypes>
+  <name>ЗначенияПараметровШаблоновПечати</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения параметров шаблонов печати</value>
+  </synonym>
+  <comment>Шаблоны печати в формате Word</comment>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b26aed07-8eeb-4ad0-9d99-15e5d54846fa">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="32b4f433-2003-423e-a610-2796311700f0">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+      <types>CatalogRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="893a0e88-905b-4dde-a94a-9ce8efd1cfb3">
+    <name>ИмяПараметра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя параметра</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="bdbbeb79-acd6-4d4e-b200-5a11f648ddf0">
+    <name>ЗначенияПараметровОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значения параметров</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

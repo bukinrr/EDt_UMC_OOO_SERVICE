@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9546ddb6-968a-418d-be85-2b0c52eeb1fb">
+  <producedTypes>
+    <selectionType typeId="4fcaf657-2aa8-42fb-864c-a4db344f7e0f" valueTypeId="510884e5-9544-46cb-ab0c-4a7abcf8acea"/>
+    <listType typeId="072c9a55-11a9-48ae-a38c-ec4b3bbefcf4" valueTypeId="71e17148-ec6a-451a-8301-e201be3c9e81"/>
+    <managerType typeId="4237fc34-f050-48f3-998b-a1454f9803d4" valueTypeId="69df78e3-46d9-4c4d-9c89-3360c1182693"/>
+    <recordSetType typeId="73984bfe-6efd-4db2-9c02-3884f96d37c7" valueTypeId="e9ae618c-dfba-4789-808c-080977c9e151"/>
+    <recordKeyType typeId="ae862643-4d46-488a-b027-38e1bd88fc71" valueTypeId="f9895a97-7ea6-4780-9664-9aa6daea6d33"/>
+    <recordType typeId="41b6d20f-e1ab-4f80-8d07-5e7f0f2f63d1" valueTypeId="7b7e288b-6fe4-4d26-a036-5ce639b02a21"/>
+    <recordManagerType typeId="6e0f3361-9203-44d6-ac50-d044aa8f3e55" valueTypeId="35369e65-0996-439b-9035-97545dc1a2f8"/>
+  </producedTypes>
+  <name>ПредставлениеПараметраПриПечати</name>
+  <synonym>
+    <key>ru</key>
+    <value>Представление параметра при печати</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ПредставлениеПараметраПриПечати.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Представление параметра</value>
+  </recordPresentation>
+  <resources uuid="3e72aaa6-e10e-486a-8292-ba5574e1820e">
+    <name>Представление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЗначенияФорматаБулевого</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Представление параметра</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.ПредставлениеПараметраПриПечати.Dimension.Параметр</field>
+    </choiceParameterLinks>
+    <linkByType>
+      <field>InformationRegister.ПредставлениеПараметраПриПечати.Dimension.Параметр</field>
+    </linkByType>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="efb125e9-dfe3-49a8-b0cb-7f2c9ca83c0b">
+    <name>Параметр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ПараметрыHTML</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Параметр шаблона</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="55e4059d-359f-4292-81d2-a723e22785cf">
+    <name>ЗначениеПараметра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение параметра</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Значение</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="57fb5862-7573-449c-8f37-6b937080e936">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

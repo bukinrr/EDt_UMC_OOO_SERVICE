@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8d5454c-05bb-4818-b377-f3109299a8f7">
+  <name>ПоместитьВАрхивДубликатыРИБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поместить в архив дубликаты РИБ</value>
+  </synonym>
+  <source>
+    <types>CatalogObject</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ПользователиСобытия.ПоместитьВАрхивДубликатыРИБПередЗаписью</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed886153-4080-4218-91e0-1007ceefad88">
+  <producedTypes>
+    <refType typeId="ab2dabb2-a012-4d5f-9201-a5b7f5cb00e4" valueTypeId="432a86c6-faf8-443e-b5ab-dc07194165df"/>
+    <listType typeId="9abf3485-ae64-4cdc-8c2f-b5dc51192174" valueTypeId="0c8c38da-4fe2-44ba-bc99-e8d716d75463"/>
+    <managerType typeId="22b36b5a-9ded-4deb-af09-7a23b0e28a96" valueTypeId="8da9851d-e2af-4e98-a148-5560fdc92647"/>
+  </producedTypes>
+  <name>ОперацииОприходованияМДЛП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операции оприходования МДЛП</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d171b8f6-7994-47e8-9c17-f479cc4137cc">
+    <name>Поступление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0807d8ec-ffe9-4ed9-add3-441812fa6efa">
+    <name>ВозвратОтПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат от покупателя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0c22a134-aa9b-497b-b466-10dbf4c1c1f5">
+    <name>Пересорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пересорт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="83195e4f-18ce-4920-8bd4-abe90cd52db1">
+    <name>ИмпортЕАЭС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Импорт ЕАЭС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d764ce18-9c34-4395-8ce7-f3ab1c7eeb8c">
+    <name>ИмпортНеЕАЭС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Импорт (не ЕАЭС)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

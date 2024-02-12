@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec54dfce-ec02-4455-ab86-89671067ac04">
+  <producedTypes>
+    <selectionType typeId="0a9c75df-f3ed-42ae-834a-bbc4c94a4e37" valueTypeId="8ca841a6-af7d-4aae-b754-c0e36b61098e"/>
+    <listType typeId="4dbb798a-bc39-4d3c-b0e6-537d3d7c9841" valueTypeId="32e770ba-95a5-42b4-a392-0d096e1c0754"/>
+    <managerType typeId="1c76afea-b7a8-4cc8-b34b-c4eb6ed3263c" valueTypeId="931d4797-6959-4804-bcb6-147e692063b4"/>
+    <recordSetType typeId="e7d008f4-fd6c-414d-b8ce-970d31861773" valueTypeId="1491bf50-30ca-4f71-980d-bc5a34405d0d"/>
+    <recordKeyType typeId="169c160f-4e23-480d-bc9b-841b19bcadf7" valueTypeId="59644ac6-46cf-4551-8ac0-ac6177bad104"/>
+    <recordType typeId="d450571a-1731-444f-b0f2-0af284a0e196" valueTypeId="1a518b8d-aa7b-43a4-b700-3b0be5239cfc"/>
+    <recordManagerType typeId="64e6c1f6-fbb5-4139-b21d-7615da595df0" valueTypeId="94453837-7d86-43e1-a0b9-371d92292456"/>
+  </producedTypes>
+  <name>АнамнезыЖизни</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анамнезы жизни</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.АнамнезыЖизни.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Период записи</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Параметр и значение</value>
+  </recordPresentation>
+  <resources uuid="c888b6c7-2585-4233-a8ca-4b871f6fef0c">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ПараметрыHTML</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Значение параметра шаблона</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.АнамнезыЖизни.Dimension.Параметр</field>
+    </choiceParameterLinks>
+    <linkByType>
+      <field>InformationRegister.АнамнезыЖизни.Dimension.Параметр</field>
+    </linkByType>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d87bee9d-c7e8-48ca-b525-7e9da0a7d52e">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пациент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пациент-владелец анамнеза</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="38361574-2dec-4eb3-8fff-18c92f1de5e7">
+    <name>Параметр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ПараметрыHTML</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Параметр шаблона</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e46efeee-ed99-4b8e-8634-043aa09de92d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f2df8d9b-4f2f-47f4-acfb-44fb46b60c58">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2a587230-67ba-4fa0-87a5-654fd097367b">
+    <name>ФормаЗаполненияАнамнеза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнения анамнеза</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="9cdd780e-f5a7-404c-bebb-6f576b6cd37a">
+    <name>ОткрытьАнамнезЖизни</name>
+    <synonym>
+      <key>ru</key>
+      <value>An.vitae</value>
+    </synonym>
+    <group>CommandGroup.НеОтображаемыеКоманды</group>
+    <commandParameterType>
+      <types>CatalogRef.Клиенты</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть анамнез жизни</value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.Текст</picture>
+    </picture>
+  </commands>
+</mdclass:InformationRegister>

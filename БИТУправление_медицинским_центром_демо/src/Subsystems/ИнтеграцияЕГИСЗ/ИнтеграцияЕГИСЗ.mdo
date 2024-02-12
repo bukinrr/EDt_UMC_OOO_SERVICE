@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4eccabf9-8c66-4a8e-b1f9-e1a508cb0bf0">
+  <name>ИнтеграцияЕГИСЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция ЕГИСЗ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ЛоготипЕГИСЗ</picture>
+  </picture>
+  <content>CommonModule.ИнтеграцияЕГИСЗСервер</content>
+  <content>CommonModule.ИнтеграцияЕГИСЗ_СЭМД</content>
+  <content>CommonModule.ИнтеграцияЕГИСЗ_ГИП</content>
+  <content>HTTPService.ИнтеграцияЕГИСЗ</content>
+  <content>CommonModule.ИнтеграцияЕГИСЗКлиентСервер</content>
+  <content>CommonModule.ИнтеграцияЕГИСЗВызовСервера</content>
+  <content>CommonModule.ИнтеграцияЕГИСЗКлиент</content>
+  <content>CommonModule.ЗагрузкаКлассификаторовНСИЕГИСЗ</content>
+  <content>CommonModule.ИнтеграцияЕГИСЗСерверПовтИсп</content>
+  <content>CommonModule.ИнтеграцияЕГИСЗСлужебныйСервер</content>
+  <content>CommonModule.ИнтеграцияЕГИСЗ_РЭМД</content>
+  <content>CommonAttribute.ВерсияКлассификатораМинздрава</content>
+  <content>Enum.РежимыАвтоОбновленияСправочниковЕГИСЗ</content>
+  <content>CommonModule.ПространстваИмен</content>
+  <content>DataProcessor.ПроверкаНаличияКлассификаторовМакетовСЭМД</content>
+  <content>CommonModule.ОбщиеМеханизмыXDTO</content>
+  <content>InformationRegister.ЕГИСЗНастройкиИнтеграции</content>
+  <content>CommonForm.ПультКонтролераЕГИСЗ</content>
+  <content>CommonModule.ИнтеграцияЕГИСЗ_ЭЦП</content>
+  <content>CommonModule.ИнтеграцияЕГИСЗОбщегоНазначенияПовтИсп</content>
+  <content>CommonModule.ИнтеграцияЕГИСЗ_HL7</content>
+  <content>CommonCommand.ПультКонтролераЕГИСЗ</content>
+  <content>CommonForm.ПроверкаСотрудниковНаКорректностьДляСЭМД</content>
+  <content>Constant.СохранятьЛогСинхронныхСообщенийЕГИСЗ</content>
+  <content>Enum.ПодсистемыЕГИСЗ</content>
+  <content>InformationRegister.ИнтеграцияЕГИСЗДатыРезервныхКопирований</content>
+  <content>ScheduledJob.ИнтеграцияЕГИСЗРезервноеКопирование</content>
+  <content>InformationRegister.ДолжностиМинздрава</content>
+  <content>CommonModule.ИнтеграцияЕГИСЗ_РЭМДКлиент</content>
+  <content>CommonModule.ИнтеграцияЕГИСЗ_СЭМДКлиент</content>
+  <content>InformationRegister.ИнтеграцияЕГИСЗКэшОтветов</content>
+  <subsystems>НСИ</subsystems>
+  <subsystems>РЭМД</subsystems>
+  <subsystems>ГИП</subsystems>
+</mdclass:Subsystem>

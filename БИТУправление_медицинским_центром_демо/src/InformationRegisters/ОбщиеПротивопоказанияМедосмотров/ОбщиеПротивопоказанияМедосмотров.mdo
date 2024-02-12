@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37c810b0-c521-44cf-97ca-09759c46f1b0">
+  <producedTypes>
+    <selectionType typeId="df949fc0-11a6-47af-bc62-817170a79dfd" valueTypeId="50d73bf3-73d3-49ce-9a00-dbc05a23b7d2"/>
+    <listType typeId="ab1b9bed-a742-4b17-8adf-edeb1dbad563" valueTypeId="b428ae61-f467-4890-bd12-8b20b952a42e"/>
+    <managerType typeId="8e1df7f7-008b-47ee-b48b-e9b4de6e22f0" valueTypeId="d794f9d6-b8ff-41b2-9610-f610db01d1ca"/>
+    <recordSetType typeId="b76725e1-4c8f-49a1-9436-e205ee2b7e96" valueTypeId="9aac2b33-f4d7-433d-bfdc-481273e0e7d1"/>
+    <recordKeyType typeId="c13d537f-a544-4a88-889f-89503fc2cf83" valueTypeId="094ba489-45ce-4109-b897-24eefcb06993"/>
+    <recordType typeId="d80a9e63-dc07-4e3d-b857-14a96934a484" valueTypeId="21565166-554b-4f43-b284-a2555c1c1c30"/>
+    <recordManagerType typeId="1b378e21-cf58-48cb-8529-88e5129ad854" valueTypeId="c1b16a22-b301-4e1e-b126-e4c5abe31f13"/>
+  </producedTypes>
+  <name>ОбщиеПротивопоказанияМедосмотров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общие противопоказания медосмотров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ОбщиеПротивопоказанияМедосмотров.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ОбщиеПротивопоказанияМедосмотров.Form.ФормаСписка</defaultListForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="83219f33-31e4-4fee-bac2-48f309e4bebb">
+    <name>Противопоказание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Противопоказание</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МедицинскиеПротивопоказания</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Противопоказание к работе</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="93ab5510-ba61-458c-bea5-79fc3d976328">
+    <name>ГруппаОпасныхВеществ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа опасных веществ</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ГруппыОпасныхВеществ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="8300b9d3-6e88-47fa-8ba2-36d9904ad732">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9e4269b8-323e-425d-ac6e-1b286b62af51">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

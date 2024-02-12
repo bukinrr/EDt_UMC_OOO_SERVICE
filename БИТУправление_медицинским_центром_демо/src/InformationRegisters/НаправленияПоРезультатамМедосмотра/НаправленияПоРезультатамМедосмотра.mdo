@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35f31bee-494d-4fac-9b9f-0a3167f30207">
+  <producedTypes>
+    <selectionType typeId="a2127d9e-bc0f-486c-a15c-b085167d2232" valueTypeId="4924dc7a-4105-4794-9803-fa667574b559"/>
+    <listType typeId="ba0c05a5-2da3-419d-8ff6-0a88750008fc" valueTypeId="04c31ed2-07cd-4dda-9e25-1db1ceb87195"/>
+    <managerType typeId="d5dd481c-0316-4a6f-b652-8509aef64506" valueTypeId="5ffd6082-0cae-4015-8f17-4bfcd2a00f57"/>
+    <recordSetType typeId="cecac4a0-7306-4d65-b333-f995c25b9328" valueTypeId="a531c32d-90b5-4b6d-8b20-d9df75eef862"/>
+    <recordKeyType typeId="a827b7c1-3ec3-4c45-89d0-9daa7268175c" valueTypeId="daa7c76f-7d77-457d-957c-a5b0464aa8d2"/>
+    <recordType typeId="2a708e24-fae3-4389-8fb2-0909e0d33ae2" valueTypeId="34383c4d-7057-47e4-b082-d56c1c422160"/>
+    <recordManagerType typeId="effd7ec7-0d51-41e1-b55d-5c3d2184d01b" valueTypeId="0290c29a-5f60-4e39-b981-c593f46a2f91"/>
+  </producedTypes>
+  <name>НаправленияПоРезультатамМедосмотра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Направления по результатам медосмотра</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="2ae33fbe-26fe-44a5-8234-7759259dcbb6">
+    <name>ПрохождениеМедосмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прохождение медосмотра</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПрохождениеМедосмотра</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3187e5c1-ab65-4d9f-9284-c7cc1d061b1a">
+    <name>ВидНаправления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид направления</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыНаправленийПоРезультатамМедосмотра</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

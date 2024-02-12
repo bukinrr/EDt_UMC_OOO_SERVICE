@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c03c0bf7-69d0-4f63-9f64-25d41136dc58">
+  <producedTypes>
+    <objectType typeId="eeb58d94-19f6-4dac-9ca7-417aeb946b50" valueTypeId="918caafa-f933-49a7-8f63-4213f21651d8"/>
+    <managerType typeId="f3f570d5-443e-4306-bacc-7e17fc41102a" valueTypeId="19506013-3d6e-4df7-ba70-9b4166299693"/>
+  </producedTypes>
+  <name>СегментацияКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сегментация клиентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.СегментацияКлиентов.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.СегментацияКлиентов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ВспомогательнаяФормаНастроекОтчета</defaultSettingsForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="30fd4b70-343f-4c3a-ac88-2635ad13a3bf">
+    <name>ФормаНастройкиСтруктуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки структуры</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fc4b7140-cda0-4140-8831-c8a4cf92fe47">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="5d8ab6fc-30dc-4872-812a-5772a3a22ca1">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

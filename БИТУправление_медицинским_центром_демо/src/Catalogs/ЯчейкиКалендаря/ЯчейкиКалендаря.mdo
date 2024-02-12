@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="969533f5-2e0f-43a2-986d-08707a9fc7f7">
+  <producedTypes>
+    <objectType typeId="cb3cd9b4-6eed-4029-a71f-3983017b7e53" valueTypeId="da23ee44-107e-48df-9178-e07bc6c609fc"/>
+    <refType typeId="6564d441-f0d0-4b34-9dd9-d584ee6e3e13" valueTypeId="e848b6c4-e61d-4e47-b7ed-bcc0156e80e2"/>
+    <selectionType typeId="217c6ae3-33ce-4242-a13f-525c41724ade" valueTypeId="bf52bff9-bb04-4896-a3f1-5e476b7c808e"/>
+    <listType typeId="4b78e8eb-5dfa-44e0-a6ec-d0c28d9f9b97" valueTypeId="a3b17ea3-6a4f-4eaa-9ceb-1e9856831a63"/>
+    <managerType typeId="6254ddf6-38b6-4aa6-a1b5-08f9f576d458" valueTypeId="40892724-62f2-4b0d-ba08-080c4ee7c74e"/>
+  </producedTypes>
+  <name>ЯчейкиКалендаря</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ячейки журнала записи</value>
+  </synonym>
+  <comment>0 - алгоритм на языке 1С,  1 - отбор СКД, 2 - доп. свойство</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЯчейкиКалендаря.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЯчейкиКалендаря.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родитель</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.ЯчейкиКалендаря.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>80</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="397a8300-680c-4613-bda9-d53b6002e21c">
+      <name>Клиент</name>
+      <description>Клиент</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="99905ca4-ee22-4540-b44b-18e04e96146c">
+        <name>ГодРождения</name>
+        <description>Год рождения</description>
+        <code xsi:type="core:StringValue">
+          <value>000000014</value>
+        </code>
+      </content>
+      <content id="8647476a-5db2-49da-89c5-7d6b02bf73d7">
+        <name>ДопОписаниеКлиента</name>
+        <description>Дополнительная информация</description>
+        <code xsi:type="core:StringValue">
+          <value>000000013</value>
+        </code>
+      </content>
+      <content id="8e728670-eac8-4b4a-bbb8-4437e3bf817e">
+        <name>КраткийКомментарийКлиента</name>
+        <description>Краткий комментарий клиента</description>
+        <code xsi:type="core:StringValue">
+          <value>000000020</value>
+        </code>
+      </content>
+      <content id="af4a8ba1-c6b2-470f-98ec-25b7fd1f0819">
+        <name>НаименованиеКлиента</name>
+        <description>Наименование клиента</description>
+        <code xsi:type="core:StringValue">
+          <value>000000005</value>
+        </code>
+      </content>
+      <content id="2d20111f-7ad3-4bec-ac69-64c7c530f194">
+        <name>МедКартаНомер</name>
+        <description>Номер Медицинской Карты</description>
+        <code xsi:type="core:StringValue">
+          <value>000000015</value>
+        </code>
+      </content>
+      <content id="abcfe19a-e7ad-44b9-87ea-45cbd2628670">
+        <name>ПримечаниеЗаявки</name>
+        <description>Примечание заявки</description>
+        <code xsi:type="core:StringValue">
+          <value>000000012</value>
+        </code>
+      </content>
+      <content id="7c61fc49-2261-44c8-bb8e-b11b8f895c39">
+        <name>ДолгКлиентаСумма</name>
+        <description>Сумма долга клиента</description>
+        <code xsi:type="core:StringValue">
+          <value>000000019</value>
+        </code>
+      </content>
+      <content id="14b2bb66-93a6-4faa-bfb0-7926b4f77c8a">
+        <name>ТелефонКлиента</name>
+        <description>Телефон клиента</description>
+        <code xsi:type="core:StringValue">
+          <value>000000006</value>
+        </code>
+      </content>
+      <content id="9a1e0746-4ca3-475a-beb5-7bed0f9cfc78">
+        <name>ФамилияИОКлиента</name>
+        <description>Фамилия И.О. клиента</description>
+        <code xsi:type="core:StringValue">
+          <value>000000008</value>
+        </code>
+      </content>
+      <content id="11715543-8897-4a99-8e46-1c51daca9d4c">
+        <name>ФамилияКлиента</name>
+        <description>Фамилия клиента</description>
+        <code xsi:type="core:StringValue">
+          <value>000000007</value>
+        </code>
+      </content>
+    </items>
+    <items id="cd123a33-49e4-4cf7-b145-67fb1f3422d0">
+      <name>Услуга</name>
+      <description>Услуга</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="d4ff2637-b01a-429e-9b6a-d07f99045f26">
+        <name>АртикулУслуги</name>
+        <description>Артикул услуги</description>
+        <code xsi:type="core:StringValue">
+          <value>000000004</value>
+        </code>
+      </content>
+      <content id="b677cbc5-abe2-44cd-81ba-71c27088347e">
+        <name>Кабинет</name>
+        <description>Кабинет</description>
+        <code xsi:type="core:StringValue">
+          <value>000000017</value>
+        </code>
+      </content>
+      <content id="8524d8e8-42de-41c3-9af5-8aabd799e238">
+        <name>НаименованиеУслуги</name>
+        <description>Наименование услуги</description>
+        <code xsi:type="core:StringValue">
+          <value>000000003</value>
+        </code>
+      </content>
+      <content id="ada78318-2754-4681-85bf-1ca1add56dd2">
+        <name>ВремяБлока</name>
+        <description>Начало и окончание блока</description>
+        <code xsi:type="core:StringValue">
+          <value>000000011</value>
+        </code>
+      </content>
+      <content id="3b071560-7e1a-4aba-8f96-2796c18cf2c9">
+        <name>Сотрудник</name>
+        <description>Сотрудник</description>
+        <code xsi:type="core:StringValue">
+          <value>000000016</value>
+        </code>
+      </content>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЯчейкиКалендаря.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ЯчейкиКалендаря.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ЯчейкиКалендаря.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="2ff2d517-b754-4bea-8ae1-7ee458068351">
+    <name>УсловиеПрименения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условие применения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="eb4930bc-f24b-4b29-9ed1-f22865834b6c">
+    <name>ВидПризнака</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип владельца</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="47015841-62ba-4911-b596-268d91f70f38">
+    <name>ТипПризнака</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ecf50741-cb1e-4a8a-be7a-5486b3a3fccc">
+    <name>ФорматУсловия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ вычисления</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>1</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5d16b632-2be7-45b5-ae83-19a27817e6a2">
+    <name>ЗначениеПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение по умолчанию</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="06bb7491-1625-4906-8268-4fca7582bf4b">
+    <name>ДополнительноеСвойство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительное свойство</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.СвойстваОбъектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5da48810-dfdb-4c94-829e-307a0ffef264">
+    <name>РассчитыватьОнлайн</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассчитывать онлайн</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Показатель может как храниться в базе, обновляясь при записи объекта и регламентным заданием, так и вычисляться каждый раз при формировании журнала записи</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="27b0536a-a5ce-451d-a789-e8b103d7ab18">
+    <name>ПередФормированием</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перед формированием</value>
+    </synonym>
+    <comment>Обработчик события на языке 1С</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="d3de66d3-cd13-4c4c-a456-0693a6245079">
+    <producedTypes>
+      <objectType typeId="bcdaf3e4-5902-401f-85ec-f7356f6db8ac" valueTypeId="cc3b3851-379d-4e16-a516-105a8797b96e"/>
+      <rowType typeId="5fb10af5-2a50-4a90-8951-cd6021030371" valueTypeId="3e58c3be-faca-4700-b902-8f6efe722bcc"/>
+    </producedTypes>
+    <name>Отборы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отборы</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="74b7d01e-e5b9-4fa7-add4-38ce32775e00">
+      <name>Отбор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отбор</value>
+      </synonym>
+      <type>
+        <types>ValueStorage</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1ee28600-8252-4aeb-be69-48843de93368">
+      <name>ПредставлениеОтбора</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление отбора</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c0b8c8a0-4960-4ddb-a10e-61160e1d7953">
+      <name>Комментарий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комментарий</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="dddbaf8b-69a6-42a9-91da-5c1152380ceb">
+      <name>Результат</name>
+      <synonym>
+        <key>ru</key>
+        <value>Результат</value>
+      </synonym>
+      <type>
+        <types>ValueStorage</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="dac8b031-dc40-4fda-a53f-66b613313870">
+      <name>ИмяФайла</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя файла</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="5676314c-b88c-4427-b1b8-fd93b3c2d171">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="99e19b45-a78b-4496-bb89-48df93dd9857">
+    <name>ФормаВыбораВариантаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора варианта обновления</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="94e1bf32-36c5-457d-852e-bff4c029587f">
+    <name>ФормаПредопределенногоЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма предопределенного элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="46fce5b5-fe2f-40f7-be25-cca89717d235">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5b27ac9c-3593-4b21-a554-12b58ac97b3e">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f6dbe027-c554-490e-b3a1-f0c13edb30c8">
+    <name>ДобавлениеИзВстроенных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавление из встроенных</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="69b2b3bb-763b-4dff-9c72-164165659f32">
+    <name>МакетОтбораКлиенты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет отбора клиенты</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="a64da377-5f7b-4cf8-8b80-8ec876cff429">
+    <name>МакетОтбораЗаявки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет отбора заявки</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="46fb03a1-1629-4ddb-aaa6-f20d01d75d48">
+    <name>МакетОтбораКлиентыОнлайнВычисление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет отбора клиенты онлайн вычисление</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="6f69da69-e2d5-4824-b4de-99a2561d37f0">
+    <name>МакетОтбораЗаявкиОнлайнВычисление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет отбора заявки онлайн вычисление</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="4a9fbc4f-80f9-4257-8724-c28efc1840e1">
+    <name>ЯчейкаНаличиеАвансаИлиДолгаКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наличие у клиента аванса или долга</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="c61cb0ba-0346-478e-9611-07bd9e41a47e">
+    <name>ЯчейкаЗаявкаПодтвержденаКлиентом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка подтверждена клиентом</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:Catalog>

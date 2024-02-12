@@ -1,0 +1,1650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4bb2c864-ce71-4f14-92a4-63cea0b2eef6">
+  <producedTypes>
+    <selectionType typeId="04ecc947-559a-4364-b43f-c3f790ba9048" valueTypeId="17f8f056-7273-432e-ace4-86f8faaebfb5"/>
+    <listType typeId="35cef856-d650-49af-af04-5c97e11da7a0" valueTypeId="51e3cc4b-9223-4f65-9faf-5c74a4690dfe"/>
+    <managerType typeId="d41f76fd-0033-445d-af25-62a4b5cd5a17" valueTypeId="5826bfd5-00b6-4988-880f-2ca1c3bc6796"/>
+    <recordSetType typeId="e81e8873-cbbe-4706-8ff0-64fe1d317231" valueTypeId="db2d7f58-b63c-41b4-bcf4-ba98cf861ca8"/>
+    <recordKeyType typeId="d6177727-38fb-409e-974a-3596875a1d11" valueTypeId="ae960d6d-73df-44c4-9b56-74bc1e5adde2"/>
+    <recordType typeId="eac532c7-12a2-44a4-9363-bf24e373c81c" valueTypeId="8223d744-07bb-490a-b833-856c43850815"/>
+    <recordManagerType typeId="befcfd71-085b-4c9b-a415-9ba579d30a26" valueTypeId="15924e82-10e7-4295-a545-750d3a525aa0"/>
+  </producedTypes>
+  <name>УчетнаяПолитика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетная политика</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.УчетнаяПолитика.Form.ФормаЗаписиУпр</defaultRecordForm>
+  <defaultListForm>InformationRegister.УчетнаяПолитика.Form.ФормаСпискаУпр</defaultListForm>
+  <auxiliaryRecordForm>InformationRegister.УчетнаяПолитика.Form.ФормаЗаписиУпр</auxiliaryRecordForm>
+  <auxiliaryListForm>InformationRegister.УчетнаяПолитика.Form.ФормаСпискаУпр</auxiliaryListForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="cccb30d1-755b-4fd8-8ef6-48b772acf67a">
+    <name>ВестиУчетДлительностиРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вести учет длительности работ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что ведется учет длительности работ</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="38fff1cd-9466-40f0-963e-a5a8ef713e45">
+    <name>ИспользоватьСертификаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать сертификаты</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что будут использоваться сертификаты</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="52677380-efdf-4b0e-bf6d-ea3b2a65bd0e">
+    <name>ВестиУчетРасходаМатериаловНаУслуги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вести учет расхода материалов на услуги</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что ведется учет расхода материалов на услуги</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8acdaea2-6d83-4ef3-a0a9-0d88a8a1d7e5">
+    <name>ВремяНачалаРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время начала работы</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=HH:mm</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=HH:mm</value>
+    </editFormat>
+    <toolTip>
+      <key>ru</key>
+      <value>Начальное время работы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="431c1283-4454-45e3-a539-f0ed1ba2b495">
+    <name>ВремяОкончанияРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время окончания работы</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=HH:mm</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=HH:mm</value>
+    </editFormat>
+    <toolTip>
+      <key>ru</key>
+      <value>Конечное время работы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ff25a986-0208-4593-b420-2e6f89f79f95">
+    <name>ЗапретитьПроведениеПродажиНоменклатурыБезДоговора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запретить оказание договорных услуг при отсутствии договора</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Запретить оказание договорных услуг при отсутствии договора на них</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="cdf55efe-f879-4494-bdb0-ae754447d917">
+    <name>ОсновнойПрейскурант</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной прейскурант</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Прейскуранты</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Основной прейскурант предприятия</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f00d6bf7-64e5-4024-a3cb-d57c0098e1f2">
+    <name>ПрейскурантРасчетаСтоимостиМатериалов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прейскурант расчета стоимости материалов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Прейскуранты</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбранный прейскурант</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c1f3bc4d-b63e-4b9b-8784-feebd020d648">
+    <name>ШиринаКолонкиРаботыЖурналаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ширина колонки работы журнала записи</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ширина колонки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b65a766a-518a-4700-bd4e-c7e753bc1165">
+    <name>ВысотаСтрокиЖурналаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высота строки журнала записи</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Высота строки сетки журнала записи</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="07febd4e-ecfa-4b52-86d0-abefaa0ee4ac">
+    <name>ИспользоватьНесколькоСотрудниковВДокументах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать несколько врачей в документах записи и продажи</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что будет использоваться несколько сотрудников в документах</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="282e0eaf-cae2-4300-9537-8dd74dcc8d94">
+    <name>ОсновноеЗначениеПереключателяНесколькихСотрудниковВЗаявке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основное значение переключателя нескольких врачей в заявке</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак нескольких сотрудников в заявке</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="dc55d771-b2bb-420b-a1a3-36c8b6c03907">
+    <name>ИспользоватьШтрихкодированиеКлиентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать штрихкодирование, магнитное кодирование клиентов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что будет использоваться штрих-кодирование клиентов</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="37d7f9cf-95b0-4627-9e62-9a50341d8a0a">
+    <name>ИспользоватьСтраховыеПолисы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать страховые полисы и соглашения страхования и обслуживания</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Использовать страховые полисы и соглашения страхования и обслуживания для оплаты услуг и товаров</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="14a0c5c8-9ec7-49d1-827e-3403c17ab03d">
+    <name>ОсновнойЦветЗаявки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной цвет заявки</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Основной цвет заявок</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="316f3948-c2c5-424d-a282-1882f322f77a">
+    <name>ОсновнаяСтатьяДДСОказанияУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная статья ДДС Оказания услуг</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиДвиженияДенежныхСредств</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбранная основная статья ДДС Оказания услуг</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b3ce8ed4-5def-4cbc-9063-e27da7076f9c">
+    <name>РазрешитьПродажуПоНулевойСтоимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешить продажу товаров и услуг по нулевой стоимости</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак возможности продажи товаров и услуг по нулевой стоимости</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5b9346bd-7f97-464c-9093-54f92c089a37">
+    <name>СписыватьПартииВМинус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списывать партии товаров в минус</value>
+    </synonym>
+    <comment>0 - проводить, не списывая в минус; 1 - проводить в минус;  2 - отказ проведения; 3 - проводить только документы оказания услуг в минус</comment>
+    <type>
+      <types>Boolean</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что будут списываться партии товаров в минус</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="369bbf2f-8015-417b-9350-442a25bbad55">
+    <name>ВключатьНормативныеМатериалыВСтоимостьУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включать по-умолчанию нормативные материалы в стоимость услуг при описании норм</value>
+    </synonym>
+    <comment>Значение для подстановки в записи регистра &quot;Нормы расхода материалов&quot;</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что включаются нормы расхода материалов в стоимость услуг</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fb6c28a0-4105-44f2-bae9-d40ba42b3c05">
+    <name>АвтоматическиЗаполнятьНормыРасходаМатериаловОУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматически заполнять нормы расхода материалов на услуги в документе &quot;Оказание услуг&quot;</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что автоматически заполняется норма расхода материалов на услуги</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="980f117c-1019-4544-8947-eab3865c9a44">
+    <name>АвтоматическиЗаполнятьНормыРасходаМатериаловПриема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматически заполнять нормы расхода материалов на услуги в документе &quot;Прием&quot;</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что автоматически заполняется норма расхода материалов на услуги</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="538882e7-ed98-46b7-82cd-0632a5fc774a">
+    <name>РедактироватьДатуНачалаДействияСертификатаПриПродаже</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактировать дату начала действия сертификата при продаже</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что можно редактировать дату начала действия сертификата при продаже</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7ba6c20b-fd89-4222-b67f-56d090430334">
+    <name>ОтноситьСписаниеНаЗатратыПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>По-умолчанию относить списание товаров на затраты</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что по-умолчанию относить списание товаров на затраты</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="63737737-5e38-4049-b7d7-1a022fd8b0ab">
+    <name>ОсновнаяСтатьяЗатратСписанияТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная статья затрат списания товаров</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиЗатрат</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбранная основная статья затрат списания товаров</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c887a6a6-e78f-4892-906f-bce38119b331">
+    <name>ВалютаУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта учета</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Валюта учетной политики</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="313816e6-41d1-496b-ae19-e6cab3c8a9ef">
+    <name>ЗапрашиватьПричинуЗакрытияЗаявок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрашивать причину отмены заявок</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что будет запрашиваться причина закрытия заявок</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4fcb289f-3052-4502-9728-e8610a7bd01c">
+    <name>ЗапретНезаполненияХарактеристик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрет неуказания характеристики в документах</value>
+    </synonym>
+    <comment>Запретить не указывать в документах характеристику для номенклатуры, по которой ведется учет по характеристикам</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что будет запрет неуказания характеристики в документах</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="174fd9e9-cfe7-4c92-a2e9-808af7bc02f6">
+    <name>ПорядокОкругленияПослеСкидки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок округления после учета скидки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПорядкиОкругления</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Порядок округления после учета скидки в учетной политике</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d6d295bb-398a-4f0e-bfde-3051b17f7eaf">
+    <name>ИспользоватьСекцииККМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать секции ККМ</value>
+    </synonym>
+    <comment>Относить сумму чека ККМ на различные секции ККМ</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что будут использоваться секции ККМ</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="775d1ba6-6217-4e2a-9bdc-bc1fb53f9a24">
+    <name>ХранитьФотоКлиентовКакФайлы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранить фото клиентов как файлы в отдельном каталоге</value>
+    </synonym>
+    <comment>Использовать файловый вариант хранения фото</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Хранить фото клиентов как файлы в отдельном каталоге хранения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d7871f7e-60de-470a-9053-fb8e0f656d4b">
+    <name>МаксимальныйРазмерФайлаФото</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальный размер файла фото</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <scale>1</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Максимальный размер файла фото клиента</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="63501de1-39bd-461c-9f81-f36862d2bd4a">
+    <name>ПоказыватьЗакладкуSMSСообщенийВКалендареПланирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать закладку SMS-сообщений в календаре планирования</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Показывать пользователю закладку SMS-сообщений в календаре планирования</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8eb0d7fb-0c0e-4152-94e8-8130142032c2">
+    <name>ПоказыватьАртикул</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать артикул в документах</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Показывать артикул</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0b5e89ab-03ed-4661-adca-96fc019de834">
+    <name>НастройкаСводногоОтчетаЗаСутки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка сводного отчета за сутки</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Настройка полей и отборов сводного отчета за сутки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5f4ee1ce-0cff-4c3f-a490-739f5e1d53b1">
+    <name>ОсновнойЦветНерабочегоВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной цвет нерабочего времени</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Основной цвет нерабочего времени в журнале записи</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3e3ddbd0-2fa5-4a08-9989-adc951ab38cd">
+    <name>ОтдельнаяКолонкаРабочегоВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отдельная колонка рабочего времени</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выводить отдельную колонку рабочего времени</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ad68146c-e82b-4ed8-abe8-8b9bb0719093">
+    <name>ВидПредставленияФИО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид представления ФИО</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вариант представления ФИО при редактировании</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="7088bf57-6b67-4ea0-8f3d-ed922a5e7051">
+    <name>ПоУмолчаниюРучноеРедактированиеСкидок</name>
+    <synonym>
+      <key>ru</key>
+      <value>По-умолчанию включать ручное редактирование скидок</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак возможности ручной корректировки материалов</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="961a3977-81b1-435e-b0aa-e37d38883261">
+    <name>РежимЗаписиНаПрием</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим записи на прием</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РежимыЗаписиНаПрием</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Режим записи пациента на прием</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a31b3c7c-74b8-474c-aabd-94150dcd8caa">
+    <name>ШаблонАнамнезаЖизни</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон анамнеза жизни</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШаблоныHTML</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Шаблон анамнеза жизни пациентов</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ВидШаблона</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ВидыШаблонов.EnumValue.HTMLШаблон</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="cb6eaf10-8e35-44c0-b09a-5f7225b8d42e">
+    <name>АвтоматическиШтрихкодироватьМедицинскиеКарты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматически штрихкодировать медицинские карты</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Автоматически штрихкодировать медицинские карты пациентов</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="eff8399d-d28f-40be-b028-0ffaeefc7996">
+    <name>ВестиУчетМестонахожденияМедкарт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вести учет местонахождения медкарт</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вести учет местонахождения мед. карт</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ce64b4b8-979e-440e-94c5-ed516a4aa353">
+    <name>УменьшатьВыработкуПриВозврате</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уменьшать выработку сотрудника при возврате от клиента</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Уменьшать выработку сотрудника при возврате услуг/товаров от клиента</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="145b8f2e-c96c-4d83-be08-6331cd0eca1b">
+    <name>АвтоСозданиеМедкарт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматически создавать медкарты новых клиентов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Автоматически создавать медкарты у новых клиентов</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="cac4bdee-9e1e-4472-a4e3-4bf8179f50ae">
+    <name>ОсновнойВидМедКарт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной вид мед. карт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыМедицинскихКарт</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Основной вид медицинских карт</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <quickChoice>Use</quickChoice>
+    <createOnInput>DontUse</createOnInput>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c31f718d-0a08-4f50-9b8f-2ea4ace7d1d0">
+    <name>РаботаСЗубнымиКартами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа с зубными картами</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Работать с зубными картами</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="21cda21d-858a-4935-bbe2-77caf6ad6aef">
+    <name>ОтображатьКолонкуЖЗДлительностиИнтервала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отображать в журнале записи длительность интервалов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Отображать в журнале записи длительность интервалов сетки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1081abaf-837d-4811-b51a-836e939d4d90">
+    <name>РежимПроверкиДублейКлиентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверять уникальность клиентов по</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РежимыПроверкиДублейКлиентов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Проверять уникальность клиентов по полям</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8c842434-2272-460f-b31c-f022163e59a7">
+    <name>РежимПечатиПоШаблонуWORD</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим печати по шаблону WORD</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РежимыПечатиПоШаблонуWORD</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Открытие DOCX на клиенте - требует программы просмотра файлов .docx на стороне клиентского приложения. Единственный применим на не-windows системах.
+Формировать на клиенте используя Open Office/Libre Office - требует установленный офис на клиенте.
+Формировать на сервере и передавать на клиент в формате RTF - требует MS Word на стороне сервера и просмотрщик RTF на стороне клиента
+Формировать на сервере и передавать на клиент в формате PDF - требует MS Word на стороне сервера и просмотрщик PDF на стороне клиента</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="81c4badd-b5bc-4814-b9a2-d36c4e639eff">
+    <name>ИспользоватьЛистыОжиданияЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать листы ожидания записи</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Использовать документы &quot;Лист ожидания записи&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="96a6449b-9f50-4c01-bc93-af3511c2f761">
+    <name>ПериодАвтообновленияЖурналаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период автообновления журнала записи</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Период автообновления журнала записи, секунд</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="56407862-e5af-452a-9e89-daae4937d0a4">
+    <name>ПериодичностьПланирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодичность планирования</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=HH:mm</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=HH:mm</value>
+    </editFormat>
+    <toolTip>
+      <key>ru</key>
+      <value>Периодичность планирования учетной политики</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:10:00</value>
+    </fillValue>
+  </resources>
+  <resources uuid="bec1867c-f794-41c8-a078-e47db5c012f2">
+    <name>ИспользоватьСкидки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать скидки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что будут использоваться скидки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4976c5af-2958-4560-ab29-a5040f5cdcc1">
+    <name>АвтоматическоеСканированиеФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматически читать список файлов в каталоге</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Автоматически сканировать список файлов в каталоге хранения файлов</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f4f422f1-cf30-4a10-8c91-6417791c7da1">
+    <name>РежимОтбораЖурналаЗаписиПоМоделямРасписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим отбора журнала записи по моделям расписания</value>
+    </synonym>
+    <comment>Ложь - по подразделениям, Истина - по моделям расписания</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Использовать режим отбора журнала записи по моделям расписания</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3bd439f2-32ed-4950-9cce-8a5efd28be28">
+    <name>ПоУмолчаниюПодборСубъектовВЖурналЗаписиПоСтруктуреОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подбор субъектов в журнал записи по структуре организации</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Подбор субъектов в журнал записи по структуре подразделений организации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="593ff21d-1fed-4176-86a1-bdc2bd3479d1">
+    <name>РазворачиватьДеревоСубъектовРасписанияПриПодбореВЖурналЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разворачивать дерево субъектов расписания при подборе в журнал записи</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Разворачивать ли дерево субъектов расписания при подборе в журнал записи</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="37dc9d47-c73e-4be8-aa9c-4d0d784330f6">
+    <name>РазворачиватьДеревоМоделейРасписанияПриПодбореВЖурналЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разворачивать дерево моделей расписания при подборе в журнал записи</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Разворачивать ли дерево моделей расписания при подборе в журнал записи</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="79a240e5-1887-40a9-906c-fe177129ee30">
+    <name>ФормироватьЖурналЗаписиБезОтбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формировать журнал записи без отбора</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Формировать журнал записи, если не задан отбор</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b41a4c45-30d7-4f12-8675-6dedad74042b">
+    <name>ВключатьВЖурналЗаписиУчастниковБезМоделейРасписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>При формировании выводить участников расписания, не помещенных ни в одну модель расписания</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При формировании без отбора выводить ли участников расписания, не помещенных ни в одну модель расписания</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a779c673-25ce-4f23-a3c4-dd5072eb0b42">
+    <name>ИспользоватьCallЦентр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать подсистему Call-центра</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Использовать ли подсистему Call-центра</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="46bd7343-0885-4da4-be34-945fecf88e6b">
+    <name>ИспользуетсяРежимВводаПриемаПоОдномуШаблону</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется режим ввода приема по одному шаблону</value>
+    </synonym>
+    <comment>Истина - для всех пользователей, Ложь - согласно настройке пользователя</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Используется режим ввода приема по одному шаблону для всех пользователей</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4549c521-70e9-4611-8b1b-7344c61a88fa">
+    <name>ИспользоватьПрофосмотры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать подсистему периодических медосмотров работников</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Использовать подсистему медицинских профосмотров</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="97411fca-2d0a-4fe2-ab79-1581090d4bf8">
+    <name>ИспользоватьМедосмотрыСправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать медосмотры справок</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Использовать подсистему медосмотров справок, прочих медосмотров</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e02e6e23-bd20-48c0-b3d9-8d2a50946006">
+    <name>ИспользоватьЭЦП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать электронные цифровые подписи для ЭМПЗ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Использовать электронные цифровые подписи</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="315bfc41-68e1-468d-a78e-b2468caeb599">
+    <name>ИспользоватьВерсионированиеШО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать версионирование шаблонов осмотров</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Использовать версионирование шаблонов приёма</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="10fba2e6-424d-4f3b-b801-4cc42a8d6d35">
+    <name>НастройкаПолейСубъектаЭЦП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка полей субъекта ЭЦП</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Настройки полей субъекта ЭЦП</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4716d5a0-71c1-4fbd-ba6d-ed9e52635a8c">
+    <name>МинДлинаСтрокиПоискаКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальная длина строки поиска клиентов по подстроке</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Минимальная длина строки поиска клиентов по подстроке при заполнении в полях ввода</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8ef1dcb6-e8fa-4d9c-a1da-45cfe89fe6a7">
+    <name>РежимЗаполненияДиагнозовПоПервичномуПриему</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим заполнения диагнозов при выборе первичного приема</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Режим перезаполнения диагнозов при выборе первичного приема</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9caf9953-8a7e-4649-b727-c29d01239a7a">
+    <name>ЗаполнятьОказаниеУслугСПриоритетомИсходныхДанныхЗаявки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнять оказание услуг с приоритетом исходных данных заявки, а не приема</value>
+    </synonym>
+    <comment>Истина - Данными заявки; Ложь - Данными приемов по этой заявке, если в них есть данные о выполненных услугах</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Заполнять ли оказание услуг с приоритетом исходных данных заявки, а не приема</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a5f6245d-2e54-4c7a-9fbf-397c61eac81f">
+    <name>АвтоматическиШтрихкодироватьПрМО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматически штрихкодировать документ &quot;Прохождение медосмотра&quot;</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Нужно ли автоматически штрихкодировать документ &quot;Прохождение медосмотра&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c03045ff-27f9-477d-9009-03ef36f5f613">
+    <name>ВестиУчетПоХарактеристикам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вести учет по характеристикам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что ведется учет по характеристикам</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f61aa7e6-efda-4042-bcfd-67958f7f166d">
+    <name>ПредставлениеВЧекеККМОперацииПополненияБаланса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление в чеке ККМ операции внесения депозита/оплаты долга</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>60</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Представление в чеке ККМ операции внесения депозита или оплаты долга</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="d786a458-221e-473d-aa7c-13f1763e2c2f">
+    <name>ЧекККМПродажаПечататьУслугиОднойСтрокой</name>
+    <synonym>
+      <key>ru</key>
+      <value>В чеке ККМ печатать услуги одной строкой</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>В чеке ККМ печатать ли все услуги одной общей строкой</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1c480c8a-bea9-4681-b54d-ea0347a5e69b">
+    <name>ЧекККМПродажаОбщееНаименованиеУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общее наименование услуг в чеке ККМ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Общее сводное наименование услуг в чеке ККМ для печати всех услуг одной строкой чека</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="bb15bce3-1007-4e52-9069-19918fa731b5">
+    <name>ЧекККМПродажаПечататьФИОКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатать ФИО клиента в чеке ККМ документа Оказание услуг</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Печатать ли ФИО клиента в чеке ККМ документа Оказание услуг</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a622ae4b-31f4-42bb-a9df-f9a1db435ea6">
+    <name>ИспользоватьХозяйственныйБлок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать хозяйственный блок</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="652420ca-3625-40dd-ba55-29de629ea244">
+    <name>ИспользоватьАнкетирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать анкетирование</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d6e1e10c-d179-4181-b88e-54c3798bbfdb">
+    <name>МаксимальнаяСуммаДолгаКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальная сумма долга клиента</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <forms uuid="944b6847-f865-435d-8906-40516cf558df">
+    <name>ФормаЗаписиУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ad49b5db-73e3-4207-8521-1abcc2cdf951">
+    <name>ФормаСпискаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c8574ed7-8ef6-4950-8c8e-ec77e881ce1d">
+    <name>ВыборОбъектовОбработкиВерсийИсторииДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор объектов обработки версий истории данных</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a650638-78ff-46d2-9ecb-8725d41623e8">
+  <name>ДокументСкладаПриПроведенииПроверкаСовпаденияФилиалаСклада</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документ склада при проведении проверка совпадения филиала склада</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.СписаниеТоваров</types>
+    <types>DocumentObject.ОприходованиеТоваров</types>
+    <types>DocumentObject.АвансовыйОтчет</types>
+    <types>DocumentObject.ПоступлениеТоваровУслуг</types>
+    <types>DocumentObject.ВозвратТоваровПоставщику</types>
+  </source>
+  <event>Posting</event>
+  <handler>CommonModule.РаботаСДокументамиСервер.ДокументСкладаПриПроведенииПроверкаСовпаденияФилиалаСклада</handler>
+</mdclass:EventSubscription>

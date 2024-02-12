@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab96ad62-d2b7-4ccf-b6b4-40dd4426ffdc">
+  <name>АвтоматическаяОтправкаРезультатовАнализов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лаборатории: Автоматическая отправка результатов анализов пациентам</value>
+  </synonym>
+  <comment>Отправка пациентам на email результатов</comment>
+  <methodName>CommonModule.УправлениеЭлектроннойПочтой.ОтправитьРезультатыАнализовКлиентам</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

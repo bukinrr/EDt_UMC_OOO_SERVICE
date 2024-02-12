@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="156b099d-c052-49b2-8ad3-7b8d57542117">
+  <producedTypes>
+    <objectType typeId="21a3e90c-f3bb-4d24-a71e-e31ffeef089c" valueTypeId="b85b9ac8-b60f-4831-9308-166087c83cd2"/>
+    <managerType typeId="8a699447-dd10-47d9-bc96-08806bd2b1ff" valueTypeId="a88a653e-9c9e-489e-b139-6145892ca8be"/>
+  </producedTypes>
+  <name>РасписаниеКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать расписания</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.РасписаниеКлиента.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="85552c12-7eb3-47e8-a6ff-9ce66a48f31c">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="cf807030-de57-48df-8222-fd597dc1c9dd">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="d3bb4d9a-2e5e-496a-8dc5-72665e664339">
+    <name>ПечатьРасписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать расписания</value>
+    </synonym>
+    <comment>Открыть основной вариант отчета</comment>
+    <group>ActionsPanelReports</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

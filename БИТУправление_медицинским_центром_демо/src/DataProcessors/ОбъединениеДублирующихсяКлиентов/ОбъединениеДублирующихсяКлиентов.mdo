@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c80ebc75-83d3-4222-a810-a4050a2cc94b">
+  <producedTypes>
+    <objectType typeId="186ad47a-51ae-4b88-9fcb-bef8004b9476" valueTypeId="90005383-ad1a-4597-8b9d-187cd9f2eb76"/>
+    <managerType typeId="edba47c9-48ce-4422-9d40-93f09f3b1a10" valueTypeId="882f741f-61e9-4276-b176-8fcb54a60ea4"/>
+  </producedTypes>
+  <name>ОбъединениеДублирующихсяКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объединение дублирующихся клиентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбъединениеДублирующихсяКлиентов.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="d2298528-c766-41e6-8f88-01f921b9acce">
+    <name>НайденныеСсылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Найденные ссылки</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Найденные ссылки на заменяемый объект</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="62a12aff-53be-4b4d-beee-ae6363816bf0">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

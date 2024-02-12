@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60738bc9-cebc-4c07-9beb-64ba677b6dbd">
+  <name>РассчитатьСтатусОформленияУведомленияВладельцаОВвозеЛПвРФБезПодтвержденияМДЛП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассчитать статус оформления уведомления владельца о ввозе ЛП в РФ без подтверждения МДЛП</value>
+  </synonym>
+  <source>
+    <types>DefinedType.ОснованиеУведомленияВладельцаОВвозеЛПвРФБезПодтвержденияМДЛПОбъект</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ИнтеграцияМДЛП.РассчитатьСтатусОформленияУведомленияВладельцаОВвозеЛПвРФБезПодтверждения</handler>
+</mdclass:EventSubscription>

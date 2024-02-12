@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92b6760c-bc87-4368-8e9d-4a55dd713222">
+  <name>Б24_ДокументСделкаОбработкаУдаленияПроведения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Б24 документ сделка обработка удаления проведения</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ОказаниеУслуг</types>
+  </source>
+  <event>UndoPosting</event>
+  <handler>CommonModule.Битрикс.ДокументСделкаОбработкаУдаленияПроведения</handler>
+</mdclass:EventSubscription>

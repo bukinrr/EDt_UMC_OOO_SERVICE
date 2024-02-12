@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0054eb93-be25-4048-9162-c3074714cd03">
+  <producedTypes>
+    <selectionType typeId="3810a81d-d977-4751-a157-da8ebfb84f69" valueTypeId="5b077f7a-e25b-4e8e-b5d1-aa3401f87e11"/>
+    <listType typeId="f91f6fe1-8625-4559-a65b-68535e34eaf4" valueTypeId="ee5fae9d-70de-4f8b-ad99-9605dafc2d9b"/>
+    <managerType typeId="ee1975ef-799e-425d-83fb-ccbb67b00956" valueTypeId="354917a4-697e-4300-984f-ee494bb6f526"/>
+    <recordSetType typeId="51de0476-ff0b-468d-8262-41dc283ca737" valueTypeId="e941decf-8b86-4716-a5ff-8398010bbb90"/>
+    <recordKeyType typeId="4cd72795-5fb4-4651-9d93-acfa79e836c4" valueTypeId="0fd7c668-459c-46f7-854b-279364c2f365"/>
+    <recordType typeId="4f69a479-74dc-4304-a19a-d11abf73b57d" valueTypeId="f376cb26-bbd8-4a1c-aa22-4976cd3c082a"/>
+  </producedTypes>
+  <name>ОстаткиПоГарантийнымПисьмам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки по гарантийным письмам</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RecordType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="636e446a-8816-4b8d-ae02-6e7c35ebc5e5">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сумма по письму</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="d159fe32-713d-4f55-b81d-8b00547b1d9c">
+    <name>СтраховойПолис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страховой полис</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтраховыеПолисы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Страховой полис или привязка к договору</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="2314b803-4a7d-41b6-83b7-a9112c865496">
+    <name>ГарантийноеПисьмо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гарантийное письмо</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ГарантийноеПисьмоПоПолису</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Гарантийное письмо к полису</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d91a3e5-880f-4d30-ae40-c03015da50f4">
+  <producedTypes>
+    <selectionType typeId="2163090a-5401-490a-96a3-cce41db65498" valueTypeId="f86c9e89-da15-46a0-b135-cbad02b0c3a3"/>
+    <listType typeId="7f1cbb7c-0dd3-442a-a88f-b55d38cbe42c" valueTypeId="e6206fdf-a8a5-4972-91be-9305ef565bbb"/>
+    <managerType typeId="3222636e-895b-4e4d-98e7-c63dddb2cb3f" valueTypeId="061154ed-b1fd-457e-be4a-a4efe08ac827"/>
+    <recordSetType typeId="18f8dd50-0ca6-4f9c-992b-ffbc98f61068" valueTypeId="8b389760-6223-41a6-a00b-ad95dfe70c6b"/>
+    <recordKeyType typeId="dd4c4f87-d562-4195-bee9-c48e45368969" valueTypeId="fdc0c1b9-0fb8-444a-af40-92568c90fc04"/>
+    <recordType typeId="13a839e4-0f87-470e-8192-9f389c1ed654" valueTypeId="f3d3e9bc-0eb2-4df3-91d6-552948bddad0"/>
+    <recordManagerType typeId="4235082e-384f-40a4-94d8-599201e1b168" valueTypeId="0dc02af7-2d54-422e-890f-e3653febfc92"/>
+  </producedTypes>
+  <name>Гемотест_ВидыКонтейнеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Гемотест) Виды контейнеров</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7c6290d9-f8fb-4b29-9519-64ead66b71f2">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="c4307c0f-ea8b-474d-a6dc-4a0e5c3cd8f8">
+    <name>Архив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архив</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d8fdd50a-9e7a-4ea7-809a-c3cc6ff47a16">
+    <name>transport_id</name>
+    <synonym>
+      <key>ru</key>
+      <value>Transport id</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

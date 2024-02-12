@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eee8fc91-d25e-4acf-92da-4974c5edc2fd">
+  <producedTypes>
+    <selectionType typeId="313ccd0b-e814-479a-9ae6-563a6ed2a0b5" valueTypeId="51d53395-d489-4aaa-ae19-16b3408cfa18"/>
+    <listType typeId="cdb28bb7-051d-4101-98bd-d76b6d94736b" valueTypeId="dff460e4-e5b3-4855-883a-6c708d423e34"/>
+    <managerType typeId="e607276b-6e89-4f1d-8bec-39690314c894" valueTypeId="c0932931-1f23-4d6b-9381-6b1c6cf6780f"/>
+    <recordSetType typeId="24e22828-46f6-4f73-88c9-dcc648c00286" valueTypeId="8e34785d-a8d3-4a22-8f1b-6a995e1114e1"/>
+    <recordKeyType typeId="1998c6a7-4ea9-44a3-aeca-35529c7d6b8b" valueTypeId="7042c78a-0823-4e77-aa8f-bfba9fb6134c"/>
+    <recordType typeId="9ca6f328-f0d2-476b-a81f-c86f14ef64df" valueTypeId="e9cfb10b-e6ca-4684-9d28-c1f6d1eb3580"/>
+    <recordManagerType typeId="e548a782-c98b-4a2b-bf8b-b6ac4b464194" valueTypeId="cee8f60e-94df-4563-9c3b-e5063b71ec18"/>
+  </producedTypes>
+  <name>Б24_НеотправленныеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Битрикс24: Неотправленные в сервис документы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Неотправленные в сервис документы</value>
+  </listPresentation>
+  <resources uuid="50bf0afc-53e6-443e-8e6c-140b098b3fda">
+    <name>Отправлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a7f4b2fb-501b-40c3-b449-f5d8ab22791d">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ОказаниеУслуг</types>
+      <types>DocumentRef.Заявка</types>
+      <types>DocumentRef.ЛистОжидания</types>
+      <types>DocumentRef.Событие</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="085d9767-bcb5-4f8e-b9b4-5b970e71f43e">
+    <name>СущностьБ24</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сущность в Битрикс24</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Б24_Сущности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

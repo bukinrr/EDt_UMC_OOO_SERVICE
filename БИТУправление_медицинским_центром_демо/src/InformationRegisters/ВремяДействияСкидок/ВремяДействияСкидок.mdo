@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="067da893-e914-40e8-a230-13a9ac570338">
+  <producedTypes>
+    <selectionType typeId="e6c037d8-be06-4d5a-af32-a8b3eb26cfb7" valueTypeId="6da57c88-96cd-4c0d-8948-9b2329d207c6"/>
+    <listType typeId="7f57b507-5772-4a5b-9de2-ae27250e61a0" valueTypeId="86f79512-9b6c-4cae-8c17-65b9ba0a5eb3"/>
+    <managerType typeId="d836d9e2-188c-498a-90db-93e90f51fccc" valueTypeId="8709c0ba-67d0-4574-aef4-2b582f118d02"/>
+    <recordSetType typeId="1716aeac-5af4-461f-aa18-e227e8ed35bc" valueTypeId="c12681a3-3b90-4b44-897a-8c66731c2438"/>
+    <recordKeyType typeId="d34cd860-998e-4d13-bf85-91670497ccb8" valueTypeId="e6f75acc-ac96-4da2-bd68-702cfb61a1c0"/>
+    <recordType typeId="0407b49a-2c4e-497b-99c9-c60e4762ca32" valueTypeId="69dd8b5a-fc90-4d26-98a3-02f4fc0eb1d7"/>
+    <recordManagerType typeId="c0cf0a78-3d84-43e6-8aaa-36369ba62430" valueTypeId="d4c0ed7f-6494-4ecc-b35c-ec6f2d4331eb"/>
+  </producedTypes>
+  <name>ВремяДействияСкидок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Время действия скидок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <auxiliaryListForm>InformationRegister.ВремяДействияСкидок.Form.ФормаСпискаУпр</auxiliaryListForm>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="fa1e85fe-c4b8-4a22-8186-e4aba9c1815a">
+    <name>ВремяНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время начала</value>
+    </synonym>
+    <comment>Время начала действия скидки</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Время начала действия скидки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="650202d1-ed3d-41c5-bbfc-d11ff3892c4e">
+    <name>ВремяОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время окончания</value>
+    </synonym>
+    <comment>Время окончания действия скидки</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Время окончания действия скидки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="6f93a1ff-b942-4410-a439-892ead3ecb79">
+    <name>ДеньНедели</name>
+    <synonym>
+      <key>ru</key>
+      <value>День недели</value>
+    </synonym>
+    <comment>День недели</comment>
+    <type>
+      <types>EnumRef.ДниНедели</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>День недели действия скидки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="2a9f77d1-74c0-4b29-b51e-9410c165a52a">
+    <name>ФормаСпискаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

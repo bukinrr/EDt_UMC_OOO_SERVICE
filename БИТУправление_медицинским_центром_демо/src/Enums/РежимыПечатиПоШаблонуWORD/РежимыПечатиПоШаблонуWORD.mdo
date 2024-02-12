@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df1d75ef-9601-442a-8a90-cb1926577929">
+  <producedTypes>
+    <refType typeId="2a7ecc07-22bf-46e1-9609-fc75b462b239" valueTypeId="7ae3ac65-c330-48d9-aefe-e39d46ed9508"/>
+    <listType typeId="73d38f11-5e04-40c1-9879-3bd5ee63b070" valueTypeId="b724c422-3ba9-4e3a-835e-f7e57f57c749"/>
+    <managerType typeId="e4f6d898-4eae-4a15-bdd5-011c0f1ccb5d" valueTypeId="7f4eb022-e9cd-417e-acc3-a9bdd15f248c"/>
+  </producedTypes>
+  <name>РежимыПечатиПоШаблонуWORD</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режимы печати по шаблону WORD</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6b2c3123-094c-4a65-8d5d-27e5cbfe41a5">
+    <name>ФормироватьНаКлиенте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открытие DOCX на клиенте</value>
+    </synonym>
+    <comment>Не использует COM-объекты при формировании</comment>
+  </enumValues>
+  <enumValues uuid="be72f2da-3ab7-4192-ac2c-8f7b16f0d03c">
+    <name>ФормироватьНаКлиентеВOpenOffice</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формировать документ на клиенте используя Open Office/Libre Office</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7e670528-752a-40e3-b2c0-6f7f21540dda">
+    <name>ФормироватьНаСервереRTF</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формировать на сервере и передавать на клиент в формате RTF</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e1a33961-cf16-40a2-9b8f-eac8b2c14b43">
+    <name>ФормироватьНаСервереPDF</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формировать на сервере и передавать на клиент в формате PDF</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bf810b49-3198-42e2-9d46-6f8723aeb4c4">
+    <name>ФормироватьНаКлиентеCOMmsWORD</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открытие DOCX на клиенте через COM-объект MS Word</value>
+    </synonym>
+    <comment>Использует COM-объекты при формировании (только для Windows)</comment>
+  </enumValues>
+  <enumValues uuid="3b017e3f-f120-401e-93c4-447b37dda2d9">
+    <name>ФормироватьНаСервереCOMmsWORD_PDF</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формировать на сервере через COM MS Word и передавать PDF на клиента</value>
+    </synonym>
+    <comment>Использует COM-объекты при формировании (только для Windows)</comment>
+  </enumValues>
+</mdclass:Enum>

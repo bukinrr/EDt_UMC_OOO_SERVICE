@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f81dfdb9-41ae-41a5-9864-f0040c575bc3">
+  <producedTypes>
+    <selectionType typeId="ec38b1a3-aa42-4d00-b4ef-0dc0cc64c2a1" valueTypeId="dabf77b1-dc00-4a45-b9b9-fca112bc5e4c"/>
+    <listType typeId="9d29845d-2020-4f63-a007-026312809d67" valueTypeId="474e2d2e-ec5f-48e0-b762-f9c27869b8dd"/>
+    <managerType typeId="1a05c801-ab07-4e43-b3a5-80023f16f4c0" valueTypeId="ac1cfac0-2f4c-492a-bcfd-81110579bebb"/>
+    <recordSetType typeId="39b6c368-3c53-4fb6-b2fe-de56243cd227" valueTypeId="2da58b03-ed48-4727-89ee-be1fd391ad9d"/>
+    <recordKeyType typeId="7ce1ab27-db82-451d-a06d-c48e5deb55c7" valueTypeId="8aaa5210-17d3-45be-8977-2529c317ecff"/>
+    <recordType typeId="49d23405-b41e-442d-922a-11412ad9618a" valueTypeId="9747d1fe-8927-4ebb-b79b-f164754782db"/>
+    <recordManagerType typeId="73a95661-f267-4591-bdf3-de99a643b0ce" valueTypeId="334170d4-729c-4e29-91a6-ab1abe31cb0e"/>
+  </producedTypes>
+  <name>ИсполнителиХозяйственныхОпераций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исполнители хозяйственных операций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="243ebdee-d463-4a8b-b5f8-6e47fd26306b">
+    <name>Процедура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процедура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХозяйственныеПроцедуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="348731a1-9598-4d74-a757-1f918502e220">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыПользователей</types>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

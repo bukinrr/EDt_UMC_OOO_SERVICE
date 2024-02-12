@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4c01733-50c2-4262-a93d-ffe3f463545f">
+  <producedTypes>
+    <refType typeId="5977c02f-07b1-4c15-a108-1729ef74ef9d" valueTypeId="a1bc94be-3dc7-450c-9373-c592788e408e"/>
+    <listType typeId="30766dcc-74cf-4893-a239-dfef663445a5" valueTypeId="366ec669-287a-4225-a243-373ca62274a8"/>
+    <managerType typeId="b3def395-c0e9-4e47-a3e4-b3b390bd46ac" valueTypeId="f2ca0f9e-4167-411f-8ade-2f7747dc4892"/>
+  </producedTypes>
+  <name>ВидыОперацийРаспределениеЗатрат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций распределение затрат</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cc3a9dc4-fe0a-4d5b-b2a6-0b21f04284bb">
+    <name>ОтражениеНачисленийЗарплатыКакЗатрат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отражение начислений зарплаты как затрат</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0b5df7e1-e7e8-4690-bf50-6fbe3f94c662">
+    <name>РаспределениеЗатратФилиаловНаСпециализации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распределение затрат филиалов на специализации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2de0e866-9998-47aa-98ec-b621aeb43e22">
+    <name>РаспределениеЗатратСпециализацийНаНоменклатуру</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распределение затрат специализаций на номенклатуру</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

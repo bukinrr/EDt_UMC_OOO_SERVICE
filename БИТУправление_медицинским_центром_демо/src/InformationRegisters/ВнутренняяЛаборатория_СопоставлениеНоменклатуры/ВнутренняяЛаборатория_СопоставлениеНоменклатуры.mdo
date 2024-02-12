@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="79835f5f-ea1c-4b97-bdc6-68089a104388">
+  <producedTypes>
+    <selectionType typeId="b8d8b070-440d-4e54-ad4e-405c04ba18ab" valueTypeId="4ed65947-7489-4157-9939-2f31ae2ae81e"/>
+    <listType typeId="52aa0248-cbcf-4d10-8a7a-aae8b613d1e0" valueTypeId="76bf9a9d-6b70-4ac2-896a-ef2521a7aee5"/>
+    <managerType typeId="0ed5ada2-c0e7-4ed9-a57a-44e6711cb6d6" valueTypeId="6f9a3d2c-0e97-480b-abe2-5e58a6d6d79d"/>
+    <recordSetType typeId="a3fffd7a-bf07-4834-827a-87772ddb18ec" valueTypeId="fd9a95f8-fa62-4304-bba5-ccaede1d26e1"/>
+    <recordKeyType typeId="de1b7209-3610-4194-9653-552f3dfe69e1" valueTypeId="2e5aa06c-fd7d-4553-b486-c9c0aa4943f8"/>
+    <recordType typeId="98303fdc-23c7-4d03-89de-3e01e1802d65" valueTypeId="a58c7cff-564a-4947-b91a-0b7b300935b1"/>
+    <recordManagerType typeId="a0e52eac-4eab-4206-aaad-8f0ff956cc71" valueTypeId="633e3c41-05d9-47b3-973d-f9d0146d977b"/>
+  </producedTypes>
+  <name>ВнутренняяЛаборатория_СопоставлениеНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Внутренняя лаборатория) Биоматериалы и контейнеры анализов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ВнутренняяЛаборатория_СопоставлениеНоменклатуры.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5f815fa3-7cb4-47ee-bfea-df70d4b0625c">
+    <name>НеобходимыйОбъем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Необходимый объем</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4ff7ec90-ea32-48be-ad02-21e39ecf6ef7">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0a1d3c83-7561-428f-a2ed-70bb6f82499d">
+    <name>Биоматериал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Биоматериал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВнутренняяЛаборатория_Биоматериалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="24d86bfd-6b29-44ae-8029-c1ff62b3a656">
+    <name>Контейнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контейнер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВнутренняяЛаборатория_ВидыКонтейнеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="7b218e18-7d53-49f7-9939-46a2322ced0d">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39a9f6a1-3731-4f67-b401-ddc223c69a96">
+  <producedTypes>
+    <objectType typeId="9220f2be-02d9-4513-b393-9c4c7d9cdcc0" valueTypeId="41f4edb5-9ccc-4522-90b8-a5ddc7d5d63c"/>
+    <managerType typeId="cbc18bc4-ed09-41dc-ad54-76a3c4d55527" valueTypeId="7bc3391b-5164-4a6a-98b7-113b675f520f"/>
+  </producedTypes>
+  <name>РеестрВыбытияМДЛП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр выбытия МДЛП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РеестрВыбытияМДЛП.Form.РеестрВыбытия</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <tabularSections uuid="94c7bb09-dc17-425f-afe4-2f2d94a35a31">
+    <producedTypes>
+      <objectType typeId="08a9ae5d-bc76-4e61-ba6c-6cb438e2c3f6" valueTypeId="665aa111-3021-4a80-b2d2-c18ba0a3f41c"/>
+      <rowType typeId="fba186ef-6853-4dc4-a384-783e9e3f51f5" valueTypeId="ee4b0c35-8ab0-468d-8eef-311c7485c061"/>
+    </producedTypes>
+    <name>РеестрВыбытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реестр выбытия</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="3c7daabc-1c9c-427d-96a3-8ebe93488a01">
+      <name>НомерУпаковки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер упаковки</value>
+      </synonym>
+      <type>
+        <types>DefinedType.НомерУпаковкиМДЛП</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="2e010823-ebb7-4e11-81fc-8d2ab84f92c0">
+      <name>КлючУпаковки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ключ упаковки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="447e8ef1-ddf5-45aa-b3f2-965e5faf7697">
+      <name>МестоДеятельности</name>
+      <synonym>
+        <key>ru</key>
+        <value>Место деятельности</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ОрганизацииМДЛП</types>
+        <types>CatalogRef.МестаДеятельностиМДЛП</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillFromFillingValue>true</fillFromFillingValue>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="1ea15b5e-4c08-4c87-8e2c-a9a471cba2c9">
+      <name>ДокументРезерва</name>
+      <synonym>
+        <key>ru</key>
+        <value>Документ</value>
+      </synonym>
+      <type>
+        <types>AnyRef</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillFromFillingValue>true</fillFromFillingValue>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="84cf590c-0c42-49a4-b4b7-f3d8cbe074a9">
+      <name>СтатусВыбытия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус выбытия в ИС МДЛП</value>
+      </synonym>
+      <type>
+        <types>EnumRef.СтатусыВыбытияУпаковокМДЛП</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="95532ff5-5bdf-4121-98c9-b5f1beb73d78">
+      <name>ДатаСтатуса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата статуса</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7c924e32-20f6-4fff-84d1-895d40de8db0">
+      <name>ДоляУпаковки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Доля упаковки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>6</precision>
+          <scale>5</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="bf677683-8481-489f-9e42-58e64804b2ab">
+      <name>ДальнейшееДействие</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дальнейшее действие</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="f4f96266-e44d-4d63-a211-d7a1785a6224">
+    <name>РеестрВыбытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реестр выбытия</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="365c6077-9977-4523-a134-1c6d75e01fc2">
+    <name>РеестрВыбытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реестр выбытия</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

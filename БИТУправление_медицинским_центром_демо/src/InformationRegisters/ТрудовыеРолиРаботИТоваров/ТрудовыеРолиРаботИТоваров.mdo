@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e5aee0d-16de-4b5c-b744-93224e2b3bf6">
+  <producedTypes>
+    <selectionType typeId="737d6cc0-a30f-4cce-8186-4e5d080e5e5e" valueTypeId="9a153238-c4aa-4946-87a7-8960e5d9818d"/>
+    <listType typeId="152af1fa-11b9-440b-8a06-4f700b95e431" valueTypeId="cea50df1-3840-419a-ae13-8918f62d4457"/>
+    <managerType typeId="a75ab681-d6fb-402a-9caa-f13760667896" valueTypeId="322a387b-419d-4abf-a28a-a82ed469cc72"/>
+    <recordSetType typeId="8bbd63a9-9594-4f7d-b04c-3e26dce1475f" valueTypeId="8f5aeb77-f084-4ff0-97b5-bde620c39301"/>
+    <recordKeyType typeId="f1908c26-27fc-44e1-8e56-0c07b3187370" valueTypeId="386e4f2c-fed0-400a-8600-331bb0cb0da3"/>
+    <recordType typeId="23a2bed6-15e6-4f16-96db-fb3afe92a9f8" valueTypeId="30d6846b-b747-4548-99a7-d60e07c11204"/>
+    <recordManagerType typeId="5934dac1-48ce-4532-8de5-7c4b8c3443d1" valueTypeId="3b92b56b-4479-450c-adad-ec02b5692973"/>
+  </producedTypes>
+  <name>ТрудовыеРолиРаботИТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Трудовые роли работ и товаров</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ТрудовыеРолиРаботИТоваров.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="6e3115e7-08f4-4cf4-bc0b-f0e6e0deed3d">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c0a1d047-9e61-4613-9dcf-6043d702efbd">
+    <name>ТрудоваяРоль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма участия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТрудовыеРоли</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ДляВсехУслуг</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="a941cbb7-404a-4aa5-9c40-be0068ad55c1">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

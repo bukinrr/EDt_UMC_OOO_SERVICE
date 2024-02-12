@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ff791ea-b52f-474b-a280-2c6e18619844">
+  <name>АвтоматическийЗапускСервисовDICOM</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автоматический запуск сервисов DICOM</value>
+  </synonym>
+  <comment>Автоматический запуск сервисов DICOM</comment>
+  <methodName>CommonModule.DICOMРаботаСДрайверомКлиентСервер.ПриНачалеРаботыСистемы</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

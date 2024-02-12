@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7adc91a7-f0f0-472a-b389-3d84aedf06d5">
+  <producedTypes>
+    <refType typeId="e82ad2aa-6845-4043-9a82-4d50ea3dbbb2" valueTypeId="1590d516-aad7-4fa9-aaf7-5d5171b01bd9"/>
+    <listType typeId="7fdd6b09-96c7-4113-81a8-19836256a361" valueTypeId="2ae315e0-d938-45fb-a34e-75c3a907ff23"/>
+    <managerType typeId="66ee0867-27fe-43c9-839a-fb8c9b779004" valueTypeId="4448a1e9-856b-4085-93b6-30356f7f2a38"/>
+  </producedTypes>
+  <name>ВидыЛистковНетрудоспособности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды листков нетрудоспособности</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d2693886-e613-4edb-a7f9-fcfa7f67eb9c">
+    <name>Первичный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первичный листок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d040d676-2c56-4c43-905a-9dcdc3059701">
+    <name>ДругогоЛПУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Листок другого ЛПУ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="49be0da4-a7f3-48a9-b88b-72b61a9f14ac">
+    <name>Продолжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продолжение другого листка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7e154593-0dc8-4612-9f56-9fe9f8b95d47">
+    <name>ПродолжениеДругогоЛПУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продолжение листка, выданного другим ЛПУ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

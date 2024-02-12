@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d62fe0bf-8dd2-41c4-ad40-1f83513f6c59">
+  <producedTypes>
+    <selectionType typeId="16875437-a860-41c9-8212-d5de5f089d82" valueTypeId="8ee8250e-f6e5-4daa-9b28-8fb8dfcd5d1f"/>
+    <listType typeId="b5aba789-b227-41ca-89df-5236ed93bb42" valueTypeId="4af07321-3756-407f-a3fc-3d666d1b1193"/>
+    <managerType typeId="6d37dc87-ca09-4d0d-91a0-69b0d315fe6f" valueTypeId="ce981d06-7328-48f7-af99-70d0a01e0ef5"/>
+    <recordSetType typeId="c10f2fc0-b7a4-4cbd-9f03-142a8cb29f0a" valueTypeId="34231f57-31d0-4018-aecf-eed2fb27cab0"/>
+    <recordKeyType typeId="09b1f59b-a1c1-423a-9a31-346e4fb0f82c" valueTypeId="c5bd19fb-8131-4734-9326-8bfe712acc6c"/>
+    <recordType typeId="d2ef06a7-3304-4299-9805-363852787b52" valueTypeId="85d70e17-b997-426e-8b0a-8275fb15cfb1"/>
+    <recordManagerType typeId="9ff67bc8-0f69-4d5e-bf98-07da70dd0ee8" valueTypeId="cb14beef-f5e9-4dae-af04-dfd6d92f2c32"/>
+  </producedTypes>
+  <name>бит_СпискиОбзвона</name>
+  <synonym>
+    <key>ru</key>
+    <value>БИТ.Phone Списки обзвона пользователей</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.бит_СпискиОбзвона.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="ea39e9f5-0443-4fca-ac17-6110d5287c80">
+    <name>Список</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.бит_СписокОбзвона</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Список обзвона пользователя</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="975a3976-5ddc-4ef5-8e0f-306f351e3afd">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь базы данных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="3fce9c5a-db81-4bff-970a-d9531cff0c20">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

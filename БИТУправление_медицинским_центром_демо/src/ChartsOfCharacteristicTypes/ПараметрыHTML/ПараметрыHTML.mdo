@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4498c215-d867-4199-b2e3-47134644b8c7">
+  <producedTypes>
+    <objectType typeId="99c11898-5352-44a7-9690-f5ec378361a2" valueTypeId="d1bf5c9b-4cc0-45b1-b4dd-7ddb4a15d7ff"/>
+    <refType typeId="095d5301-fcb0-4103-9353-252ddf8fb9c2" valueTypeId="2378dc83-d0bf-4738-95a4-7ace165885ea"/>
+    <selectionType typeId="3119e1c5-7542-401e-90da-ddcd75fc46f1" valueTypeId="73e86ce7-40f9-4e91-a7d2-d24979771921"/>
+    <listType typeId="16e0cb65-467d-4e10-8f64-8e384bd19e2d" valueTypeId="b1ce0edd-15fd-4ba0-b13e-88c9ac3f1ede"/>
+    <managerType typeId="29ee505a-8f44-4503-be62-6ffa05bdd51a" valueTypeId="6f3cce16-1b57-4680-8584-4bbd451ad912"/>
+    <containerType typeId="df338077-0a27-4c5d-bd1f-6837c213b9cb" valueTypeId="aa58c841-5b97-426a-9a66-ee5e5cbc2722"/>
+  </producedTypes>
+  <name>ПараметрыHTML</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры HTML</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ПараметрыHTML.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ПараметрыHTML.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ValueType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родитель</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>ChartOfCharacteristicTypes.ПараметрыHTML.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Параметр шаблона осмотра</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Параметры шаблонов осмотра</value>
+  </listPresentation>
+  <characteristicExtValues>Catalog.ДополнительныеЗначенияХарактеристик</characteristicExtValues>
+  <type>
+    <types>CatalogRef.СправочникМеждународныхНепатентованныхНаименований</types>
+    <types>CatalogRef.Номенклатура</types>
+    <types>CatalogRef.СтрокиЭМКНеограниченнойДлины</types>
+    <types>CatalogRef.Подразделения</types>
+    <types>CatalogRef.РеестрМедицинскихОрганизаций</types>
+    <types>DocumentRef.Прием</types>
+    <types>CatalogRef.ИнструментальныеИсследования</types>
+    <types>CatalogRef.ДействующиеВеществаЛекарственныхПрепаратов</types>
+    <types>CatalogRef.НоменклатураМедицинскихУслуг</types>
+    <types>Boolean</types>
+    <types>CatalogRef.СоглашенияСтрахования</types>
+    <types>CatalogRef.Клиенты</types>
+    <types>CatalogRef.Филиалы</types>
+    <types>DocumentRef.ДоговорСКлиентом</types>
+    <types>CatalogRef.СтраховыеПолисы</types>
+    <types>String</types>
+    <types>CatalogRef.Диагнозы</types>
+    <types>CatalogRef.Сотрудники</types>
+    <types>Date</types>
+    <types>CatalogRef.КатегорииВыработки</types>
+    <types>CatalogRef.ДополнительныеЗначенияХарактеристик</types>
+    <types>CatalogRef.ЛабораторныеТесты</types>
+    <types>Number</types>
+    <types>CatalogRef.МедицинскоеОборудование</types>
+    <types>CatalogRef.ВидыМедицинскихДокументов</types>
+    <types>CatalogRef.КлассификаторыМинЗдрава</types>
+    <types>CatalogRef.ХранилищеДополнительнойИнформации</types>
+    <numberQualifiers>
+      <precision>18</precision>
+      <scale>4</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>1024</length>
+    </stringQualifiers>
+    <dateQualifiers/>
+  </type>
+  <hierarchical>true</hierarchical>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>150</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="f09cd602-2d65-4f5f-9066-8ffa8afc7da8">
+      <name>ПрофпатологДополнениеКЗаключению</name>
+      <description>Профпатолог: Дополнение к заключению</description>
+      <code>000000005</code>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="e4050020-ff18-4cbf-b916-6cc978bfd680">
+      <name>ПрофпатологЗаключение</name>
+      <description>Профпатолог: Заключение</description>
+      <code>000000001</code>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="18d9a5df-2598-4d68-88b7-83baf8a9b684">
+      <name>ПрофпатологИнфекционныйАнамнез</name>
+      <description>Профпатолог: Инфекционный анамнез</description>
+      <code>000000004</code>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="af4a5b1e-94c6-4a4a-be59-af0075db381d">
+      <name>ПрофпатологРекомендации</name>
+      <description>Профпатолог: Рекомендации</description>
+      <code>000000002</code>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="92346c6a-1ff2-49d4-a2b7-278d92feca57">
+      <name>ПрофпатологСведенияОПрививках</name>
+      <description>Профпатолог: Сведения о прививках</description>
+      <code>000000003</code>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ChartOfCharacteristicTypes.ПараметрыHTML.Form.ФормаЭлементаУпр</defaultObjectForm>
+  <defaultListForm>ChartOfCharacteristicTypes.ПараметрыHTML.Form.ФормаСпискаУпр</defaultListForm>
+  <defaultChoiceForm>ChartOfCharacteristicTypes.ПараметрыHTML.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="06230295-c929-4e9b-9c9d-d037cf0fb92a">
+    <name>ЗначениеПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение по умолчанию</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СправочникМеждународныхНепатентованныхНаименований</types>
+      <types>CatalogRef.Номенклатура</types>
+      <types>CatalogRef.ВычисляемыеЗначенияПараметров</types>
+      <types>CatalogRef.Подразделения</types>
+      <types>CatalogRef.РеестрМедицинскихОрганизаций</types>
+      <types>CatalogRef.ИнструментальныеИсследования</types>
+      <types>CatalogRef.НоменклатураМедицинскихУслуг</types>
+      <types>Boolean</types>
+      <types>CatalogRef.СоглашенияСтрахования</types>
+      <types>CatalogRef.Клиенты</types>
+      <types>CatalogRef.Филиалы</types>
+      <types>CatalogRef.СтраховыеПолисы</types>
+      <types>String</types>
+      <types>CatalogRef.Диагнозы</types>
+      <types>CatalogRef.Сотрудники</types>
+      <types>Date</types>
+      <types>CatalogRef.КатегорииВыработки</types>
+      <types>CatalogRef.ДополнительныеЗначенияХарактеристик</types>
+      <types>CatalogRef.ЛабораторныеТесты</types>
+      <types>Number</types>
+      <types>CatalogRef.МедицинскоеОборудование</types>
+      <types>CatalogRef.ВидыМедицинскихДокументов</types>
+      <types>CatalogRef.КлассификаторыМинЗдрава</types>
+      <numberQualifiers>
+        <precision>18</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Значение по-умолчанию</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>ChartOfCharacteristicTypes.ПараметрыHTML.StandardAttribute.Ref</field>
+    </choiceParameterLinks>
+    <choiceParameters>
+      <name>Отбор.ПолучательВычисляемогоЗначения</name>
+      <value xsi:type="core:FixedArrayValue">
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.ПолучателиВычисляемогоЗначения.EnumValue.ПараметрШаблонаПриема</value>
+        </values>
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.ПолучателиВычисляемогоЗначения.EmptyRef</value>
+        </values>
+      </value>
+    </choiceParameters>
+    <choiceParameters>
+      <name>ПолучательВычисляемогоЗначения</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ПолучателиВычисляемогоЗначения.EnumValue.ПараметрШаблонаПриема</value>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="132a19d5-13d2-494f-874d-bd45e1f42dbf">
+    <name>ИспользуетсяВычисляемоеЗначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вычисляемое</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вычисляемый параметр</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5421ffa8-3379-4ecf-8f27-5e99e6dc5d89">
+    <name>НеЗаполняетсяПредыдущимиЗначениями</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не заполняется предыдущими значениями</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Не заполняется предыдущими значениями приёмов</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2b38cdf6-c44a-4ab1-ae9a-1c626cb983d4">
+    <name>ОбязательноДляЗаполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обязательно для заполнения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Обязательно для заполнения в приёме</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c936e3de-ee46-4e1b-8c7e-01a44d9a044d">
+    <name>ИспользуетсяПрофпатологом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется профпатологом</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Используется профпатологом при заключении о медосмотре</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ac5c5c23-773b-4dc9-b4f9-f14b1530b656">
+    <name>НеРедактируетсяПользователем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не редактируется пользователем в приёме</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a617ed92-b8d4-4b0d-9d00-11046412c3ce">
+    <name>ФорматнаяСтрока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форматная строка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6cc85935-c2ad-4809-9751-244ad30efb11">
+    <name>ПерсональныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Очищать при удалении персональных данных</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="31d5f3ff-e765-42bf-b6aa-73efc165d82d">
+    <name>ВыборПоСсылкеИзОграниченногоСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбирать значение из заданного списка при использовании в шаблоне как ссылки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f310e4f0-ae7c-4e46-8472-3513ccdb80cd">
+    <name>РазрешитьВводВручнуюПриВыбореИзОграниченногоСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешить ввод вручную при выборе из ограниченного списка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="41c6a28e-36e9-44c0-ae01-939b3f7a2fcd">
+    <name>ВидКлассификатора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид классификатора</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыКлассификаторовМинЗдрава</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="01ffce07-1a9c-49ff-af66-56a149b2bb1e">
+    <name>ДополнятьГотовымиФразамиВыборИзОграниченногоСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнять готовыми фразами список выбора</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Автоматически добавляет готовые фразы в список выбора. От функции &quot;Добавить из готовых фраз&quot; отличается тем, что не позволяет внести изменения в добавленные варианты.
+Для иерархических готовых фраз позволяет выбирать только конечные элементы, используя расположенные выше по иерархии как группы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b502d990-8de6-4b64-bb16-63eb05c0ed47">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дополнительное описание</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="083379f2-cf01-421f-bbf1-7a67cfa6028d">
+    <name>Назначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение</value>
+    </synonym>
+    <type>
+      <types>EnumRef.КодировкаПолейЭМД</types>
+      <types>CatalogRef.КлассификаторыМинЗдрава</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ВидКлассификатора</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ВидыКлассификаторовМинЗдрава.EnumValue.КодируемыеПоляCDAДокументов</value>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="2a235a5a-1b88-4f1f-8f4c-f71569410469">
+    <producedTypes>
+      <objectType typeId="20116f40-2a2e-4d55-9bc7-9fbb07d88858" valueTypeId="1cf47187-5257-4011-bd12-3f6fb5c2f658"/>
+      <rowType typeId="aa926095-8add-4fc2-a3f1-d0b4220d5e0b" valueTypeId="f6848441-89ac-40c2-8a3f-0b7332b32612"/>
+    </producedTypes>
+    <name>ПакетыСоставныхФраз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пакеты составных фраз</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="423b87c2-3736-427f-982e-eeed45514ca5">
+      <name>Пакет</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пакет</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПакетыСоставныхФраз</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="94c0aaff-c562-4cac-82c4-480260a13ad3">
+    <producedTypes>
+      <objectType typeId="cd133178-3e85-41f8-b75d-1932a461a563" valueTypeId="dacb1113-1abd-4bb6-9c63-46b2e1c8a165"/>
+      <rowType typeId="09b18c7c-dec5-4cee-ba27-fdda012ba59d" valueTypeId="27905a91-a378-40c5-a229-673293ee21b0"/>
+    </producedTypes>
+    <name>ЗначенияВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значения выбора</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="82255aac-1a53-450d-a642-188f2d647d2c">
+      <name>КлючСтроки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ключ строки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="182be35a-4440-4b66-a35e-8d7288b4f3d3">
+      <name>КлючРодителя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ключ родителя</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8c8a9f1b-7da2-4b95-86f3-42d3a822d611">
+      <name>ЭтоГруппа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Это группа</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f2affc41-8e41-4e14-ad5f-9bc3ba388c18">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ИнструментальныеИсследования</types>
+        <types>String</types>
+        <types>Number</types>
+        <types>CatalogRef.КлассификаторыМинЗдрава</types>
+        <numberQualifiers>
+          <precision>14</precision>
+          <scale>4</scale>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="05b99dce-bd9c-43f8-b806-b888faedc84c">
+      <name>Представление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="55936b75-b88e-4d2e-8be8-677b4c32d3ca">
+    <name>ФормаЭлементаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c8fc53d7-9ff6-48bc-8377-976e91dfe124">
+    <name>ФормаСпискаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3357ac66-5146-49a7-8df6-0302a915c22f">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="54741091-036b-4606-9b6e-6646981878da">
+    <name>ФормаГенерацияЧисел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма генерация чисел</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d8aaef15-5394-4327-b342-233be1c3afd4">
+    <name>ФормаВыбораУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5da93ac5-1fa6-45cb-b509-fdd97098c844">
+    <name>КопированиеФразИзДругогоПараметра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Копирование фраз из другого параметра</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="2f04bc24-edd2-4f97-8cde-02645407b578">
+    <name>ПредопределеныеЭлементыПрофпатолог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предопределеные элементы профпатолог</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:ChartOfCharacteristicTypes>

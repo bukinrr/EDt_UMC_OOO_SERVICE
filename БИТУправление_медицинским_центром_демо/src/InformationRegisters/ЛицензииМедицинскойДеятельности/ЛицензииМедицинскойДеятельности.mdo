@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3367a8fe-d5c4-4b03-a2b1-0882cb1a9da9">
+  <producedTypes>
+    <selectionType typeId="cfd8bd04-ae42-4fc1-9ff8-0bf8699bcda8" valueTypeId="19f89c01-14b0-4913-ab30-e483c430b8ee"/>
+    <listType typeId="4990ef7d-4e2c-4939-997f-a54741a0496a" valueTypeId="b0693f68-dcde-499c-9c25-1a973a94b3c7"/>
+    <managerType typeId="82769b65-d92e-4ad4-a13e-efdad7914c7c" valueTypeId="29bf2638-bf33-471a-bf49-5f43c5b0616d"/>
+    <recordSetType typeId="ce7dbe0b-5c49-422b-8a7f-7d19758565af" valueTypeId="b4e3bbb0-a24e-43de-8369-cf4030169a7c"/>
+    <recordKeyType typeId="b65eddbd-5e4d-4d53-bd13-0a07a7256e4f" valueTypeId="1030107b-e285-46e6-8fd4-346a7ae27ec5"/>
+    <recordType typeId="f33de705-1b4d-4ee0-a30e-58d3046e9af4" valueTypeId="0cb749f4-8e92-4fe2-bc5e-8dde8d15aad7"/>
+    <recordManagerType typeId="05087b83-249a-4857-a711-c8bfe63ebbf5" valueTypeId="b6bf3cc7-3333-4a5c-b35a-ca78a5ca6f64"/>
+  </producedTypes>
+  <name>ЛицензииМедицинскойДеятельности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лицензии медицинской деятельности</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ЛицензииМедицинскойДеятельности.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата регистрации</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="60afeb69-7e6e-4c20-bc85-57a4f2884e23">
+    <name>НомерЛицензии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер лицензии</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="17578edd-88fc-4bc0-9e23-0a14675092fc">
+    <name>ВыдавшийЛицензиюОрган</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдавший лицензию орган</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>512</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="789a231a-ec86-4d1f-b4e4-90332e0e558c">
+    <name>Филиал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+      <types>CatalogRef.Филиалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="13ea1860-b950-4fa2-85dc-5a422ab8af36">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

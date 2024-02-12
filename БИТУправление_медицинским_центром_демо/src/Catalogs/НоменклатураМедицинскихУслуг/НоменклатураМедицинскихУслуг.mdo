@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7327b8c6-42c8-44e5-941c-84c444f43505">
+  <producedTypes>
+    <objectType typeId="2b517cd8-3595-452a-8a94-e8c0feedcf60" valueTypeId="86dc2788-3eb6-4633-a2b6-39dcf9eb7cbf"/>
+    <refType typeId="531cf59e-2761-455d-9a5c-ebd7dfe3e666" valueTypeId="17e49832-5a89-475e-94d3-d71c9178f998"/>
+    <selectionType typeId="f6338260-8716-4eca-ab89-725daa228a5e" valueTypeId="6ae9087e-ffb7-4e61-8aca-709b658266e0"/>
+    <listType typeId="79256df6-9eaa-42cb-b091-01295db69740" valueTypeId="e3804228-7b86-40c3-8bf5-e22624f28f5c"/>
+    <managerType typeId="9d96cc08-ac3e-4742-b5a7-d535b3d53f5b" valueTypeId="4f38e38d-2eb7-4803-9ddb-2fc3024b3013"/>
+  </producedTypes>
+  <name>НоменклатураМедицинскихУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура медицинских услуг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НоменклатураМедицинскихУслуг.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НоменклатураМедицинскихУслуг.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родитель</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.НоменклатураМедицинскихУслуг.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>20</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.НоменклатураМедицинскихУслуг.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.НоменклатураМедицинскихУслуг.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.НоменклатураМедицинскихУслуг.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="44af9503-2bb4-44c8-a7dd-98ffac9ea74f">
+    <name>ПолноеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9354b8c8-85bc-4263-91d6-90cf3328327d">
+    <name>ВнутреннийИД</name>
+    <synonym>
+      <key>ru</key>
+      <value>(Не используется) Внутренний ИД</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask>??.10,0</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="4ef50923-dfdf-4541-baf7-555dc6229514">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="21cb54cc-b6d1-4b48-8080-1bf1a920ab5f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="117ede4b-c1bb-4b7a-8ca7-644bde625f2b">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2ef4ff06-0630-4cfa-877b-4a33eedf01a6">
+    <name>ФормаЗаполненияНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма заполнения номенклатуры</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8a6d7557-028f-4753-8b14-35cab343216c">
+    <name>УстаревшиеСсылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Устаревшие ссылки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="04055e5f-54ed-405a-bd54-d5c328564df4">
+    <name>МакетКодирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет кодирования</value>
+    </synonym>
+  </templates>
+  <templates uuid="c5014070-b09e-4839-825b-1edf847ce8f7">
+    <name>НМУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>НМУ</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="18f1cf31-6c4f-4359-8986-239c79f67d7d">
+    <name>МакетКодирования804</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет кодирования804</value>
+    </synonym>
+  </templates>
+  <templates uuid="eaa97505-302c-4f31-be17-1ece48826793">
+    <name>УстаревшиеКоды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Устаревшие коды</value>
+    </synonym>
+  </templates>
+  <templates uuid="66e7ac22-e93a-4f87-b6ea-8abd5409e2b1">
+    <name>МакетСоотношениеКодов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет соотношение кодов</value>
+    </synonym>
+  </templates>
+  <templates uuid="0eb1b61f-2977-416f-af6d-a40caff2afde">
+    <name>НМУ804</name>
+    <synonym>
+      <key>ru</key>
+      <value>НМУ804</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="59842754-51cc-467d-aa2b-117e590954fa">
+    <name>СопоставлениеВнутрИд1664_804</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сопоставление внутр ид1664 804</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

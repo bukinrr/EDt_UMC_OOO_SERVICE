@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="548f3f49-de9e-4894-96e4-12be8bc29d58">
+  <producedTypes>
+    <selectionType typeId="b5e35587-b4b9-436e-883a-4cbe586cb73a" valueTypeId="e57094bb-9319-49d4-96f7-1118c0cdc84f"/>
+    <listType typeId="bedcb1fd-328f-41ef-8e80-acf34e6351ce" valueTypeId="5e664164-4b07-48f4-935c-5ce04af7fb0d"/>
+    <managerType typeId="0478ff33-762e-4f2d-b2a7-de40b6139aa3" valueTypeId="59fba32c-0b9a-4954-a67a-a81d3356b274"/>
+    <recordSetType typeId="55f36baf-4ed2-48dd-a8da-b3f6137cf879" valueTypeId="af892907-506e-4bfb-9216-88cf145503f1"/>
+    <recordKeyType typeId="74f70193-3959-4dfc-8e94-57602911c5e9" valueTypeId="df61149b-2882-4615-bf93-ea75ac6aee42"/>
+    <recordType typeId="866f2245-15a1-4295-ad18-43dea695af99" valueTypeId="84c0642a-dd7a-4022-b214-898e4c73cbf5"/>
+  </producedTypes>
+  <name>Оплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оплаты</value>
+  </synonym>
+  <registerType>Turnovers</registerType>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="d91987fb-b75b-49c0-b365-6fb4606517e1">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сумма оплаты</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="dfc4124f-2886-4de7-8ec8-b863857748ea">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбранный клиент</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="bcaa94ee-2686-4a97-aa2f-4b43da54e5b3">
+    <name>ВидОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид оплаты</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыОплаты</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид совершенной оплаты</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="9afe3d0b-c6ea-427f-a0cb-c57a0af03652">
+    <name>Филиал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Филиал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Филиалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="fd03ac5b-fa0b-4bb7-826b-ea86de7f5473">
+    <name>Сертификат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сертификат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сертификаты</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбранный сертификат</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

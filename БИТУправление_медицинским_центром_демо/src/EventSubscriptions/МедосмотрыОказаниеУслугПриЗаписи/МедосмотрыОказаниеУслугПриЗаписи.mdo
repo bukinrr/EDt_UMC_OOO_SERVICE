@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f913216-3394-43ec-b279-d48e2d42ad80">
+  <name>МедосмотрыОказаниеУслугПриЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Медосмотры оказание услуг при записи</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ОказаниеУслуг</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.МедосмотрыСервер.МедосмотрыОказаниеУслугПриЗаписи</handler>
+</mdclass:EventSubscription>

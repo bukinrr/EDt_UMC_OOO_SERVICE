@@ -1,0 +1,1356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e213c404-a03f-4705-bbf6-cba73644e80a">
+  <producedTypes>
+    <objectType typeId="c83c3458-ec02-4cca-9aa0-af26d4c827ed" valueTypeId="6fe82cf9-7c95-4958-8bb2-08cb2409e89f"/>
+    <refType typeId="ddef46a4-8eaf-4136-ae05-b55010f18a88" valueTypeId="4f586467-f3e0-4134-9389-5530d7e658fe"/>
+    <selectionType typeId="d518ff6c-86aa-47ec-992f-0e23b70234a3" valueTypeId="b3b6379d-23e7-420a-9217-d55b34e36527"/>
+    <listType typeId="2bf90750-990f-41c1-80b7-0c2f73468c6c" valueTypeId="552194b9-612d-45cb-a858-3c62cbae3d0d"/>
+    <managerType typeId="01165499-8811-4450-a3e2-f282d692839f" valueTypeId="d0f83180-bf42-4362-a086-ec30d8ea794f"/>
+  </producedTypes>
+  <name>СписокНаПрохождениеМедосмотра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список на прохождение медосмотра</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.СписокНаПрохождениеМедосмотра.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Списки на прохождение м/о</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.СписокНаПрохождениеМедосмотра.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.СписокНаПрохождениеМедосмотра.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.СписокНаПрохождениеМедосмотра.Form.ФормаВыбора</defaultChoiceForm>
+  <realTimePosting>Deny</realTimePosting>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="488cc09a-6b98-4e43-a563-9f9ce49541be">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Работодатель</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1ed2fc6e-c698-4c9f-a184-5661d11a3241">
+    <name>Филиал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиника</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Филиалы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Клиника, филиал</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6cbae028-3bd5-41f1-94e9-6d7ef14b8a51">
+    <name>ПредседательМедКомиссии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Председатель мед комиссии</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Председатель медицинской комиссии</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7efc614f-ffcf-45f9-9b63-303594e0ebb8">
+    <name>ДолжностьПредседателяМедКомиссии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность председателя мед комиссии</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Должность председателя медицинской комиссии</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="672c9b0e-e60c-497d-bacf-34260a5ac5f8">
+    <name>ПредставительРаботодателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представитель работодателя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Представитель от работодателя</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4d40735c-2dd0-4f8e-9377-dce61f8aa361">
+    <name>ДолжностьПредставителяРаботодателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность представителя работодателя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Должность представителя от работодателя</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="37f9ebf0-8157-45b8-81ba-1a293a774ac7">
+    <name>ДатаЗаключительногоАкта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата заключительного акта</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата оформления заключительного акта</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b10b3ecd-eabd-41a8-8f97-f2722aaaf358">
+    <name>РезультатВыполненияРекомендацийПредАкта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат выполнения рекомендаций пред. акта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Результат выполнения рекомендаций предыдущего акта</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1c0ccc45-8785-464e-bd75-a0518ee6473d">
+    <name>РекомендацииПоКомплексуОздоровительныхМероприятий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рекомендации работодателю по реализации комплекса оздоровительных мероприятий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Рекомендации работодателю по реализации комплекса оздоровительных мероприятий на предприятии</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cdbf643f-5d52-4ada-b95d-70b75eefbab6">
+    <name>ОбщЧисленностьРаботниковВсего</name>
+    <synonym>
+      <key>ru</key>
+      <value>всего</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Всего работников</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d265c541-3424-4b69-92ef-54139ae99b3f">
+    <name>ОбщЧисленностьРаботниковЖенщин</name>
+    <synonym>
+      <key>ru</key>
+      <value>в том числе женщин</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Численность женщин</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d60d3677-7b8e-47fc-ac73-0c6c12780e4b">
+    <name>ОбщЧисленностьРаботниковДо18Лет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работники в возрасте до 18 лет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>В том числе работники в возрасте до 18 лет</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="405684af-ad31-4d63-8e90-9518233cd9fa">
+    <name>ОбщЧисленностьРаботниковУстУтратаНетрудоспособности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работники, которым установлена стойкая утрата трудоспособности</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество работников, которым установлена стойкая утрата трудоспособности</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2f157c21-35b2-438a-a09d-1a5e70beb381">
+    <name>РаботникиНаТяжРаботахВсего</name>
+    <synonym>
+      <key>ru</key>
+      <value>Всего</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Всего на тяжелых работах</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ea35e4c7-721b-47f2-b82a-d61cd6ab97ed">
+    <name>РаботникиНаТяжРаботахЖенщин</name>
+    <synonym>
+      <key>ru</key>
+      <value>в том числе женщин</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>В том числе женщин на тяжелых работах</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="46da1599-bf73-4012-96da-4da99bfe2db0">
+    <name>РаботникиНаТяжРаботахДо18Лет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работники в возрасте до 18 лет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Работники в возрасте до 18 лет на тяжелых работах</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1d17dc9a-f5ee-4e1d-b3ed-1a19224d0e25">
+    <name>РаботникиНаТяжРаботахУстУтратаНетрудоспособности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работники, которым установлена стойкая утрата трудоспособности</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Работники, которым установлена стойкая утрата трудоспособности на тяжелых работах</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="661f831b-9da0-46fe-bb92-cc87629a967d">
+    <name>ЧисленностьРаботниковОбязМедосмотрВсего</name>
+    <synonym>
+      <key>ru</key>
+      <value>Всего</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Всего подлежит медосмотру</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="220abbf0-2067-423f-91df-def84d2c128c">
+    <name>ЧисленностьРаботниковОбязМедосмотрЖенщин</name>
+    <synonym>
+      <key>ru</key>
+      <value>в том числе женщин</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>В том числе женщин подлежит медосмотру</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="52aed05d-63da-4238-87ab-12cbd72a814b">
+    <name>ЧисленностьРаботниковОбязМедосмотрДо18Лет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работники в возрасте до 18 лет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Работников в возрасте до 18 лет подлежит медосмотру</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="39eab928-b73a-46c8-93cc-275e1c930445">
+    <name>ЧисленностьРаботниковОбязМедосмотрУстУтратаНетрудоспособности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работники, которым установлена стойкая утрата трудоспособности</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Работники, которым установлена стойкая утрата трудоспособности из подлежащих медосмотру</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c0020976-7aca-46ae-babd-1a4c4319e7e7">
+    <name>ЧисленностьРаботниковПодлежМедосмотруВсего</name>
+    <synonym>
+      <key>ru</key>
+      <value>Всего</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Подлежит медосмотру всего</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="30015aee-1776-45eb-a86e-7e0abcf3a1b7">
+    <name>ЧисленностьРаботниковПодлежМедосмотруЖенщин</name>
+    <synonym>
+      <key>ru</key>
+      <value>в том числе женщин</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Подлежит медосмотру женщин</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ab282be5-1a97-46fc-bf45-13189c86ed3d">
+    <name>ЧисленностьРаботниковПодлежМедосмотруДо18Лет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работники в возрасте до 18 лет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Подлежит медосмотру до 18 лет</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="89ea7ee2-7926-4843-9d6e-0e2f7db1d7b7">
+    <name>ЧисленностьРаботниковПодлежМедосмотруУстУтратаНетрудоспособности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работники, которым установлена стойкая утрата трудоспособности</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Подлежит медосмотру, которым установлена стойкая утрата трудоспособности</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4d392daa-0572-45a8-a39d-bdbde603dd6d">
+    <name>ДатаПредыдущегоЗаключительногоАкта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата предыдущего заключительного акта</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата предыдущего заключительного акта работодателя</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cd37647e-2476-4dd8-9df3-e710dcada8cd">
+    <name>РучнаяКорректировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ручная корректировка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Была ручная корректировка</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="57879567-2122-46b5-942d-7cb418dc6d14">
+    <name>ДействияМедосмотраФиксируютсяСметой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действия медосмотра фиксируются сметой</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Действия медосмотра фиксируются сметой на услуги</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8df3de82-333d-4915-bddd-4107a5c79cd6">
+    <name>ВидПолиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Программа обслуживания</value>
+    </synonym>
+    <comment>Условия обслуживания по медосмотру в рамках договора с контрагентом</comment>
+    <type>
+      <types>CatalogRef.ВидыПолисов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Программа обслуживания работодателя</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Контрагент</name>
+      <field>Document.СписокНаПрохождениеМедосмотра.Attribute.Контрагент</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e3072fc8-8957-4e6b-80ba-a59e40227ff1">
+    <name>ПодписанЭП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подписан ЭП</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Был подписан ЭЦП</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="55dd3b93-3866-4566-93ae-332d58bdbb57">
+    <name>МестоРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование работодателя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2512e69c-744c-4326-ad1b-7a0b0b6931d7">
+    <name>ВыводитьПриПечатиСметыДействияБезЦены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводить при печати сметы действия м/о без цены</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e9979ba6-5795-497a-b765-c9d032b5256a">
+    <name>ВидМО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид медосмотра</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыМедосмотров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b5138efb-92c7-40de-8233-0204a5c81e61">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="10bcb9ce-d8d9-4ed6-8890-e0cc4e662ab1">
+    <name>ЗагрузкаСпискаНаПрохождение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка списка на прохождение</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1cfdacba-a610-424d-90ba-b01e16cd5328">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="29cc6550-f399-4140-b16d-53c79a0c39f1">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="065563af-e45f-43dc-a3d6-fd3635700aac">
+    <name>ФормаПрохожденияБезСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прохождение медосмотра без списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="301fa5fc-0fa4-4fad-a757-a48174651b86">
+    <name>ЭМДМедосмотров</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЭМД медосмотров</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="230343d1-edd2-4ff9-868e-7249aa1b7379">
+    <name>ФормаРедактированияДанныхКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактирования данных клиента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="e7538f28-0246-454d-89eb-658fb49b09e7">
+    <producedTypes>
+      <objectType typeId="d5b8606d-94bd-47f5-83fb-a08cec359a44" valueTypeId="8faa712d-9594-4403-9352-7caa66932da3"/>
+      <rowType typeId="07017543-9b54-4b09-8c5d-01da25030a14" valueTypeId="9ce33eb9-039b-4e44-93d3-a91deb190b17"/>
+    </producedTypes>
+    <name>Клиенты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиенты</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Работники</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="4e8cacde-cd5e-4a40-8abb-76d00cb3f11c">
+      <name>Клиент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Клиент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Клиенты</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Работник</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="35710c8f-05b6-445a-9a0b-b2e277760bb8">
+      <name>ТипМедосмотра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ТипыМедосмотров</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Тип медосмотра</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3a15bd9f-cb3c-4c58-b645-b50f5b492250">
+      <name>ПричинаНеявки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Причина неявки</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПричиныНеявкиНаМедосмотр</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Причина неявки на медосмотр</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="09aa57cf-b459-40fa-9a62-55eb1a8efeba">
+      <name>ФИОКлиента</name>
+      <synonym>
+        <key>ru</key>
+        <value>ФИО</value>
+      </synonym>
+      <comment>Копия реквизита на случай изменения в будущем в карточке клиента</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="22edc45c-2883-4380-bad1-0b1a576a4ad7">
+      <name>Профессия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Профессия</value>
+      </synonym>
+      <comment>Копия реквизита на случай изменения в будущем в карточке клиента</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>500</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0c579e62-ccb1-4f39-aa25-cdcd9d7c631a">
+      <name>ЦехУчасток</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цех участок</value>
+      </synonym>
+      <comment>Копия реквизита на случай изменения в будущем в карточке клиента</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="4cd36450-33e1-40ea-bdd9-322cfc18db8b">
+    <producedTypes>
+      <objectType typeId="e2f6105d-4553-4e5b-9f22-9925beb315af" valueTypeId="e170b4c0-b1c4-46d7-843f-d1eb4f010293"/>
+      <rowType typeId="f3e793c4-33c1-4b9d-ab71-d176ac0f49fd" valueTypeId="cac1166a-0c4f-4bbe-9edf-4c1d0c80c312"/>
+    </producedTypes>
+    <name>ВыполнениеРекомендаций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнение рекомендаций</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Выполнение рекомендаций предприятием</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="84fbac93-a795-4fac-b03d-90e575407183">
+      <name>Мероприятие</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мероприятие</value>
+      </synonym>
+      <type>
+        <types>EnumRef.МероприятияПоРезультатамМедосмотров</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Рекомендованное мероприятие</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="eff331ad-e9d4-427c-91cf-8694d1dc4f97">
+      <name>Подлежало</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подлежало</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Подлежало выполнить (количество)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4c0d2d53-eba3-4d30-a140-fee28e769b0f">
+      <name>Выполнено</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выполнено</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Выполнено (количество)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="51abc9de-993f-46ae-a2fa-7d4f3cfdb28d">
+      <name>Примечание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Примечание</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1000</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Примечание профпатолога</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="ad291516-82fe-47b3-b600-b2b62217c700">
+    <producedTypes>
+      <objectType typeId="b89937a5-7d3d-448b-be8b-1b0b8c85836b" valueTypeId="9ab5cf05-66db-481b-b426-d63c3f356c71"/>
+      <rowType typeId="3fe06b13-869b-4b03-9cda-530f033b8ed2" valueTypeId="bbee40ee-b95d-4492-897f-2c9401cf0bc6"/>
+    </producedTypes>
+    <name>Услуги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуги</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Услуги для сметы</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="52ecdc69-31cc-4acf-b001-ee554e1cbc83">
+      <name>Клиент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Клиент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Клиенты</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Работник</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f503cbc2-8d4e-4bd4-8d02-4bbe28bc5302">
+      <name>Действие</name>
+      <synonym>
+        <key>ru</key>
+        <value>Действие</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ДействияМедосмотра</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Действие медицинского осмотра</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="76e3d978-b807-4fc0-957c-6618921f8248">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Цена услуги</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="74a2f4e9-45af-4660-bc87-216de5c96ecc">
+    <name>МакетШапкаЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет шапка загрузки</value>
+    </synonym>
+  </templates>
+  <templates uuid="c07c180a-18ea-4d7d-a27f-ab4b3f32b7b3">
+    <name>ЗаключительныйАкт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заключительный акт</value>
+    </synonym>
+  </templates>
+  <templates uuid="8d33ac37-6d30-48a5-a851-72864e6d707f">
+    <name>Смета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Смета</value>
+    </synonym>
+  </templates>
+  <templates uuid="3383b6eb-e8ef-4435-9190-8bf8ebeb68d4">
+    <name>ОтборСписковНаПрохождение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор списков на прохождение</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="2d0c021a-84f5-449b-a55a-fb9b93a090ea">
+    <name>ПоляШаблонаДокументаПрохождениеМедосмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поля шаблона документа Прохождение медосмотра</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="31fbf3db-acde-4170-ae1d-11f5edde0e85">
+    <name>СметаПоУслугам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Смета по услугам</value>
+    </synonym>
+  </templates>
+  <commands uuid="4145dabb-fe5a-4eac-844e-5314e159c604">
+    <name>ОтразитьОказаниеУслугВУчете</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать документы отражения продажи услуг</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.СписокНаПрохождениеМедосмотра</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть обработку создания документов отражения продажи услуг</value>
+    </toolTip>
+  </commands>
+  <commands uuid="43fb5c44-b16d-4514-86f6-31102ce2eff1">
+    <name>СоздатьПрохожденияМедосмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начать прохождения медосмотра</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.СписокНаПрохождениеМедосмотра</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Создать автоматически документы прохождения медосмотра</value>
+    </toolTip>
+  </commands>
+  <commands uuid="b003d65c-ec25-496a-9b72-147edbc088d0">
+    <name>ОткрытьПрохожденияМедосмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открыть документы прохождения медосмотра</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.СписокНаПрохождениеМедосмотра</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть документы прохождения медосмотра</value>
+    </toolTip>
+  </commands>
+  <commands uuid="940e35e8-0cbd-4b7c-88d0-70d00f1f2ee7">
+    <name>РаботаСоСпискомНаМедосмотр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа со списком на медосмотр</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.СписокНаПрохождениеМедосмотра</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Работа со списками на медосмотр</value>
+    </toolTip>
+  </commands>
+  <commands uuid="0f0ecec5-d58f-4415-a83c-ca150ea14f83">
+    <name>ПечатьДокументовПрохожденияМедосмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать документов прохождения медосмотра</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.СписокНаПрохождениеМедосмотра</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Печать документов прохождения медосмотра</value>
+    </toolTip>
+  </commands>
+  <commands uuid="e6f41ee6-6d15-465e-9c54-97d45153f87f">
+    <name>ДополнитьПрохождениямиБезСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнить прохождениями медосмотра без списка</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.СписокНаПрохождениеМедосмотра</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Открывает форму добавления в список таких прохождений медосмотра, которые не привязаны сейчас ни к одному документу списка</value>
+    </toolTip>
+  </commands>
+  <commands uuid="8cf6d23d-e38d-469b-b8ab-37a3d0eb342b">
+    <name>ЭМДМедосмотров</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЭМД медосмотров</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.СписокНаПрохождениеМедосмотра</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть список прохождений медосмотров для подписания</value>
+    </toolTip>
+  </commands>
+  <commands uuid="c8cc695f-d103-4973-8651-d7f13d70bde9">
+    <name>СохранитьЗаключенияМедосмотровНаДиск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохранить заключения медосмотров на диск</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.СписокНаПрохождениеМедосмотра</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Document>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="66e9238f-476a-4b10-9c12-71de6c3da31d">
+  <producedTypes>
+    <selectionType typeId="38b0e2eb-8c5b-48ad-a24f-0e26bb90f9b8" valueTypeId="f0496898-edaa-4e38-9547-59ff3c64cdb0"/>
+    <listType typeId="540e6c3d-5682-4804-abbf-ec12fb3aa0b9" valueTypeId="c47f13d5-77df-4ab2-bb78-b49f5959685e"/>
+    <managerType typeId="afc661ad-627a-4120-9173-d04b2ab962e6" valueTypeId="b1bd8e5f-ef1d-4e72-ac35-67d5c0901842"/>
+    <recordSetType typeId="c0c76e4b-d7be-4440-934c-2b8e44fcc711" valueTypeId="fc287289-e39e-40d8-bc17-0f4325d0da34"/>
+    <recordKeyType typeId="a6bf7961-8374-4016-a221-bb311cbfc415" valueTypeId="904fd7de-d00f-4c57-b81f-94d3b2c9fff1"/>
+    <recordType typeId="069e5a11-fe6e-4cae-8db6-9520133a48bf" valueTypeId="5b542c5b-be1e-498d-99d7-7a41b02c9418"/>
+    <recordManagerType typeId="edcc28b4-1fa0-4e96-829d-33577aa3ceb3" valueTypeId="59ea46d7-b43a-4bc8-aa87-a19f260e3864"/>
+  </producedTypes>
+  <name>бит_сл_СерверныеСеансы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Серверные сеансы (БИТ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.бит_сл_СерверныеСеансы.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.бит_сл_СерверныеСеансы.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <resources uuid="17b8010e-6a0a-4a83-b77f-854d43d28f70">
+    <name>АдресСервераЛицензий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес сервера лицензий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="32718eb0-4132-4963-96c7-35309f39c645">
+    <name>ПортСервераЛицензий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порт сервера лицензий</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0334b4f0-627d-40bc-9972-e21474e4fbeb">
+    <name>ПортАссистента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порт ассистента</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="edb02ff0-ef48-4ab0-b691-5c25b4dfd1e5">
+    <name>ИспользоватьProxy</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать proxy</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="1fea9f71-14db-40be-b87a-990aae1be9b0">
+    <name>МоментРегистрацииВРегистре</name>
+    <synonym>
+      <key>ru</key>
+      <value>Момент регистрации в регистре</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="ab95f026-5c24-4e1c-9886-ad12f8837023">
+    <name>ИдентификаторСеанса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор сеанса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="47a76774-188b-485e-b79e-bb52f67be234">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9d7e748f-160f-4cbb-8652-583ea5145103">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

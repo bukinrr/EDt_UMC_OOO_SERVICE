@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="584db3be-6ad0-4dd8-ab3f-a869a1ad6c2f">
+  <name>ДополнительныеПризнакиРасписания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные признаки расписания</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.Клиенты</types>
+    <types>DocumentObject.Заявка</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.РаботаСПризнакамиСервер.ОбновитьПризнакиПоИсточнику</handler>
+</mdclass:EventSubscription>

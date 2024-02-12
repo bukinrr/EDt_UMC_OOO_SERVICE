@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f21a16a-fc74-4227-aeaf-ce690055c7e9">
+  <producedTypes>
+    <selectionType typeId="86d95675-1479-476e-8085-bee8cc271ac9" valueTypeId="f7e677c4-81ef-4025-85dd-cc500a48729e"/>
+    <listType typeId="7c42ecb4-f3f9-4fb2-a203-dc556358863d" valueTypeId="e8a2d235-b3bc-494f-867d-2d860c1172c6"/>
+    <managerType typeId="49de2e3b-f171-48be-b8cb-846f8803fb85" valueTypeId="ec67ca45-a2cb-481f-95a8-1527cdaa0473"/>
+    <recordSetType typeId="64e962c7-8010-4d0a-ae69-e4931d508980" valueTypeId="954e59fd-c185-4463-be89-a8d427850a68"/>
+    <recordKeyType typeId="0c180fcf-bccb-455f-b61b-ad65c7ad481a" valueTypeId="ae820471-59fd-4164-b24b-0f7c2510f08b"/>
+    <recordType typeId="4c985820-6781-4f84-883a-4d545b85ece3" valueTypeId="7a2761ad-3476-441a-84c7-9f29a7649bfd"/>
+    <recordManagerType typeId="041afe3a-e5b3-498d-88c1-382a3d98a730" valueTypeId="7ce693d7-74eb-41de-87a4-b7fd0e00b45d"/>
+  </producedTypes>
+  <name>ДатыСобытийОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Даты событий объектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>InformationRegister.ДатыСобытийОбъектов.Form.ФормаСпискаУпр</defaultListForm>
+  <auxiliaryRecordForm>InformationRegister.ДатыСобытийОбъектов.Form.ФормаЗаписиУпр</auxiliaryRecordForm>
+  <auxiliaryListForm>InformationRegister.ДатыСобытийОбъектов.Form.ФормаНабораЗаписейУпр</auxiliaryListForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="8adda0c1-e2ad-4058-9221-d771483fb865">
+    <name>ОднократноеСобытие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Однократное событие</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак однократного события</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="7482f766-71d4-4bc6-8899-9473dafb75e0">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+      <types>CatalogRef.Контрагенты</types>
+      <types>CatalogRef.Сотрудники</types>
+      <types>CatalogRef.Оборудование</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбранный объект</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4628cf5c-b782-4e6e-948f-4bc346b1e2d1">
+    <name>ВидСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид события</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ВидыЗадачИНапоминаний</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид события объекта</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="59f35b38-614c-40b9-99c2-fc06a8584585">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата события</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="332ffe0d-fcaf-4ce8-82f7-5f3785df99c4">
+    <name>ФормаСпискаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="554bc80f-959b-4c7d-abe5-9d99008cc851">
+    <name>ФормаЗаписиУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c2b335c7-d580-421e-be7c-dc67c646376d">
+    <name>ФормаНабораЗаписейУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма набора записей упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

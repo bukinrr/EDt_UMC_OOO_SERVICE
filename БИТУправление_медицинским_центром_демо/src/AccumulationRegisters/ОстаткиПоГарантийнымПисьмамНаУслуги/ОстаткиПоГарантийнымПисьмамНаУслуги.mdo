@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed624b1d-b167-4145-b3fc-e22341dbdaee">
+  <producedTypes>
+    <selectionType typeId="164e1ce1-5298-488d-89c0-d8cdd1d8e49c" valueTypeId="1192e283-4e06-447d-b8eb-d6d23fde08b7"/>
+    <listType typeId="be419cc2-5c31-4f10-a146-4471c665f647" valueTypeId="92664f6a-c67e-4197-a1aa-2490bd66bd07"/>
+    <managerType typeId="b9a837c0-077d-4cee-848c-3f9c96ef20fb" valueTypeId="d8a08c04-1f3a-4738-b7c4-117b532eaf83"/>
+    <recordSetType typeId="ac115f68-8752-4745-8e5b-96a704ce6d5b" valueTypeId="077057b9-b050-422e-9af7-5d0b2c5e0ef7"/>
+    <recordKeyType typeId="d7fa304c-2617-4514-88af-5c35e3882fb9" valueTypeId="36d5882f-4eed-4ba3-b2b5-cf9e497c63d6"/>
+    <recordType typeId="d62f83b1-8fd8-4b5a-a080-ce29083039cd" valueTypeId="1c797d61-d1b6-4d7d-b5a6-073de9f93f46"/>
+  </producedTypes>
+  <name>ОстаткиПоГарантийнымПисьмамНаУслуги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки по гарантийным письмам на услуги</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RecordType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="a52d45d5-ab0e-4c50-b8b7-2eca4d23c2fa">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сумма по письму</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="e6d582d6-6d38-4be8-892d-57f53d2aa919">
+    <name>СтраховойПолис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страховой полис</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтраховыеПолисы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Страховой полис или привязка к договору</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="f6380cbe-67cc-4bb6-977e-fb4b8104cc46">
+    <name>ГарантийноеПисьмо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гарантийное письмо</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ГарантийноеПисьмоПоПолису</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Гарантийное письмо к полису</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="23c682e5-0a4c-4337-b40c-74e2fd31b9a4">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

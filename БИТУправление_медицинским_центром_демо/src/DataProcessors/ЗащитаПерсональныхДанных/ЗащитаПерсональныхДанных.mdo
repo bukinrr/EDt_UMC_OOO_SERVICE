@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2dd25aa-f53a-4fcc-8d48-da9ebaac467b">
+  <producedTypes>
+    <objectType typeId="be55319a-0dab-4264-aff4-f2e545db17aa" valueTypeId="48d39fd4-407b-4905-8171-ab679c85c24f"/>
+    <managerType typeId="69b6ccb7-a254-4e93-8da4-32861a7215b7" valueTypeId="fa216dfb-39b0-4a12-b0a1-c961f09666d2"/>
+  </producedTypes>
+  <name>ЗащитаПерсональныхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Защита персональных данных (в соответствии с требованиями 152-ФЗ)</value>
+  </synonym>
+  <defaultForm>DataProcessor.ЗащитаПерсональныхДанных.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="b601bd0c-4cdb-4a52-acf8-7b666fefa9da">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="82e31e0c-9c51-4627-bfda-c7922c0f2772">
+    <name>ЗащитаПерсональныхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Защита персональных данных</value>
+    </synonym>
+    <comment>Защита персональных данных (в соответствии с требованиями 152-ФЗ)</comment>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

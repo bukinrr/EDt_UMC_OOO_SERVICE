@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3b49550-bdc6-473a-ad96-80d7285f6e7d">
+  <producedTypes>
+    <refType typeId="fdacd2d4-8a26-4213-bdd8-7a3cb5672273" valueTypeId="a2e3f969-f92f-48e4-ad82-b2131ce3c928"/>
+    <listType typeId="6c562322-4ae6-47a5-9bef-b560108d9d9a" valueTypeId="146e21f4-e5bb-47c0-964b-84a2c58f9580"/>
+    <managerType typeId="98e38908-671f-43ef-95af-4ea26d6d94e0" valueTypeId="e4a5c579-25cb-4af6-9b3c-729f29d2967a"/>
+  </producedTypes>
+  <name>ТипыСкладовЗонТаможенногоКонтроляМДЛП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы складов зон таможенного контроля МДЛП</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4fb13702-16d1-43a6-8752-e44f3040d75c">
+    <name>СВХ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад временного хранения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="74f093fa-2dc4-49b4-9067-a8eee167b642">
+    <name>ТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таможенная служба</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="19f3849d-351b-428f-8fa3-921c7debbdba">
+    <name>УЭО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уполномоченный экономический оператор</value>
+    </synonym>
+    <comment>Любое юридическое лицо, вовлеченное в международное движение товаров и признанное национальным таможенным органом или от его имени как соответствующее стандартам безопасности ВТамО или аналогичной системы поставок.</comment>
+  </enumValues>
+</mdclass:Enum>

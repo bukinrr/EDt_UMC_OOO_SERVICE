@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60d653b8-4baf-4592-a88c-f3e866d21f71">
+  <producedTypes>
+    <selectionType typeId="62ab6f90-8662-4a7f-a6e6-32589f896845" valueTypeId="c5a3433e-5b76-4483-b69e-33e7b8381e92"/>
+    <listType typeId="b2f79bcc-1810-4c16-9455-7058b00344f8" valueTypeId="2f6058e8-f1a6-452b-a79d-bcfca50bb10c"/>
+    <managerType typeId="dca63a1a-225d-4b3e-94bb-168cfe689531" valueTypeId="413fae27-583b-47e5-bbeb-e4dc6b94956c"/>
+    <recordSetType typeId="1d7ccb09-efea-4b30-9b74-95fc7522735b" valueTypeId="9a2a029a-d0a2-40e2-b877-13bbe98533ab"/>
+    <recordKeyType typeId="19392eca-3edc-4386-b273-cc2cec3642a2" valueTypeId="280696f8-fd56-42b3-a251-5879ace1a772"/>
+    <recordType typeId="b402da3f-b3a0-4140-9b7f-a0f5f2e96a94" valueTypeId="d69fed85-24db-4c1f-a4d6-67b396caa360"/>
+    <recordManagerType typeId="25df687f-a2b4-4e90-ad55-1c427818c9ed" valueTypeId="502d5f5a-5323-4914-bfa4-f11d1ede4c88"/>
+  </producedTypes>
+  <name>КДЛ_Биоматериалы</name>
+  <synonym>
+    <key>ru</key>
+    <value>(КДЛ-лаборатории) Биоматериалы</value>
+  </synonym>
+  <comment>Locuses</comment>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.КДЛ_Биоматериалы.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5ddb3578-9a4c-4944-94f3-318ab3c634cd">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="d24ff104-8434-454a-a4de-1725d4915bc6">
+    <name>Тип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e2f0baaa-0492-413b-8514-4dca6ec4cbb9">
+    <name>Лаборатория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лаборатория</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Лаборатории</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Внешняя лаборатория</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b88a5733-5e5d-45d9-874c-2042a9dc7a57">
+    <name>Код</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код биоматериала</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="22e518b5-342e-491c-af4a-8bff88061c47">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

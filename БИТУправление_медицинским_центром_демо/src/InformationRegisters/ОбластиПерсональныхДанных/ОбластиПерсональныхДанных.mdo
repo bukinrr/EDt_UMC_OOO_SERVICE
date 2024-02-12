@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="649b9210-a27e-4d07-bf0c-e41578772089">
+  <producedTypes>
+    <selectionType typeId="bb2bfa80-0dc8-4b45-a4dc-9c077054d7e8" valueTypeId="268ff61e-8c89-4871-88b6-00756ffdd6a1"/>
+    <listType typeId="831b1b9e-a8e2-48a9-9958-026cc71de896" valueTypeId="bda2b527-b39b-4752-8dd4-9c3e2de6c0df"/>
+    <managerType typeId="b9482923-6e4c-4cee-9dc5-38e47dcd452e" valueTypeId="b063b622-bb6e-4409-98fb-1f2f04a8ddca"/>
+    <recordSetType typeId="0b37f9fd-90fd-4032-8f17-e6c02abc71ad" valueTypeId="b3f7eb10-935d-46ad-a25f-ce59592ac54a"/>
+    <recordKeyType typeId="dfcb38c7-db67-41dd-b9b7-994eb43eee0c" valueTypeId="089aef2a-c2db-4468-9141-20b8ba30e574"/>
+    <recordType typeId="40c7da04-6932-42a0-a6b3-a69feb8e0eb4" valueTypeId="0def17de-0cae-4bb3-8ad2-ed2bfb014307"/>
+    <recordManagerType typeId="ba2bd110-f52d-435d-ac97-4d9d45923e4e" valueTypeId="89334c5c-c13f-42ac-8ff1-fb8e907f1686"/>
+  </producedTypes>
+  <name>ОбластиПерсональныхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Области персональных данных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="741c6c9f-fbf9-4283-b1fc-4f9d5c9a559f">
+    <name>ИспользованиеСобытийЖурналаРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использование событий журнала регистрации</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Для контроля области данных используются события журнала регистрации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="171bad5a-3fd8-44e4-9ee4-42d3a62825d5">
+    <name>ИмяОбласти</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя области</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Идентификатор области персональных данных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

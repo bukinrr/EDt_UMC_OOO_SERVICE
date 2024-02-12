@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df8d3571-441f-465a-b129-c1c055418828">
+  <producedTypes>
+    <selectionType typeId="84cdb3be-c619-474c-8b68-37c8e72a0107" valueTypeId="f8c83d90-6f7c-4757-9730-87d7f3cb0323"/>
+    <listType typeId="7435a79b-1132-4a68-9608-02fb1f82aec9" valueTypeId="7d633a35-2ae3-4124-9a9d-b939b781c220"/>
+    <managerType typeId="b9dd668c-022d-4bcf-82c7-34259dd3f437" valueTypeId="3c44d797-3d1f-446c-88a9-6358fa300fbb"/>
+    <recordSetType typeId="fca161f5-e9da-424a-afbb-38ebf827926a" valueTypeId="76f84e71-728f-46a2-917b-6445e91f5ddf"/>
+    <recordKeyType typeId="7f9dea39-d643-4460-9dfd-775cbf7c473a" valueTypeId="9c51ec15-fb81-4975-ae75-b15b6b4bbfbe"/>
+    <recordType typeId="b31bb2ab-a45a-40a6-afe3-7f4ba50798d5" valueTypeId="3390ba81-9c77-4ad0-8b0a-8f129351b84a"/>
+    <recordManagerType typeId="25728048-8542-4d5e-aa96-497fe73cbc29" valueTypeId="7165ea83-af4d-454b-8815-a37606ac36de"/>
+  </producedTypes>
+  <name>ЛимитыСтрахования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лимиты страхования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="125f4b66-9a7b-4d48-bf78-5c23cea76f6b">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="46c7f1a0-dfba-4d0e-8cbf-b19698d55f55">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="664c9762-c7c3-4cbf-8bf1-eb3938d224e6">
+    <name>ВидПолиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид полиса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыПолисов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

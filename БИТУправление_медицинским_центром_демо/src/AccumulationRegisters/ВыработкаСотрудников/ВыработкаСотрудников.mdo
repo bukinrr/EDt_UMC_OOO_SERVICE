@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0f4e84a-f153-4b17-9586-5f0a314b257e">
+  <producedTypes>
+    <selectionType typeId="6c51300e-2e74-448e-8f86-18692e9b830a" valueTypeId="6f9ae335-6761-43f9-b3e6-a7484d117010"/>
+    <listType typeId="8e4fb7d3-c455-494e-ab4f-223ae3981562" valueTypeId="76e28b75-3ccd-4aff-99af-6d8f066c8d56"/>
+    <managerType typeId="c8cd7527-678c-4dc1-9037-ecf5ddaff5ad" valueTypeId="a4428755-b2ff-46c7-9a5c-7ad8351a6d5d"/>
+    <recordSetType typeId="f731f6e8-0e43-4ca5-b6b5-04f5fa439164" valueTypeId="3a7bf1bb-9ebf-4f6f-904b-26897e3ac221"/>
+    <recordKeyType typeId="21be2ad3-fe5b-4f8c-9f1e-9774e0adc9bf" valueTypeId="88681001-74bd-44ef-911a-c39202273f4e"/>
+    <recordType typeId="f53509f9-4e35-445a-b75e-d8973db83c41" valueTypeId="b52c1bb5-7a8c-4105-aa3f-65b6e82d4cd3"/>
+  </producedTypes>
+  <name>ВыработкаСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выработка сотрудников</value>
+  </synonym>
+  <registerType>Turnovers</registerType>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="2128db08-c4f5-447b-a0ab-078b332566f4">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сумма выработки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="1e2a5a25-ceec-47e0-ab8d-c805aec6d73e">
+    <name>СуммаБезСкидок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма без скидок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="29429dd1-62b4-440f-9673-e6c4dd5773d7">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧВН=</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧВН=</value>
+    </editFormat>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество номенклатуры</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="4007190e-f908-451d-a819-7ec641bf2d7e">
+    <name>Продолжительность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продолжительность</value>
+    </synonym>
+    <comment>Продолжительность в секундах</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Продолжительность выработки в секундах</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="8919cfa6-1ce4-4f46-ad4e-d954743ec190">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбранный сотрудник</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="ffe03241-d0d5-49c7-9676-b511825cb2b1">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+      <types>CatalogRef.ВидыСертификатов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбранная номенклатура</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="1f96da56-fd32-4104-8c7d-960d8ae8d271">
+    <name>ХарактеристикаНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика номенклатуры</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбранная характеристика номенклатуры</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="4ba82390-d9b2-45bf-b97f-9b295d02add8">
+    <name>ТипВыработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип выработки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыВыработки</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тип выработки сотрудника</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="4b77c02d-3d56-4cd6-a19e-8ff9a044ebd7">
+    <name>ТрудоваяРоль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Трудовая роль</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТрудовыеРоли</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="021c2849-9eed-44f9-8e44-bab6c505b822">
+    <name>Филиал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Филиал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Филиалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

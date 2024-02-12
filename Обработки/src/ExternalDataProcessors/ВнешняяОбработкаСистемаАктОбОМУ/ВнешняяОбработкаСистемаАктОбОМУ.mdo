@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3685fb53-b275-4c31-972f-96a5df29e11c">
+  <producedTypes>
+    <objectType typeId="ee302717-4096-42a2-b453-39b853bc6c6b" valueTypeId="23de5eca-8953-4059-bd75-30436fed0ccb"/>
+  </producedTypes>
+  <name>ВнешняяОбработкаСистемаАктОбОМУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внешняя обработка система акт об ОМУ</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="9b676f7d-9fb4-4452-86c7-4d96526d2354"/>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="9e1e5d45-9b92-4a84-94ed-dfc8fd6b24ca">
+    <name>СсылкаНаОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на объект</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="3cd15cb2-8c7f-4f89-9af1-329fac5c6b05">
+    <name>АктОбОказанииМедицинскихУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт об оказании медицинских услуг</value>
+    </synonym>
+  </templates>
+</mdclass:ExternalDataProcessor>

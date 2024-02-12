@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6fef4c2-f374-40f4-9604-312beada763a">
+  <name>СопоставитьУпаковкиМДЛП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сопоставить упаковки МДЛП</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.УведомлениеОПеремещенииМДЛП</types>
+    <types>DocumentObject.ПоступлениеТоваровУслуг</types>
+    <types>DocumentObject.УведомлениеОПриемкеМДЛП</types>
+    <types>DocumentObject.УведомлениеОбОприходованииМДЛП</types>
+  </source>
+  <event>Posting</event>
+  <handler>CommonModule.ИнтеграцияМДЛПМедицина_БИТ.СохранитьРезультатСопоставленияУпаковокТоваровОбработкаПроведения</handler>
+</mdclass:EventSubscription>

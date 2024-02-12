@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69ecf118-914f-47b4-be6b-1c98a8437e69">
+  <name>ПечатьЭтикетокЦенников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование и печать этикеток/ценников</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>DocumentRef.ПоступлениеТоваровУслуг</types>
+    <types>DocumentRef.ПеремещениеМатериалов</types>
+    <types>DocumentRef.ИнвентаризацияТоваров</types>
+    <types>DocumentRef.УстановкаЦен</types>
+    <types>DocumentRef.ОприходованиеТоваров</types>
+    <types>DocumentRef.АвансовыйОтчет</types>
+  </commandParameterType>
+  <parameterUseMode>Multiple</parameterUseMode>
+  <representation>Picture</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Открыть обработку печати этикеток и ценников</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодключаемоеОборудованиеПринтерЭтикеток16</picture>
+  </picture>
+</mdclass:CommonCommand>

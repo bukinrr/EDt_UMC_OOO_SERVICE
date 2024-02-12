@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42bac05c-8631-41a6-863a-e129a54ef0b1">
+  <producedTypes>
+    <selectionType typeId="965f9487-c704-4280-99c5-bbdfa6d921b4" valueTypeId="e82a6b0c-26e9-4732-a091-f7f99c9d3989"/>
+    <listType typeId="d90f11a2-2d32-4f7c-afbd-3f47ea43f6b1" valueTypeId="b80e3637-2cdc-4c4f-a6a4-5f950b65fd28"/>
+    <managerType typeId="879be4a0-7e71-4396-af25-6e4e3ff619de" valueTypeId="dc1dc0bb-050f-454a-8942-5560e7cb1fd8"/>
+    <recordSetType typeId="09cab800-f1df-4933-981d-f2dda79f2ec5" valueTypeId="0db0526a-cb48-425e-bc12-cd64f75f7dba"/>
+    <recordKeyType typeId="3e93628b-dc46-4549-a92a-1c9e06a1d162" valueTypeId="3267514f-0b70-433c-98f4-3e13a0040a91"/>
+    <recordType typeId="8307fa42-f10c-4748-b3cf-a22886798a87" valueTypeId="ed7886b1-abd0-4f9f-aedb-ff1d5b5a7dd3"/>
+    <recordManagerType typeId="24063204-4644-4154-8d1e-45caed0085c3" valueTypeId="e83aba1d-6869-4b46-a679-e07a4eab6299"/>
+  </producedTypes>
+  <name>ГраницыЗапретаИзмененияДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Границы запрета изменения данных</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="899bff48-6e05-4468-af4c-c5684e285353">
+    <name>ГраницаЗапретаИзменений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Граница запрета изменений</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Граница запрета изменений данных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9f11f191-f954-413b-9be1-267dba3fb93c">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь для границы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f10773b-a4d3-4e48-b08b-31a444d072ef">
+  <name>ЗаказыНаПроизводствоУдалениеПроведения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказы на производство удаление проведения</value>
+  </synonym>
+  <source>
+    <types>DefinedType.ДокументыСменыСтатусовЗаказовНаПроизводствоОбъект</types>
+  </source>
+  <event>UndoPosting</event>
+  <handler>CommonModule.УправлениеЗаказами.ЗаказыНаПроизводствоУдалениеПроведенияОбработчик</handler>
+</mdclass:EventSubscription>

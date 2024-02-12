@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="234342a9-a207-4f64-951f-f99f592f9f6a">
+  <name>Integration</name>
+  <synonym>
+    <key>ru</key>
+    <value>Integration</value>
+  </synonym>
+  <namespace>ru.umc</namespace>
+  <xdtoPackages xsi:type="core:ReferenceValue">
+    <value>XDTOPackage.Веб</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:ReferenceValue">
+    <value>XDTOPackage.ВебДополнительный</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.1/data/core</value>
+  </xdtoPackages>
+  <descriptorFileName>ws1.1cws</descriptorFileName>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="fa6c8a70-322a-4814-afb8-fc559d01d4c2">
+    <name>GetSchedule</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get schedule</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetSchedule</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="360fb98b-3c29-413f-9511-3d8db6774173">
+      <name>StartDate</name>
+      <synonym>
+        <key>ru</key>
+        <value>Start date</value>
+      </synonym>
+      <xdtoValueType>
+        <name>dateTime</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="ac6bf440-0f53-4294-b5b3-9282d329b7e0">
+      <name>FinishDate</name>
+      <synonym>
+        <key>ru</key>
+        <value>Finish date</value>
+      </synonym>
+      <xdtoValueType>
+        <name>dateTime</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="bfeaaf60-e999-4ee9-b375-31c7a7124255">
+    <name>BookAnAppointment</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>BookAnAppointment</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="11a6acc0-9d32-48ec-867b-2e2c168a68e0">
+      <name>EmployeeID</name>
+      <synonym>
+        <key>ru</key>
+        <value>Employee ID</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="762379b3-3a5e-4c5d-abd2-ec1c2f797ea5">
+      <name>PatientSurname</name>
+      <synonym>
+        <key>ru</key>
+        <value>Patient surname</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="02dc2a02-0674-4a4d-af23-366d87d7cae0">
+      <name>PatientName</name>
+      <synonym>
+        <key>ru</key>
+        <value>Patient name</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="8bafa43d-feea-4c70-9a0b-6d563c399b76">
+      <name>PatientFatherName</name>
+      <synonym>
+        <key>ru</key>
+        <value>Patient father name</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="74ca47b0-a373-4f4e-9e6f-4651ddc359b0">
+      <name>Date</name>
+      <synonym>
+        <key>ru</key>
+        <value>Date</value>
+      </synonym>
+      <xdtoValueType>
+        <name>dateTime</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="5a6645c5-4e0f-46de-b3bb-b6da678a8369">
+      <name>TimeBegin</name>
+      <synonym>
+        <key>ru</key>
+        <value>Time begin</value>
+      </synonym>
+      <xdtoValueType>
+        <name>dateTime</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="9146027d-7852-40d9-9205-0f976333dc06">
+      <name>Comment</name>
+      <synonym>
+        <key>ru</key>
+        <value>Comment</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="16665c65-afe5-45e3-9fbb-e854ad271e26">
+      <name>Phone</name>
+      <synonym>
+        <key>ru</key>
+        <value>Phone</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="c24153c4-29d4-48a5-a971-9befe5e1bda1">
+      <name>Email</name>
+      <synonym>
+        <key>ru</key>
+        <value>Email</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="69cd1649-c1a0-4347-a6a3-4e7fd4ca44ad">
+      <name>Address</name>
+      <synonym>
+        <key>ru</key>
+        <value>Address</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="79a9f55c-dde2-41b2-9b09-f3b3ddb67073">
+      <name>Clinic</name>
+      <synonym>
+        <key>ru</key>
+        <value>Clinic</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="6f5445b9-6828-459f-b93a-ddf094e9407b">
+      <name>GUID</name>
+      <synonym>
+        <key>ru</key>
+        <value>GUID</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="fea16f34-57c7-4a71-9d5d-818077430a12">
+    <name>BookAnAppointmentWithParams</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>BookAnAppointmentWithParams</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="8d95c80e-c036-4af6-a166-9c2671f47084">
+      <name>EmployeeID</name>
+      <synonym>
+        <key>ru</key>
+        <value>Employee ID</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="2bd42116-49c1-4e2a-9939-4fed468bbaa6">
+      <name>PatientSurname</name>
+      <synonym>
+        <key>ru</key>
+        <value>Patient surname</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="7d83f6a4-a98a-4ea9-88e9-25e567c497b3">
+      <name>PatientName</name>
+      <synonym>
+        <key>ru</key>
+        <value>Patient name</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="5d13c14a-5b49-4fe5-8f74-8dec96455228">
+      <name>PatientFatherName</name>
+      <synonym>
+        <key>ru</key>
+        <value>Patient father name</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="c6ea00d6-ccac-45b2-84ef-80f8dd8a7b37">
+      <name>Date</name>
+      <synonym>
+        <key>ru</key>
+        <value>Date</value>
+      </synonym>
+      <xdtoValueType>
+        <name>dateTime</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="dd6b384a-156c-4ccb-9545-e4fc54168126">
+      <name>TimeBegin</name>
+      <synonym>
+        <key>ru</key>
+        <value>Time begin</value>
+      </synonym>
+      <xdtoValueType>
+        <name>dateTime</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="a4f9e088-cd2b-47b9-aae2-2e1ece58423e">
+      <name>Comment</name>
+      <synonym>
+        <key>ru</key>
+        <value>Comment</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="012d3742-f104-440a-a23d-01dcb62cde6d">
+      <name>Phone</name>
+      <synonym>
+        <key>ru</key>
+        <value>Phone</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="d9bf188e-7c50-41dc-984f-d3759a917def">
+      <name>Email</name>
+      <synonym>
+        <key>ru</key>
+        <value>Email</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="ea006695-a259-4b68-a736-9251e0acfa54">
+      <name>Address</name>
+      <synonym>
+        <key>ru</key>
+        <value>Address</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="62a642ad-a38d-415e-ab2a-073b58229de8">
+      <name>Clinic</name>
+      <synonym>
+        <key>ru</key>
+        <value>Clinic</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="6f44518a-69f0-4051-9d72-8e288c26cac8">
+      <name>GUID</name>
+      <synonym>
+        <key>ru</key>
+        <value>GUID</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="555cf704-84dd-4dfe-8a43-d36f5896d26f">
+      <name>Params</name>
+      <synonym>
+        <key>ru</key>
+        <value>Params</value>
+      </synonym>
+      <xdtoValueType>
+        <name>Structure</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="a60c46bf-9382-4d84-9b8d-d3a4df7594fa">
+    <name>GetAppointmentStatus</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get appointment status (Получить статус заявки)</value>
+    </synonym>
+    <comment>Получить статус заявки</comment>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetAppointmentStatus</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="d8150948-8cbf-4548-97f4-11cfc49a2d90">
+      <name>GUID</name>
+      <synonym>
+        <key>ru</key>
+        <value>GUID</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="f7e445f8-949f-4d30-b031-5f3597e126cc">
+    <name>CancelBookAnAppointment</name>
+    <synonym>
+      <key>ru</key>
+      <value>Cancel book an appointment</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>CancelBookAnAppointment</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="0db30119-4841-4437-8cad-07307d897202">
+      <name>GUID</name>
+      <synonym>
+        <key>ru</key>
+        <value>GUID</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="f4069896-70bf-4176-8f69-cf1e9d9c0b6e">
+      <name>AdditionalInformation</name>
+      <synonym>
+        <key>ru</key>
+        <value>Additional information</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+    <parameters uuid="17764de1-56ab-4be2-8756-9f3ea97b1ca8">
+      <name>Reason</name>
+      <synonym>
+        <key>ru</key>
+        <value>Reason</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+  <operations uuid="4f4acd98-9c81-42a7-8895-e77821d6825e">
+    <name>FastBookAnAppointment</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лист ожидания</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>FastBookAnAppointment</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="1f783527-9fcb-447f-a322-f2c6f2c9235e">
+      <name>Specialization</name>
+      <synonym>
+        <key>ru</key>
+        <value>Specialization</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="d4bc4cbc-8899-4841-8bad-8f72786cd3a3">
+      <name>PatientSurname</name>
+      <synonym>
+        <key>ru</key>
+        <value>Patient surname</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="152f17d8-1b02-4743-bbbd-1093177cd2a0">
+      <name>PatientName</name>
+      <synonym>
+        <key>ru</key>
+        <value>Patient name</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="fc8d8db2-4c94-45bd-8842-7bdbe3b6f298">
+      <name>PatientFatherName</name>
+      <synonym>
+        <key>ru</key>
+        <value>Patient father name</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="376a1d3c-ecfb-4b90-955c-f3425bade901">
+      <name>Date</name>
+      <synonym>
+        <key>ru</key>
+        <value>Date</value>
+      </synonym>
+      <xdtoValueType>
+        <name>dateTime</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="b7ff8abf-91df-48f5-8254-90c6d0651687">
+      <name>TimeBegin</name>
+      <synonym>
+        <key>ru</key>
+        <value>Time begin</value>
+      </synonym>
+      <xdtoValueType>
+        <name>dateTime</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="f24b8f6d-9b9c-4c4a-86a7-d44a7e5454af">
+      <name>Comment</name>
+      <synonym>
+        <key>ru</key>
+        <value>Comment</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="d5e2dc15-5f28-4a2c-9a83-0612dba34e76">
+      <name>Phone</name>
+      <synonym>
+        <key>ru</key>
+        <value>Phone</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="e1b6cba1-2ea6-44f9-a3d6-68ea8cf9a067">
+      <name>Email</name>
+      <synonym>
+        <key>ru</key>
+        <value>Email</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="81691278-09dd-4a2a-9a1b-243fd384a968">
+      <name>Address</name>
+      <synonym>
+        <key>ru</key>
+        <value>Address</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="369e311c-00de-4489-bf3b-d6eb4722057e">
+      <name>Clinic</name>
+      <synonym>
+        <key>ru</key>
+        <value>Clinic</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="901fa54e-7164-40fc-9608-c5e6694fc12c">
+    <name>GetReserve</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПолучитьБронь</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetReserve</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="9c1dba1b-6864-47c7-93d9-57219dd8cf04">
+      <name>Specialization</name>
+      <synonym>
+        <key>ru</key>
+        <value>Specialization</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="bc1cc279-1a72-4fd8-9af5-b27f63a6cfdf">
+      <name>Date</name>
+      <synonym>
+        <key>ru</key>
+        <value>Date</value>
+      </synonym>
+      <xdtoValueType>
+        <name>dateTime</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="1cc3bdf5-152b-456b-a619-aac223600e91">
+      <name>TimeBegin</name>
+      <synonym>
+        <key>ru</key>
+        <value>Time begin</value>
+      </synonym>
+      <xdtoValueType>
+        <name>dateTime</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="8b9dfe3b-296b-43a5-b841-e96da8f6d822">
+      <name>EmployeeID</name>
+      <synonym>
+        <key>ru</key>
+        <value>Employee ID</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="08f7434a-9a57-4d9a-b73e-1706f49a2c9b">
+      <name>Clinic</name>
+      <synonym>
+        <key>ru</key>
+        <value>Clinic</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="85b7f927-a318-438d-9451-29514f59aedd">
+    <name>GetEnlargementSchedule</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить укрупненое расписание</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetEnlargementSchedule</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="26f390ed-0745-4fe8-a046-9dc85e446666">
+      <name>StartDate</name>
+      <synonym>
+        <key>ru</key>
+        <value>Start date</value>
+      </synonym>
+      <xdtoValueType>
+        <name>dateTime</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="f12f72c4-5923-4f46-abf0-e382589ab238">
+      <name>FinishDate</name>
+      <synonym>
+        <key>ru</key>
+        <value>Finish date</value>
+      </synonym>
+      <xdtoValueType>
+        <name>dateTime</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="bb9e39da-7a4f-416e-9b1b-edef0c337f3c">
+    <name>GetListEmployees</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get list employees</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetListEmployees</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+  </operations>
+  <operations uuid="327753b6-8638-47e4-8450-25583eb09571">
+    <name>GetListClinic</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список клиник</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetListClinic</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+  </operations>
+  <operations uuid="b4353f40-c6a1-4c0d-80b7-e42fca54b973">
+    <name>FastBookAnAppointmentWithClient</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лист ожидания с клиентом</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>FastBookAnAppointmentWithClient</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="52e27b9f-b854-431b-a393-8caaba7ff145">
+      <name>Date</name>
+      <synonym>
+        <key>ru</key>
+        <value>Date</value>
+      </synonym>
+      <xdtoValueType>
+        <name>dateTime</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="0e008467-3175-46d3-8022-e4de26c562a4">
+      <name>TimeBegin</name>
+      <synonym>
+        <key>ru</key>
+        <value>Time begin</value>
+      </synonym>
+      <xdtoValueType>
+        <name>dateTime</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="3e64e174-a13d-450c-9844-eade8e73f779">
+      <name>Comment</name>
+      <synonym>
+        <key>ru</key>
+        <value>Comment</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="d28f5fb6-0ae5-4421-81d0-3f1576f94f6f">
+      <name>Clinic</name>
+      <synonym>
+        <key>ru</key>
+        <value>Clinic</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="3ac78b23-120a-4001-8d62-523e5cd58bf0">
+      <name>Client</name>
+      <synonym>
+        <key>ru</key>
+        <value>Client</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="149eddcd-d3cc-410c-8f04-8adb55de1c36">
+    <name>BookAnAppointmentWithClient</name>
+    <synonym>
+      <key>ru</key>
+      <value>Записаться на прием, с клиентом</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>BookAnAppointmentWithClient</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="d9cea6c6-d2b0-4540-b049-3f7a9181e13c">
+      <name>EmployeeID</name>
+      <synonym>
+        <key>ru</key>
+        <value>Employee ID</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="11ffeb32-036b-4e0d-905c-a2155ae189f9">
+      <name>TimeBegin</name>
+      <synonym>
+        <key>ru</key>
+        <value>Time begin</value>
+      </synonym>
+      <xdtoValueType>
+        <name>dateTime</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="deac461a-6b15-43a6-a8d7-393f66bcabcf">
+      <name>Comment</name>
+      <synonym>
+        <key>ru</key>
+        <value>Comment</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="d25ed91b-ab86-4266-9ecc-c89ba9fc8cc3">
+      <name>GUID</name>
+      <synonym>
+        <key>ru</key>
+        <value>GUID</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="a8ba8ca4-4bb5-48a5-90c0-2231ede61472">
+      <name>Client</name>
+      <synonym>
+        <key>ru</key>
+        <value>Client</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="bf5432d9-6eca-496c-840e-f57fbbff5f3e">
+      <name>Service</name>
+      <synonym>
+        <key>ru</key>
+        <value>Service</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="3176a29c-3542-4e2d-8fee-ae392fe0f801">
+    <name>GetNomenclatureAndPrices</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить номенклатуру и цены</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetNomenclatureAndPrices</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="920ea1ba-57f9-40ac-955e-956e09ee1f82">
+      <name>Clinic</name>
+      <synonym>
+        <key>ru</key>
+        <value>Clinic</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="5ea42238-9f67-4b1d-b424-8814f16a914c">
+      <name>Params</name>
+      <synonym>
+        <key>ru</key>
+        <value>Params</value>
+      </synonym>
+      <xdtoValueType>
+        <name>Structure</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+  <operations uuid="ca921646-5c82-4dab-89ad-4e5b1f7eeb38">
+    <name>GetSchedule20</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get schedule20</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetSchedule20</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="5dfd0f01-0802-4286-b08d-eaffaf3a8b9c">
+      <name>StartDate</name>
+      <synonym>
+        <key>ru</key>
+        <value>Start date</value>
+      </synonym>
+      <xdtoValueType>
+        <name>dateTime</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="b1f5ad6c-4f5d-4079-ac0b-f091af187cf4">
+      <name>FinishDate</name>
+      <synonym>
+        <key>ru</key>
+        <value>Finish date</value>
+      </synonym>
+      <xdtoValueType>
+        <name>dateTime</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="1c6f906c-29fa-4c0b-aac2-ce0ec3034fd5">
+      <name>Params</name>
+      <synonym>
+        <key>ru</key>
+        <value>Params</value>
+      </synonym>
+      <xdtoValueType>
+        <name>Structure</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+</mdclass:WebService>

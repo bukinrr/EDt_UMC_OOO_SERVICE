@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b1f4d2b-0350-404d-aebd-9a5d68cc3af8">
+  <producedTypes>
+    <refType typeId="44c54a23-3cd5-4b45-9f4e-1486561b4cd1" valueTypeId="364a4ec0-cd15-4c62-9bc6-38e10ae24e8c"/>
+    <listType typeId="36d12e4b-dfa6-4b72-8983-7cec68423b4e" valueTypeId="b9557b23-afb5-4391-b06d-0a3e17ab2242"/>
+    <managerType typeId="7dc6a000-1a3c-43a9-83db-20b59bc0a2b3" valueTypeId="6a3d0e36-d387-4b5b-85c6-1ea0c90839c2"/>
+  </producedTypes>
+  <name>СпособыОпределенияДиагнозаДляПродажПоСтраховымПрограммам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы определения диагноза для продаж по страховым программам</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="47e77cba-1d35-4426-83b4-207e95489209">
+    <name>УказанПользователем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Указан пользователем</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="92c5808d-5de3-49b0-a46f-4d4eb8692449">
+    <name>ЕдинственныйВПриеме</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единственный в приеме</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e4adf804-69c8-421d-931f-b116668e2698">
+    <name>ОстрейшийВПриеме</name>
+    <synonym>
+      <key>ru</key>
+      <value>Острейший в приеме</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="df4d0408-a82d-4beb-b6e0-f156fd21b0c0">
+    <name>ОстрейшийВПриемеИНаиболееОсновной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Острейший в приеме, вкл. осн./сопут.</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

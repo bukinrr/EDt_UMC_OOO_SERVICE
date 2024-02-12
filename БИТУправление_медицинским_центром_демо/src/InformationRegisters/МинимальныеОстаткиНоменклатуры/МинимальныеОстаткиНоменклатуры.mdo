@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="308f3d0d-e5ad-4da3-a66b-8375bfcdc16c">
+  <producedTypes>
+    <selectionType typeId="628a3246-2e72-4667-8cba-1ffe3006ef3a" valueTypeId="2e15e50c-5d9e-4b6f-b01c-49b0f0a91a8a"/>
+    <listType typeId="3becf293-5d7e-43f1-b305-1928cc4c1d9c" valueTypeId="2a701bda-f215-496c-8e0f-2e523a031993"/>
+    <managerType typeId="57484e4a-0d0a-4e13-bb72-06fb277b230f" valueTypeId="dc5a6374-5d9e-4dff-b68b-adfd0cf153ef"/>
+    <recordSetType typeId="3e02a051-e493-49c1-bd6d-8f0f56b8fc26" valueTypeId="edc4ac87-8587-4225-a935-c9c5501c675c"/>
+    <recordKeyType typeId="7fe389f1-bb74-4cf7-811f-a5306e1f7e15" valueTypeId="ce5f1e2a-5f12-43ea-a18f-116702595cd0"/>
+    <recordType typeId="a2ae44f6-6ee4-4f0b-8bf5-1d4108cd86eb" valueTypeId="d34a47ae-cd99-4ed8-8dbb-886b2a4f79f2"/>
+    <recordManagerType typeId="fb45badc-184f-4693-9059-5b5b202ec92c" valueTypeId="6e522b5b-6d3a-42ef-bd10-6471bb039150"/>
+  </producedTypes>
+  <name>МинимальныеОстаткиНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Минимальные остатки номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>InformationRegister.МинимальныеОстаткиНоменклатуры.Form.ФормаСпискаУпр</defaultListForm>
+  <auxiliaryRecordForm>InformationRegister.МинимальныеОстаткиНоменклатуры.Form.ФормаЗаписиУпр</auxiliaryRecordForm>
+  <auxiliaryListForm>InformationRegister.МинимальныеОстаткиНоменклатуры.Form.ФормаСпискаУпр</auxiliaryListForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="e50d4ac4-a82a-400f-91b2-262d8ba80ed0">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страховой запас</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество номенклатуры</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="49b186a9-8b7e-4c8c-a842-1ff22b7ebfe1">
+    <name>ТочкаПредупреждения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точка заказа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Точка предупреждения о минимальном остатке</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1a6f0c6e-3777-447a-a005-494230efe8f2">
+    <name>ВремяДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время доставки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="64e93caa-0b3b-4422-9bfb-0728dd3bbba6">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбранная номенклатура</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d3e367b6-3fd5-407f-9bd5-d9c132b09377">
+    <name>ХарактеристикаНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика номенклатуры</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбранная характеристика номенклатуры</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.МинимальныеОстаткиНоменклатуры.Dimension.Номенклатура</field>
+    </choiceParameterLinks>
+    <quickChoice>Use</quickChoice>
+    <createOnInput>DontUse</createOnInput>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d4637ec6-a5be-44f3-8633-b80f394e3a30">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбранный склад</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e2c97440-109a-4354-b261-03b6e35e2ab6">
+    <name>ФормаСпискаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="762ac988-e90b-4f03-a288-8276e8e6f3f9">
+    <name>ФормаЗаписиУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

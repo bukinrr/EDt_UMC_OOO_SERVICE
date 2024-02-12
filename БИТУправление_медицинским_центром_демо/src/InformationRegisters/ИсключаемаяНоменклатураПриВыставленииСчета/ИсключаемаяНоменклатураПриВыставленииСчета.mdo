@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24040147-f918-4bb7-ae5c-06bf08aee567">
+  <producedTypes>
+    <selectionType typeId="8f34bd40-292c-48ef-9687-8469d08b72ca" valueTypeId="c31fc2e3-b398-4c58-97f2-8910edd8c47e"/>
+    <listType typeId="37a9d13d-9f26-4697-8e43-c21255d4323d" valueTypeId="ba212c6d-530f-4759-ad1a-8c436d11537f"/>
+    <managerType typeId="cfee1dea-9d30-4e6d-a3cb-45aa89cccf37" valueTypeId="4c237797-d2fc-4650-9ef1-e8d62cc57c0d"/>
+    <recordSetType typeId="7d6a734b-bcfd-4056-ac63-458a7f070ffa" valueTypeId="35fce10b-3c81-41d3-8b43-eec22e9b3b8f"/>
+    <recordKeyType typeId="974e261d-6c50-44f2-8194-5d797531dbc7" valueTypeId="74223e44-d0bb-419d-9657-51fe0d22ec67"/>
+    <recordType typeId="0aba6345-dbf1-4a5e-bd84-bc5f86eeaa40" valueTypeId="e0ee0807-02ad-4862-96bd-e588cfc981bb"/>
+    <recordManagerType typeId="4c001301-9c09-4b70-8010-0c459b62aff4" valueTypeId="58eda340-5ba8-40f4-adc4-50649a1fb3f2"/>
+  </producedTypes>
+  <name>ИсключаемаяНоменклатураПриВыставленииСчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исключаемая номенклатура при выставлении счета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="a7988940-975d-4298-a141-75945e4abf59">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номенклатура, которая не попадает в оплату при выполнении</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

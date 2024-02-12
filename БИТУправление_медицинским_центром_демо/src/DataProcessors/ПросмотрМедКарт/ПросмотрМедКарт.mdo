@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11eb383c-6ef7-4e65-8d58-a8b0a7ca2907">
+  <producedTypes>
+    <objectType typeId="965b0b7c-7f6a-4b77-bb08-46a92f88b7a7" valueTypeId="aee1abf7-1d5b-42c9-9cd8-bbd03cbef245"/>
+    <managerType typeId="37d50d2d-6306-44a0-9a3d-203b12abb5d1" valueTypeId="d01c5e1f-fadc-4666-80b5-cb6886a9dcb5"/>
+  </producedTypes>
+  <name>ПросмотрМедКарт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр медицинских карт</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПросмотрМедКарт.Form.ФормаАмбулаторнаяМК</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="5a05a2cc-439c-415b-bbf0-d85943fc5405">
+    <name>ФормаАмбулаторнаяМК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма просмотра медицинских карт</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="77c81081-ff48-4f2b-858b-6b1aacec0a75">
+    <name>Печать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать</value>
+    </synonym>
+  </templates>
+  <templates uuid="36f16100-6b48-4501-84e9-cd071627c282">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

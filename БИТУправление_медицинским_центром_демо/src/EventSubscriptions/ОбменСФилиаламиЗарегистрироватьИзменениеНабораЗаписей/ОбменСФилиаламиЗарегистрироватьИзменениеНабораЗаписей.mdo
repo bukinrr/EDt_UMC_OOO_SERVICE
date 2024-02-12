@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14d0375f-0337-46c2-8879-76942f53197d">
+  <name>ОбменСФилиаламиЗарегистрироватьИзменениеНабораЗаписей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с филиалами зарегистрировать изменение набора записей</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.МагнитныеКарты</types>
+    <types>InformationRegisterRecordSet.ГраницыЗапретаИзмененияДанных</types>
+    <types>InformationRegisterRecordSet.КатегорииОбъектов</types>
+    <types>InformationRegisterRecordSet.КонтактнаяИнформация</types>
+    <types>InformationRegisterRecordSet.НастройкаОбмена</types>
+    <types>InformationRegisterRecordSet.НастройкиПользователей</types>
+    <types>InformationRegisterRecordSet.НормыРасходаМатериалов</types>
+    <types>InformationRegisterRecordSet.НазначенияСвойствОбъектов</types>
+    <types>InformationRegisterRecordSet.Штрихкоды</types>
+    <types>InformationRegisterRecordSet.МинимальныеОстаткиНоменклатуры</types>
+    <types>InformationRegisterRecordSet.СоответствияОбъектовИнформационныхБаз</types>
+    <types>InformationRegisterRecordSet.ДатыСобытийОбъектов</types>
+    <types>InformationRegisterRecordSet.ЗначенияПараметровHTML</types>
+    <types>InformationRegisterRecordSet.ПланыЛечения</types>
+    <types>InformationRegisterRecordSet.АдресныеСокращения</types>
+    <types>InformationRegisterRecordSet.Адресация</types>
+    <types>InformationRegisterRecordSet.ЗначенияСвойствОбъектов</types>
+    <types>InformationRegisterRecordSet.НастройкиСотрудников</types>
+    <types>InformationRegisterRecordSet.ВерсииПодсистем</types>
+    <types>InformationRegisterRecordSet.СообщенияSMS</types>
+    <types>InformationRegisterRecordSet.АдресныеОбъекты</types>
+    <types>InformationRegisterRecordSet.СоставыГруппПользователей</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбменДаннымиСобытияОбработчики.ОбменСФилиаламиЗарегистрироватьИзменениеНабораЗаписейПередЗаписью</handler>
+</mdclass:EventSubscription>

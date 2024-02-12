@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44a2351b-6888-45d8-ab8e-e878b2e42aa1">
+  <producedTypes>
+    <selectionType typeId="7f01f173-6817-49e9-a62f-edee48a9de1b" valueTypeId="3af9da4b-e31e-4d4c-99ff-ac97718753b7"/>
+    <listType typeId="77f543a7-93a4-43ff-8b55-718db841fd6c" valueTypeId="ebf7abbb-5f83-4e50-9ced-7f5cbcf03872"/>
+    <managerType typeId="d45b7e69-071a-4dd3-80b4-b7cb11647082" valueTypeId="a6d9700a-8f76-4115-bd17-c18572875024"/>
+    <recordSetType typeId="1db23165-c2a6-4e5d-9fc6-1629af50d376" valueTypeId="ea039558-46ac-402d-b61d-422a3ade6e2a"/>
+    <recordKeyType typeId="5c64ba19-09aa-412f-b26e-17561158c429" valueTypeId="a33f3dd9-abcf-479b-9eb9-f407c0b5d9e0"/>
+    <recordType typeId="64e167fe-ea70-4257-a614-0f5a0969dc3f" valueTypeId="713c7189-9d0e-411d-bd26-ebc1b303e4aa"/>
+    <recordManagerType typeId="0421a4c1-a651-4644-b24b-f890eb0c2511" valueTypeId="b80dbc78-2dbb-4c8d-bd88-269809d1a777"/>
+  </producedTypes>
+  <name>НастройкиРассылок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки рассылок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.НастройкиРассылок.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.НастройкиРассылок.Form.ФормаЗаписи</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ef9860ce-992b-44b7-82c2-f3e9bc07b47a">
+    <name>НачалоНочногоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время с которого нельзя отправлять</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Время с которого нельзя отправлять SMS клиенту</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="cd5361b4-bd2f-449e-bdf3-b5e7012ebebf">
+    <name>КонецНочногоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время до которого нельзя отправлять</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Время до которого нельзя отправлять SMS клиенту</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b28b3554-d9ba-46d2-9c67-4263d15216f5">
+    <name>МаксимальноеУпреждениеОтправкиСМСОператору</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальное упреждение отправки СМС оператору</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <forms uuid="dadbb54e-8b3e-4a68-af49-18f150a4f9f7">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

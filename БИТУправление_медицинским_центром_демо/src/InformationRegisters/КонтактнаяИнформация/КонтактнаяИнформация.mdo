@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2fb5158a-407c-436e-9866-bcc0f13db76a">
+  <producedTypes>
+    <selectionType typeId="2affd97c-43c8-496a-b633-b741f390da40" valueTypeId="c01ed5f4-6287-45b7-9fbb-e2b9efe92691"/>
+    <listType typeId="87c400f9-fab0-4304-bea2-c9341c94cf09" valueTypeId="72e68d3a-e67a-4e3b-9167-3d8e884a4a79"/>
+    <managerType typeId="a9f70231-0e79-4a2b-b1af-04e5a153dd37" valueTypeId="c091b940-40a4-4eae-97bb-90d7a04dcb53"/>
+    <recordSetType typeId="140b0396-4b71-4023-9db4-7a69d8f4d496" valueTypeId="e635f062-ff92-4e03-8430-d034a7423b99"/>
+    <recordKeyType typeId="809b8e16-fceb-4619-a10e-dd8d95f91cee" valueTypeId="8943c2f1-e89c-4c8a-ab14-cefe96262a01"/>
+    <recordType typeId="da443be7-9e11-4a96-af18-9b56a753ad6b" valueTypeId="35c1ba61-4c64-499d-8062-62eda133d638"/>
+    <recordManagerType typeId="43d7dee3-20fe-40dc-8b2b-33c368733e51" valueTypeId="483a3a4e-0ee0-49a5-9366-e759e3a58f94"/>
+  </producedTypes>
+  <name>КонтактнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контактная информация</value>
+  </synonym>
+  <defaultRecordForm>InformationRegister.КонтактнаяИнформация.Form.ФормаЗаписиУпр</defaultRecordForm>
+  <auxiliaryRecordForm>InformationRegister.КонтактнаяИнформация.Form.ФормаЗаписиУпр</auxiliaryRecordForm>
+  <auxiliaryListForm>InformationRegister.КонтактнаяИнформация.Form.ФормаСпискаУпр</auxiliaryListForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="71ad77d9-68de-483f-8d64-15eb7fc452d5">
+    <name>ЗначениеПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение по умолчанию</value>
+    </synonym>
+    <comment>Признак значения по умолчанию</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что используется значение по умолчанию</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2f0a6977-993f-47e3-b4d4-46ebc89c53e5">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment>Произвольный комментарий</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дополнительная информация</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="64905905-cf0f-4c1d-b10b-bf97d0f6c966">
+    <name>Поле1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле1</value>
+    </synonym>
+    <comment>Вспомогательное поле: &quot;Код страны&quot; или &quot;Индекс&quot;</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>6</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>&quot;Код страны&quot; или &quot;Индекс&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b214aa08-760d-4930-90fb-fdba8deb24dc">
+    <name>Поле2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле2</value>
+    </synonym>
+    <comment>Вспомогательное поле: &quot;Код города&quot; или &quot;Регион&quot;</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>&quot;Код города&quot; или &quot;Регион&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e75e0ef8-db4b-4086-9b5c-52174a673b63">
+    <name>Поле3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле3</value>
+    </synonym>
+    <comment>Вспомогательное поле: &quot;Номер телефона&quot; или &quot;Район&quot;</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>&quot;Номер телефона&quot; или &quot;Район&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0ccedd58-59b1-4a01-bd9c-eb9284345e49">
+    <name>Поле4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле4</value>
+    </synonym>
+    <comment>Вспомогательное поле: &quot;Внутренний (или добавочный)  номер&quot; или &quot;Город&quot;</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>&quot;Внутренний (или добавочный)  номер&quot; или &quot;Город&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="46381f02-3407-42bf-abc9-a925b0427e90">
+    <name>Поле5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле5</value>
+    </synonym>
+    <comment>Вспомогательное поле: &quot;Населенный пункт&quot;</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>&quot;Населенный пункт&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e08d035e-a15b-476b-956a-24c8514ae28f">
+    <name>Поле6</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле6</value>
+    </synonym>
+    <comment>Вспомогательное поле: &quot;Улица&quot;</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>&quot;Улица&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="31b8fd8c-6862-4181-a116-ba845ed02f95">
+    <name>Поле7</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле7</value>
+    </synonym>
+    <comment>Вспомогательное поле: &quot;Дом&quot;</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>&quot;Дом&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d9320d84-89d7-45fd-a2da-f3f2088272e6">
+    <name>Поле8</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле8</value>
+    </synonym>
+    <comment>Вспомогательное поле: &quot;Корпус&quot;</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>6</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3afdec94-6917-4d01-8f23-ef6df8470e01">
+    <name>Поле9</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле9</value>
+    </synonym>
+    <comment>Вспомогательное поле: &quot;Квартира&quot;</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>5</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b6ff26d0-41a5-43c2-9c81-323bb7ade67a">
+    <name>Представление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление</value>
+    </synonym>
+    <comment>Строковое представление контактной информации</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Представление контактной информации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="20a89818-487a-440b-89f1-f931de2ea603">
+    <name>Поле10</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле10</value>
+    </synonym>
+    <comment>Вспомогательное поле: &quot;Подъезд&quot;</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>5</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f010cba4-81d8-491c-bfcd-40ba7010ab4d">
+    <name>Поле11</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле11</value>
+    </synonym>
+    <comment>Вспомогательное поле: &quot;Этаж&quot;</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>5</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ef8fc700-e122-409d-ac06-eff474a6efab">
+    <name>Поле12</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле12</value>
+    </synonym>
+    <comment>Вспомогательное поле: &quot;Код двери/домофон&quot;</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>&quot;Код двери/домофон&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bdaef302-ff1a-4731-8c20-9dad3559de95">
+    <name>ГородскойРайон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Городской район</value>
+    </synonym>
+    <comment>Городской район проживания</comment>
+    <type>
+      <types>CatalogRef.Районы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Городской район проживания объекта</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="35ee0eec-4079-493c-b4db-412c65988135">
+    <name>ТипДома</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип дома</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="8e93199a-a726-4c84-86b3-10ac3ee521b5">
+    <name>ТипКорпуса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип корпуса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="ecff83e7-44a0-49d3-b94f-7c59f42794c7">
+    <name>ТипКвартиры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип квартиры</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="5295e2e1-0aae-4483-880e-1866e6844c1e">
+    <name>ЗначенияПолей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значения полей</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="94d2a058-0611-4610-9258-f941d92b6587">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <attributes uuid="e8434ff6-bb33-404e-afd1-cd3636ba6750">
+    <name>КраткоеПредставление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Краткое представление</value>
+    </synonym>
+    <comment>Краткое представление</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Кратко</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="49726c9a-f1ba-47c0-9404-174329229bcf">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <comment>Объект-владелец контактной информации</comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+      <types>CatalogRef.Клиенты</types>
+      <types>CatalogRef.Контрагенты</types>
+      <types>CatalogRef.Филиалы</types>
+      <types>CatalogRef.Сотрудники</types>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбранный объект</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a5c8ce07-88bd-441f-9099-5098c35760a3">
+    <name>Тип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип</value>
+    </synonym>
+    <comment>Тип контактной информации</comment>
+    <type>
+      <types>EnumRef.ТипыКонтактнойИнформации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбранный тип контактной информации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d88a3050-4e0e-4e05-bb28-48d2227af940">
+    <name>Вид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид</value>
+    </synonym>
+    <comment>Вид контактной информации</comment>
+    <type>
+      <types>CatalogRef.ВидыКонтактнойИнформации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Определяет вид контактной информации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="fe15d1de-b54c-4357-a6b5-004fb4c2dc68">
+    <name>ФормаСпискаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1c12c0b4-f780-4677-8a52-ba2be395888b">
+    <name>ФормаНабораЗаписейУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма набора записей упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="942729e1-4a35-4d37-8a30-4f34c5580a1c">
+    <name>ФормаЗаписиУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="dc4ef638-395e-4ca0-863d-59a7b07f98d5">
+    <name>ИсторияИзмененийПоВладельцу</name>
+    <synonym>
+      <key>ru</key>
+      <value>История изменений</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.Клиенты</types>
+      <types>CatalogRef.Контрагенты</types>
+      <types>CatalogRef.Филиалы</types>
+      <types>CatalogRef.Сотрудники</types>
+      <types>CatalogRef.Пользователи</types>
+    </commandParameterType>
+    <representation>Picture</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.DataHistory</picture>
+    </picture>
+  </commands>
+</mdclass:InformationRegister>

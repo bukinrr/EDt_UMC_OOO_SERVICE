@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45e15263-a15e-422b-aa01-037cb33b08f4">
+  <name>Б24_ОткрытьКарточкуКонтактаВБ24</name>
+  <synonym>
+    <key>ru</key>
+    <value>Открыть карточку контакта в Битрикс24</value>
+  </synonym>
+  <group>CommandGroup.ИнформацияВФорме</group>
+  <commandParameterType>
+    <types>DocumentRef.ЛистОжидания</types>
+    <types>DocumentRef.Событие</types>
+    <types>CatalogRef.Клиенты</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Битрикс24</picture>
+  </picture>
+</mdclass:CommonCommand>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df530ce3-c6e6-42b5-ab4d-702056debf0d">
+  <name>ОтметитьВыполнениеЗадачиПослеДлительногоОтсутствия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отметить выполнение задачи после длительного отсутствия</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ЛистОжидания</types>
+    <types>DocumentObject.ОказаниеУслуг</types>
+    <types>DocumentObject.Прием</types>
+    <types>DocumentObject.Заявка</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.УправлениеКонтактами.ОтметитьВыполнениеЗадачиПослеДлительногоОтсуствияПриЗаписи</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c836216-d88c-4fb8-b96d-d2c6ac15a430">
+  <producedTypes>
+    <selectionType typeId="7d5fa74a-1174-421b-932d-9ff3621a80a1" valueTypeId="5537a25a-01fd-4eff-ae48-005aee68ea7c"/>
+    <listType typeId="60eba254-3d8a-4df9-afe4-52e6ac410e41" valueTypeId="7a676607-36ae-4b97-93f3-3fd1747781aa"/>
+    <managerType typeId="d503739c-a9ac-4459-ac85-0d14eb979cc3" valueTypeId="846e2971-9056-44c8-9d9c-2c65e8546455"/>
+    <recordSetType typeId="297e7a96-14be-4826-b051-5db40df7f31c" valueTypeId="fc4fdf0c-f17c-4b45-8d5f-0208b6200fc6"/>
+    <recordKeyType typeId="1f6e633c-bc82-4c51-9779-78c750dbc739" valueTypeId="41d33d72-cb55-4f60-affa-a7294f57f1df"/>
+    <recordType typeId="0723dd14-04a4-47b6-8e2f-c3c23d34e64d" valueTypeId="4d818967-e0eb-47c7-817f-0bd8be0194d2"/>
+    <recordManagerType typeId="2b3b6925-b0ae-44e1-bdbb-a4c361d20b4a" valueTypeId="f4ba4fea-9932-4da0-8e5c-e0b0ac54a970"/>
+  </producedTypes>
+  <name>НастройкаОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка обмена</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <auxiliaryListForm>InformationRegister.НастройкаОбмена.Form.Форма</auxiliaryListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e39e3f9d-1451-40eb-b677-0903152bb405">
+    <name>ПолеСопоставления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле сопоставления</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="19cee83e-92f0-48c3-b5d5-84812e7f80d3">
+    <name>НазваниеОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Название объекта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="ef99d885-8f54-49b6-9e66-e186f3b350de">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="8827055c-fa4c-4a3e-9208-495137e4c800">
+    <name>ПредопределенныеЭлементы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предопределенные элементы</value>
+    </synonym>
+  </templates>
+</mdclass:InformationRegister>

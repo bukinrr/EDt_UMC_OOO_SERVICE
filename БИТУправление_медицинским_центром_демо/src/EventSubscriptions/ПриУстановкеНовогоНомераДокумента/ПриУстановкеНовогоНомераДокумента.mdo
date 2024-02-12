@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a56fa36-972f-4a69-b0eb-696a0c0f8ff3">
+  <name>ПриУстановкеНовогоНомераДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>При установке нового номера документа</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.СписаниеТоваров</types>
+    <types>DocumentObject.НачислениеЗарплаты</types>
+    <types>DocumentObject.УстановкаЦен</types>
+    <types>DocumentObject.удалитьУстановкаПороговНакопительныхСкидок</types>
+    <types>DocumentObject.ОплатаПлатежнойКартой</types>
+    <types>DocumentObject.РасходныйКассовыйОрдер</types>
+    <types>DocumentObject.ОприходованиеТоваров</types>
+    <types>DocumentObject.ПлатежноеПоручениеВходящее</types>
+    <types>DocumentObject.УстановкаГрафиковРаботы</types>
+    <types>DocumentObject.ПоступлениеТоваровУслуг</types>
+    <types>DocumentObject.ОказаниеУслуг</types>
+    <types>DocumentObject.ПеремещениеМатериалов</types>
+    <types>DocumentObject.ИнвентаризацияТоваров</types>
+    <types>DocumentObject.ВводСведенийОНачисленияхРаботников</types>
+    <types>DocumentObject.ПриходныйКассовыйОрдер</types>
+    <types>DocumentObject.ПлатежноеПоручениеИсходящее</types>
+    <types>DocumentObject.УстановкаСкидок</types>
+    <types>DocumentObject.Заявка</types>
+    <types>DocumentObject.ВозвратТоваровПоставщику</types>
+    <types>DocumentObject</types>
+  </source>
+  <event>OnSetNewNumber</event>
+  <handler>CommonModule.ОбщегоНазначения.ПриУстановкеНовогоНомераДокументаПриУстановкеНовогоНомера</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="def5864d-6ada-4915-b24e-fa9972ab4c6a">
+  <producedTypes>
+    <objectType typeId="b4ec124a-ea71-439f-8890-1e8ddd80e548" valueTypeId="c39f4e6d-3be5-40bc-b0dc-d567d36e87c6"/>
+    <refType typeId="416435f3-b2eb-4daf-bbfd-b3319110dd40" valueTypeId="9a5d8cd2-ff31-4afc-9f56-2f53b80b9247"/>
+    <selectionType typeId="25a12519-7931-4bba-bbd5-c24c5a87a341" valueTypeId="1392b4cf-6cdc-46cb-8257-e5ee640b4ff4"/>
+    <listType typeId="008fd7cb-b93b-46b2-a774-40acee804a47" valueTypeId="6a1e634e-cbbe-4b11-8b53-5e929f01b43e"/>
+    <managerType typeId="3effb574-610a-4505-8549-0607c44a4013" valueTypeId="398b606d-3528-4c58-8074-411373f55b7c"/>
+    <containerType typeId="1325965d-4cea-4a12-8983-f50a4ca56e76" valueTypeId="5c59a2e2-5e14-459c-baec-abecdf2021be"/>
+  </producedTypes>
+  <name>ПараметрыЗабораАнализов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры забора анализов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ПараметрыЗабораАнализов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ValueType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <characteristicExtValues>Catalog.ЗначенияПараметровЗабора</characteristicExtValues>
+  <type>
+    <types>CatalogRef.ВычисляемыеЗначенияПараметров</types>
+    <types>CatalogRef.ЗначенияПараметровЗабора</types>
+    <types>Boolean</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>5</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>1024</length>
+    </stringQualifiers>
+    <dateQualifiers/>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>150</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="16777db6-024f-4740-a1db-60324e931d8c">
+      <name>СрочностьЗаявки</name>
+      <description>Срочность заявки</description>
+      <type>
+        <types>CatalogRef.ЗначенияПараметровЗабора</types>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ChartOfCharacteristicTypes.ПараметрыЗабораАнализов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>ChartOfCharacteristicTypes.ПараметрыЗабораАнализов.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="1a457026-09bd-429a-95c2-9dffaa38cd9c">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f261b398-5e60-489b-b604-66981f8e0284">
+    <name>ЗначениеПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение по умолчанию</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ПараметрыЗабораАнализов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>ChartOfCharacteristicTypes.ПараметрыЗабораАнализов.StandardAttribute.Ref</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a5a5ebe0-f769-4f32-85e3-9de44bb2693b">
+    <name>ЗначенияПоУмолчаниюУсловиеПримененияПол</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условие применения значения по умолчанию: пол</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПолФизическихЛиц</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ecea4e8e-5617-42a5-b371-34a597431b54">
+    <name>СрокАктуальностиПрошлогоЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок актуальности прошлого значения (недель)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Запрещено редактировать.
+Если в прошлых заборах этому пациенту уже заполняли значение этого параметра забора, то в пределах этого строка в новом заборе будет автоматически подставляться прошлое значение</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="390a155d-0f4a-4e8b-a7d9-83ad23e6f73c">
+    <producedTypes>
+      <objectType typeId="3a7ebbb7-e811-48db-85f4-8ecd9b8bd2e9" valueTypeId="5498706c-993a-4bc7-9795-a1f8c5880254"/>
+      <rowType typeId="25eb782a-ab83-48c9-8ad2-dbd41e3336c7" valueTypeId="233299f1-79f5-471f-a224-8a94afdea1db"/>
+    </producedTypes>
+    <name>IDПараметров</name>
+    <synonym>
+      <key>ru</key>
+      <value>IDПараметров</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="a38aed55-5a4d-4c19-a1a0-d9d59dd93da6">
+      <name>ВидЛаборатории</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид лаборатории</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ВнешниеЛаборатории</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5f318f59-2f66-4b45-b002-57fc1c9a8043">
+      <name>ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>ID</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="de05c41f-3b2f-4cd4-b8a6-a9607a03882c">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9e4654dc-0bac-42aa-8b9d-44746aed3030">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="abf0952d-d94c-4739-aa3d-1379c8690a51">
+    <name>Helix_ПараметрыЗабораАнализов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Helix параметры забора анализов</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="1556a7f1-0c5c-40a6-8e6e-93fb0b31f10f">
+    <name>Гемотест_ПараметрыЗабораАнализов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гемотест параметры забора анализов</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="758b319d-10d2-45f3-8c3c-0fef151c843e">
+    <name>Ситилаб_ПараметрыЗабораАнализов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ситилаб параметры забора анализов</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="02e68a25-3997-4a1d-9134-6f6e98d36822">
+    <name>КДЛ_ПараметрыЗабораАнализов</name>
+    <synonym>
+      <key>ru</key>
+      <value>КДЛ параметры забора анализов</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="7865141e-97cb-44ca-846b-45c11d10f366">
+    <name>СрокиАктуальностиПрошлыхЗначенийПараметровЗабора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сроки актуальности прошлых значений параметров забора</value>
+    </synonym>
+  </templates>
+</mdclass:ChartOfCharacteristicTypes>

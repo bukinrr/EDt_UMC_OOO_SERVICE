@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="723800d4-9151-4ee6-938c-911e20fcc999">
+  <producedTypes>
+    <selectionType typeId="f2bb84bf-4a02-4059-96af-3779903fa3ca" valueTypeId="060b6a88-4bc0-45e3-bf5c-8ae15807db4f"/>
+    <listType typeId="84b17552-e42c-4c06-938a-d2f7b2abcb8b" valueTypeId="a83038b5-b84f-4608-a0cf-a534bfd1bccf"/>
+    <managerType typeId="d3413878-0085-4475-b36c-d971a718aeee" valueTypeId="49de35fe-1acb-4bc3-89d8-b0eee2266cbf"/>
+    <recordSetType typeId="f2a3b9e6-8c73-4c0a-b432-7196207077cd" valueTypeId="0621cecf-71cc-4184-87f5-b783984857e6"/>
+    <recordKeyType typeId="9c6b746e-24db-4873-8db4-10d3edc296f4" valueTypeId="939c4c05-0d69-4901-98ae-5aad2531c5c7"/>
+    <recordType typeId="7e1e9011-708d-4f84-8432-84349b6ecebe" valueTypeId="1ddf725d-8f32-465c-b10f-543bf6d026ac"/>
+    <recordManagerType typeId="bc3b6051-f88e-4512-92b5-305d3d043a4e" valueTypeId="d3e783a3-a51d-4131-b62b-0cba1fefb5a4"/>
+  </producedTypes>
+  <name>МестонахожденияМедкарт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Местонахождения медкарт</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c6d0bb35-48dd-4268-a115-ef949ec9e0d0">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сотрудник (врач)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c4d844dd-0613-4b6a-8dfc-f951a6a9de37">
+    <name>ВыданаНаРуки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдана на руки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выдана на руки пациенту</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bf393e32-80b5-40ce-abbf-e714ef1305e2">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, оформивший операцию</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8c311756-4889-443a-8fb6-3cb6c8e5a8b8">
+    <name>Клиника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиника</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Филиалы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Клиника, филиал</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8c3ef84f-0c6f-4b1a-8210-d0a617ad1432">
+    <name>МедицинскаяКарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Медицинская карта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МедицинскиеКарты</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Медицинская карта пациента</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6e395a5f-75b0-4770-842e-4c11fba28914">
+    <name>УдалитьКлиника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиника (удалить)</value>
+    </synonym>
+    <comment>(Перенесен в ресурсы регистра в релизе 2.0.21.1)</comment>
+    <type>
+      <types>CatalogRef.Филиалы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Клиника</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

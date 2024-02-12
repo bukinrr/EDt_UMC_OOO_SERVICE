@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c72a02af-69cb-4090-8a4f-de10adebf958">
+  <producedTypes>
+    <selectionType typeId="dce7ef4f-1d1b-4aeb-9439-7da621075052" valueTypeId="be0ff8c9-704e-4fef-8ae3-14f2e2af9259"/>
+    <listType typeId="9bbdc8af-75e7-49b2-9bb3-cca6eaf05ecc" valueTypeId="49ba788a-1c09-4a07-9428-f483e8534abf"/>
+    <managerType typeId="aa9dccdb-077b-4b9a-a3c5-ce486e281dbd" valueTypeId="02c9b315-96d7-413e-a6b2-29872c82409b"/>
+    <recordSetType typeId="cb84d259-457a-4d23-8aa8-d7a9c4d96ce0" valueTypeId="6e88efc5-65dd-46b4-9a69-d94c03782d13"/>
+    <recordKeyType typeId="cfb1b768-44f0-4e9c-9866-dfbb4656f764" valueTypeId="ecfac95d-9470-44cd-bebd-db9de5214bdf"/>
+    <recordType typeId="95872662-98d7-4dce-be58-842cd0b2b679" valueTypeId="7af29d2b-c910-43a5-a02a-b0d59e66ed40"/>
+    <recordManagerType typeId="e6afbaf1-4350-45a4-8d49-28a6cbc11509" valueTypeId="ecfe99cd-118e-411d-abdf-f42d935d0d0b"/>
+  </producedTypes>
+  <name>ОборудованиеСотрудниковDICOM</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оборудование сотрудников DICOM</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="b8a76393-df1e-44bf-91fe-f23f6239911a">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="83e0ce06-aeb6-4cdc-beec-23178a4d47c5">
+    <name>Оборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборудование</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Оборудование</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="a7772641-538a-4b21-9fa8-6e9015fc3d34">
+    <name>ОборудованиеСотрудниковDICOM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборудование сотрудников DICOM</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="7c365d3d-d9c8-4d36-b2cc-f5307021b26f">
+    <name>ОборудованиеDICOM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборудование DICOM</value>
+    </synonym>
+    <group>CommandGroup.DICOM_Оборудование</group>
+    <commandParameterType>
+      <types>CatalogRef.Сотрудники</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

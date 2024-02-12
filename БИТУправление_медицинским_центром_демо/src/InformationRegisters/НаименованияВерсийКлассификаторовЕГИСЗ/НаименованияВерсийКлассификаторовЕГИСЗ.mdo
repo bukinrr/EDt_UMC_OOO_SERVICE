@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fbc7835e-c076-4b0b-9f45-7d8568db5e98">
+  <producedTypes>
+    <selectionType typeId="9b56647a-c92e-4ef9-8c68-ac67b5d72d1a" valueTypeId="1070369a-1563-4bf2-9d76-36172c16bfd5"/>
+    <listType typeId="de16c300-e3d6-42ca-bc2c-40313b2d6b33" valueTypeId="4f8eda5c-d9de-4ecc-b1b2-8d7f2170292d"/>
+    <managerType typeId="91738ac2-9d46-403f-8124-af5a2b36b481" valueTypeId="906b863c-edfc-483b-9889-f095e9e34da1"/>
+    <recordSetType typeId="ce7b14a1-b2c9-439f-8f6c-0a00a39f693f" valueTypeId="e9bb7244-0d08-4f78-8623-74e338ef81b6"/>
+    <recordKeyType typeId="c24f6fe6-d7e0-44c7-97b2-e30c594149fd" valueTypeId="c37240e2-f47e-4248-9cd6-95163bb25643"/>
+    <recordType typeId="b2089815-272e-4b40-bbaf-d9bcbf11f251" valueTypeId="f0118782-5525-4731-b61a-adc9bb64535e"/>
+    <recordManagerType typeId="ffa0e924-2fc9-46c3-b2df-a5ebcba99877" valueTypeId="4a59e479-14e9-4fc4-b526-1eea42b0229a"/>
+  </producedTypes>
+  <name>НаименованияВерсийКлассификаторовЕГИСЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наименования версий классификаторов ЕГИСЗ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="088fe7c5-55a5-441d-b196-936d76c49ab4">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="10970950-4c33-4f00-8877-eed9e2c87de4">
+    <name>ВерсияКлассификатора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия классификатора</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="cb679d0b-b04e-4eb2-bd1f-5aac8196a18c">
+    <name>OIDКлассификатора</name>
+    <synonym>
+      <key>ru</key>
+      <value>OID классификатора</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

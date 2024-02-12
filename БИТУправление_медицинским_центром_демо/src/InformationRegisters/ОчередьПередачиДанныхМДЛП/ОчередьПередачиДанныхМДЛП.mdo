@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aed4d415-7488-4c34-b6ba-42b760931f62">
+  <producedTypes>
+    <selectionType typeId="de7e78f2-a012-4185-b021-ad058711d7b9" valueTypeId="1341361a-7d43-4e80-8c8a-48afce09b665"/>
+    <listType typeId="9445583c-8952-4d36-baab-972800d8d98a" valueTypeId="0295d474-6d6e-4a4d-add1-e0fa32b4cecb"/>
+    <managerType typeId="945ad144-e3e9-4631-8b3d-ad769c54862b" valueTypeId="d9e561ef-dbfd-4167-a092-905b66bf2a62"/>
+    <recordSetType typeId="c65f113f-b954-4813-90d3-b03744b5795a" valueTypeId="4c89fe03-2cb3-4cd7-8b4a-ec15fd37fd38"/>
+    <recordKeyType typeId="d7a94ff1-a152-4c19-9bb5-4dbea7b5a84c" valueTypeId="967b64b0-7548-46e7-b71b-b332a3eee523"/>
+    <recordType typeId="76410477-6e86-45e5-9ee6-25a570431489" valueTypeId="e6e19b16-6b71-4148-a620-0962f0b963ef"/>
+    <recordManagerType typeId="02b4ba7b-5f4f-47e5-b6f7-0fbfbaed49b7" valueTypeId="c1459044-d1ff-4ec2-8c6a-9456353c7fa5"/>
+  </producedTypes>
+  <name>ОчередьПередачиДанныхМДЛП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очередь передачи данных МДЛП</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ОчередьПередачиДанныхМДЛП.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ОчередьПередачиДанныхМДЛП.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7a7204c6-f72b-4fd2-af54-033f8e6f60ea">
+    <name>ИдентификаторСубъектаОбращения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор субъекта обращения</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ИдентификаторСубъектаОбращенияОбщийМДЛП</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="132f4221-b8cc-4836-8f10-938e2e30f2cf">
+    <name>ОбновитьСостояниеПодтверждения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновить состояние подтверждения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5f228e65-916d-4bf2-8707-22222ad25618">
+    <name>ПередачаСведенийЧерезСКЗКМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передача сведений через СКЗКМ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="435036f0-717e-4035-b904-8531b0ee3203">
+    <name>Сообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МДЛППрисоединенныеФайлы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e6676a90-a013-4830-9ef4-668a42916eaa">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="34e05000-5f3b-4aa8-9408-4ff9776e0a01">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

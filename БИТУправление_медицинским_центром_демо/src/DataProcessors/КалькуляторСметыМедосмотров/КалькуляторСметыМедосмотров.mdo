@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b9f8abe-313c-40a6-852d-b4132d688d9e">
+  <producedTypes>
+    <objectType typeId="c5857c0d-15ce-42c2-a208-12e21a728689" valueTypeId="3b601367-0f90-43d0-aaf5-4c85868de4e6"/>
+    <managerType typeId="f05ae9c4-edff-46cc-a610-548b0eb68750" valueTypeId="8bdb8aa6-6330-434e-b7a1-8fa68a6f170b"/>
+  </producedTypes>
+  <name>КалькуляторСметыМедосмотров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Калькулятор сметы медосмотров</value>
+  </synonym>
+  <defaultForm>DataProcessor.КалькуляторСметыМедосмотров.Form.Смета</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="96b0e746-aea3-4c49-8180-920f22f84db1">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="02c510a1-99d3-4002-812e-758e081c3d00">
+    <name>ТипМедосмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип медосмотра</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыМедосмотров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="070e265d-8c47-45be-969e-37b8da9f92de">
+    <name>Прейскурант</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прейскурант</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Прейскуранты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="3f166b84-0f0c-4745-84db-c1a018c6af90">
+    <producedTypes>
+      <objectType typeId="17916469-7915-46fc-800c-fa75cb8a7dbc" valueTypeId="220e617f-9b6c-47b9-af4c-2e83efab3bc6"/>
+      <rowType typeId="bd323d6d-fe56-4463-820b-fce823beee66" valueTypeId="510f695d-7531-4a68-9a9c-26b44773ff06"/>
+    </producedTypes>
+    <name>Смета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Смета</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="de0478ea-4c7a-401e-b8dd-876e1b0736a8">
+      <name>Контингент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контингент</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>25</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="4098ce8c-9ddc-4ced-8cf6-39fc8c02f8f7">
+      <name>ВредныйФактор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Факторы</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="cdee6fe7-b2e7-43e0-8325-12a220cd6b05">
+      <name>Численность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Численность</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="339631fb-faf5-4961-afcc-c4fa6a4334d6">
+      <name>ЦенаЗаСотрудника</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена за сотрудника</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7693b0f9-264a-40e4-8940-9bed04d80cef">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="4da4c919-b96a-40cc-9fe4-16172b038252">
+      <name>Клиент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Клиент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Клиенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="22fc96fe-11b1-454d-8cd1-7f2f0ddbadee">
+      <name>ПорядокКонтингента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Порядок контингента</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="320a2f4d-5914-4bd5-806f-af5c1b56f10b">
+    <name>Смета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Смета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="748b2bf7-79ff-478f-8806-85379d186554">
+    <name>СметаПоУслугам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Смета по услугам</value>
+    </synonym>
+  </templates>
+  <commands uuid="519e4415-df63-45cb-886c-5dfe6f6491c9">
+    <name>КалькуляторСметыМедосмотров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Калькулятор сметы медосмотров</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

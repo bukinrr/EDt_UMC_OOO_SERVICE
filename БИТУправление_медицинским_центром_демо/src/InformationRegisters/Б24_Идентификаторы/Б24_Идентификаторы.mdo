@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2333759d-ac3a-4393-af2e-212804c19db8">
+  <producedTypes>
+    <selectionType typeId="9caa3d63-ea6a-48c8-9e9c-8862fa54753c" valueTypeId="435bee4b-560a-4bd7-8690-c2b5141e481c"/>
+    <listType typeId="f3276287-52f8-4c46-aa86-b457b0ef7177" valueTypeId="9383aed0-745c-480e-926c-885c13623d37"/>
+    <managerType typeId="179f40de-2ee9-4e8d-9ee6-5966ee8d62fb" valueTypeId="db1e5855-ea36-457d-a4e6-38de5d191f8b"/>
+    <recordSetType typeId="6de46575-4413-403b-8569-a959075d89a1" valueTypeId="4dee20ff-6ee3-457e-823e-bf590ac15b56"/>
+    <recordKeyType typeId="170bd4a9-2f02-4dee-933c-c23c894142d4" valueTypeId="bf2de158-15ca-4e7c-8787-34f8320ea88f"/>
+    <recordType typeId="c7fe69e2-af65-4427-97e2-30a12cf35eb8" valueTypeId="d83f28cc-2f4c-4e0c-80c1-be737918a7be"/>
+    <recordManagerType typeId="cb7b858f-c2e3-480b-8d2e-e369ba8ef7be" valueTypeId="05bbb0be-c692-41a3-9a6b-91f8352b9a33"/>
+  </producedTypes>
+  <name>Б24_Идентификаторы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Битрикс24: Идентификаторы объектов по типу сущности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="76b318c5-bbad-4ba7-8414-b241b243d121">
+    <name>ИдентификаторБ24</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор Б24</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="aee2eadf-ce11-475d-83d4-156d5e693582">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЛистОжидания</types>
+      <types>DocumentRef.Событие</types>
+      <types>CatalogRef.Клиенты</types>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7b2e1dcd-a7b8-4b9c-9bee-f6c609d34833">
+    <name>СущностьБ24</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сущность</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Б24_Сущности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2f13afb-2491-4112-b55b-6df96575d1be">
+  <producedTypes>
+    <selectionType typeId="ba281ca4-c2cd-424a-a5cb-6169f6e409f6" valueTypeId="35b5147e-2dea-4565-b454-18215a5dd81b"/>
+    <listType typeId="faba9f7d-b86d-4b07-bd75-9f1f8682458c" valueTypeId="ca4afa3f-6bad-4914-8382-ee51465a409e"/>
+    <managerType typeId="7df9ba27-4f90-4c43-8af3-cb6f72205ae4" valueTypeId="9326484d-660e-4753-9e2e-8268b93361fe"/>
+    <recordSetType typeId="07e9a8da-6d43-4efe-ae4d-e9513c9c9ba0" valueTypeId="7dfcb324-6c48-468f-83d0-55da549c15ac"/>
+    <recordKeyType typeId="9cd193be-b47b-432a-b383-711c0556c084" valueTypeId="bd6ffb9c-f96f-482f-b360-86a67174cf5d"/>
+    <recordType typeId="762e129d-cae6-429c-8dab-3b344b0d5ece" valueTypeId="0db90be3-1ff0-466a-b415-d97ad56ac6e1"/>
+    <recordManagerType typeId="eae2be63-aea6-490e-8d82-78a058ffe981" valueTypeId="30249785-5721-4069-bfd1-15e3bfc986d0"/>
+  </producedTypes>
+  <name>Helix_ПротоколыПостобработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Helix-Лаборатории) Протоколы постобработки</value>
+  </synonym>
+  <comment>SamplePreparations.xml</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Helix_ПротоколыПостобработки.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ee5298b7-ba06-48ea-8143-724686648c9a">
+    <name>DESCRIPTION</name>
+    <synonym>
+      <key>ru</key>
+      <value>DESCRIPTION</value>
+    </synonym>
+    <comment>Описание протокола</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="3f96d541-da57-4ede-b42d-ff03727400b6">
+    <name>Name</name>
+    <synonym>
+      <key>ru</key>
+      <value>Name</value>
+    </synonym>
+    <comment>Код протокола</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="dd65f0c7-2c61-480a-a1ed-79c7cbdf964a">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9ae2e64-2a3e-4357-ac1f-1eb301e0e98a">
+  <producedTypes>
+    <selectionType typeId="91cf5286-22f4-4a29-a2c5-334dc876639f" valueTypeId="afa6b34e-1f7b-4fa6-855b-ce1ea0acd03d"/>
+    <listType typeId="f05050bf-71e1-43c2-9890-1dee37a64bdb" valueTypeId="6395009f-fcb2-47bc-b568-396c31477ec6"/>
+    <managerType typeId="74f8ea2e-0cf5-49bc-9d2b-a127ae5037eb" valueTypeId="93a01d19-62e3-4b4d-b041-4696981a3b53"/>
+    <recordSetType typeId="8b1d63ae-6ad4-4576-9cf7-33937b5dfc9e" valueTypeId="10d72b9d-0f8f-4f5c-91ae-e4ab5e382841"/>
+    <recordKeyType typeId="16156b77-c64a-43d7-bd4f-d994cbbc9a1c" valueTypeId="636f69e4-79ab-4ddf-9be3-539cae7175ec"/>
+    <recordType typeId="de384933-02d2-489b-91c5-95cc826e4b88" valueTypeId="34e76e78-767d-482d-962a-8e90950a420f"/>
+    <recordManagerType typeId="d015c7aa-cc28-4570-a9c6-f0c0c17c392a" valueTypeId="e2e08778-0fb5-4e7c-9924-e5389ceea261"/>
+  </producedTypes>
+  <name>ОбязательныеРеквизитыОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обязательные реквизиты объектов</value>
+  </synonym>
+  <comment>Обязательные (при интерактивном вводе элемента) поля</comment>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ОбязательныеРеквизитыОбъектов.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ОбязательныеРеквизитыОбъектов.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4dba3a58-eb14-421b-99de-79930e1b7f97">
+    <name>ТолькоПриЗаписиНового</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только при записи нового</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="5467803b-2dd9-46af-989a-1d5a0b064561">
+    <name>ИмяСправочника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя справочника</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0815c964-d33f-4d98-adef-bb341bac6d25">
+    <name>ИмяРеквизита</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя реквизита</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="31009ce3-4abb-4bfa-9222-bb598fc69359">
+    <name>ПредметПроверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предмет проверки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыКонтактнойИнформации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="4ab3a06d-3951-496e-9389-915c151915dc">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4ab6c598-5698-4733-a8c3-4551cc458640">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7fed3bf9-23f2-43a5-85d1-b244f5ce5bc0">
+    <name>ДобавлениеСтандартныхОбязательныхРеквизитов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавление стандартных обязательных реквизитов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

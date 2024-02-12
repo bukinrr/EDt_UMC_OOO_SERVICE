@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6de8e56d-a3db-43eb-81a5-165d9c6396c5">
+  <producedTypes>
+    <objectType typeId="2744721f-ca2a-45c4-8bc4-59c33100ea4b" valueTypeId="6e0cbfa1-99fa-4d75-bf89-e27d1ee739b7"/>
+    <refType typeId="0251ad04-a9ed-483d-8c5c-d607c38b678a" valueTypeId="bbb16346-9834-4159-93c3-8f65cb8b639c"/>
+    <selectionType typeId="beae6395-4ec3-4941-9774-e02eef4cb9dc" valueTypeId="0c7726fe-e12b-44ef-8e54-e07f1c4a84c9"/>
+    <listType typeId="1e8ba1d6-072c-4392-85e2-b8effc4cfe4a" valueTypeId="f4f98d9b-9635-4b28-897e-3d3e2a699519"/>
+    <managerType typeId="56382e7a-b08d-49e8-863c-7368a512acd5" valueTypeId="7088b48e-55ff-4d13-9f2a-c1446bde45d6"/>
+  </producedTypes>
+  <name>удалитьУстановкаПороговНакопительныхСкидок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка порогов накопительных скидок (удалить)</value>
+  </synonym>
+  <comment>Документ редакции 1.0. Используется для конвертации скидок при  переходе на редакцию 2.0 и выше</comment>
+  <inputByString>Document.удалитьУстановкаПороговНакопительныхСкидок.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
+  <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
+  <attributes uuid="8354b89c-0505-4ce6-88d2-9ccc8cffb7e7">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбранный ответственный</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e60b90e4-cd20-4317-8386-f141944d0414">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment>Любая дополнительная информация</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Любая дополнительная информация о документе</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f33ba4bc-5976-477e-a61c-cd2f78b6fa19">
+    <name>Филиал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиника</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Филиалы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Клиника, филиал</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="06155357-da23-4268-a788-f42e86029f3c">
+    <name>ВидСкидки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид скидки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыСкидок</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид скидки/наценки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="3148de21-07b0-4f07-a436-a91f075f553e">
+    <producedTypes>
+      <objectType typeId="221a17d0-2238-42ff-9b8c-2c7e40bcccdc" valueTypeId="8e6cb3d4-fc59-4c32-abb6-c4fed762673c"/>
+      <rowType typeId="11b1fb98-04cd-41e2-a70f-82ccee203fbb" valueTypeId="62b1a96e-b46d-483a-911a-d8945a5b1684"/>
+    </producedTypes>
+    <name>ШкалаДиапазонов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шкала диапазонов</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Табличная часть диапазонов</value>
+    </toolTip>
+    <attributes uuid="b866b08d-0f5d-4d27-9766-11fb73857e89">
+      <name>НижняяГраница</name>
+      <synonym>
+        <key>ru</key>
+        <value>Нижняя граница</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Нижняя граница порога скидки</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f9eabbcf-f97b-49c4-ae7a-bfa525a26c13">
+      <name>ЗначениеПорога</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение порога</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Значение порога скидки</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

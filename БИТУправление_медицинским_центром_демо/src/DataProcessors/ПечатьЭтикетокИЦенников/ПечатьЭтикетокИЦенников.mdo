@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2946e197-0835-4c99-a1ab-8b802c91f6c6">
+  <producedTypes>
+    <objectType typeId="3d097b1a-a32b-49e2-bb17-ef3e5432efa3" valueTypeId="e43dc36f-21b3-4f24-8457-2b96c8ad6f9e"/>
+    <managerType typeId="c1c74bb6-902b-4849-925b-ebcb1f98ddf2" valueTypeId="d50207f6-c2e7-4c44-90de-e539f854b7db"/>
+  </producedTypes>
+  <name>ПечатьЭтикетокИЦенников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать этикеток и ценников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПечатьЭтикетокИЦенников.Form.ФормаУпр</defaultForm>
+  <auxiliaryForm>DataProcessor.ПечатьЭтикетокИЦенников.Form.ФормаУпр</auxiliaryForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <tabularSections uuid="bcabf023-886e-45ea-9279-6f7760719013">
+    <producedTypes>
+      <objectType typeId="f55e9226-ac27-4ea3-9608-974e45dc6c36" valueTypeId="4c858f30-4614-4eb5-b849-f5182dfa4441"/>
+      <rowType typeId="a1b81a21-fa60-41ac-9997-ca6000731dec" valueTypeId="e9c9529c-0779-4e99-a4e0-0c13d89d1e21"/>
+    </producedTypes>
+    <name>ИсходныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходные данные</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Исходные данные для печати</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="620764b9-5441-4e4b-b98b-fe9396c3dd52">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Товар</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="61bc32e1-6ee7-40ac-b4e0-96af870cbec3">
+      <name>Характеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Характеристика</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.СвойстваОбъектов</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Характеристика товара</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="27740085-7151-4951-a58f-da9a7b3efe90">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество этикеток</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="560dca1b-1145-446a-8ff5-3339000a530a">
+      <name>Филиал</name>
+      <synonym>
+        <key>ru</key>
+        <value>Филиал</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Филиалы</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Филиал, центр</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="0966d688-d6f4-4423-87bb-0df701583128">
+    <name>ФормаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="42ad101e-5d81-4e65-bd96-48f8e1aede55">
+    <name>ПоляШаблона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поля шаблона</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="e1b9308d-2c60-4db7-97cd-3501db8a86f8">
+    <name>ЭталонныйМакетЭтикетка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эталонный макет этикетка</value>
+    </synonym>
+  </templates>
+  <templates uuid="a67a22c4-7f0c-49b9-99f6-d0a7c6c54b74">
+    <name>ЭталонныйМакетЦенник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эталонный макет ценник</value>
+    </synonym>
+  </templates>
+  <templates uuid="98d60337-37f0-42f1-b2dd-3418cb882c97">
+    <name>ПоляШаблонаНовый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поля шаблона новый</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="9d38feef-f3c6-4bca-8769-e2a254f56c86">
+    <name>Эталон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эталон</value>
+    </synonym>
+  </templates>
+  <templates uuid="dcaeb2f3-c19c-4c7e-b09b-a93a31306cfe">
+    <name>ОтборНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поля шаблона</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:DataProcessor>

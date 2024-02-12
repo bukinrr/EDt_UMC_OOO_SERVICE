@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1482a919-069a-46f2-8079-047302a4398c">
+  <producedTypes>
+    <selectionType typeId="e034b0db-56f3-4548-92d9-7b33c38ea385" valueTypeId="798d65b6-491b-444c-9039-a384b89ea21b"/>
+    <listType typeId="06e0d5a0-b5af-4d04-bdd0-2bbca7fa1505" valueTypeId="5137ab35-31ff-4c65-9ddc-3de5ab5ac1e6"/>
+    <managerType typeId="3c8a1382-604e-450b-a4ad-3865391df80e" valueTypeId="7c7fb6be-1e62-4f79-8092-470845989c54"/>
+    <recordSetType typeId="19d91cac-eb51-4f35-a95f-c369f731e517" valueTypeId="bc181467-343d-44f7-8737-4795cdd691ac"/>
+    <recordKeyType typeId="6ef39edd-2949-4090-ab45-f8740fd26229" valueTypeId="802a1597-f730-454f-86f5-67f5df419ad1"/>
+    <recordType typeId="f62c01b2-cd76-4260-abdd-e26c724bab3e" valueTypeId="f0ddf355-7569-4e8e-983f-e9f4c5da1ca5"/>
+    <recordManagerType typeId="902a5ab2-7d0c-4310-a254-104442345e6c" valueTypeId="80c55e61-3995-49f1-ad44-1542d0695a22"/>
+  </producedTypes>
+  <name>ГИПСтатусыКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы клиентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ГИПСтатусыКлиентов.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8bee1073-77ab-49d2-8bd7-85f709923b8a">
+    <name>ОтправленВГИП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлен в ГИП</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="29e109b4-1f3b-449d-a289-009f26339e13">
+    <name>ДатаОтправкиВГИП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отправки в ГИП</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7325db60-b5e9-4002-b2c1-efe64a74494d">
+    <name>МедицинскаяОрганизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Медицинская организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РеестрМедицинскихОрганизаций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3636a5ed-7a5c-4de4-9657-d67c029885d6">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="13124931-542f-4f57-8f76-d471d0092ca9">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2747a275-96de-4609-85cd-653e28254462">
+  <producedTypes>
+    <selectionType typeId="cee0cfb1-e405-4b5e-83e2-418c491e3d45" valueTypeId="f1d6f50f-af61-4e14-b326-35b3176fb0c4"/>
+    <listType typeId="9be46933-3800-4a9e-81a3-350f8abd32c9" valueTypeId="d9eea74e-1c61-4013-9c6a-1080128c1db9"/>
+    <managerType typeId="f6f60eca-845a-4c10-9079-774f34515c1e" valueTypeId="76f622f2-226e-481c-8f2d-d575638a8052"/>
+    <recordSetType typeId="7ffc4ade-e067-44a2-878a-bf2412064d78" valueTypeId="09b81877-e680-4aee-b42d-6fa5c5158bff"/>
+    <recordKeyType typeId="f29e17bd-cce7-47a2-97fb-36963c490868" valueTypeId="833491fa-034b-438b-a081-500982429eb2"/>
+    <recordType typeId="862121fc-eceb-44bc-bfd3-43d316aaf846" valueTypeId="e7b4b147-8fda-43bf-82a7-f13d76214318"/>
+    <recordManagerType typeId="089c8291-de07-4b30-8341-40f214eff8d3" valueTypeId="dd87ccca-90e9-45f2-b84f-d71baa80aac6"/>
+  </producedTypes>
+  <name>ВерсииКомпонентыDICOM</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версии компоненты DICOM</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ВерсииКомпонентыDICOM.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Версии компоненты DICOM установленной на клиентах</value>
+  </explanation>
+  <resources uuid="87f0ec8b-5578-4ea8-9667-32674abdf213">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Версия компоненты DICOM установленной на клиенте</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value>               </value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="b0e9ec24-2064-48fe-af95-4ce91cda5cbd">
+    <name>УникальныйИдентификаторКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор клиента</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e3b50086-97d2-480f-8532-b09986b9c177">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

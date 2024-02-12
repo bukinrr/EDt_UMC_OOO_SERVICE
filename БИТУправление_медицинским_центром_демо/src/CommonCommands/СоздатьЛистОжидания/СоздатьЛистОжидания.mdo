@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69e55e23-c081-4ac4-a794-3515f2b3975e">
+  <name>СоздатьЛистОжидания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лист ожидания</value>
+  </synonym>
+  <group>CommandGroup.Создать</group>
+  <commandParameterType>
+    <types>DocumentRef.ОказаниеУслуг</types>
+    <types>CatalogRef.Клиенты</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Создать лист ожидания</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ОчередьНаЗапись</picture>
+  </picture>
+</mdclass:CommonCommand>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="789baa69-173d-488b-a0b1-cb27da0067a9">
+  <producedTypes>
+    <selectionType typeId="00823ca4-a89a-4cce-b82b-ee9d6d14a0b5" valueTypeId="6c5f15ad-2dac-4dd6-918d-30db3b047561"/>
+    <listType typeId="fc9c183a-1af1-461b-831b-83e34a0c827d" valueTypeId="b4d30c8f-fc2a-47a7-8e1a-28b053fe48f8"/>
+    <managerType typeId="eccc9278-7aae-4e33-a1f3-5c7c661dee65" valueTypeId="44156598-2a58-474e-87ee-bc9bde1ab4cd"/>
+    <recordSetType typeId="2bd63721-d47d-46cb-b2a7-02d746b98b17" valueTypeId="c7f2fa80-1acd-4454-8aec-b64ba452644d"/>
+    <recordKeyType typeId="479a57d4-881c-437f-a9e7-79cca24b7ab9" valueTypeId="5c17b25c-0a24-4814-aa3e-fbabb993b88c"/>
+    <recordType typeId="5c6bc824-4e7b-437e-ad7a-c75184c93151" valueTypeId="65e8b719-24d7-42a1-85f9-91a6a807fa52"/>
+    <recordManagerType typeId="98bdf478-2545-4ae5-b384-2368420fec9a" valueTypeId="45e71999-4502-477c-a275-523314a23ca7"/>
+  </producedTypes>
+  <name>ДействияМедосмотровОпасныхВеществ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Действия медосмотров опасных веществ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="2550449a-e424-4ca5-b116-10584ca936fc">
+    <name>ГруппаОпасныхВеществ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа опасных веществ</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ГруппыОпасныхВеществ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="63968a11-2091-4caa-a1e1-8b691a34a0cb">
+    <name>ДействиеМедосмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действие медосмотра</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДействияМедосмотра</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

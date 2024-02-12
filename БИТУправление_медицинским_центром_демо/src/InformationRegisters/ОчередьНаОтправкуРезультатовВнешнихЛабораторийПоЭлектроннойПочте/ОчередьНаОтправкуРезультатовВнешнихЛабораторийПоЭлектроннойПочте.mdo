@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="77cb68d0-f605-4673-94d2-0368820cc836">
+  <producedTypes>
+    <selectionType typeId="243786c0-da5f-4c42-a612-3e1d571f193b" valueTypeId="f6b95926-4170-4c0c-a521-d52dadcc5b20"/>
+    <listType typeId="8c0a88a2-617e-43e1-8405-634ad577791a" valueTypeId="21e54676-ef2a-48e7-abf2-b6b0abda5d99"/>
+    <managerType typeId="cf390889-d45e-49a2-9b8a-e504a883c9c9" valueTypeId="1f1ea205-f6d7-42ec-a04a-2e87c4278e48"/>
+    <recordSetType typeId="40fb1c73-5355-4166-89d0-00afb7fe56fb" valueTypeId="fa65a8a6-ca12-4e76-b8a5-355c7b4a513d"/>
+    <recordKeyType typeId="44beebab-3535-4775-a999-a85fc231d237" valueTypeId="93b78419-a9bb-4c6a-a3c6-fb69f1bf929a"/>
+    <recordType typeId="9c21d01d-78fd-4f03-b3e6-39c1b49f5594" valueTypeId="be91b0b3-5c78-49d9-ac19-d96cb3fbcfb2"/>
+    <recordManagerType typeId="a3cf948c-d150-4216-b2d6-82602c36e1f0" valueTypeId="1138be1b-3b50-4ee6-9d91-f52dbe419a5c"/>
+  </producedTypes>
+  <name>ОчередьНаОтправкуРезультатовВнешнихЛабораторийПоЭлектроннойПочте</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очередь на отправку результатов внешних лабораторий по электронной почте</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="cafa2dd3-487f-4644-9d02-a44899ff7bdf">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Прием</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

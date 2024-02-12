@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b952ec3-0e2c-4a22-a84c-b89fc79e0426">
+  <producedTypes>
+    <selectionType typeId="074ee9e8-a18a-467d-91b1-4abc6d37f131" valueTypeId="4a1bf2ad-3bea-4af7-b6b1-8fbce4b6c873"/>
+    <listType typeId="f335ad1a-322d-42d3-b956-fc85617e41b0" valueTypeId="3e788e4c-b2c1-48f7-8625-67d5f3646e97"/>
+    <managerType typeId="a828a575-89be-46f2-a8eb-4dbb4f7b90f9" valueTypeId="d8aba276-19d2-464f-aa55-e77fbbe5c5be"/>
+    <recordSetType typeId="044f7560-c6f1-4526-8099-70ac40e108be" valueTypeId="c7360185-2b9c-4457-be59-0677af2a90c0"/>
+    <recordKeyType typeId="e7d85ca2-e852-4c30-b364-7d7eb9317a9d" valueTypeId="3d6da5cd-6655-485f-9eb4-ec979e47f73e"/>
+    <recordType typeId="0ed13718-c232-4163-82ee-033001ae3cb5" valueTypeId="c57ba46a-edcd-4220-8700-52f7b7f4a3bb"/>
+    <recordManagerType typeId="23a35b65-286d-4ee8-a752-02267d815f85" valueTypeId="53ace731-7944-4023-9b89-c6b45945dc2a"/>
+  </producedTypes>
+  <name>ЕГИСЗНастройкиИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки интеграции с ЕГИСЗ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ЕГИСЗНастройкиИнтеграции.Form.ФормаЗаписиУпр</defaultRecordForm>
+  <defaultListForm>InformationRegister.ЕГИСЗНастройкиИнтеграции.Form.ФормаСпискаУпр</defaultListForm>
+  <auxiliaryRecordForm>InformationRegister.ЕГИСЗНастройкиИнтеграции.Form.ФормаЗаписиУпр</auxiliaryRecordForm>
+  <auxiliaryListForm>InformationRegister.ЕГИСЗНастройкиИнтеграции.Form.ФормаСпискаУпр</auxiliaryListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="89ed72ef-a2c3-4f6a-a05c-9db3ffff81d9">
+    <name>НазваниеМИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Название МИС</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="42d387f3-2a70-497e-8708-8c1e62f6ee66">
+    <name>ИдентификаторМИСвИПС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор МИС в ИПС</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <mask>NNNNNNNN-NNNN-NNNN-NNNN-NNNNNNNNNNNN</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="17fae83c-d7b3-4a2c-be9b-981b30e7edbc">
+    <name>СертификатЭЦППодписиSOAPСообщений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сертификат ЭЦП для подписи SOAP сообщений</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СертификатыКлючейЭлектроннойПодписиИШифрования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4a3aa2be-0239-41a8-a41d-367e6b7ef0d4">
+    <name>ИдентификаторМИСвГИП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор МИС в ГИП</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="fcc7c70d-9a8e-4bdb-9811-d373d2e585a7">
+    <name>ИспользоватьГИП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать подсистему ГИП</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4a072789-2dcc-4c5f-8c00-dc460b582a51">
+    <name>ПутьКАрхивуРЭМД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к архиву РЭМД</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="58f089cc-4d7b-4b3b-a904-1a96edef70eb">
+    <name>АдресЛокальногоСервисаРЭМД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес локального сервиса РЭМД</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="8109ae00-0b0c-4000-b14e-e16aa4932ba4">
+    <name>ИдентификаторМИСвРЭМД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор МИС в РЭМД</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="349d23bd-f001-4e36-98d7-c4b11b68320c">
+    <name>ДатаНачалаОбменаИнформациейСРЭМД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала обмена информацией с РЭМД</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bffec665-bf54-4a01-8f81-f48212b5046b">
+    <name>РежимОтправкиСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим отправки сообщения в РЭМД</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РежимыОтправкиСообщенийРЭМД</types>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>БЛ='При подписании документа'; БИ='Регламентное задание'</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>БЛ='При подписании документа'; БИ='Регламентное задание'</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c6533451-d127-4ea5-a4f6-05c98c031768">
+    <name>ИспользоватьРЭМД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать подсистему РЭМД</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ed3b5cd8-26e1-413c-8014-9f3acf92d050">
+    <name>ПутьКАрхивуЛогов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к архиву логов</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="59d5b7c6-d0a0-4a6d-9f33-0576d01463a2">
+    <name>ПутьКАрхивуРезервныхКопий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к архиву резервных копий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="58e034b9-b922-42ed-ad99-fa1e26eeb251">
+    <name>КэшироватьОтветыРЭМД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кэшировать ответы на запросы РЭМД перед отправкой сообщения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d3dae57b-e433-458b-b7c8-afd8a9fcb85b">
+    <name>МедицинскаяОрганизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Медицинская организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РеестрМедицинскихОрганизаций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="1e8c6eaf-2795-4883-8a99-a8aa80b1edae">
+    <name>ФормаЗаписиУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b0b163b1-2424-4a53-9777-edd6bbcdffd8">
+    <name>ФормаСпискаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca42aa4f-08bf-41be-8174-02a8c58ca2d4">
+  <producedTypes>
+    <selectionType typeId="b0e44267-14f9-40fe-97b6-b14441219b62" valueTypeId="f143da08-99b8-4b64-b319-cb4a8e880deb"/>
+    <listType typeId="f9810e8b-dbd9-426b-a5cd-9bda300e1729" valueTypeId="0a6a0edb-bc1a-442e-9d6b-43b84d27c362"/>
+    <managerType typeId="c196665e-520f-451e-a9c2-edf4efe96fbb" valueTypeId="47f08229-dbfb-4a15-8881-4f9539f69819"/>
+    <recordSetType typeId="eea0db3f-23c1-4cd8-bb44-df50afd5885a" valueTypeId="26498bf0-68de-4dfc-95ef-93643ef4eedd"/>
+    <recordKeyType typeId="f8cd273e-5fb8-4b88-8a36-34fef7705d34" valueTypeId="849efb5d-2c99-415e-bde7-64d0b73ae684"/>
+    <recordType typeId="259f21d2-1771-40e3-baac-49589a16e498" valueTypeId="b937d077-a43f-462e-bbb4-f648746bade5"/>
+    <recordManagerType typeId="e2f9d7bd-e3ac-4035-baf0-a4b730457641" valueTypeId="bcd82782-f4ad-4b3a-a3df-fd900e430cec"/>
+  </producedTypes>
+  <name>ПричиныОтменыЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины отмены заявок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultRecordForm>InformationRegister.ПричиныОтменыЗаявок.Form.ФормаЗаписиУпр</defaultRecordForm>
+  <auxiliaryRecordForm>InformationRegister.ПричиныОтменыЗаявок.Form.ФормаЗаписиУпр</auxiliaryRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <resources uuid="9dc7373f-aff4-4dc1-b7ce-9f6ddd7441a4">
+    <name>ПричинаОтменыЗаявки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина отмены заявки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПричиныОтменыЗаявок</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбранная причина отмены заявки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <quickChoice>Use</quickChoice>
+    <createOnInput>DontUse</createOnInput>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="74a55a27-2f78-4d8f-b615-ba0e86aa61c2">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дополнительная информация</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="92396ef6-d0b3-41d6-8cd3-d68e2e285c56">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбранный ответственный</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="89c0a81d-e8a7-48c6-b33c-140afd4e1d51">
+    <name>СостояниеПередЗакрытием</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние перед закрытием</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыСостоянийЗаявок</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Состояние заявки перед закрытием</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="5c7ddbde-c966-4393-b032-3f27b4e59722">
+    <name>Заявка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Заявка</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Отмененная заявка</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="b97f7fef-c5c8-48b3-b466-2fdace4fed3c">
+    <name>ФормаЗаписиУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

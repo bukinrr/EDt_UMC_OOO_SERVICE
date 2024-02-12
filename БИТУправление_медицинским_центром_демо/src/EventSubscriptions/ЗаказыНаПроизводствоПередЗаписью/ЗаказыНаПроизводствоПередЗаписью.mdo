@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1190d51-a8aa-4dbc-a6c6-6378f00c8a00">
+  <name>ЗаказыНаПроизводствоПередЗаписью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказы на производство перед записью</value>
+  </synonym>
+  <source>
+    <types>DefinedType.ДокументыСменыСтатусовЗаказовНаПроизводствоОбъект</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.УправлениеЗаказами.ЗаказыНаПроизводствоПередЗаписьюОбработчик</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a62becc0-913e-479e-a3fa-db3746bd86b7">
+  <producedTypes>
+    <selectionType typeId="c5d0d880-b17e-4b4f-b005-b03dadd87e45" valueTypeId="2d1e799b-4cd4-4f87-9eb3-66208957e7db"/>
+    <listType typeId="30bc67c5-6213-4535-a1ec-ac314d3dec7f" valueTypeId="6ea308b7-4ffb-43d7-b7d9-9e7739b99076"/>
+    <managerType typeId="f4b4377f-8a95-44eb-b034-85c5c166fab3" valueTypeId="67e8641a-0162-43f0-bfef-0ab3ae3803fc"/>
+    <recordSetType typeId="bfbfd1ed-58d6-4a51-8194-576d152ec8db" valueTypeId="f1dbfafc-d621-425a-94d0-5f2abf906d0a"/>
+    <recordKeyType typeId="a5a80b4f-b0a9-44d3-9b93-252c9ae0e39c" valueTypeId="ee1e5764-e7bb-4a16-9105-5c565c8987c7"/>
+    <recordType typeId="338c2be2-d600-4bab-aa23-c6ebf0808d6d" valueTypeId="683f4be7-40d1-4dc5-8069-168d6341efd3"/>
+    <recordManagerType typeId="2838584f-0b3f-4666-ad3f-b29cc74bf289" valueTypeId="479d6b13-8eda-4471-8cf3-eb32d11b99bd"/>
+  </producedTypes>
+  <name>СпециализацииШаблоновОсмотра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Специализации шаблонов осмотра</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.СпециализацииШаблоновОсмотра.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.СпециализацииШаблоновОсмотра.Form.ФормаСписка</defaultListForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8926cf22-0e24-4b77-b4bf-8d5a6aed0b1d">
+    <name>Основной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной шаблон</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Это основной шаблон специализации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="d9fa2f20-48d0-4bfc-9d53-f2567ed4df33">
+    <name>Профосмотр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Медосмотр</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Используется для периодических медосмотров работников</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="068043e1-30bd-4e79-9f19-1de9612d11ee">
+    <name>Специализация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Специализация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КатегорииВыработки</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Медицинская специализация</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c428d586-33c3-4f46-8d18-60a731a5cd13">
+    <name>ШаблонОсмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон </value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШаблоныHTML</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Шаблон приема</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="209e4fff-7590-4f80-b4f3-e873fce23a30">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c2218d13-a503-4ee6-b82b-6ca60f9e7923">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

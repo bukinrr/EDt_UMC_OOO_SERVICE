@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="778972c8-4fcb-41cf-a54f-bae1eadf7733">
+  <producedTypes>
+    <selectionType typeId="5a3d168a-f67e-48cb-abe9-82c742510c78" valueTypeId="879c239a-e4e6-4ab9-a375-37bb3d3ae554"/>
+    <listType typeId="d1c5c9e0-bda3-4aac-ba2c-9f3c5caa237c" valueTypeId="91d3c7f0-c2e7-4e6e-92d5-6af22c109e07"/>
+    <managerType typeId="9284b084-3f08-4f65-bca7-ce5bac7d66d6" valueTypeId="7da7d20a-2bee-4bdd-9dce-9de043600d6b"/>
+    <recordSetType typeId="a81a62ce-91de-44ba-bead-9ce376dd78b0" valueTypeId="7b327b63-2bdc-44c0-ad2b-5142a627dac7"/>
+    <recordKeyType typeId="ee2c4804-7742-4bed-87c6-62da2f0210f0" valueTypeId="983014b2-d911-44dd-bcdc-b96845c4f0d3"/>
+    <recordType typeId="e21371a2-3875-49c1-acd5-5e925fcad1f4" valueTypeId="d1183fb9-19e5-4c67-b84a-6ed9b2eed9a5"/>
+    <recordManagerType typeId="932c9e0e-6f6d-4c79-b52e-f9cabba5493b" valueTypeId="7cebb783-0323-4134-8aff-3e4eea27fbff"/>
+  </producedTypes>
+  <name>УдалитьОбязательныеДействияМедОсмотров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обязательные действия медосмотра</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.УдалитьОбязательныеДействияМедОсмотров.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.УдалитьОбязательныеДействияМедОсмотров.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b6313081-bdaf-4929-a23e-0e663176061f">
+    <name>Ограничение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ограничение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОграниченияДействийМедосмотра</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ограничение распространения правила</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="dff631d3-df1b-4ab2-8f5c-a540fed77b4d">
+    <name>ТипМедосмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип медосмотра</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыМедосмотров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="df1c154f-4232-4a4a-a7a2-daf04417eb14">
+    <name>ЕстьВ302н</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть в 302н</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7664d084-8a34-41b1-b967-0703c2cafe27">
+    <name>ДействиеМедосмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действие медосмотра</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДействияМедосмотра</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Действие медосмотра, являющееся обязательным</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="d55a9b6a-4d58-4570-895a-df97d017cbf9">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="53212ae0-c96f-433e-8536-bbe4a4442a0f">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

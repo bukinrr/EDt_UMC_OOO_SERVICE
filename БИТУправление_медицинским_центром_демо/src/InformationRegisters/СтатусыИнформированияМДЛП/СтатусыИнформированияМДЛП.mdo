@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c464ef08-8a39-4acb-8f2e-08c44bd6878d">
+  <producedTypes>
+    <selectionType typeId="484d893b-331b-4818-a3a9-91868149ddc2" valueTypeId="487afe87-4e25-449a-814b-eab70307a704"/>
+    <listType typeId="d8f88faf-20bb-496d-b84d-18d51ae56fe1" valueTypeId="ffcc35a1-f035-4df2-b82d-527a36d4deeb"/>
+    <managerType typeId="7e4cbd1e-d9eb-4e00-a610-4f19dbd113b6" valueTypeId="e9c102fd-f0d2-4616-9bae-7a2b682d9050"/>
+    <recordSetType typeId="6f37f36e-a8f6-4c4f-b6c3-7cebd3eeb411" valueTypeId="43c74aa4-96a7-4c48-a657-3d451ce3c58f"/>
+    <recordKeyType typeId="d085d2ee-4036-41d1-bf52-16363152a84c" valueTypeId="56831e22-71ac-46cc-a51c-722af6a03fcc"/>
+    <recordType typeId="95c0b3d4-a73a-4c76-b492-aa149f56760f" valueTypeId="c26f93e2-fd0b-4df0-8bb7-36b2fa6b9375"/>
+    <recordManagerType typeId="36aa6500-04b5-49ee-a373-acc56f5308a5" valueTypeId="9a7e01cd-2fb4-4248-8d35-06304e284114"/>
+  </producedTypes>
+  <name>СтатусыИнформированияМДЛП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы информирования МДЛП</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="60e09b35-cf46-4349-b3a2-f63117756ec0">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыИнформированияМДЛП</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4970b7f8-3db3-493f-8b47-d40cf56e1465">
+    <name>ДальнейшееДействие1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дальнейшее действие1</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ДальнейшиеДействияПоВзаимодействиюМДЛП</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ДальнейшиеДействияПоВзаимодействиюМДЛП.EnumValue.НеТребуется</value>
+    </fillValue>
+  </resources>
+  <resources uuid="ba53661e-af3e-11e7-fd86-485d606103c6">
+    <name>ДальнейшееДействие2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дальнейшее действие2</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ДальнейшиеДействияПоВзаимодействиюМДЛП</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ДальнейшиеДействияПоВзаимодействиюМДЛП.EnumValue.НеТребуется</value>
+    </fillValue>
+  </resources>
+  <resources uuid="d60c96f0-af3e-11e7-fd86-485d606103c6">
+    <name>ДальнейшееДействие3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дальнейшее действие3</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ДальнейшиеДействияПоВзаимодействиюМДЛП</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ДальнейшиеДействияПоВзаимодействиюМДЛП.EnumValue.НеТребуется</value>
+    </fillValue>
+  </resources>
+  <resources uuid="314e7165-793d-427a-9195-d56f8ef6a4a7">
+    <name>ДальнейшееДействие4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дальнейшее действие4</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ДальнейшиеДействияПоВзаимодействиюМДЛП</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ДальнейшиеДействияПоВзаимодействиюМДЛП.EnumValue.НеТребуется</value>
+    </fillValue>
+  </resources>
+  <attributes uuid="dec1bc21-69d2-4dbe-b01b-1650657b4f4b">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="e862aba1-49fc-4730-b44b-933fb5aa3c00">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДокументИнформированияМДЛП</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a36ea91d-4762-458d-b3d6-43a2872e2440">
+  <name>РассчитатьСтатусОформленияУведомленияОбОтпускеЛППоДокументамОтличнымОтЧекаМДЛП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассчитать статус оформления уведомления об отпуске ЛП по документам отличным от чека МДЛП</value>
+  </synonym>
+  <source>
+    <types>DefinedType.ОснованиеУведомленияОбОтпускеЛППоДокументамОтличнымОтЧекаМДЛПОбъект</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ИнтеграцияМДЛП.РассчитатьСтатусОформленияУведомленияОбОтпускеЛППоДокументамОтличнымОтЧека</handler>
+</mdclass:EventSubscription>

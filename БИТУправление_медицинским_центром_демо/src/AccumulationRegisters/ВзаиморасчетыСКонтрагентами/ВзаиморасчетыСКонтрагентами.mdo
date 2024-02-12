@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42e9eb7c-4165-4284-949c-7b25a0efd06e">
+  <producedTypes>
+    <selectionType typeId="e2fbaa03-d771-4ca9-9ba7-5e95c8fa74f9" valueTypeId="f895b5a5-f61a-4f2c-8f69-57fb1a6f5de2"/>
+    <listType typeId="a108ca36-ad37-46c9-acfb-81ef97f37e6e" valueTypeId="7b01d41d-9b1b-43ca-85ed-ba8a6c02bfbc"/>
+    <managerType typeId="38d4dfba-b9c8-483a-b4bc-4ffa40a221ef" valueTypeId="18e064c9-a312-43d8-96ac-3b7c5c3d9a4a"/>
+    <recordSetType typeId="02c60571-5fd8-4b1c-a498-4e85e4e4d19a" valueTypeId="5346be33-9c0c-4b02-93a7-6c3502a867e4"/>
+    <recordKeyType typeId="61a6d1e1-6271-4ae9-a236-2cfd2cb099f3" valueTypeId="8951e874-176e-4eb0-ba68-81eb3156d9bb"/>
+    <recordType typeId="b71580b7-fe04-4d94-a5f8-2c7628a59207" valueTypeId="36d4f8df-1ba5-41f5-871e-6643a66a9ddb"/>
+  </producedTypes>
+  <name>ВзаиморасчетыСКонтрагентами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаиморасчеты с контрагентами</value>
+  </synonym>
+  <auxiliaryListForm>AccumulationRegister.ВзаиморасчетыСКонтрагентами.Form.ФормаСпискаУпр</auxiliaryListForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="5c5c3213-6205-4179-8e29-91fe2c2819af">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сумма взаиморасчета</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="fd209de8-b2e3-4e98-961e-e6802d00b217">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбранный контрагент</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="5ccc1295-3381-4506-98c9-3d4031766a18">
+    <name>Сделка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сделка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.РеестрОказанныхУслугПоСоглашениям</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Документ расчета &quot;по сделке&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <forms uuid="0a7d686c-ea3d-4963-8394-68b53a45dc47">
+    <name>ФормаСпискаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:AccumulationRegister>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b0818e8-3bbb-4b91-ac20-7b797f1d84dc">
+  <producedTypes>
+    <selectionType typeId="af2d1f04-f6d1-41a3-8751-d00315139213" valueTypeId="54d4c88e-898f-406f-bcd3-2203bd622cc8"/>
+    <listType typeId="7f04124c-10d3-4a9a-a89c-e427c2dea222" valueTypeId="d70f0ff4-2d41-4069-8dc7-4cb3082831b8"/>
+    <managerType typeId="490113ca-9255-46b2-8390-21cb9bd82bab" valueTypeId="6648a507-524a-4b24-ab0b-09d204d0bf02"/>
+    <recordSetType typeId="fb11d43f-c318-4ee1-b002-5ab7ed0b176f" valueTypeId="bad08ff9-db93-45db-98a8-5b815be9fcd3"/>
+    <recordKeyType typeId="a4f70dda-ccc8-4394-910a-045a92d84067" valueTypeId="8d4edc33-df55-43ed-8757-414174b8e12c"/>
+    <recordType typeId="4e8d61d7-2ae6-4982-b4b6-95b925b097cf" valueTypeId="f2cea65e-cd51-4e6a-a716-da1f30b746c0"/>
+    <recordManagerType typeId="dfbdae9f-eb4b-499a-a314-6c843313f325" valueTypeId="156f4296-c81a-48fa-8128-91afccebf8a7"/>
+  </producedTypes>
+  <name>РолиИПодписиЭМД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли и подписи ЭМД</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.РолиИПодписиЭМД.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6b822535-d6c1-4bc9-816b-47ddab253993">
+    <name>УИД_ЭЦП</name>
+    <synonym>
+      <key>ru</key>
+      <value>УИД ЭЦП</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="696205c1-9038-4371-89fe-2e01d753e50e">
+    <name>ДополнительныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные данные</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+      <types>String</types>
+      <types>Date</types>
+      <types>Number</types>
+      <types>AnyRef</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>512</length>
+      </stringQualifiers>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="6085edac-9da0-4233-ad8f-4591331408aa">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ПодписанныйОбъект</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="146f6c4c-4c68-4022-a58f-1a53ba2ec13a">
+    <name>РольПодписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль подписи</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РолиПриПодписиМедДокументов</types>
+      <types>EnumRef.РолиПодписей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="485046df-154f-4cbd-a2b3-9d2522a66cbb">
+    <name>УИД_ЭМД</name>
+    <synonym>
+      <key>ru</key>
+      <value>УИД ЭМД</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="82914ed6-2ef6-4930-ae9e-79b4e86af767">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e0ffc8f8-184c-45cf-be4c-5c934d9fd4ba">
+    <name>ИдентификаторРоли</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор роли</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="94d321d7-ba61-444e-b865-965e804cbec5">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

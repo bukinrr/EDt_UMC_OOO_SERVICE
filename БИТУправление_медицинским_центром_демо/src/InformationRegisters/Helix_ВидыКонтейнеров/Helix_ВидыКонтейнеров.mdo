@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdfa9fe0-0b36-4e51-a621-eba6934c6669">
+  <producedTypes>
+    <selectionType typeId="bad5454c-aa43-457f-b181-b5ad5c159b3e" valueTypeId="8e9f80fe-2d14-4cae-a7f8-0a664f944e82"/>
+    <listType typeId="de2b0a25-e862-4788-9ebf-6c5b2901a6a0" valueTypeId="e87a5a62-c7cc-4d4a-989e-0cf7328c50c5"/>
+    <managerType typeId="f83f9db4-3c12-4af5-821f-35bb5e5bf9c9" valueTypeId="b9437352-0bc4-40d5-bc4a-9cd9dad4134a"/>
+    <recordSetType typeId="eb8b58b0-b01c-48cf-902e-cd5868fd6c69" valueTypeId="0f8e6865-cfac-43f0-a863-79a6f7a701e7"/>
+    <recordKeyType typeId="5fb3937e-4f92-449c-8dd4-ca7cd846a661" valueTypeId="fbe8d211-0154-4e10-ab95-de26b1e1174c"/>
+    <recordType typeId="ccc1eea8-880a-4b98-9c05-c2b12b5f4853" valueTypeId="45a0ba41-d690-4f56-85b0-f0f2eb396999"/>
+    <recordManagerType typeId="124e146a-44a5-43c2-88b7-31ef2c638d33" valueTypeId="8e48d22c-20cd-45cd-b34c-24235368afb1"/>
+  </producedTypes>
+  <name>Helix_ВидыКонтейнеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Helix-Лаборатории) Виды контейнеров</value>
+  </synonym>
+  <comment>ContainerTypes.xml</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Helix_ВидыКонтейнеров.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="116932b8-777d-4810-89e5-b06ef15b8ac0">
+    <name>ROW_VOLUME_UNITS</name>
+    <synonym>
+      <key>ru</key>
+      <value>ROW VOLUME UNITS</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="b045245b-ec35-4702-b5f6-f1c62807f019">
+    <name>VOLUME</name>
+    <synonym>
+      <key>ru</key>
+      <value>VOLUME</value>
+    </synonym>
+    <comment>Объем контейнера</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ecf98fc9-7912-4dde-8d49-25332a51afc3">
+    <name>DESCRIPTION</name>
+    <synonym>
+      <key>ru</key>
+      <value>DESCRIPTION</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="2a3c4321-2bf0-40c9-8e93-d0813e0bc4b0">
+    <name>ЦветКонтейнера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет контейнера</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Основной цвет заявок</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="0b1b2795-8b3f-4ead-a928-97bab5eea062">
+    <name>Name</name>
+    <synonym>
+      <key>ru</key>
+      <value>Name</value>
+    </synonym>
+    <comment>Код контейнера</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="1437c117-93dd-4022-b811-cf1459b5999a">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

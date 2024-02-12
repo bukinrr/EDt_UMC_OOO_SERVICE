@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76b0b45d-3896-43f9-8c5e-04530bfd5e79">
+  <producedTypes>
+    <selectionType typeId="39e9455b-8c1f-4806-afa1-f78e81593009" valueTypeId="f5783919-6b92-4cb5-8880-551a82e326cf"/>
+    <listType typeId="a2c2d357-baee-4400-97e8-45e63b5a971e" valueTypeId="3cf1a1c5-c4c5-4866-b0ab-80119e2a0d41"/>
+    <managerType typeId="18ef12db-a5d9-4727-9157-a8596599b9ac" valueTypeId="7f726978-4658-4ae5-b140-23d14a8c1e2f"/>
+    <recordSetType typeId="0cfb1693-e7d9-4888-9252-dcdb9533a3e1" valueTypeId="a4f51db1-4fa8-44db-b1e7-2d10b3a454bf"/>
+    <recordKeyType typeId="0fd1cf4e-e9db-47be-b478-0792bedd4c2e" valueTypeId="f5931cb7-0f43-4f26-b000-113567005592"/>
+    <recordType typeId="53c48256-80c4-4fd9-b5c9-4a4a83acf3eb" valueTypeId="dd25a0e4-373f-41aa-a245-79dc928cd940"/>
+    <recordManagerType typeId="7db9627d-a5a7-46a9-9a66-6e34d3c0308d" valueTypeId="cd5eaab2-1e3e-4d88-81dc-bac3b8d4aafb"/>
+  </producedTypes>
+  <name>СерииРецептов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Серии рецептов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.СерииРецептов.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.СерииРецептов.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="307f6998-dd2e-4920-860a-e2ca4d34ad5b">
+    <name>Серия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="9edee9ab-11b2-4e05-ab98-bc4278b0a21c">
+    <name>Филиал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Филиал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Филиалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8cdd857f-1a6c-4114-bacf-141cfbbcf4ca">
+    <name>ФормаРецепта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма рецепта</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ФормыРецептов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e1584940-a12e-4928-a14f-f05942d4f454">
+    <name>УстановкаСерийРецепта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установка серий рецепта</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b3f8f56c-f773-4f32-80ea-fb83c32f8835">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f7552f93-73c0-449c-bd5a-abcb5b4ce929">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

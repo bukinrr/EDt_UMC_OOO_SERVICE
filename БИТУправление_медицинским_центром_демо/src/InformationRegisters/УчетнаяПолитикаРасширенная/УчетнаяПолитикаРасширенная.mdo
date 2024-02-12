@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6edef090-5a8e-471a-93be-cfa6a7680842">
+  <producedTypes>
+    <selectionType typeId="e03839b3-ab98-4e10-865f-34d92b79fc70" valueTypeId="4c4d7059-7471-431b-b129-6d3b2ddb6747"/>
+    <listType typeId="0e2793b1-ec16-4f04-a8fb-b85902622f04" valueTypeId="44d071e2-f0eb-4004-be8e-ac1c8296ce0a"/>
+    <managerType typeId="8a0ea582-76bd-45b1-92a8-6f6f3face1a7" valueTypeId="740d3b5e-96dd-48c6-bdbf-714441057089"/>
+    <recordSetType typeId="e3a57795-4ee9-48bf-b399-d9308dce2db0" valueTypeId="36cce4e4-3860-4820-ba20-28256a8e527d"/>
+    <recordKeyType typeId="6590fa3a-8ddb-4bd7-872b-070eb24d71b1" valueTypeId="26c483f6-544b-4cec-9e72-b21d45597bbd"/>
+    <recordType typeId="2e1d56dd-a6d4-4b0d-abd5-2916f5fb496b" valueTypeId="e14f4b31-eb5c-4593-9efe-3d3bd8b3bc83"/>
+    <recordManagerType typeId="f6dfefdc-28b8-4841-9a24-931b39865ece" valueTypeId="4a4d8ca3-de44-4ec1-bf3d-1aa4af4f3fd9"/>
+  </producedTypes>
+  <name>УчетнаяПолитикаРасширенная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетная политика расширенная</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="bc5c9037-64a2-4b0d-a4af-67b834a9aaf9">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТрудовыеРоли</types>
+      <types>CatalogRef.Номенклатура</types>
+      <types>CatalogRef.ВидыСостоянийЗаявок</types>
+      <types>CatalogRef.ОбработкиSMSрассылки</types>
+      <types>CatalogRef.СтраныМира</types>
+      <types>CatalogRef.НастройкиОбменаССайтом</types>
+      <types>Boolean</types>
+      <types>CatalogRef.ДокументыУдостоверяющиеЛичность</types>
+      <types>CatalogRef.ВидыМедицинскихКарт</types>
+      <types>EnumRef.МедосмотрыПравилаОпределенияНеЗавершивших</types>
+      <types>String</types>
+      <types>CatalogRef.СтатьиЗатрат</types>
+      <types>Number</types>
+      <types>EnumRef.ВидыОплаты</types>
+      <types>ChartOfCharacteristicTypesRef.СвойстваОбъектов</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2e7a1c0c-3353-4437-8270-a8b5ff96ac7b">
+    <name>ХранилищеЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище значения</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7e73cf63-51b2-409c-8579-c8822ac44b02">
+    <name>Параметр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПараметрыУчетнойПолитики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

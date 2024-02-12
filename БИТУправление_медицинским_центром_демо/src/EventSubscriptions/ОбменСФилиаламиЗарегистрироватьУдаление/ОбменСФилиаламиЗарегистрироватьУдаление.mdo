@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d91608fe-776d-4654-bf2b-6b877af2d337">
+  <name>ОбменСФилиаламиЗарегистрироватьУдаление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с филиалами зарегистрировать удаление</value>
+  </synonym>
+  <source>
+    <types>ChartOfCharacteristicTypesObject</types>
+    <types>CatalogObject</types>
+    <types>DocumentObject</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.ОбменДаннымиСобытияОбработчики.ОбменСФилиаламиЗарегистрироватьУдалениеПередУдалением</handler>
+</mdclass:EventSubscription>

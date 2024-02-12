@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8788d17d-1fc2-45b8-85d8-0e29f0212b4f">
+  <producedTypes>
+    <selectionType typeId="dda69973-6e8b-42bf-a206-0f383881147f" valueTypeId="0eacaa95-b92b-4ada-ac78-3f0565805aaa"/>
+    <listType typeId="f6f8f0a3-e0d8-4f97-bcf1-a7c8fc97b7ca" valueTypeId="30cee058-00d8-4552-8a11-86af358d0a69"/>
+    <managerType typeId="22a76923-154e-4d30-8704-ca77de84d197" valueTypeId="0470505b-d7f3-48d1-9589-9006bd0684af"/>
+    <recordSetType typeId="47ab720d-5317-49bd-9efc-d890e9ce2a1e" valueTypeId="0f58d9d3-9882-40bc-8c49-98de8e388162"/>
+    <recordKeyType typeId="e9fef90b-e728-4fd7-b2f1-6506a2c6d500" valueTypeId="0881fe93-8e3d-4527-ac72-cc3934602b2d"/>
+    <recordType typeId="fe21a54d-ba59-4952-8520-fa5881831c37" valueTypeId="b9813cfe-c5a5-4e13-bdf6-12210b678d60"/>
+    <recordManagerType typeId="b3f2b362-ece8-483d-bd87-35baa63d9010" valueTypeId="4c95f91a-96b3-4570-9426-4d9dfcb0c40b"/>
+  </producedTypes>
+  <name>СоставыСтрахуемых</name>
+  <synonym>
+    <key>ru</key>
+    <value>Составы страхуемых</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5a4312c4-96db-4216-a525-a98317ce4fb4">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="abd54337-06f0-44d8-93fe-30f002e0a9ca">
+    <name>Исключен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a191824d-515d-438e-ae9e-5f94f3c4a3f2">
+    <name>ВидПолиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид полиса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыПолисов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c6ff6bdf-17c3-4508-9d98-2b30c06ef1c8">
+    <name>Полис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полис</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтраховыеПолисы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

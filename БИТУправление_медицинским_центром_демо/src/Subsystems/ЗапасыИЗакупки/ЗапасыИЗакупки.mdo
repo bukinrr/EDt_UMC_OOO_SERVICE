@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b01b036b-ad20-4167-b44d-f2300955d469">
+  <name>ЗапасыИЗакупки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запасы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ЗапасыИСклад</picture>
+  </picture>
+  <content>CommonPicture.ЗапасыИСклад</content>
+  <content>Report.ВедомостьПоТоварамНаСкладах</content>
+  <content>Report.ВзаиморасчетыСКонтрагентами</content>
+  <content>Report.МинимальныеОстаткиТоваров</content>
+  <content>DataProcessor.ПроведениеПоПартиям</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.ЕдиницыИзмерения</content>
+  <content>Catalog.Склады</content>
+  <content>DocumentJournal.СкладскиеДокументы</content>
+  <content>DataProcessor.ПечатьЭтикетокИЦенников</content>
+  <content>InformationRegister.НормыРасходаМатериалов</content>
+  <content>Report.РасходМатериаловНаРаботы</content>
+  <content>Catalog.КлассификаторЕдиницИзмерения</content>
+  <content>DataProcessor.МинимальныеОстаткиНоменклатуры</content>
+  <content>Catalog.ШаблоныЭтикетокИЦенников</content>
+  <content>Report.ВедомостьПоТоварамНаСкладахВЦенахНоменклатуры</content>
+  <content>Report.ИсторияИзмененияЦенЗакупа</content>
+  <content>Catalog.СерииНоменклатуры</content>
+  <subsystems>Закупки</subsystems>
+  <subsystems>Запасы</subsystems>
+  <subsystems>РаботаСЛекарственнымиПрепаратами</subsystems>
+</mdclass:Subsystem>

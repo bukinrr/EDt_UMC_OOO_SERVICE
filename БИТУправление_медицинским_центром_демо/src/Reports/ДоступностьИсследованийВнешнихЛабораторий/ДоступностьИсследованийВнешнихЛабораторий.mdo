@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d79a655f-de1e-4dec-bbfe-ea2e4536176c">
+  <producedTypes>
+    <objectType typeId="1575c597-c63c-4a6c-8702-035ef9f6d216" valueTypeId="473d6e61-22b0-446e-b66d-d4b7be849b43"/>
+    <managerType typeId="cbb06e65-7923-4415-94db-4a125926b218" valueTypeId="9df0a9d6-6d79-450a-9d7a-d6e37dafbefa"/>
+  </producedTypes>
+  <name>ДоступностьИсследованийВнешнихЛабораторий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доступность исследований внешних лабораторий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ДоступностьИсследованийВнешнихЛабораторий.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <forms uuid="c390f5aa-7ddf-4099-b7cc-52928ad7182c">
+    <name>ДоступностьВДокументеЗабораИсследований</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступность в документе забора исследований</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="37de2541-8522-44da-8486-bcedd4b6c036">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="94fc377d-5dbb-4558-accb-5500ac108571">
+    <name>ДоступностьВДокументеЗабораИсследований</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступность в документе забора исследований</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="58ae7e25-0f59-4b45-8ec8-aea6bd547d5b">
+    <name>ДоступностьИсследованийВнешнихЛабораторий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступность исследований внешних лабораторий</value>
+    </synonym>
+    <group>CommandGroup.ИнформацияВФорме</group>
+    <commandParameterType>
+      <types>CatalogRef.Лаборатории</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Report</picture>
+    </picture>
+  </commands>
+</mdclass:Report>

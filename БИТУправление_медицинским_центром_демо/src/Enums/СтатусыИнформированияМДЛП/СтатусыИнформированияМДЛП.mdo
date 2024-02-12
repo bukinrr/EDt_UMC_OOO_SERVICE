@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="66ff3b33-2d47-4223-847e-6cf2241d6597">
+  <producedTypes>
+    <refType typeId="73ae4890-1582-45bb-8215-f094c8bc695d" valueTypeId="c58b4204-c79c-49da-85e0-e629671a2abd"/>
+    <listType typeId="d3351a99-9bce-4c82-9801-a5c51e9f7cf3" valueTypeId="23ef5976-fba5-44b9-b367-bc73baa9595c"/>
+    <managerType typeId="6413bef2-7d9d-443c-a80b-bd2dbeded62b" valueTypeId="c126d8c7-b40d-4c55-b8c2-3ec620c7eb1f"/>
+  </producedTypes>
+  <name>СтатусыИнформированияМДЛП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы информирования МДЛП</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6c354491-f506-44ab-8d0e-7eff57b18ef9">
+    <name>Отсутствует</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не оформлялось</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0ec3c057-bf5a-46ce-a70e-52686439af6c">
+    <name>Черновик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6700417b-6eec-4613-99c7-4dd39e9a7a62">
+    <name>КПередаче</name>
+    <synonym>
+      <key>ru</key>
+      <value>К передаче</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f79191b6-780b-40e7-adb0-ce64627996c5">
+    <name>Передано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fa58b7b2-c858-4604-bbb9-dd2ac2ebee5c">
+    <name>Отклонено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="184f0ecd-1424-47e9-b8c8-50d0c6e9196c">
+    <name>Принято</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принято</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="420fe87b-b329-479d-ad3e-b445ab8702b8">
+    <name>ЧастичноПринято</name>
+    <synonym>
+      <key>ru</key>
+      <value>Частично принято</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f351a9e7-b908-44ce-a8fd-e1fe3308558d">
+    <name>ЧастичноПередано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Частично передано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7d8fd0ec-d39e-4ef6-8d32-bc08166a9800">
+    <name>ОшибкаПередачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка передачи</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b7a73188-6c8e-431c-a4ac-343304dea32e">
+    <name>ПринятоИзМДЛП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принято из МДЛП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="588f8262-aecb-43a6-8617-83a0019b7301">
+    <name>ЗапросНаОтменуПроведенияКПередаче</name>
+    <synonym>
+      <key>ru</key>
+      <value>К отмене проведения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="27b1bcc4-77b6-4e76-a522-76e3a15fb415">
+    <name>ЗапросНаОтменуПроведенияПередан</name>
+    <synonym>
+      <key>ru</key>
+      <value>К отмене проведения (передано)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7f66b7cc-058f-4692-a9eb-9ecc217b2633">
+    <name>ЗапросНаОтменуПроведенияОшибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>К отмене проведения (ошибка)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0210ae66-6378-41d5-8fe1-d2722dbbec91">
+    <name>Отменено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="039f80b6-2568-442e-ba5a-852bc5546315">
+    <name>Подтверждено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтверждено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c405fbea-9b24-4a7c-8e60-727127f3089c">
+    <name>Закрыто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыто</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2908e0b7-71bf-4047-b778-75cfef54a271">
+    <name>ОприходованоНовымВладельцем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оприходовано новым владельцем</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0edf6998-c137-4b04-98a0-cebfe8d166a7">
+    <name>ВвезеноВРФБезПодтверждения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввезено в РФ без подтверждения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="769da5e6-b660-41ed-a1be-fca2de2176fa">
+    <name>ПринятоСОтклонениемОтТребований</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принято с отклонением от требований</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f4aace2b-a93f-4e6d-9c32-21443ecedbac">
+    <name>КОформлению</name>
+    <synonym>
+      <key>ru</key>
+      <value>К оформлению</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

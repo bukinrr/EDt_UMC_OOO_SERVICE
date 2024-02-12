@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1df66e6-a110-47ba-a7c2-8dee155d587d">
+  <producedTypes>
+    <selectionType typeId="7b3b8890-0379-4c9a-b9c3-b17f909e5752" valueTypeId="b8ceae42-b38e-4d7e-9cef-3d46ecdb7752"/>
+    <listType typeId="858c7764-f85c-4efd-abaf-f37f782c240f" valueTypeId="60ebe7ce-4ff4-4561-b1fa-274337c1629b"/>
+    <managerType typeId="8816b436-b4ab-4f56-a28b-1c52f2eee4f3" valueTypeId="24e9ad08-a0f6-46cb-8bd3-7ceb5a20fb8a"/>
+    <recordSetType typeId="a4793e8d-0a8b-441c-9b71-01bc1a29fb25" valueTypeId="09181e3d-e969-4a03-b370-f8cfaa919848"/>
+    <recordKeyType typeId="c20f8aed-ce11-4fbb-a298-e3e4084de6ec" valueTypeId="3c3ccbde-9b66-4676-ad1e-a4724505afa4"/>
+    <recordType typeId="0f84101a-ec53-4f4b-8e15-148529cc73c6" valueTypeId="c191b3dc-c9a2-4fbb-a347-0968a9a07bcd"/>
+    <recordManagerType typeId="7f5dd61c-fb92-4a0a-a92a-9a31b4580116" valueTypeId="717a0d83-616f-4bd2-885b-d1a9bacf42e2"/>
+  </producedTypes>
+  <name>Б24_ПользовательскиеПоля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Битрикс24: Пользовательские поля</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ceeb26a0-da70-407c-ad08-a7f50af5eaa9">
+    <name>ИмяПоля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя поля</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="96276a26-4b0f-405e-a0d4-e278da0d67d9">
+    <name>ПользовательскоеПоле</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользовательское поле</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>EnumRef.Б24_ПользовательскиеПоля</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

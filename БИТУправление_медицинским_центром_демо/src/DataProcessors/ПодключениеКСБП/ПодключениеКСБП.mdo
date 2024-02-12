@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71a20236-5eb2-4c59-a32e-1bc982218e22">
+  <producedTypes>
+    <objectType typeId="176392d0-fe93-4825-a571-bd3afc297da0" valueTypeId="d96a5396-83a0-4486-96be-90015319ee91"/>
+    <managerType typeId="b7110c02-0587-4749-8be2-b6d101b6e557" valueTypeId="65ca9069-2605-4884-9be7-4408bbae1bc1"/>
+  </producedTypes>
+  <name>ПодключениеКСБП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключение к Системе быстрых платежей</value>
+  </synonym>
+  <defaultForm>DataProcessor.ПодключениеКСБП.Form.Форма</defaultForm>
+  <forms uuid="ba455776-39e7-41b3-bb4c-06d0994f5927">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cbc49716-7033-44bb-a258-cd45a1ee8b30">
+    <name>ПользовательскоеСоглашение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользовательское соглашение</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3adf3c0c-86e3-4ffd-8b3b-41cc8af8d36d">
+    <name>ФормаОплатаСБП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма оплата СБП</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5e69d175-b170-413c-804f-d66be15a5a53">
+    <name>ФормаВозвратаСБП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма возврата СБП</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="1469e8c8-0822-4d58-aeae-ef114d353ee1">
+    <name>НастройкиПодключенийКСБП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подключения к системе быстрых платежей</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

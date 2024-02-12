@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ceaf8ac-9e34-40e4-bcae-4ab0f4dcd36f">
+  <name>РаботаСЛекарственнымиПрепаратами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с лекарственными препаратами</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.СерииНоменклатуры</content>
+  <content>CommonModule.СкладыСервер</content>
+  <content>Enum.ТипыСкладов</content>
+  <content>Document.УведомлениеОФактеУничтоженияМДЛП</content>
+  <content>Document.УведомлениеОРозничнойПродажеМДЛП</content>
+  <content>Document.УведомлениеОПриемкеМДЛП</content>
+  <content>Document.УведомлениеОПовторномВводеВОборотМДЛП</content>
+  <content>Document.УведомлениеОПеремещенииМДЛП</content>
+  <content>Document.УведомлениеОПередачеНаУничтожениеМДЛП</content>
+  <content>Document.УведомлениеОЗавершенииЭтапаУпаковкиМДЛП</content>
+  <content>Document.УведомлениеОВыпускеГотовойПродукцииМДЛП</content>
+  <content>Document.УведомлениеОВыдачеВОтделенияМДЛП</content>
+  <content>Document.УведомлениеОВыбытииМДЛП</content>
+  <content>Document.УведомлениеОбОтпускеПоЛьготномуРецептуМДЛП</content>
+  <content>Document.УведомлениеОбОтгрузкеМДЛП</content>
+  <content>Document.УведомлениеОбОтбореОбразцовМДЛП</content>
+  <content>Document.УведомлениеОбАгрегированииИТрансформацииУпаковокМДЛП</content>
+  <content>Document.УдалитьЗапросСоставаУпаковкиМДЛП</content>
+  <content>DataProcessor.ПанельМаркировкиМДЛП</content>
+  <content>DataProcessor.ПроверкаИПодборУпаковокМДЛП</content>
+  <content>CommonModule.ПодключаемоеОборудованиеСервер</content>
+  <content>CommonModule.ПодключаемоеОборудованиеПовтИсп</content>
+  <content>DataProcessor.ДополнительныеИнструментыУчетаМДЛП</content>
+  <subsystems>ИнтеграцияМДЛП</subsystems>
+  <subsystems>ОперативныйМониторингЛП</subsystems>
+  <parentSubsystem>Subsystem.ЗапасыИЗакупки</parentSubsystem>
+</mdclass:Subsystem>

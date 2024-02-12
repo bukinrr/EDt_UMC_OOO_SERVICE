@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72a3e49f-4d27-4f13-abf5-a777e373fb31">
+  <producedTypes>
+    <objectType typeId="32d92473-e7d7-4183-88be-93f9b6ffe488" valueTypeId="04c03564-ab45-404d-b1ed-24926b869f3e"/>
+    <refType typeId="cbf694da-ff6f-419c-8491-43989a8889c4" valueTypeId="9ec66dfe-c7fd-49b7-81c6-c5110d543dc4"/>
+    <selectionType typeId="5672180c-62a7-4886-8ca5-19ea5efc22ed" valueTypeId="2f8a18b5-92b5-4253-97be-4137c73b4a11"/>
+    <listType typeId="0b8287fc-ff19-4e8b-a4c4-d72499db4385" valueTypeId="3b2c9a4a-fa96-4134-a61a-a38eda02f39d"/>
+    <managerType typeId="483cdd6f-9b3d-467b-978c-34a7bc9fe62a" valueTypeId="8f68a41d-125e-4e52-9f80-daf429db9029"/>
+  </producedTypes>
+  <name>ВредныеВещества</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вредные вещества</value>
+  </synonym>
+  <inputByString>Catalog.ВредныеВещества.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="447a8737-1af6-4dce-9828-33e403a9281c">
+    <name>НаименованиеКраткое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование краткое</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Краткое наименование</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b45b80ce-4ca3-4a35-85b0-12036650f4b9">
+  <producedTypes>
+    <objectType typeId="c0ecbb2c-33cc-4611-b213-253f40ddd67c" valueTypeId="2320e9e2-83ea-4193-9b6d-367b58edc853"/>
+    <managerType typeId="d3083ea6-1c19-4949-b441-505ee2e7dab6" valueTypeId="0b411319-9217-4dae-8382-180073ba370d"/>
+  </producedTypes>
+  <name>Сканирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сканирование</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="e97efa78-4445-47e6-a6d9-28157e326cf2">
+    <name>НастройкаСканирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка сканирования</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="903ae5cb-e687-4db9-8585-f1cd3df23cf2">
+    <name>НастройкаСканированияНаСеанс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка сканирования на сеанс</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a99179dc-232f-4250-a981-4fe9f73dd9f6">
+    <name>РезультатСканирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат сканирования</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="be708f9e-7283-49c0-89d7-c726d7b96a3f">
+    <name>ВыборУстройстваСканирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор устройства сканирования</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="0a7e5d85-3f94-4d93-8478-6d34f3b3ea33">
+    <name>СканироватьЛист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сканировать лист</value>
+    </synonym>
+    <group>NavigationPanelSeeAlso</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Отсканировать лист и открыть получившийся файл</value>
+    </toolTip>
+  </commands>
+</mdclass:DataProcessor>

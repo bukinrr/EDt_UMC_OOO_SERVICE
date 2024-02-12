@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0d326eb-31a3-43e6-8f80-48267ea85ba3">
+  <producedTypes>
+    <selectionType typeId="a7f55748-3389-4487-95a5-77fdb4d5149d" valueTypeId="0cdda868-85bd-47e8-8a0e-b1c04f0d680d"/>
+    <listType typeId="083516ce-08ce-4a80-8ba8-fcf70cfa180c" valueTypeId="bfffb146-a444-4fa2-8cad-19ceb97d0243"/>
+    <managerType typeId="695a69eb-308f-4b80-a92e-8e33064fe628" valueTypeId="f8403ba4-9df6-4e82-9cd5-cc4daaba249e"/>
+    <recordSetType typeId="f5a290d9-97ac-4ec2-a37b-a3d1758081f5" valueTypeId="9396587d-0463-418d-8c0f-9095dd76b537"/>
+    <recordKeyType typeId="60e2c8dc-7b99-4c28-bae5-18eadd88d94c" valueTypeId="e318706a-cc11-4ef0-b36d-2bd74a222b61"/>
+    <recordType typeId="2935ace6-4c02-4873-a6f8-34a921fb9b65" valueTypeId="2da3bd8e-4564-4a8f-8b0d-5ed981123b47"/>
+    <recordManagerType typeId="709cfad7-85ef-4215-b3d2-eda779807ee0" valueTypeId="7793d4ec-5876-410e-b759-5e0aff8298a2"/>
+  </producedTypes>
+  <name>ДолжностиМинздрава</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности минздрава</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ДолжностиМинздрава.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="3410ffad-6410-4200-8cf2-7e76341edfbf">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9435008a-10ff-43fb-b62e-dc314f11fbd1">
+    <name>ДолжностьМинздрава</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность минздрава</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлассификаторыМинЗдрава</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="4f9394d9-0f3c-492e-b344-76cc0929dc6f">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

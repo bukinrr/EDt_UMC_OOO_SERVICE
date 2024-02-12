@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40b74c8e-cfdb-44a0-9569-0e34b6191a21">
+  <producedTypes>
+    <containerType typeId="e9565a45-fd2c-4072-a341-7fee0f8af9e9" valueTypeId="2b61a605-b6fb-454b-b57a-90205d07c6d4"/>
+  </producedTypes>
+  <name>ОснованиеЛистаОжидания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основание листа ожидания</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ОказаниеУслуг</types>
+    <types>DocumentRef.Заявка</types>
+    <types>DocumentRef.Прием</types>
+    <types>DocumentRef.Событие</types>
+    <types>CatalogRef.Клиенты</types>
+  </type>
+</mdclass:DefinedType>

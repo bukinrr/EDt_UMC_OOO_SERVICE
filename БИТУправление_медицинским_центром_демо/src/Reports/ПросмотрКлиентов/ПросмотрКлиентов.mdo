@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00be1cf5-372d-482d-8ee5-5f376bfecd20">
+  <producedTypes>
+    <objectType typeId="07abf827-81f8-489e-869d-ecca19ed52d2" valueTypeId="59be6357-bf34-47d6-b600-aa5aa2489445"/>
+    <managerType typeId="14b30413-c745-4940-b1ae-2c52102a6b9e" valueTypeId="539285a6-ba2d-4c29-84a3-0e57355c721c"/>
+  </producedTypes>
+  <name>ПросмотрКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр клиентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ПросмотрКлиентов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="7389070f-8e80-4c23-b9fe-46bb560e905e">
+    <name>ПоказыватьОтбор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать отбор</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Показывать отбор в форме</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="a6bad059-e0d9-41a6-b744-e7e2a78dead4">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

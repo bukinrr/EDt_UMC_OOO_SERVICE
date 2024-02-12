@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46e551bb-173c-4875-a0ef-0bd384d59d9f">
+  <name>РассчитатьСтатусОформленияУведомленияОСменеСобственникаВЗТКМДЛП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассчитать статус оформления уведомления о смене собственника в зоне таможенного контроля</value>
+  </synonym>
+  <source>
+    <types>DefinedType.ОснованиеУведомленияОСменеСобственникаВЗТКМДЛПОбъект</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ИнтеграцияМДЛП.РассчитатьСтатусОформленияУведомленияОСменеСобственникаВЗТК</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03f85e57-cfb4-46a9-a1cc-a1f79639fb2d">
+  <producedTypes>
+    <refType typeId="0936a7d5-1646-468c-a6ab-6bbd2ae9fb0d" valueTypeId="af194bdd-f308-44ff-a673-a5f905721cdb"/>
+    <listType typeId="691dd757-b641-48e8-bfc8-460815a07929" valueTypeId="537e7621-12bc-47a5-a826-4e533dc9f4fd"/>
+    <managerType typeId="f3b42ee4-cbd1-446d-8d3f-c9e2560c119a" valueTypeId="ddd0eab6-852a-4f46-b8c5-8778eaa68767"/>
+  </producedTypes>
+  <name>СтатусыЛистковНетрудоспособности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы листков нетрудоспособности</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8bd4cff5-b3a7-4c62-89a4-cbd62b21dd8b">
+    <name>Подготовка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подготовка</value>
+    </synonym>
+    <comment>Листок нетрудоспособности для редакции</comment>
+  </enumValues>
+  <enumValues uuid="0ce0ad06-8763-4adc-ad83-861478d3c0cc">
+    <name>Выдан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдан</value>
+    </synonym>
+    <comment>Листок нетрудоспособности выдан на руки и не подлежит редакции</comment>
+  </enumValues>
+  <enumValues uuid="ebc211e4-cc62-42b6-a804-0c7a880a4630">
+    <name>Испорчен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Испорчен</value>
+    </synonym>
+    <comment>Листок нетрудоспособности испорчен и не подлежит редакции</comment>
+  </enumValues>
+  <enumValues uuid="e833a187-aac7-41e3-a778-feaf026d0f0d">
+    <name>Закрыт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

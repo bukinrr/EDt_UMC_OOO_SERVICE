@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3623bb18-7a29-4afd-b656-89d1111f5a77">
+  <producedTypes>
+    <refType typeId="5274a0e9-73ff-4ded-888a-dc23bb5ec858" valueTypeId="a7980ea4-eaa9-49f5-867b-242d3c64a4f9"/>
+    <listType typeId="be71deed-5585-45f7-a6be-ce8ff1c4b70e" valueTypeId="cf95a566-a2e2-4509-b090-78d4be7db32b"/>
+    <managerType typeId="9f3381d1-8c97-4ad5-ad07-56268cd36bd3" valueTypeId="f27cae4b-b5b5-4c98-9cf6-c25ce6120ba2"/>
+  </producedTypes>
+  <name>ОперацииВводаВОборотМДЛП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операции ввода в оборот МДЛП</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="82307c46-5675-4df4-97d7-45c84a8ce930">
+    <name>ИмпортЕАЭС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Импорт из государств-членов ЕАЭС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="83eb8942-ce41-459c-b434-3fd4176ca554">
+    <name>ИмпортНеЕАЭС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Импорт из стран, не являющихся членами ЕАЭС</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

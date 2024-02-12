@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d634d57f-d08e-4a83-9beb-bdf4f75f5f22">
+  <producedTypes>
+    <selectionType typeId="fd9ed986-0320-46e6-b2fd-aff48bddfe64" valueTypeId="ba3ac143-c661-4436-baae-77ca727ff526"/>
+    <listType typeId="bbaf18b0-e21b-48b3-b3a9-54a1a6f16d13" valueTypeId="a51cc2a9-aea3-4562-bf1b-2371b22c723e"/>
+    <managerType typeId="65a4168e-96d8-450c-9a46-97d69a29907c" valueTypeId="e51ed91a-989f-4ca5-b506-bcb30682907a"/>
+    <recordSetType typeId="35c90987-0f2d-4805-9a2d-7c28956f3f46" valueTypeId="fece770a-b027-4405-9ae9-7849a8d27841"/>
+    <recordKeyType typeId="8b6df142-eb36-47de-8710-eb552814bbcb" valueTypeId="51031524-afde-4c2f-9c16-7f6eee1cd1ad"/>
+    <recordType typeId="1a052ed3-e105-4d86-96fb-3a49f9fd660d" valueTypeId="f63cd468-b060-4b8d-9565-b1ddacff2dec"/>
+    <recordManagerType typeId="1c4f1a42-161a-43c1-aec9-e37759d4bc08" valueTypeId="241da30b-ccca-4ec7-a762-8f9393160d51"/>
+  </producedTypes>
+  <name>НастройкиПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки пользователей</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="ad836113-0152-4152-a2c5-1ffc1d0c4c25">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Characteristic.НастройкиПользователей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a2ff921c-184e-49b6-8ebd-bf75c2ae4782">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь настроек</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="27438bca-abe7-47c6-9f56-7de625f866c0">
+    <name>Настройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.НастройкиПользователей</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Настройка пользователя</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="dc526d6b-1f63-42a9-b879-de228fb4c8ea">
+    <name>ФормаСпискаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

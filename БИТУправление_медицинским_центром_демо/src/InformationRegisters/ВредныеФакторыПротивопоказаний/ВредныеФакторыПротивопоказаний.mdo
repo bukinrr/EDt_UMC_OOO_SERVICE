@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9e15cfa-2b4e-45f1-b374-4b47d9cd88ae">
+  <producedTypes>
+    <selectionType typeId="7df17759-2de3-46ed-956b-ca2eee952b3f" valueTypeId="adc856d6-9eb4-4092-be8d-65c850e0fade"/>
+    <listType typeId="9e557a3a-8659-41b8-aa19-2ffa1fb786e0" valueTypeId="4877bed5-bfa6-45b6-bb8f-75c97190811c"/>
+    <managerType typeId="cabaafe6-5d5f-44b9-b05b-697aa48cfa2b" valueTypeId="15cf0b04-8e91-4b86-b1fa-4924932c0751"/>
+    <recordSetType typeId="c844ba2b-19fe-423b-98f0-886d366d576b" valueTypeId="4ce3cb7e-b344-4fee-aa21-fce47321fcb3"/>
+    <recordKeyType typeId="ec307bd7-ca08-4885-8d92-9eba92860817" valueTypeId="ff190a20-8193-451f-80a6-035da4a66049"/>
+    <recordType typeId="1df7c921-d5d8-46d0-8a51-3f0ebe8dae76" valueTypeId="283558c3-b0f0-43fe-93ad-23a21df42753"/>
+    <recordManagerType typeId="1dabdbe1-2fb8-4d84-ba78-6ddc008d4d60" valueTypeId="2289ed3d-a574-46d3-879b-89bac3e43f7d"/>
+  </producedTypes>
+  <name>ВредныеФакторыПротивопоказаний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вредные факторы противопоказаний</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <writeMode>RecorderSubordinate</writeMode>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="43a6a1c6-1330-453a-8129-f727119dfc0c">
+    <name>СлучайОбращения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Случай обращения</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПрохождениеМедосмотра</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="feed79bb-6f1f-4f29-a093-f29a32aba70f">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Прием</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d02c5a1c-3b2b-4798-bc15-5c6a54faa265">
+    <name>Противопоказание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Противопоказание</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МедицинскиеПротивопоказания</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="15ed7c8c-c0e0-4c33-8099-97ff87b3ece7">
+    <name>Диагноз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диагноз</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Диагнозы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9abc8471-37d9-46dd-8f2d-a9df53373120">
+    <name>ВредныйФактор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вредный фактор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПереченьВредныхФакторовИРабот</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

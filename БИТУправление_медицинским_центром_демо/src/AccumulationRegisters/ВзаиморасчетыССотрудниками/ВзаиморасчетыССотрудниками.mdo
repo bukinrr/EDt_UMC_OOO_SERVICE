@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0abec857-48fd-4be0-854b-143463e3c8be">
+  <producedTypes>
+    <selectionType typeId="b9915ec7-6fc8-49b9-8bf3-9e8a3fbc1808" valueTypeId="06492e81-4b9f-4d55-8ea0-68a14ff6077c"/>
+    <listType typeId="96497944-a9cd-4cd8-83bb-980f70c0fb30" valueTypeId="908840fc-cc36-4040-81bd-a6d400cb445c"/>
+    <managerType typeId="6757f2a8-9cb1-43b8-80f1-5f445100d80e" valueTypeId="6dba5ab4-89f3-4881-8e51-48009b12168a"/>
+    <recordSetType typeId="fd9e27c7-970e-4916-b8b5-e4e3715e8f37" valueTypeId="63bed9c1-f072-4965-93db-bf4851a31e04"/>
+    <recordKeyType typeId="5792a3c2-38ff-40d2-8dcc-78c10f54fb81" valueTypeId="3d0ac5aa-4b69-4bfd-b192-a3143cda5c7d"/>
+    <recordType typeId="c95eb664-c97e-4745-ac2c-f70f567a175c" valueTypeId="2a0a50af-2300-4df7-8452-e40fa6130e27"/>
+  </producedTypes>
+  <name>ВзаиморасчетыССотрудниками</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаиморасчеты с сотрудниками</value>
+  </synonym>
+  <auxiliaryListForm>AccumulationRegister.ВзаиморасчетыССотрудниками.Form.ФормаСпискаУпр</auxiliaryListForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="7e484f92-aeaa-44c6-aac2-5b01c94936fc">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сумма взаиморасчета</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="ae51d979-54de-49a1-94e0-07b903600f6d">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбранный сотрудник</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <forms uuid="71df312c-05cf-47b4-941a-cd462ec8fdf5">
+    <name>ФормаСпискаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4ca881f9-ba8b-4daa-bb85-24af32798cf1">
+    <name>ФормаНабораЗаписейУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма набора записей упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:AccumulationRegister>

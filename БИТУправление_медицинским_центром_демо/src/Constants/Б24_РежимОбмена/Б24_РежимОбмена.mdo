@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ceffdf90-4386-4fbb-9b01-56e25cf803a2">
+  <producedTypes>
+    <managerType typeId="6cbbfd66-f064-48c3-8a4a-75968abc8654" valueTypeId="ba6991ae-0cd2-4715-a2c6-0f421940664e"/>
+    <valueManagerType typeId="11472c55-94a7-478f-bac6-5ab173aa6921" valueTypeId="3c284f04-d773-4ad7-baff-7a27ede938a3"/>
+    <valueKeyType typeId="0fea6a93-3c80-4e5b-983b-0f0fc532e8cf" valueTypeId="e2816e9b-b0c2-4b92-87f4-2f1627c99ff1"/>
+  </producedTypes>
+  <name>Б24_РежимОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Битрикс24: Режим обмена</value>
+  </synonym>
+  <comment>1 - получать, 2 - отправлять, 3 - двусторонний обмен обращениями</comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>1</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

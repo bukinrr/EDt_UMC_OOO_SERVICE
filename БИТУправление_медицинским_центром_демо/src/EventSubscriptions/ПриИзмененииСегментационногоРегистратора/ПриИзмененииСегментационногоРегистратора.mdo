@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9eb73d2-ad58-43a0-b32b-973f6a2c28d0">
+  <name>ПриИзмененииСегментационногоРегистратора</name>
+  <synonym>
+    <key>ru</key>
+    <value>При изменении сегментационного регистратора</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ОказаниеУслуг</types>
+    <types>CatalogObject.Клиенты</types>
+    <types>DocumentObject.Заявка</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.СегментацияСервер.ПриИзмененииСегментационногоРегистратораПриЗаписи</handler>
+</mdclass:EventSubscription>

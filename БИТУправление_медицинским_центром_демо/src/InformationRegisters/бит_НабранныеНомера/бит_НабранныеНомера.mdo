@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1841a54-e4fa-443f-9853-21adfd5c68f0">
+  <producedTypes>
+    <selectionType typeId="f33adafa-1003-4764-9291-4efb46c4b536" valueTypeId="d6fddc72-fa03-4952-a80b-ab2b7890bb0d"/>
+    <listType typeId="f9b6e516-a16f-4a3e-825c-8f758c593eaa" valueTypeId="ead99b3b-5bdd-417e-83ed-289d2fe5eddc"/>
+    <managerType typeId="8318ab04-05a4-4ecf-8df1-813d9d45c704" valueTypeId="779cd8d2-33b3-4e69-bca7-ea2819b569e8"/>
+    <recordSetType typeId="4533802c-7a24-4fd1-9c53-db27ddc91e8c" valueTypeId="eecfa7f1-c27b-4e4e-9533-8b8eafe711c8"/>
+    <recordKeyType typeId="afd6f12e-aa46-4fa1-a621-740126ffae2a" valueTypeId="5da8329d-0248-4165-9de0-e023bcf960e8"/>
+    <recordType typeId="0d7dd733-0ecc-4bc1-92ce-bae1a01081be" valueTypeId="0cf9fe73-f3bd-4512-bae8-f8b530b1bc05"/>
+    <recordManagerType typeId="56c191ca-a88d-46e2-b186-1e2a6f30d6aa" valueTypeId="6b8dd994-41cc-4dd2-b3d0-297a104c2606"/>
+  </producedTypes>
+  <name>бит_НабранныеНомера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Набранные номера</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.бит_НабранныеНомера.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.бит_НабранныеНомера.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="b42a5df8-14fc-4b32-a7b9-1a2ed5b4d01c">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование набранного номера</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="664ca967-d040-40d5-9db5-ae6cff7b9447">
+    <name>Номер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Набранный клиентом номер (только цифры)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="06717338-9599-453f-8547-61dd6a81fbe9">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b5cf444a-d5de-48dd-9d66-a4a3f5bbfd4c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

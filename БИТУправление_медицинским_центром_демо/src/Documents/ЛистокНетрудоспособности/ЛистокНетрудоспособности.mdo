@@ -1,0 +1,2364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="693784c9-1a0a-43b2-9ff1-b3ce776c5493">
+  <producedTypes>
+    <objectType typeId="95cf0f15-0558-4a09-8bff-0aa6ff13c5d6" valueTypeId="a1312e32-6658-44b4-9771-fdb8da5a27f7"/>
+    <refType typeId="9e508411-0db4-4f81-907d-b2fa9e4ba826" valueTypeId="db0ad70b-019f-4b8a-b75d-e36859f168d2"/>
+    <selectionType typeId="e295b056-d451-44b7-9df3-3e50dfba23c5" valueTypeId="ad3c9bab-2196-47cf-8f12-fbbaf9ec9d11"/>
+    <listType typeId="b0e32d3c-47cb-49f7-8e1a-e19f4e0c5055" valueTypeId="d4f07768-0658-41c4-8e66-7228778e5140"/>
+    <managerType typeId="09dc5780-bff3-4e51-865f-dfc2ae2b4ad5" valueTypeId="25dacaba-ebb4-4c3a-b317-a212737912f3"/>
+  </producedTypes>
+  <name>ЛистокНетрудоспособности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Листок нетрудоспособности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЛистокНетрудоспособности.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:StringValue">
+      <value>            </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <basedOn>Document.ЛистокНетрудоспособности</basedOn>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Листок нетрудоспособности</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Листки нетрудоспособности</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Листки нетрудоспособности</value>
+  </extendedListPresentation>
+  <numberLength>12</numberLength>
+  <defaultObjectForm>Document.ЛистокНетрудоспособности.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ЛистокНетрудоспособности.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.ЛистокНетрудоспособности.Form.ФормаВыбора</defaultChoiceForm>
+  <posting>Deny</posting>
+  <realTimePosting>Deny</realTimePosting>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="4a453465-8970-4a74-aa37-6c9c7fc89870">
+    <name>ВидЛистка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид листка нетрудоспособности</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыЛистковНетрудоспособности</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид листка</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ВидыЛистковНетрудоспособности.EnumValue.Первичный</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5f55640f-2cc4-4276-8199-ac1e0f682f80">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пациент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Клиент</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2be2915a-fed1-41ec-8823-3cb019b579c3">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <comment>Застрахованное лицо: Имя</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя того, кому выдается листок нетрудоспособности</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="268166f0-3e14-4336-8813-006918389fed">
+    <name>Отчество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчество</value>
+    </synonym>
+    <comment>Застрахованное лицо: Отчество</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Отчество того, кому выдается листок нетрудоспособности</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8ee47817-de6e-4d5a-9219-b837b57144a0">
+    <name>ДатаРождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата рождения</value>
+    </synonym>
+    <comment>Застрахованное лицо: Дата рождения</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=dd.MM.yyyy</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=dd.MM.yyyy</value>
+    </editFormat>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата рождения застрахованного лица</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a17a5b80-66d1-4121-a3c7-2b6a2a691747">
+    <name>Пол</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пол</value>
+    </synonym>
+    <comment>Пол</comment>
+    <type>
+      <types>EnumRef.ПолФизическихЛиц</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пол застрахованного лица</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <quickChoice>Use</quickChoice>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ПолФизическихЛиц.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="23e7b9ac-3594-4907-8100-145781d8f971">
+    <name>СНИЛС</name>
+    <synonym>
+      <key>ru</key>
+      <value>СНИЛС</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>14</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6addbea5-36e4-45fc-a095-7faf675c718b">
+    <name>МестоРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место работы</value>
+    </synonym>
+    <comment>Страхователь. Место работы -- наименование организации</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>80</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Страхователь - место работы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c9194a66-78c1-40e7-ac03-f5029ed2bbfb">
+    <name>МестоРаботыВидЗанятости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место работы</value>
+    </synonym>
+    <comment>Страхователь: признак места работы --- основное -- 2, по совместительству -- 1</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Место работы: основное или по совместительству</value>
+    </toolTip>
+    <minValue xsi:type="core:StringValue">
+      <value>0</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>2</value>
+    </maxValue>
+    <fillValue xsi:type="core:NumberValue">
+      <value>2</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bd04b328-bb9a-47ae-9716-f8ff1fec7c89">
+    <name>ГруппаИнвалидности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа инвалидности</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ГруппыИнвалидности</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа инвалидности пациента</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <quickChoice>Use</quickChoice>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="06d7784d-ac73-4cdf-a1c7-6d8ed2a23d55">
+    <name>МедицинскаяКарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Медицинская карта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МедицинскиеКарты</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Медицинская карта пациента</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Клиент</name>
+      <field>Document.ЛистокНетрудоспособности.Attribute.Клиент</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0851f830-c312-464f-86c5-1ed70efade96">
+    <name>Дата1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала (дата 1)</value>
+    </synonym>
+    <comment>Поле Date1 в формате ФСС</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата начала путевки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8a137275-f7c1-4ec9-8211-d74500b704ce">
+    <name>Дата2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания (дата 2)</value>
+    </synonym>
+    <comment>Поле Date2 в формате ФСС</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата окончания путевки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c8582b62-2a69-44ca-9c92-d0933b1beb06">
+    <name>ДатаЗакрытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата закрытия</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f9af2b20-4146-4773-a433-bc176932ffdb">
+    <name>ДатаНаправленияВБюроМСЭ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата направления в бюро МСЭ</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата направления в бюро медико-социальной экспертизы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9704117f-da53-49df-a8ca-78d7013c4f13">
+    <name>ДатаНарушенияРежима</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата нарушения режима</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата нарушения режима больным</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="780b680a-b2c4-4a6c-8ab6-6a50bb1e6871">
+    <name>ДатаНачалаРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приступить к работе</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата начала работы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="015fded4-f28b-4100-ac5d-ff2a000f0e23">
+    <name>ДатаОсвидетельствованияВБюроМСЭ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата освидетельствования в бюро МСЭ</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата освидетельствования в бюро медико-социальной экспертизы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9788acbe-43ae-4573-b4db-8c756cd3aa72">
+    <name>ДатаРегистрацииВБюроМСЭ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата регистрации в бюро МСЭ</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата регистрации документов в бюро медико-социальной экспертизы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="509816fe-0485-4c73-b050-2a453baaaab4">
+    <name>ДатаУстановленияСтатуса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата установления статуса</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата установления статуса нетрудоспособного</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0d223893-79b7-4c51-bdf8-7751fdf61f70">
+    <name>ДиагнозПоМКБ10</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диагноз по МКБ10</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>CatalogRef.Диагнозы</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Диагноз по классификатору МКБ10.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c5cf5b25-c81c-4a76-a1bd-f22f693cc55f">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>DocumentRef.ЛистокНетрудоспособности</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Документ-основание</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e566b5f6-c8c7-4895-85a5-c8ae0315b8dd">
+    <name>ДополнительнаяПричинаНетрудоспособности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительная причина нетрудоспособности</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДополнительныеКодыПричинНетрудоспособности</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дополнительный код причины нетрудоспособности</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ПометкаУдаления</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <quickChoice>Use</quickChoice>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b60737f5-f514-4de6-ae24-f2ce567531ab">
+    <name>Дубликат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дубликат</value>
+    </synonym>
+    <comment>Листок нетрудоспособности: дубликат или оригинал</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>БЛ=Оригинал; БИ=Дубликат</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>БЛ=Оригинал; БИ=Дубликат</value>
+    </editFormat>
+    <toolTip>
+      <key>ru</key>
+      <value>Дубликат или оригинал</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="44e0eea4-de21-480f-863e-a3f56065f11a">
+    <name>Запись1Врач</name>
+    <synonym>
+      <key>ru</key>
+      <value>1-я запись: врач</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>CatalogRef.Сотрудники</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Первая запись об освобождении от работы: врач</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c8a5ac59-a2cd-4adc-bad8-fa9557dc2542">
+    <name>Запись1ВрачДолжность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="72f53ba3-bb6e-4eb1-9882-004787adb66c">
+    <name>Запись1ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>1-я запись: дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Первая запись об освобождении от работы: дата начала освобождения от работы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="937e8d18-828a-47dd-958e-732e45c09daa">
+    <name>Запись1ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>1-я запись: дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Первая запись об освобождении от работы: дата окончания освобождения от работы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="aa7a1f4e-de7b-4df0-ad8b-4abb7f39f600">
+    <name>Запись1ПредседательВК</name>
+    <synonym>
+      <key>ru</key>
+      <value>1-я запись: председатель ВК</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>CatalogRef.Сотрудники</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Первая запись об освобождении от работы: председатель врачебной комиссии</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="093219af-7586-4019-bfe8-ea6114b27a9f">
+    <name>Запись2Врач</name>
+    <synonym>
+      <key>ru</key>
+      <value>2-я запись: врач</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>CatalogRef.Сотрудники</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вторая запись об освобождении от работы: врач</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8de3b834-3b8e-4617-9873-f96d5510e58d">
+    <name>Запись2ВрачДолжность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1f6225f9-16c0-47ea-848a-1071d12cff01">
+    <name>Запись2ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>2-я запись: дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вторая запись об освобождении от работы: дата начала</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8951e6bc-c738-4215-940d-e037d6bff678">
+    <name>Запись2ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>2-я запись: дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вторая запись об освобождении от работы: дата окончания</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="47a9573d-9a88-457f-abc9-645c25900818">
+    <name>Запись2ПредседательВК</name>
+    <synonym>
+      <key>ru</key>
+      <value>2-я запись: председатель ВК</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>CatalogRef.Сотрудники</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вторая запись об освобождении от работы: председатель врачебной комиссии</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="17cebb36-f61b-4032-8b4d-17cd6612c648">
+    <name>Запись3Врач</name>
+    <synonym>
+      <key>ru</key>
+      <value>3-я запись: врач</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>CatalogRef.Сотрудники</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Третья запись об освобождении от работы: врач</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="da56a2bc-5b28-4759-9acc-0af394cf6d36">
+    <name>Запись3ВрачДолжность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7c25bdf0-7bdd-4858-8624-e761bb102bdc">
+    <name>Запись3ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>3-я запись: дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Третья запись об освобождении от работы: дата начала</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8d5af588-0094-4409-9abb-0c0e57640395">
+    <name>Запись3ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>3-я запись: дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Третья запись об освобождении от работы: дата окончания</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b0e98d16-c129-41bf-829d-01c282d00c54">
+    <name>Запись3ПредседательВК</name>
+    <synonym>
+      <key>ru</key>
+      <value>3-я запись: председатель ВК</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>CatalogRef.Сотрудники</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Третья запись об освобождении от работы: председатель врачебной комиссии</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="33a222b5-2eee-470d-8b12-8c9a7701f7c6">
+    <name>удалить_Родственник1ДатаРождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>1-й родственник: дата рождения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>По уходу за первым родственником: дата рождения родственника</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="39f5b6e9-a834-4dff-bbb4-fb6dafa34df6">
+    <name>удалить_Родственник1Лет</name>
+    <synonym>
+      <key>ru</key>
+      <value>1-й родственник: возраст (лет)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>По уходу за первым родственником: возраст (лет)</value>
+    </toolTip>
+    <minValue xsi:type="core:StringValue">
+      <value>0</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>130</value>
+    </maxValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a31bc550-fc56-4143-ab2c-3fb688c2b538">
+    <name>удалить_Родственник1Мес</name>
+    <synonym>
+      <key>ru</key>
+      <value>1-й родственник: возраст (мес.)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>По уходу за первым родственником: возраст (мес.)</value>
+    </toolTip>
+    <minValue xsi:type="core:StringValue">
+      <value>0</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>11</value>
+    </maxValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9b11fae9-23f7-4cff-86e5-3f14dc727fab">
+    <name>удалить_Родственник1СтепеньРодства</name>
+    <synonym>
+      <key>ru</key>
+      <value>1-й родственник: родственная связь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтепениРодства</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>По уходу за первым родственником: родственная связь</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ПометкаУдаления</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <quickChoice>Use</quickChoice>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dc2bd3fb-ec93-4f57-abb3-722081cac6ef">
+    <name>удалить_Родственник1ФИО</name>
+    <synonym>
+      <key>ru</key>
+      <value>1-й родственник: ФИО</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>90</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>По уходу за первым родственником: фамилия, имя, отчество родственника</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="140adb8c-de2e-4be3-ac71-4da272cbb9d2">
+    <name>удалить_Родственник2ДатаРождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>2-й родственник: дата рождения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>По уходу за вторым родственником: дата рождения родственника</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="65c68342-3b30-4ef0-87ba-7872f4aef766">
+    <name>удалить_Родственник2Лет</name>
+    <synonym>
+      <key>ru</key>
+      <value>2-й родственник: возраст (лет)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>По уходу за вторым родственником: возраст (лет)</value>
+    </toolTip>
+    <minValue xsi:type="core:StringValue">
+      <value>0</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>130</value>
+    </maxValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="957da8fc-eab6-4e96-a21e-1f0885680b95">
+    <name>удалить_Родственник2Мес</name>
+    <synonym>
+      <key>ru</key>
+      <value>2-й родственник: возраст (мес.)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>По уходу за вторым родственником: возраст (мес.)</value>
+    </toolTip>
+    <minValue xsi:type="core:StringValue">
+      <value>0</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>11</value>
+    </maxValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="09e9bc11-5d05-40b0-9f60-daaab2bbf75d">
+    <name>удалить_Родственник2СтепеньРодства</name>
+    <synonym>
+      <key>ru</key>
+      <value>2-й родственник: родственная связь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтепениРодства</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>По уходу за вторым родственником: родственная связь</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ПометкаУдаления</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <quickChoice>Use</quickChoice>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9f80c69e-743f-49d5-bc39-5ef96e6dfaaf">
+    <name>удалить_Родственник2ФИО</name>
+    <synonym>
+      <key>ru</key>
+      <value>2-й родственник: ФИО</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>90</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>По уходу за вторым родственником: фамилия, имя, отчество родственника</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="99f4473f-1947-4973-9b37-c7da456ea01c">
+    <name>ИзмененнаяПричинаНетрудоспособности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измененная причина нетрудоспособности</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПричиныНетрудоспособности</types>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧЦ=2; ЧВН=</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧЦ=2; ЧВН=</value>
+    </editFormat>
+    <toolTip>
+      <key>ru</key>
+      <value>Измененная причина нетрудоспособности по листку</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ПометкаУдаления</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <quickChoice>Use</quickChoice>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="80406696-99f7-41ef-8efa-f622111a81aa">
+    <name>ЛистокОсновногоМестаРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЛН основного места работы</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЛистокНетрудоспособности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="eda70865-7879-484b-ad4e-781e98d1dab7">
+    <name>ЛПУАдрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5421c1f9-510a-4446-842c-5cbf07831143">
+    <name>ЛПУИмя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8f42ebb3-2bbd-4ed6-ae87-e204a3071d0a">
+    <name>ЛПУОГРН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОГРН</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dd65e0ea-1008-4751-8d80-71e3246a153d">
+    <name>НарушениеРежима</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нарушение режима</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыНарушенийРежима</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Нарушение назначенного режима </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ПометкаУдаления</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <quickChoice>Use</quickChoice>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3a09e347-1941-4d86-b02c-707bc6b02abf">
+    <name>НаУчетеВОрганахЗанятости</name>
+    <synonym>
+      <key>ru</key>
+      <value>На учете в органах занятости</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Состоит на учете в органах занятости населения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bf6162b4-325f-4613-8290-53dfeaf262fb">
+    <name>НомерПутевки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер путевки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>№ путевки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="86def76b-a20b-4fe4-8cdb-f5af6f4d53a0">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, который создал документ. Заполняется автоматически.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="10ee2ecd-6885-499d-89c1-14de503ce514">
+    <name>Первичный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первичный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>БЛ=Продолжение; БИ=Первичный</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>БЛ=Продолжение; БИ=Первичный</value>
+    </editFormat>
+    <toolTip>
+      <key>ru</key>
+      <value>Первичный или продолжение</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="84f8b679-bac1-45a9-ae57-aa44d73cbc02">
+    <name>ПервичныйЛисток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первичный листок</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЛистокНетрудоспособности</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Первичный листок нетрудоспособности</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Клиент</name>
+      <field>Document.ЛистокНетрудоспособности.Attribute.Клиент</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0f48a641-3e8b-45ec-982c-8989e8c06114">
+    <name>Фамилия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фамилия</value>
+    </synonym>
+    <comment>Застрахованное лицо: Фамилия</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Фамилия того, кому выдается листок нетрудоспособности</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b085233b-4447-42e9-babf-7ee5f2bb48cc">
+    <name>ПрерывистыйМетод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прерывистый метод</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Прерывистый метод</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6b419fbb-50dd-434e-9a7b-bcb4937dae45">
+    <name>Прием</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прием</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Прием</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Прием пациента</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dc13625c-bf43-4ce5-8108-27ea9d2118bd">
+    <name>ПричинаНетрудоспособности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина нетрудоспособности</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПричиныНетрудоспособности</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Причина нетрудоспособности пациента</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ПометкаУдаления</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <quickChoice>Use</quickChoice>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5a67c8df-1752-49ec-ac0c-7e4242725a17">
+    <name>Филиал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиника</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Филиалы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Клиника, филиал</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9f17abaf-a1c3-4b9f-aecd-8ac8377bb69d">
+    <name>Санаторий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Санаторий</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Санатории</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Санаторий или клиника НИИ</value>
+    </toolTip>
+    <mask>999999999999999</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ce707c1c-9d36-45ea-bfb7-88a0f0a70327">
+    <name>СледующийЛН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер следующего ЛН</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ac1b6f8c-8635-4440-91e1-44d3a9039f47">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыЛистковНетрудоспособности</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Статус листка нетрудоспособности</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.СтатусыЛистковНетрудоспособности.EnumValue.Подготовка</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1c4c317a-a71a-4487-a0cb-8b66f86ccdb8">
+    <name>СтатусНетрудоспособного</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус нетрудоспособного</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатусыНетрудоспособного</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Статус нетрудоспособного пациента</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ПометкаУдаления</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b61d79c2-3b6b-42f0-ba95-9f75d434c5c4">
+    <name>СтационарДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала госпитализации</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Находился в стационаре с</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0c8bd0d1-265b-4e6b-b9c1-2e4e1690a1c4">
+    <name>СтационарДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выписки из стационара</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Находился в стационаре по</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="43c88445-009b-4e4d-a552-0f265318826a">
+    <name>ХэшЭЛН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хэш ЭЛН</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="82c8ca5c-6c42-480a-ac9b-aea5a59914d6">
+    <name>ЭлектронныйБольничный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронный больничный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Зарегистрирован электронно.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8e663bc4-35e4-4243-be61-830b48ebda74">
+    <name>РабочийКонтур</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочий контур</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>ЭЛН отправлен в рабочий контур ФСС</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2456d031-88dc-408c-bc88-08978c25486f">
+    <name>ВзаменРанееВыданного</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взамен ранее выданного</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9b77579c-940b-4f59-aefc-db4638e05d99">
+    <name>ОбновленИзФСС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновлен из ФСС</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4b965da5-daa3-42c5-803b-8e83ca81f74a">
+    <name>ПодписанЭП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подписан ЭП</value>
+    </synonym>
+    <comment>Документ подписан ЭЦП</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что файл подписан с помощью ЭЦП</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b9640a6a-4fd5-4747-abc9-65619062b7fe">
+    <name>ДанныеОПациентеВерны</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные о пациенте верны</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Проверьте правильность ввода данных о пациенте.
+Включение флага подтверждает, что передаваемые данные, отличающиеся от данных ФСС, верны.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="83c7ba9f-22bf-42df-8768-e858f71f4f84">
+    <name>УтратаПрофессиональнойТрудоспособности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Утрата профессиональной трудоспособности</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cad6e16c-5f5f-4aa1-b5b5-7bbdbed4dfb6">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущая дата окончания</value>
+    </synonym>
+    <comment>Скрытый служебный реквизит. Из {ЗаписьNДатаОкончания}</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c2f22bda-ea83-44f8-b619-fcdf6d86a6ba">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="63b5f168-30db-4a38-bd3d-9a162372368e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0cd77879-167e-412b-9801-bf5846ab1b60">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="150ea4d1-6677-44e0-a73a-cfcb71c0ad4e">
+    <name>ВыборДиагнозаЛН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор диагноза</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7b808d54-6256-4f8a-af38-2323c35fbbb6">
+    <name>ВыборВнешнихЗакрытыхЛН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор внешних закрытых ЛН</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="45836b6b-fd36-46d3-a17e-bf1eef6139eb">
+    <name>КонтрольОбменаСФСС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контроль обмена с ФСС</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1110352b-d452-492d-8be4-32a7ba445384">
+    <name>ОбменСФСС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен СФСС</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a240a431-3eb6-4a42-87e8-4be4af2295aa">
+    <name>ПроверкаСоединенияСФСС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка соединения с серверами ФСС</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="38f463a9-3d44-4e5f-9203-511a00da7eb6">
+    <producedTypes>
+      <objectType typeId="9380789a-19f0-49b9-a822-0916c784ca41" valueTypeId="009f0125-1649-40da-bf0a-1cb3e000c5a1"/>
+      <rowType typeId="6878fb3d-9a52-450a-8a01-6fefef26eea7" valueTypeId="6de158e8-d615-4d9f-8a3d-d612a9a5fe8b"/>
+    </producedTypes>
+    <name>ДанныеПоУходуЗаРодственниками</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные по уходу за родственниками</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="99ced8cb-f861-4490-964c-9e8bc766eef2">
+      <name>СтепеньРодства</name>
+      <synonym>
+        <key>ru</key>
+        <value>Степень родства</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтепениРодства</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Родственная связь</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameters>
+        <name>Отбор.ПометкаУдаления</name>
+        <value xsi:type="core:BooleanValue"/>
+      </choiceParameters>
+      <quickChoice>Use</quickChoice>
+      <createOnInput>DontUse</createOnInput>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="acd24cb7-9729-4d4f-97a8-df7c375a80cc">
+      <name>ДатаНачалаУхода</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата начала ухода</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="01d2ae44-a698-4c23-b129-423358f5a03b">
+      <name>ДатаОкончанияУхода</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата окончания ухода</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7c09ea6c-c1f8-49fa-a164-9dc6bffdfa1e">
+      <name>Фамилия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Фамилия</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>60</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Фамилия члена семьи, за которым осуществляется уход</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="407861c9-5046-46fa-9455-2042621e9ef2">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>60</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Имя члена семьи, за которым осуществляется уход</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ec692d58-b602-4679-861a-81b088e51374">
+      <name>Отчество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отчество</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>60</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Отчество члена семьи, за которым осуществляется уход</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="70d89c93-d7bb-4a28-b08b-3b2616577b48">
+      <name>ДатаРождения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата рождения</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дата рождения члена семьи, за которым осуществляется уход</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5ae8d07d-9de0-4c6f-a52e-710db8c644b2">
+      <name>ПричинаНетрудоспособности</name>
+      <synonym>
+        <key>ru</key>
+        <value>Причина нетрудоспособности</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПричиныНетрудоспособности</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Причина нетрудоспособности застрахованного лица при уходе за больным членом семьи</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <quickChoice>Use</quickChoice>
+      <createOnInput>DontUse</createOnInput>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0c76bb9a-05d0-4ad4-8b0f-5fbcfe7eb7f6">
+      <name>СНИЛС</name>
+      <synonym>
+        <key>ru</key>
+        <value>СНИЛС</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>14</length>
+          <fixed>true</fixed>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>СНИЛС члена семьи, за которым осуществляется уход</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="01de7c3f-9d16-41e0-9075-2f15c79ed058">
+      <name>ДиагнозПоМКБ10</name>
+      <synonym>
+        <key>ru</key>
+        <value>Диагноз по МКБ10</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <types>CatalogRef.Диагнозы</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Диагноз МКБ-10</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a23997dc-6f99-4134-8820-bc90ade39e37">
+      <name>УсловияМедицинскойПомощи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Условия медицинской помощи</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6861f963-6b68-4899-ad5b-b151abf4cf1e">
+      <name>СтрокаЗарегистрирована</name>
+      <synonym>
+        <key>ru</key>
+        <value>Строка зарегистрирована</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="a9f85830-3a35-4de8-a783-abc809b988e7">
+    <producedTypes>
+      <objectType typeId="bf5f87ac-6337-4e16-a2da-23d116f555ac" valueTypeId="612aa59a-7c22-4be9-b3ef-cedd99282060"/>
+      <rowType typeId="2c5684a3-171c-4fe2-9828-9ae4ba51a77d" valueTypeId="a7a15387-bff6-472c-b89d-f2fbdb3d5466"/>
+    </producedTypes>
+    <name>ЭлектронныеПодписиОбменаФСС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронные подписи обмена ФСС</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="0364ffdc-4169-43d8-bdaa-1c2d411dea8d">
+      <name>ИмяСтроки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя строки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d708cc7a-92cf-415f-b49c-72d03379b00b">
+      <name>ИдентификаторПодписи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор подписи</value>
+      </synonym>
+      <type>
+        <types>UUID</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="6593a143-c798-4ae6-a7a6-26190ba11688">
+      <name>ПодписьЗарегистрирована</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подпись зарегистрирована</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="894f99c7-d2bc-4e59-baa7-f1faf839265f">
+    <name>СведенияОбЭЛН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сведения об ЭЛН</value>
+    </synonym>
+  </templates>
+  <templates uuid="87b9c32a-9a12-4989-a25d-6add526037c7">
+    <name>СертификатФССТестовый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сертификат ФСС (тестовый сервер)</value>
+    </synonym>
+    <comment>Сертификат ЭЦП уполномоченного лица ФСС: тестовый сервер</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="22151f4a-9abf-429d-bd72-2e8beeead96c">
+    <name>СертификатФССРабочий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сертификат ФСС (рабочий сервер)</value>
+    </synonym>
+    <comment>Сертификат ЭЦП уполномоченного лица ФСС: рабочий сервер</comment>
+    <templateType>AddIn</templateType>
+  </templates>
+  <templates uuid="9f338ffb-31de-461f-bc06-a171b17ddd92">
+    <name>СводкаЭЛН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сводка ЭЛН (краткая)</value>
+    </synonym>
+  </templates>
+  <commands uuid="ee735421-f81f-4447-b411-44aa959bc6ab">
+    <name>СоздатьЛистНетрудоспособности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лист нетрудоспособности</value>
+    </synonym>
+    <group>CommandGroup.Создать</group>
+    <commandParameterType>
+      <types>DocumentRef.Прием</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="86da2c5d-7b27-4b36-8e9e-b4f3737f3e2a">
+    <name>СоздатьЛНПродолжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЛН продолжение</value>
+    </synonym>
+    <group>FormCommandBarCreateBasedOn</group>
+    <commandParameterType>
+      <types>DocumentRef.ЛистокНетрудоспособности</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Document>

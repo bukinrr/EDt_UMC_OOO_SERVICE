@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16b9a8ab-06a9-458d-b33d-51f1b06bdfb3">
+  <producedTypes>
+    <refType typeId="e1059e96-2ee4-4280-bff6-cecd292aad6f" valueTypeId="38c9f814-5f15-4d72-97f0-277801a1fc08"/>
+    <listType typeId="39666e28-975e-46d9-a1d2-58a08dbbd267" valueTypeId="4113d570-6df8-496c-8955-f8b474f5cbca"/>
+    <managerType typeId="1ea998a7-9627-4755-b9f4-90c56a1cc949" valueTypeId="ef02bff6-22a3-4a77-b0c8-bdf94a883154"/>
+  </producedTypes>
+  <name>ВидыОперацийКорректировкиДолга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций корректировки долга</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b89cd256-2aad-4ab4-9afc-b2691279881b">
+    <name>Корректировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировка долга/депозита</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="26f77358-e992-437f-8872-d2c1154635e2">
+    <name>Передача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передача депозита/долга</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

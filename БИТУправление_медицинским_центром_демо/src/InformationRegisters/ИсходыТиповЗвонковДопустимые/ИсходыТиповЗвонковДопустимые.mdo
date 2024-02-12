@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2bcd5bc-cf6d-4ea2-aebb-ff021107d915">
+  <producedTypes>
+    <selectionType typeId="9626c749-93b8-4288-9029-bf8d0a4e26df" valueTypeId="92e47cce-9115-4a08-9013-e592f2556919"/>
+    <listType typeId="b70fdfad-2231-4bda-a0cf-d9f9a118bc54" valueTypeId="96422fc2-1f3c-4a28-a17d-500da5e0d662"/>
+    <managerType typeId="ff2430ee-1b13-4449-ac8a-9094427a8625" valueTypeId="303e5b1c-1cab-4aa2-bced-7c0b2c516ef8"/>
+    <recordSetType typeId="6bdb975c-778b-4ba0-8cf6-f9b6da4f66d4" valueTypeId="557ecb5b-f754-4ccb-aa57-5b97a4aac69a"/>
+    <recordKeyType typeId="ac1a41d0-c00f-4f4a-914f-fd0e796ba02e" valueTypeId="707c25d0-f477-473e-9b22-be53dd7f79ea"/>
+    <recordType typeId="6c919557-35ba-40dd-b5bb-a8126ba8573c" valueTypeId="6f58b844-b67a-4d74-a23b-c1d89156c759"/>
+    <recordManagerType typeId="6087cae6-0cd7-4ff8-951b-4c84d7862484" valueTypeId="bf93a1fd-a0e0-4f28-a8e7-06ace9ddca6e"/>
+  </producedTypes>
+  <name>ИсходыТиповЗвонковДопустимые</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исходы типов звонков допустимые</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ИсходыТиповЗвонковДопустимые.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="e71eeeb9-b09d-4f6d-b02c-127520ca6eba">
+    <name>ТипЗвонка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип звонка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыЗвонков</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="148e84a6-646d-408c-a73b-8104d3f59b64">
+    <name>ИсходЗвонка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исход звонка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИсходыЗвонка</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="b731e00a-c8c4-44ab-93cc-08bf38a19864">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

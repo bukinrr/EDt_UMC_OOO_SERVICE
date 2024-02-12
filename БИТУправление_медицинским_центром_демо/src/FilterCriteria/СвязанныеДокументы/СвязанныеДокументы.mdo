@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f5a807c-298b-4b22-b69d-5189d5f3e0c2">
+  <producedTypes>
+    <listType typeId="4ddbddba-9a63-4d86-89af-61c598892579" valueTypeId="1a0b17fb-990f-414e-b494-a3b4017cda5d"/>
+    <managerType typeId="13b9f411-7b8e-41fa-83aa-07cbd1e2ec7b" valueTypeId="82a0c81d-4386-467d-a5f9-278d818298f3"/>
+  </producedTypes>
+  <name>СвязанныеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связанные документы</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ПоступлениеТоваровУслуг</types>
+    <types>DocumentRef.ВозвратТоваровПоставщику</types>
+    <types>DocumentRef.ВозвратПоПлатежнойКарте</types>
+    <types>DocumentRef.ОказаниеУслуг</types>
+    <types>DocumentRef.Заявка</types>
+    <types>DocumentRef.Прием</types>
+    <types>DocumentRef.ИнвентаризацияТоваров</types>
+    <types>DocumentRef.РасходныйКассовыйОрдер</types>
+    <types>DocumentRef.ЛистОжидания</types>
+    <types>DocumentRef.РаботыПоРекламации</types>
+    <types>DocumentRef.ПриходныйКассовыйОрдер</types>
+    <types>DocumentRef.ОбратнаяСвязь</types>
+    <types>DocumentRef.Рецепт</types>
+    <types>DocumentRef.СписаниеТоваров</types>
+    <types>DocumentRef.ОприходованиеТоваров</types>
+    <types>DocumentRef.ОплатаПлатежнойКартой</types>
+    <types>CatalogRef.Сотрудники</types>
+    <types>DocumentRef.КомплексныйРасчетКлиента</types>
+    <types>DocumentRef.ПрохождениеМедосмотра</types>
+    <types>CatalogRef.Пользователи</types>
+    <types>CatalogRef.ФизическиеЛица</types>
+    <types>DocumentRef.ОтметкаВыполненияМедосмотра</types>
+    <types>DocumentRef.Рекламация</types>
+    <types>DocumentRef</types>
+  </type>
+  <content>Catalog.Пользователи.Attribute.Сотрудник</content>
+  <content>Catalog.Пользователи.Attribute.ФизическоеЛицо</content>
+  <content>Catalog.Сотрудники.Attribute.ФизическоеЛицо</content>
+  <content>Document.ВозвратПоПлатежнойКарте.Attribute.Сделка</content>
+  <content>Document.ВозвратПоПлатежнойКарте.Attribute.ДокументОснование</content>
+  <content>Document.Заявка.Attribute.Основание</content>
+  <content>Document.КомплексныйРасчетКлиента.Attribute.ДокументОснование</content>
+  <content>Document.ЛистОжидания.Attribute.Основание</content>
+  <content>Document.ОказаниеУслуг.Attribute.КомплексныйРасчет</content>
+  <content>Document.ОказаниеУслуг.Attribute.ДокументОснование</content>
+  <content>Document.ОказаниеУслуг.TabularSection.Заявки.Attribute.Заявка</content>
+  <content>Document.ОплатаПлатежнойКартой.Attribute.Сделка</content>
+  <content>Document.ОплатаПлатежнойКартой.Attribute.ДокументОснование</content>
+  <content>Document.ОприходованиеТоваров.Attribute.ДокументОснование</content>
+  <content>Document.ОприходованиеТоваров.Attribute.Инвентаризация</content>
+  <content>Document.ОтметкаВыполненияМедосмотра.Attribute.ПрохождениеМедОсмотра</content>
+  <content>Document.Прием.Attribute.ПервичныйПрием</content>
+  <content>Document.Прием.Attribute.ДокументОснование</content>
+  <content>Document.Прием.Attribute.КомплексныйРасчет</content>
+  <content>Document.ПриходныйКассовыйОрдер.Attribute.ДокументОснование</content>
+  <content>Document.ПриходныйКассовыйОрдер.Attribute.Сделка</content>
+  <content>Document.ПрохождениеМедосмотра.Attribute.СписокНаПрохождениеМедосмотра</content>
+  <content>Document.ПрохождениеМедосмотра.Attribute.ДокументПродажи</content>
+  <content>Document.РаботыПоРекламации.Attribute.Рекламация</content>
+  <content>Document.РаботыПоРекламации.Attribute.Основание</content>
+  <content>Document.РасходныйКассовыйОрдер.Attribute.ДокументОснование</content>
+  <content>Document.РасходныйКассовыйОрдер.Attribute.Сделка</content>
+  <content>Document.Рекламация.Attribute.ПредметРекламации</content>
+  <content>Document.Рецепт.Attribute.Прием</content>
+  <content>Document.Событие.Attribute.Основание</content>
+  <content>Document.СписаниеТоваров.Attribute.Основание</content>
+</mdclass:FilterCriterion>

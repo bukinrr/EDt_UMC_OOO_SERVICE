@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd56fe65-a122-4745-94e5-5cdb9e9e41c3">
+  <producedTypes>
+    <selectionType typeId="611b1c99-2349-4b8c-a498-2b4d78b89529" valueTypeId="ce7ff13f-ea6d-455b-a0b8-0fbe30421152"/>
+    <listType typeId="51646bd8-5084-446d-832f-7cdeb6b90360" valueTypeId="129cdd1a-1ad1-4acf-a6bb-50b2212d43af"/>
+    <managerType typeId="2e30b668-7cc1-47f3-a9c4-5a0da1a50d19" valueTypeId="e3890178-5aac-44d0-ac9c-2e931de3c428"/>
+    <recordSetType typeId="01321012-2a53-49af-b566-314cb7517fa9" valueTypeId="334d53e7-b88c-4a64-b1cd-190c12ffa06c"/>
+    <recordKeyType typeId="329a7f8b-f8c1-4ab0-82d9-3725eac16625" valueTypeId="7233d8c3-2bee-4656-8bfe-ca56e5b15e45"/>
+    <recordType typeId="b5097005-b36a-4450-bd87-deb01e3c4cba" valueTypeId="4efc91a4-fad9-4d56-ba9b-520ad2bd62fa"/>
+    <recordManagerType typeId="63eba1e0-e124-4cf2-8029-f8a2bd42e155" valueTypeId="4823e384-a600-41b2-a49c-0255d389fb1f"/>
+  </producedTypes>
+  <name>Б24_Статусы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Битрикс24: Статусы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="cf9fd286-3e8a-49c4-b55d-ca42df0f89a8">
+    <name>ИдентификаторСтатуса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор статуса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="75a9dcae-93cb-4f5a-89d1-7a44e4f9e5dd">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Б24_Статусы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

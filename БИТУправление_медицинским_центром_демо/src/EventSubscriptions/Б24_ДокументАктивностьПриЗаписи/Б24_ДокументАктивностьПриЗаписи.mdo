@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86bf9954-6ea3-4f3e-9830-3aedc902852f">
+  <name>Б24_ДокументАктивностьПриЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Б24 документ активность при записи</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.Событие</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.Битрикс.ДокументАктивностьПриЗаписи</handler>
+</mdclass:EventSubscription>

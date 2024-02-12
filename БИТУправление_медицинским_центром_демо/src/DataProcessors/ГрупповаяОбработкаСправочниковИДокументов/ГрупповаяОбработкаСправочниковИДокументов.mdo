@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aab0c226-953f-462b-9adf-0aa1b3bf7f4a">
+  <producedTypes>
+    <objectType typeId="3d190a2c-0d8e-4a0d-a20b-7926997d6a4e" valueTypeId="832b2933-cf10-4cc5-9b8a-05767f713117"/>
+    <managerType typeId="74eba60a-5b3b-475e-9a2f-1f4bf8b37b57" valueTypeId="600fb59f-5dfa-4c53-af69-784089b908eb"/>
+  </producedTypes>
+  <name>ГрупповаяОбработкаСправочниковИДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Групповая обработка справочников и документов</value>
+  </synonym>
+  <defaultForm>DataProcessor.ГрупповаяОбработкаСправочниковИДокументов.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="b285e17d-3788-48c9-a2fa-91b8947bd12f">
+    <name>ОграничениеНаСтрокиНеограниченнойДлинны</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ограничение на строки неограниченной длинны</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ограничение на неограниченные строки </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="612a0f61-4b5c-4f2f-9946-eb5e01318b89">
+    <name>ВыполнятьВТранзакции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнять в транзакции</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что будет выполняться в транзакции</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1b81f24a-f1f3-44f4-b264-00534545f327">
+    <name>ФлагИзмененияРеквизитов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Флаг изменения реквизитов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак изменения реквизитов</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c9cf27ba-6f84-4530-b4d1-d99252fd1c08">
+    <name>ПоказыватьВсеКолонки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать все колонки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что будут показываться все колонки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8c5fa28b-b3a9-4de7-b890-bd40485fb875">
+    <name>ОтборПоСвойствам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор по свойствам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак отбора по свойствам</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="52eebd2e-31f1-49c9-a16b-ee65cd316f6f">
+    <name>ОтборПоКатегориям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор по категориям</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак отбора по категориям</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="6bf0c92a-6918-4225-8e98-698945707fc3">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="12a5da1e-f3f3-4698-b3d6-d0b32b4509de">
+    <name>ФормаНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d3a8976b-1896-45c7-be7d-363f5e9ce733">
+    <name>ФормаВыбораРеквизита</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора реквизита</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9a678c48-a03d-4cb9-a87e-2300ea52c922">
+    <name>ФормаВыбораТаблицы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора таблицы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="013db9ec-ba3a-473e-b041-3458d66e94cc">
+    <name>РеестрДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реестр документов</value>
+    </synonym>
+  </templates>
+  <templates uuid="9c82708e-abf4-4452-84da-bbc05ebc45b0">
+    <name>ПредопределенныеРеквизиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предопределенные реквизиты</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

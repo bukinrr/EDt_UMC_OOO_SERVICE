@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bedc11be-c35f-4e51-b4a7-91bddb1cace4">
+  <producedTypes>
+    <objectType typeId="2b87850c-0029-45d0-8009-baa4f9f957d8" valueTypeId="0550d160-62b1-4a9f-b8e0-62eecfbedfca"/>
+    <managerType typeId="0dd32139-cbbc-483a-a665-7dc2154a7c40" valueTypeId="b9426ca2-ec75-48c4-8ab8-596d38256fd3"/>
+  </producedTypes>
+  <name>ИнформацияПриЗапуске</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информация</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ИнформацияПриЗапуске.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="9207a93b-6154-4a98-a36d-02cbe5f2ec7b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="4c631ff7-61aa-4d3b-af90-d3ec0e11c752">
+    <name>Описатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описатель</value>
+    </synonym>
+  </templates>
+  <templates uuid="12333632-1067-474c-949d-d58d55ae4c26">
+    <name>info</name>
+    <synonym>
+      <key>ru</key>
+      <value>Info</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="806ca4e5-1931-4de3-b498-f047dac64a7f">
+    <name>update</name>
+    <synonym>
+      <key>ru</key>
+      <value>Update</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>

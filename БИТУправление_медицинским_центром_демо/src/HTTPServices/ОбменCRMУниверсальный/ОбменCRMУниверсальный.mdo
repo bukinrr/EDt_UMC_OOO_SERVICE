@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9aa6bf3-9540-43a1-a2c6-af79a2ee3421">
+  <name>ОбменCRMУниверсальный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен CRM универсальный</value>
+  </synonym>
+  <rootURL>crm</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="bb665a90-12eb-4e7a-be4f-894334b72b13">
+    <name>CreateLead</name>
+    <synonym>
+      <key>ru</key>
+      <value>Create lead</value>
+    </synonym>
+    <template>/createlead</template>
+    <methods uuid="39a5e05f-9a22-48f8-aa5e-d0eb7e2b1368">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>CreateLeadPOST</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

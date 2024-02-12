@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="284ff8bd-f237-47dc-9aff-8c6bb40a6c2f">
+  <name>ДокументыККМПередЗаписью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы ККМ перед записью</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ОплатаПлатежнойКартой</types>
+    <types>DocumentObject.РасходныйКассовыйОрдер</types>
+    <types>DocumentObject.ВозвратПоПлатежнойКарте</types>
+    <types>DocumentObject.ОказаниеУслуг</types>
+    <types>DocumentObject.ПриходныйКассовыйОрдер</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.РаботаСДокументамиСервер.ДокументыККМПередЗаписью</handler>
+</mdclass:EventSubscription>

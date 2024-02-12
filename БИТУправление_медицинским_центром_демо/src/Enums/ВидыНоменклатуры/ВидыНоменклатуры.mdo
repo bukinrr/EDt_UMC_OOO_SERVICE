@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="206d25ca-74e3-4e96-96ca-45330f05d577">
+  <producedTypes>
+    <refType typeId="aadf3842-7617-4a65-99e3-8c2bfae32d8c" valueTypeId="b2a486c9-c104-44f5-b48c-70826ff63776"/>
+    <listType typeId="0562f868-5d8e-4eb2-9684-701cdcafdfbf" valueTypeId="521528ce-36ca-433a-a800-432a1d388132"/>
+    <managerType typeId="158dc1fa-153a-4ae6-8ceb-ec13297d0141" valueTypeId="65ab7bb2-5b84-4513-8e2b-62fe445794b9"/>
+  </producedTypes>
+  <name>ВидыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды номенклатуры</value>
+  </synonym>
+  <comment>Виды номенклатуры</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="9fb1f3b7-2164-4f91-98bb-376b40802a60">
+    <name>Материал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материал</value>
+    </synonym>
+    <comment>Основной вид ТМЦ, учитываемый на складах</comment>
+  </enumValues>
+  <enumValues uuid="913c4968-52e7-4fd4-b287-0d3e4128b399">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <comment>Услуга, не хранится на складах</comment>
+  </enumValues>
+  <enumValues uuid="535f3361-48c4-4216-b7c5-80fe23fbf8b6">
+    <name>Набор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

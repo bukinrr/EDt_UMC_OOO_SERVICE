@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d161d8c-208e-41b9-a6a4-05c2bd5a9ac4">
+  <producedTypes>
+    <selectionType typeId="9ab5d098-b4a5-45d8-8394-779661156d2d" valueTypeId="f23563c6-0814-46c7-b343-9b7ca975b270"/>
+    <listType typeId="ba7ef7a2-5529-43da-a196-5acea752cee7" valueTypeId="65be906e-840b-421a-ad80-117929021534"/>
+    <managerType typeId="696c203d-9a10-48fd-b8ef-497036b9f277" valueTypeId="502c82cb-65db-42b7-b0fd-c6b4f0c86271"/>
+    <recordSetType typeId="57445ed3-5acf-4fac-b939-75e35b78a670" valueTypeId="b8fedc12-56b3-41aa-bfaa-d67c85b75632"/>
+    <recordKeyType typeId="d7a9ec66-42aa-4646-970d-c3af0bbb564c" valueTypeId="64fa36c0-d852-4a75-83f3-b1ebb41b1b2f"/>
+    <recordType typeId="83bd8cc9-01b9-43e1-99e3-b5dd55e77855" valueTypeId="e0ff24fa-7653-4705-9c7a-057432e0dc1e"/>
+    <recordManagerType typeId="52cdec34-be6f-4c33-8044-0e9e2aa11bf1" valueTypeId="8fbfd9e1-b8c2-494c-b016-d6c4d95802c7"/>
+  </producedTypes>
+  <name>КДЛ_Тесты</name>
+  <synonym>
+    <key>ru</key>
+    <value>(КДЛ-лаборатории) Тесты</value>
+  </synonym>
+  <comment>Methodics</comment>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.КДЛ_Тесты.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="19d60ea7-71b0-4ba8-a35a-143fb7c56868">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="8b0a9977-26d7-4b39-9569-37be6b13d1f7">
+    <name>Лаборатория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лаборатория</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Лаборатории</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Внешняя лаборатория</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6468c839-448f-456f-836a-adc7e3758618">
+    <name>Код</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код теста</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="45b653ae-da81-4780-ba8d-ba598b107822">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

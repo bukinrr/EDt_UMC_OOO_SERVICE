@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7505867e-2b59-474d-a018-cab6d80273e5">
+  <producedTypes>
+    <objectType typeId="12169102-c217-4819-a9be-1e0f41c807b7" valueTypeId="9c19e940-5940-4684-96de-aa6d6669eb87"/>
+    <managerType typeId="d63b8936-5702-4711-a921-0f084bdbcbf6" valueTypeId="e012fc04-3c6e-47c4-befd-1cdc47482663"/>
+  </producedTypes>
+  <name>ИнформацияОПрограмме</name>
+  <synonym>
+    <key>ru</key>
+    <value>О программе</value>
+  </synonym>
+  <defaultForm>DataProcessor.ИнформацияОПрограмме.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="d0d7db04-4773-4abe-aa5a-205fd515063a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="3dae8307-bee6-40a2-b0d8-2aea1fe389c7">
+    <name>ИнформацияОПрограмме</name>
+    <synonym>
+      <key>ru</key>
+      <value>О программе</value>
+    </synonym>
+    <group>CommandGroup.Информация</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut>Alt+I</shortcut>
+  </commands>
+</mdclass:DataProcessor>

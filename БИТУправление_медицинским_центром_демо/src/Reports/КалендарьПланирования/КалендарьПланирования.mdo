@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2cf6a38f-83f9-4fa9-8299-c73fc7420457">
+  <producedTypes>
+    <objectType typeId="a5086df0-37f8-410f-8ca6-48a9d85ad72a" valueTypeId="5e84ef22-96ef-46cc-998c-02023327ac33"/>
+    <managerType typeId="934fde8c-4d3c-47dd-b59e-09f7b81eb1c9" valueTypeId="b44aa657-5ce7-4fed-a12a-cb23c5ad2d72"/>
+  </producedTypes>
+  <name>КалендарьПланирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Календарь планирования</value>
+  </synonym>
+  <defaultForm>Report.КалендарьПланирования.Form.ФормаОтчетаУпр</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="5fcbc3e4-820b-465c-8745-29d9d2fa761e">
+    <name>ВклСотрудники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включить сотрудников</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что будут включены сотрудники</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ef2e285e-fe86-4240-8408-a8c2130ab171">
+    <name>ВклОборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включить оборудование</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что будет включено оборудование</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6888c6d2-159a-48d8-ae21-981078598684">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Начальная дата для календаря</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2ff20c7e-5dc7-4637-8c97-afb4deb7335a">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Окончательная дата для календаря</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3c71aa6a-dc13-4ce6-bbf3-65ca302b0f50">
+    <name>РежимФормирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим формирования</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Режим формирования календаря</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f1b1784d-b0e3-451a-b0fb-8e4dfed4df15">
+    <name>СохраненныеНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохраненные настройки</value>
+    </synonym>
+    <type/>
+    <toolTip>
+      <key>ru</key>
+      <value>Сохраненные настройки отчета</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6b1f6268-0b21-4187-9302-f50ca2ede607">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+      <types>CatalogRef.Филиалы</types>
+      <types>CatalogRef.Сотрудники</types>
+      <types>CatalogRef.Оборудование</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Подразделение планирования</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="42b538b7-cc38-4e3e-910c-12531a5ab010">
+    <name>ВысотаСтроки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высота строки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Высота строки сетки журнала</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2ea45f0f-c8fd-4c28-8c85-58bfc7dbf5d5">
+    <name>Филиал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиника</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Филиалы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Филиал, клиника</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ПометкаУдаления</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+  </attributes>
+  <attributes uuid="ebd2e039-b359-49bc-9f41-91fba6bf5ce5">
+    <name>МодельРасписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель расписания</value>
+    </synonym>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Модель расписания для отбора</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="86e493b0-1a15-46e1-8413-e583a2bcd948">
+    <name>Сотрудники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудники</value>
+    </synonym>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сотрудники, отбираемые в журнал записи</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="3a0f339f-0219-4192-86f0-025aaee7f4a5">
+    <name>ФормаОтчетаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета управляемая</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9415070d-f144-4c30-b36d-4b64bb82c3fa">
+    <name>ФормаПодбораСпискаОтбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма подбора списка отбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e350e676-4b64-4597-a81f-7376b3a1cdfe">
+    <name>ФормаКомментарииКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарии клиента/заявки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="eef61800-2caf-433c-abed-8bed51fca20c">
+    <name>СеткиКолонкиЖурналаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сетки колонки журнала записи</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

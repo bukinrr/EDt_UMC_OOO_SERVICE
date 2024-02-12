@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e30953e9-db1b-41e3-b2c6-d17861819b45">
+  <producedTypes>
+    <objectType typeId="10b98546-0d2f-4c96-b963-4bb36ec7115d" valueTypeId="f0416db8-7aba-4daa-88e0-e6d5531bd26f"/>
+    <managerType typeId="cac08256-7996-43f4-9f09-74a2f67259ce" valueTypeId="4b1051db-9433-4740-aaaa-660dcc252496"/>
+  </producedTypes>
+  <name>СведенияОЧислеЗаболеваний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сведения о числе заболеваний (форма №12)</value>
+  </synonym>
+  <defaultForm>Report.СведенияОЧислеЗаболеваний.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.СведенияОЧислеЗаболеваний.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ВспомогательнаяФормаНастроекОтчета</defaultSettingsForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="89c87cce-1eaf-49b8-8850-7ccd94d8a0c4">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="804e209c-5863-42eb-a4ef-d64f1c485d7a">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="eed1929f-6310-4777-9943-0009270e12b0">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="609c407a-3ebd-489b-8805-8c1f9118be9f">
+  <producedTypes>
+    <refType typeId="1edf33de-9d72-448c-a159-bf328f1e74da" valueTypeId="a154f47f-98de-4298-921e-572a80e71ede"/>
+    <listType typeId="ff27a2b6-596e-4a5d-887a-e3751ab8f6ff" valueTypeId="e6948cc3-bddf-4a80-84b3-f29251040d0d"/>
+    <managerType typeId="d611e167-8879-4d01-86ab-5bcc21539d32" valueTypeId="c4c1cb13-101c-4df1-980a-0c58d49e7265"/>
+  </producedTypes>
+  <name>ТипыПакетнойОперацииВОчередиЧеков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы пакетной операции в очереди чеков</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ebf01c8d-0ca4-44b0-a664-34f1c3d4cff6">
+    <name>НеПакетнаяОперация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не пакетная операция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b9dd6653-11fb-439c-b1ee-479574e34393">
+    <name>ФискализацияЧекаСОплатойКартой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фискализация чека с оплатой картой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2f963afc-1011-42ea-bd83-dba12a009227">
+    <name>ПродажаСВыдачейНаличных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажа с выдачей наличных</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

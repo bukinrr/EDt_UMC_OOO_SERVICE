@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8bf96b83-12d4-43be-b4b1-60d39733ef58">
+  <name>АвтоматическаяОтправкаСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассылки: Автоматическая отправка сообщений</value>
+  </synonym>
+  <comment>Отправка сообщений с видами сообщения, имеющих признак отправки без подтверждения пользователя</comment>
+  <methodName>CommonModule.ФормированиеСообщений.АвтоматическаяОтправкаСообщений</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f754a3a0-b0ef-436c-ba0f-3d63f5b22eaf">
+  <producedTypes>
+    <selectionType typeId="c291fb26-0812-4bb5-9314-ebf3fc5d1d7a" valueTypeId="6eddf48d-4f3d-42ac-961b-1d3551b47df2"/>
+    <listType typeId="baba9f5e-2e66-4f7c-8bcb-5e864d3c9bf9" valueTypeId="81589cbc-b8d0-4d61-8e90-61d2fd40fad2"/>
+    <managerType typeId="fad6d0d5-cb37-4f8e-a289-1ee9eb146076" valueTypeId="c2469ca5-c25d-4eb7-9039-68eff42b2f45"/>
+    <recordSetType typeId="6b45fe18-f172-40e2-ab39-1961e0519be8" valueTypeId="612fc459-7b22-440a-b633-f9ae62198423"/>
+    <recordKeyType typeId="8de52f6d-4516-47c9-9563-f77f6a23c082" valueTypeId="ec4a219b-0fd7-4664-af1e-a1cdf7e43de0"/>
+    <recordType typeId="43e43939-6afc-4cd0-9a24-b075b45bc091" valueTypeId="fee8a27b-73a6-49ce-9276-17d10a6f6e3e"/>
+    <recordManagerType typeId="89cbf412-5dcd-47b0-a858-1a7fa5e6a8c1" valueTypeId="c381a2c4-5c51-4eab-93a7-504905c4a54c"/>
+  </producedTypes>
+  <name>СитиЛаб_ПараметрыЗабораИсследований</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Ситилаб-лаборатории) Параметры забора исследований</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="f05ff741-9036-4514-9156-17e2865b29ac">
+    <name>Лаборатория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лаборатория</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Лаборатории</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e06df543-269a-4b49-980e-bf108ee008ec">
+    <name>Target</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор исследования (Target)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d91b404d-652f-4d05-a5d5-6988ecbd675b">
+    <name>ИдентификаторПараметра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор параметра (userField, stdField)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="06b853fa-2697-4824-893d-5f9b95fa1783">
+    <name>СтандартноеПоле</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандартное поле</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

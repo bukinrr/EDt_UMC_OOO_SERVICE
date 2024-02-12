@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="230d0781-1e7c-478b-b588-16653f057cbc">
+  <producedTypes>
+    <objectType typeId="066a2432-cb04-406e-9539-819a39d9b502" valueTypeId="90a7d8db-82a0-49ab-bbf1-5ad256402af4"/>
+    <managerType typeId="5fd3cf25-1bf2-4212-aadb-1b6eb1308766" valueTypeId="07aff6a8-e11d-4210-bb87-35f3eaa8e37f"/>
+  </producedTypes>
+  <name>сл2_КлиентЛицензирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>firstBit.Клиент лицензирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.сл2_КлиентЛицензирования.Form.ОсновнаяФорма</defaultForm>
+  <forms uuid="9a6406c3-eff4-47c3-8013-fb4c0a08642b">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="51d8baef-cd9c-4fe1-9a00-8617cae9ae84">
+    <name>ФормаПодробности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма подробности</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="3e6adc55-595e-4854-961a-5e2d09251f7f">
+    <name>ВерсияОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия обработки</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

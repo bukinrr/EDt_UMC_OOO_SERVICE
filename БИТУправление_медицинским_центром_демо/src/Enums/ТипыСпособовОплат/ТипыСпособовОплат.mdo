@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="935ca2bd-8bfe-4dcb-9c92-489677d3fe3d">
+  <producedTypes>
+    <refType typeId="0c9382a8-b4dc-430e-bc63-60feaa20264b" valueTypeId="843d2c03-69b6-446a-ac06-4f68c5ba41a3"/>
+    <listType typeId="1c6adb23-17f5-420a-a6c4-e2f0c585be89" valueTypeId="027bb7aa-2f7a-4b03-a39c-0fa85cd55aac"/>
+    <managerType typeId="295d3283-0339-402e-9b87-8f54bc9c050b" valueTypeId="8f0b30b0-14bd-43da-9f53-e8669636cd7d"/>
+  </producedTypes>
+  <name>ТипыСпособовОплат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы способов оплат</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8de7f630-939b-4d6e-ac7e-7357f3c60588">
+    <name>Эквайринг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эквайринг</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="905d445f-762b-4ce3-a7f0-da3e4a6740f9">
+    <name>СБП</name>
+    <synonym>
+      <key>ru</key>
+      <value>СБП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="262e651c-af64-4356-8cab-e41124da290b">
+    <name>СертификатНСПК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронные сертификаты НСПК (ФЗ-491)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="11a22bc1-86f4-4000-b544-fb066715d7d4">
+    <name>Прочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

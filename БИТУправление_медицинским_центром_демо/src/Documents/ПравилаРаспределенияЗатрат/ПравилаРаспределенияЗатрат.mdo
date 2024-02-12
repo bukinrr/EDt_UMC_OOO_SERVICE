@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86bbdbc9-aa11-4693-8199-054dd25c9bdb">
+  <producedTypes>
+    <objectType typeId="89ccaea6-e9d9-4d07-bae1-de18e27fee95" valueTypeId="e60b8f5e-660a-49e9-9efa-49ce875265e7"/>
+    <refType typeId="5918b3ba-7925-4971-bba2-0f64deadcbb3" valueTypeId="82c9daf7-8e00-4550-bee4-73b4658930d4"/>
+    <selectionType typeId="678fc6c3-750d-45eb-823f-172a5e88b118" valueTypeId="6b0cff84-8a59-433d-a691-fd9bfe95efe2"/>
+    <listType typeId="27bf8258-07df-4ca7-9f15-7c46e274707d" valueTypeId="27660dc4-a145-4e09-b850-6f34a838162d"/>
+    <managerType typeId="686a7f2c-3d4e-4820-990b-92bf49cc099a" valueTypeId="3d2e5caf-ed47-4d3d-b068-7a6b87727287"/>
+  </producedTypes>
+  <name>ПравилаРаспределенияЗатрат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка правил распределения затрат</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПравилаРаспределенияЗатрат.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПравилаРаспределенияЗатрат.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="77db1343-ea63-4b5e-bd60-6d1fb0e5dd28">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ответственный за отработку письма</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Пользователи.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0f6227bf-96cc-4554-a607-cfe4de24b13d">
+    <name>ОсновнаяСтатьяЗатратОтраженияЗарплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная статья затрат отражения зарплаты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиЗатрат</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="428ca057-1ef7-4195-a99c-b33676ebb88d">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="3ff9d9d4-f4f9-4820-af1c-3e0f0d9d6c11">
+    <producedTypes>
+      <objectType typeId="2672a29f-aa97-4d83-b3bc-7f648430ec73" valueTypeId="4995e155-5f5f-4140-8ef9-bb736263ac18"/>
+      <rowType typeId="ac20c6a9-df3c-43e4-a7fa-b30d1087b90e" valueTypeId="54731c1f-a389-47eb-8595-2cc286865924"/>
+    </producedTypes>
+    <name>РаспределениеЗатратФилиаловНаСпециализации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распределение затрат филиалов на специализации</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="de144bab-7938-4d73-b97b-e88e39671365">
+      <name>СтатьяЗатрат</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья затрат</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтатьиЗатрат</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3c358b4f-132d-4ff7-9ffa-45b62af03dd0">
+      <name>Филиал</name>
+      <synonym>
+        <key>ru</key>
+        <value>Филиал</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Филиалы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="74782e34-c0c9-489d-aa89-2a286ad52c45">
+      <name>ПравилоРаспределения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Правило распределения</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПравилаРаспределенияЗатрат</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="2c95d8ee-2e9b-4089-9298-50d1d8b227a4">
+    <producedTypes>
+      <objectType typeId="a86a6991-39c5-4431-990b-8ae8b580d1cd" valueTypeId="a76a27bf-5a9a-4fc5-83c0-a1be6de63101"/>
+      <rowType typeId="d688751c-173a-4787-9bcd-9ad097b5bb93" valueTypeId="a8b059c5-ef0d-4ecd-b533-502134d3bb02"/>
+    </producedTypes>
+    <name>РаспределениеЗатратСпециализацийНаНоменклатуру</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распределение затрат специализаций на номенклатуру</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="158d14fd-d0c7-45d5-b491-4257abc51e55">
+      <name>СтатьяЗатрат</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья затрат</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтатьиЗатрат</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0e1db614-d185-4d61-8df1-f5b4a8a5c07a">
+      <name>Специализация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Специализация</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КатегорииВыработки</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="330f0e76-8cea-485b-8897-0a9e1c9e3d78">
+      <name>СпособРаспределения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Способ распределения</value>
+      </synonym>
+      <type>
+        <types>EnumRef.СпособРаспределенияЗатрат</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameters>
+        <name>Отбор.Ссылка</name>
+        <value xsi:type="core:FixedArrayValue">
+          <values xsi:type="core:ReferenceValue">
+            <value>Enum.СпособРаспределенияЗатрат.EnumValue.ПоСуммеПродаж</value>
+          </values>
+          <values xsi:type="core:ReferenceValue">
+            <value>Enum.СпособРаспределенияЗатрат.EnumValue.ПоКоличествуУслуг</value>
+          </values>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e69adbb9-3c47-4492-b3ad-b4ffd20083a4">
+  <producedTypes>
+    <selectionType typeId="bb9cbd6e-9fb7-447d-8fa3-11d0b73dd4f7" valueTypeId="b55811ab-06a7-4d78-a09b-ea21dc795861"/>
+    <listType typeId="684c2ff6-b3d6-43de-83d5-0c6005dff899" valueTypeId="337cd8a2-012b-4abd-b486-3d4ff6a613b4"/>
+    <managerType typeId="ec03b203-2847-46c6-98d3-c0bf0891edc2" valueTypeId="0bd2ca1e-fade-4cb9-bdd1-4ff5666220d2"/>
+    <recordSetType typeId="890b1f2f-ec08-40cc-aab5-ec351d96edab" valueTypeId="4e597021-12da-474c-9c45-993950a5f54f"/>
+    <recordKeyType typeId="7cceb0c9-7e7b-4335-b26b-94ac763c0bac" valueTypeId="ff344612-a18e-4ca6-a417-d287e191dc1f"/>
+    <recordType typeId="f47d8716-35d8-43b3-b2b6-c2fc540a9891" valueTypeId="e9e674e0-129a-4431-8e90-9a4dfd5aa078"/>
+    <recordManagerType typeId="010b3ef3-d5f2-48c2-b251-496b3b53934e" valueTypeId="643d59d6-9e6a-4ad6-b5ed-63dab3ea5ad0"/>
+  </producedTypes>
+  <name>КДЛ_БиоматериалыКонтейнеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>(КДЛ-лаборатории) Биоматериалы + Контейнеры</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.КДЛ_БиоматериалыКонтейнеров.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="568d17c4-3c6b-4f62-af74-36ae3ce9dccb">
+    <name>Обязательность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обязательность</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ba803e21-6590-4255-be31-ef93836c938b">
+    <name>Лаборатория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лаборатория</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Лаборатории</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Внешняя лаборатория</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="70848c3d-e636-4ef2-9d46-6079efe44653">
+    <name>КодБиоматериала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код биоматериала</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7d2e1c9e-d4ce-4a63-abc0-ab112223db44">
+    <name>КодКонтейнера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код контейнера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="aa7d98eb-f303-41b6-82ad-712113d9d713">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ce30648b-b181-45b7-8b43-b29a6180ef73">
+    <name>ФормаВыбораБиоматериаловИКонтейнеров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор биоматериалов и контейнеров</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a0b1f1c-4b07-4e7b-a2b0-a05abeb92921">
+  <producedTypes>
+    <objectType typeId="503f64ee-a351-4f22-8ae5-bdee7e7ea374" valueTypeId="5f55708f-9813-4dc3-bfb8-6c35ea7a72db"/>
+    <managerType typeId="96fb843d-f240-4a39-a7ab-cb3d02a14cbb" valueTypeId="ca700d4b-2641-40be-8835-9d4176eb6f01"/>
+  </producedTypes>
+  <name>СтраховыеПрограммыЗаполнениеПараметровРеестра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Страховые программы заполнение параметров реестра</value>
+  </synonym>
+  <defaultForm>DataProcessor.СтраховыеПрограммыЗаполнениеПараметровРеестра.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="d2eacbcb-5676-4582-aeae-7584b50deb7b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="baede592-516c-4fbe-b9cc-cc816803ab1f">
+    <name>ОткрытьОбработку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение параметров продаж по страховым</value>
+    </synonym>
+    <comment>Учитывается также при разграничении доступа</comment>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

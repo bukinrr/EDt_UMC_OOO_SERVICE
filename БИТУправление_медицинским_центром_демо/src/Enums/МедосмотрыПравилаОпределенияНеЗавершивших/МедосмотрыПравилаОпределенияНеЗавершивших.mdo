@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8fca3eff-0a38-4832-949b-5d4ffeebb920">
+  <producedTypes>
+    <refType typeId="7cce773c-9580-4311-84ee-9c68a0fc47b8" valueTypeId="05e58982-57fd-4bf6-a163-d835626aa159"/>
+    <listType typeId="d460b4dd-aa37-47c8-943c-22ef0f4a5c09" valueTypeId="d02ef3c8-26e8-46bf-bb4f-16286e4df264"/>
+    <managerType typeId="e0e5c1bd-ca03-4353-9da5-05bf0f2df793" valueTypeId="9c58c896-e25c-4b3e-9e35-7a70a156a9ea"/>
+  </producedTypes>
+  <name>МедосмотрыПравилаОпределенияНеЗавершивших</name>
+  <synonym>
+    <key>ru</key>
+    <value>Правило определения не завершивших медосмотр</value>
+  </synonym>
+  <comment>Не завершивший - это начавший медосмотр, но не дошедший до заключения</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="054b7f3d-e030-48bc-9fa5-d7fc0a0eedc1">
+    <name>ЕстьОтметкиПрохождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть отметки прохождения медосмотра</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="846f9af7-935f-4236-ada8-7ec8d95632b6">
+    <name>ЕстьДокументПрохождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть проведенный документ прохождения медосмотра</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d5b0ddda-96c6-4f9f-bc0d-0f0a3f6d479c">
+    <name>ЕстьДокументПрохожденияИгнорОтказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть провереденный документ прохождения, игнорировать причину отказа/неявки</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cefddef9-9846-46b1-a776-25e6a12336f9">
+  <producedTypes>
+    <objectType typeId="1adea4d0-6d95-45f7-b0f5-38cb7a53c1ca" valueTypeId="1e83c064-a61f-4cda-9b8b-03a39fc29b8d"/>
+    <managerType typeId="822dd6a2-56d0-4252-b869-6ebd5e00c712" valueTypeId="3e8fad35-4a3b-4a3d-ab9c-d454e98bddf5"/>
+  </producedTypes>
+  <name>ПечатьГрафиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать графиков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ПечатьГрафиков.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ПечатьГрафиков.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ВспомогательнаяФормаНастроекОтчета</defaultSettingsForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="26b89c48-e515-4abe-b348-21357aee1134">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="f79feac2-e52d-4988-8bad-386f7eb6ea25">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="6e94773c-fea8-42e1-b059-b87b85178177">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

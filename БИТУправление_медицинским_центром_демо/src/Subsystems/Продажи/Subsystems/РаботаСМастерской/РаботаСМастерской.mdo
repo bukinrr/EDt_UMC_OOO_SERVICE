@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3dffe41-6402-4f83-9704-d95981b1ee7d">
+  <name>РаботаСМастерской</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с мастерской</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ВыполнениеЗаказа</content>
+  <content>Catalog.ПараметрыСпецификаций</content>
+  <content>Report.МатериалыВСтороннихМастерских</content>
+  <content>DataProcessor.ЗаказыКлиентов</content>
+  <content>Report.СебестоимостьВыполненныхЗаказов</content>
+  <subsystems>ВнешниеМастерские</subsystems>
+  <parentSubsystem>Subsystem.Продажи</parentSubsystem>
+</mdclass:Subsystem>

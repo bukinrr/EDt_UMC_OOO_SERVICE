@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f2fe3f6-bf39-468a-8bd2-0e53dfa79c91">
+  <producedTypes>
+    <refType typeId="4c1fa823-f443-41a4-9dea-c80bd5d20503" valueTypeId="b89a2041-b3bb-4840-8a40-6dcf376814c1"/>
+    <listType typeId="8363436e-82ac-41a7-aae5-c4d2b62ce0a6" valueTypeId="aff2ced4-85d6-49e6-8f02-cba7052238f9"/>
+    <managerType typeId="cf832076-490a-4e8b-b726-614b54d5f786" valueTypeId="928b1b8c-a6b1-4362-818e-0d2616bd4521"/>
+  </producedTypes>
+  <name>РежимыПроверкиДублейКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режимы проверки дублей клиентов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="07e428e1-da32-4963-b024-71554e593e4e">
+    <name>НеПроверять</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не проверять</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bd8392a3-e03b-408c-b214-4f2dc5527da0">
+    <name>ФамилияИмя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фамилия и имя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="14af9a62-6ab7-4970-ab44-41e8a6b09b27">
+    <name>ФамилияИмяОтчество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фамилия, имя и отчество</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="25306116-9a6b-4a60-a0e6-0b5094dac5a2">
+    <name>ФамилияИмяДР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фамилия, имя и дата рождения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2877b012-6d9f-4ec9-9ee4-3c3d3ea42b68">
+    <name>ФамилияИмяОтчествоДР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фамилия, имя, отчество и дата рождения</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

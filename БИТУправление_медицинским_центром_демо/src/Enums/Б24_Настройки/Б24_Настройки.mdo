@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09674b64-533f-4094-8f78-ecc05b39b7ef">
+  <producedTypes>
+    <refType typeId="1b36cd8e-148c-4372-beaa-cca37ce58658" valueTypeId="00c9fb13-6e5b-4617-8788-4ff6ecf335ce"/>
+    <listType typeId="6b5fafc4-704e-40c2-a979-18367f89403c" valueTypeId="b1b422d0-5686-4a1c-a39d-6ec5592068db"/>
+    <managerType typeId="edc0d115-1bad-4c49-9def-cb055ef4df64" valueTypeId="4cb54046-2637-42e1-964a-5718ac2f25db"/>
+  </producedTypes>
+  <name>Б24_Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Б24 настройки</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d0a7c5a3-325f-4f87-81ab-d0237182b9ae">
+    <name>ИДПользователяВебхука</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИДПользователя вебхука</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d60b8116-3e56-4c24-a7c9-e444d68ffd0f">
+    <name>КодАвторизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код авторизации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1494ad9c-768e-442c-aae5-c86e354483aa">
+    <name>КодВебхука</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код вебхука</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fa32d459-0987-48f9-b614-2e858c88ada6">
+    <name>НаименованиеБитрикс24</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование битрикс24</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="72659712-4a7c-45f3-bb95-7bc8443b460d">
+    <name>Таймаут</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таймаут</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="16ed02e1-7b94-4ac5-9cc5-0d1b55c265a0">
+    <name>РежимСозданияСделки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим создания сделки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e1718559-e9cd-4679-80e2-361c945d4a2e">
+    <name>РежимПолученияЛида</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим получения лида</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d33e2822-c99d-403b-86d9-ebf7a5e53285">
+    <name>ГруппаКлиентовИзБитрикс24</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа клиентов из битрикс24</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="553d4f3b-b3fe-43e0-bd84-79b84a994ac4">
+    <name>НастройкаОбменаССайтом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка обмена с сайтом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9e4db79e-19e0-4387-84d8-3b3214eb21b4">
+    <name>Режим1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим1</value>
+    </synonym>
+    <comment>ОУ создаёт сделку</comment>
+  </enumValues>
+  <enumValues uuid="6da81bed-466d-471b-bede-c26913ff03e8">
+    <name>Режим2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим2</value>
+    </synonym>
+    <comment>Заявка создаёт сделку, в которой группируются данные ОУ по заявке</comment>
+  </enumValues>
+  <enumValues uuid="2c6bc5b4-523c-4646-8844-879d84e56978">
+    <name>Режим3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим3</value>
+    </synonym>
+    <comment>Состояния заявки влияют на статусы лида</comment>
+  </enumValues>
+  <enumValues uuid="20f30bbd-180c-4e4f-b570-c861fe69ab00">
+    <name>Режим4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим4</value>
+    </synonym>
+    <comment>Не отправлять сделки в Б24</comment>
+  </enumValues>
+  <enumValues uuid="83f3bbae-60aa-4417-abce-3b716530fda1">
+    <name>ПериодАктуальностиЗаявки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период актуальности заявки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b05299e0-ab33-4156-86f4-e97f93248d4d">
+    <name>ШаблонБПКонвертацииЛида</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон БПКонвертации лида</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f481b94f-fac9-4b15-9066-bfda055c45be">
+    <name>ШаблонБПСозданияСделкиПоКлиенту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон БП создания сделки по клиенту</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="80f5773e-3a10-4a74-afe9-af175899478d">
+    <name>ШаблонБПИзменениеОтветственного</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон БПИзменение ответственного</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="96083b3d-1118-4588-9690-db9f83ddd978">
+    <name>НезащищенноеСоединение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Незащищенное соединение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="27f02de5-a976-4801-b2a9-7e4f04d2139b">
+    <name>ОтправлятьЗвонки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлять звонки</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

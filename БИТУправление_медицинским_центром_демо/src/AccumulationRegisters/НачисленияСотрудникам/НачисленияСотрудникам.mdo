@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99c1c5b3-5835-46aa-9048-f9c11393ef2a">
+  <producedTypes>
+    <selectionType typeId="5f9b8224-de30-45b8-9854-d14fdda0ee11" valueTypeId="12bf78a8-b9f6-47fe-b502-0ff8d49557f1"/>
+    <listType typeId="b730752f-bc35-4640-8e61-a269054cfe5b" valueTypeId="e0a92345-4870-42f7-af94-d01f850905d3"/>
+    <managerType typeId="0f843c3d-6d0b-4416-9c44-764649dc032f" valueTypeId="b6684bed-1b0e-4538-a1b2-a20fda0ea198"/>
+    <recordSetType typeId="ba1b74c3-aa28-435f-bb30-07928fe0891e" valueTypeId="3de501aa-6287-4d3e-8b5f-af69e0a38181"/>
+    <recordKeyType typeId="bafe4c3b-e34d-4bb9-a583-80342e3122bb" valueTypeId="1eb45075-9ebf-42b4-bc36-9288e4645505"/>
+    <recordType typeId="88ab3e69-153b-40de-b15a-70065730642d" valueTypeId="ede148c0-5b3c-4047-aa87-86a87197922a"/>
+  </producedTypes>
+  <name>НачисленияСотрудникам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начисления сотрудникам</value>
+  </synonym>
+  <auxiliaryListForm>AccumulationRegister.НачисленияСотрудникам.Form.ФормаСпискаУпр</auxiliaryListForm>
+  <registerType>Turnovers</registerType>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="f698656d-5a1e-4944-b708-3dda0446124d">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сумма начислений</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="c8fad66d-1a10-4d02-bd51-e75a9235677d">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбранный сотрудник</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="dbd1232a-827e-46cc-8cc4-a5c8e9f27b54">
+    <name>ВидРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид расчета</value>
+    </synonym>
+    <type>
+      <types>ChartOfCalculationTypesRef.Начисления</types>
+      <types>ChartOfCalculationTypesRef.Удержания</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид расчета начисления или удержания</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="c93bba35-340e-4ccb-803d-1f9943604a13">
+    <name>ПериодНачисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период начисления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Период начисления сотруднику</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="374a33f9-87ab-49c0-b373-2474e296b007">
+    <name>КатегорияВыработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория выработки номенклатуры</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КатегорииВыработки</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбранная категория выработки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <forms uuid="9a81bdd6-6b69-4276-9718-0b121c81ffd4">
+    <name>ФормаСпискаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:AccumulationRegister>

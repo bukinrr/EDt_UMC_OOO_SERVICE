@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c2a415d-620c-4b89-ae58-6e6d361bc7b2">
+  <producedTypes>
+    <refType typeId="fdaa558d-22c4-4bc7-9030-7536152781a1" valueTypeId="09f2b4ce-b986-49ab-8608-083e65244427"/>
+    <listType typeId="df6c1fc5-30bf-4243-a51b-084e97e71557" valueTypeId="a4f62bd3-6946-4ae6-9b09-34fd7554ce02"/>
+    <managerType typeId="8776a060-0aea-42ad-a8b0-02e61b61c111" valueTypeId="e0bb7250-d23c-48b6-8f6d-5ff4b9e66c7d"/>
+  </producedTypes>
+  <name>ДействияПриОтправкеПоПочтеЭП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Действия при отправке по почте ЭП</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="15fd4477-b935-4c2b-9b37-77a0a82fcbe2">
+    <name>ОтправлятьВсеПодписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлять все подписи</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8cb76de3-b7f6-4522-a4f3-79d6a6e1136c">
+    <name>НеОтправлятьПодписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не отправлять подписи</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2dd64acd-1cc4-4d0d-abeb-5915c088c040">
+    <name>Спрашивать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спрашивать</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

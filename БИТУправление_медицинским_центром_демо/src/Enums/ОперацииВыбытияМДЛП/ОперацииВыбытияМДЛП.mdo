@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cec2402a-5350-45fd-8ebf-abfeea4262ae">
+  <producedTypes>
+    <refType typeId="ddc44e69-3b42-4ba2-b20d-27920e1cca8c" valueTypeId="1c8cee93-6ff3-4d5c-9541-b68b85e9ec5a"/>
+    <listType typeId="e9939c3d-69f6-4a4b-bf6b-0bd56b7ab74d" valueTypeId="17eb9991-ed94-4b60-83af-acd3161893f3"/>
+    <managerType typeId="ba54f764-1d5a-4544-bfd0-c3dad5e5b024" valueTypeId="d4e174ed-9de8-4a71-a36d-064ea47bdae8"/>
+  </producedTypes>
+  <name>ОперацииВыбытияМДЛП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операции выбытия МДЛП</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7242cce6-7efc-4f3d-a4c3-cfbd1e79276d">
+    <name>ВыводПоРазличнымПричинам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вывод по различным причинам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9c6b9060-d209-4bde-bb89-b37d36f4d8b0">
+    <name>ВыводПоРазличнымПричинам_Входящий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вывод по различным причинам (входящий)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f2be449e-04a9-4b99-acdc-ebe05c602831">
+    <name>АвтоматическоеСписаниеСИстекшимСрокомГодности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматическое списание с истекшим сроком годности</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

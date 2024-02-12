@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ee71d0e-2dc3-41da-a48b-454d6349ed4e">
+  <name>ПередЗаписьюДокументаДатаЗапретаРедактирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перед записью документа дата запрета редактирования</value>
+  </synonym>
+  <comment>Проверка даты запреты редактирования перед записью документов</comment>
+  <source>
+    <types>DocumentObject.СписаниеТоваров</types>
+    <types>DocumentObject.ПередачаЗаказаВМастерскую</types>
+    <types>DocumentObject.ВыполнениеЗаказа</types>
+    <types>DocumentObject.НачислениеЗарплаты</types>
+    <types>DocumentObject.УстановкаЦен</types>
+    <types>DocumentObject.удалитьУстановкаПороговНакопительныхСкидок</types>
+    <types>DocumentObject.Рекламация</types>
+    <types>DocumentObject.ОплатаПлатежнойКартой</types>
+    <types>DocumentObject.РаботыПоРекламации</types>
+    <types>DocumentObject.ГарантийноеПисьмоПоПолису</types>
+    <types>DocumentObject.РасходныйКассовыйОрдер</types>
+    <types>DocumentObject.ПрохождениеМедосмотра</types>
+    <types>DocumentObject.ОприходованиеТоваров</types>
+    <types>DocumentObject.ДействияНадАнализами</types>
+    <types>DocumentObject.ПлатежноеПоручениеВходящее</types>
+    <types>DocumentObject.АвансовыйОтчет</types>
+    <types>DocumentObject.ИзменениеСоставаСтрахуемых</types>
+    <types>DocumentObject.ВедомостьОВыплаченнойЗарплатеЧерезБанк</types>
+    <types>DocumentObject.ВозвратПоПлатежнойКарте</types>
+    <types>DocumentObject.УстановкаГрафиковРаботы</types>
+    <types>DocumentObject.Рецепт</types>
+    <types>DocumentObject.ПоступлениеТоваровУслуг</types>
+    <types>DocumentObject.ОказаниеУслуг</types>
+    <types>DocumentObject.ПеремещениеМатериалов</types>
+    <types>DocumentObject.СправкаДляНалоговой</types>
+    <types>DocumentObject.ИнвентаризацияТоваров</types>
+    <types>DocumentObject.ВводСведенийОНачисленияхРаботников</types>
+    <types>DocumentObject.РеестрОказанныхУслугПоСоглашениям</types>
+    <types>DocumentObject.УстановкаЛимитаСтрахования</types>
+    <types>DocumentObject.КорректировкаДолгаКлиента</types>
+    <types>DocumentObject.ПриемЗаказаИзМастерской</types>
+    <types>DocumentObject.ПриходныйКассовыйОрдер</types>
+    <types>DocumentObject.Прием</types>
+    <types>DocumentObject.Событие</types>
+    <types>DocumentObject.ПлатежноеПоручениеИсходящее</types>
+    <types>DocumentObject.УстановкаСкидок</types>
+    <types>DocumentObject.СписокНаПрохождениеМедосмотра</types>
+    <types>DocumentObject.СоставМедкомиссии</types>
+    <types>DocumentObject.ОбратнаяСвязь</types>
+    <types>DocumentObject.ВозвратМатериаловИзПроизводства</types>
+    <types>DocumentObject.ВозвратТоваровПоставщику</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.НастройкаПравДоступа.ПередЗаписьюДокументовПроверкаДоступностиПериода</handler>
+</mdclass:EventSubscription>

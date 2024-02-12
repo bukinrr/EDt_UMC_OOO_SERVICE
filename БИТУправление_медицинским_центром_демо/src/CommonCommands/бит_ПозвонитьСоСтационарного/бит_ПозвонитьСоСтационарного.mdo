@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72214076-de0e-4d38-9038-62d7f3800d8b">
+  <name>бит_ПозвонитьСоСтационарного</name>
+  <synonym>
+    <key>ru</key>
+    <value>Позвонить со стационарного телефона</value>
+  </synonym>
+  <comment>Позвонить</comment>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>CatalogRef.Клиенты</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Позвонить через стационарный телефон</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.бит_ПодсистемаБитТелефония</picture>
+  </picture>
+</mdclass:CommonCommand>

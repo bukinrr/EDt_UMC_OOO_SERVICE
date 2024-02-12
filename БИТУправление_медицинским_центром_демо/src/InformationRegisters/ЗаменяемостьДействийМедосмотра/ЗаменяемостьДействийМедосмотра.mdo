@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="244a8bb0-5cb4-404b-b3c1-596cc38ec95f">
+  <producedTypes>
+    <selectionType typeId="cc86edc2-3e2b-41b5-8770-1106f35b4492" valueTypeId="664deff6-a7c0-4d2d-a30e-e50aabafa992"/>
+    <listType typeId="6aaf7f3a-5009-4955-8622-59505ce26a98" valueTypeId="134cd088-96bf-4f86-9004-5aa5103ad9db"/>
+    <managerType typeId="8e2eeabe-4dbd-4de2-8081-779aa0f4a622" valueTypeId="9deb3f88-0449-41fe-8bd7-854ac2a71c3d"/>
+    <recordSetType typeId="3e7abde6-1313-4305-9d02-2b897dcbd600" valueTypeId="036a6a23-8c93-4791-92ce-6dcceb38b5b5"/>
+    <recordKeyType typeId="ba740daa-d6c3-47e8-83ef-2f9d90f17aea" valueTypeId="0e7aeb35-7662-4a6a-98f3-4eeb339c2d22"/>
+    <recordType typeId="545f0a4f-418e-48fd-9308-02442ce001f4" valueTypeId="0b08d719-b2dc-4584-ac5d-38deb6d0851a"/>
+    <recordManagerType typeId="50da49f0-4385-468d-957f-1cd9cc310ce9" valueTypeId="b0f14812-edb5-45d3-9d33-ba58fecd47e7"/>
+  </producedTypes>
+  <name>ЗаменяемостьДействийМедосмотра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заменяемость действий медосмотра</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="534eab12-0e0e-4b43-8e5e-edd19c43320f">
+    <name>ЗаменяющееДействие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заменяющее действие</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДействияМедосмотра</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Действие, которое может заменить заменяемое</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9bdc3c75-1f4b-4175-a2e1-24c3347040e6">
+    <name>ЗаменяемоеДействие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заменяемое действие</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДействияМедосмотра</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Действие, которое можно заменить</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

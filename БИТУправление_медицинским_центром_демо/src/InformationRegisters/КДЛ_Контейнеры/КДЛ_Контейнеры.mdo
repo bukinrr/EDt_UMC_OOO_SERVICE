@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dcca77b7-5e82-4e94-8559-fe9e783b2fba">
+  <producedTypes>
+    <selectionType typeId="af037c6f-1ac0-4a5e-a898-718d51d7e38c" valueTypeId="f4bca3dc-c214-4f46-adee-49810602c68b"/>
+    <listType typeId="12be6f4a-bffd-4701-9abb-4db181bd39cb" valueTypeId="9594df18-fe1e-4e65-81e1-ca35e9ba94e6"/>
+    <managerType typeId="1dc32c69-9dcc-4fe6-9fd6-23886565ff26" valueTypeId="261437af-c27b-41d7-9c71-24bb84585c2b"/>
+    <recordSetType typeId="7fbaed0d-9029-4b49-ba3b-a7ae708b40d0" valueTypeId="a51b9a5a-7b0e-4f1d-9d7a-1c472cf65c77"/>
+    <recordKeyType typeId="b0ad3026-e2ca-409b-b7a9-3deacf1b48a4" valueTypeId="14235878-3f60-4fc5-90e7-e23efa6be226"/>
+    <recordType typeId="5a28ce8e-5fa5-4cc2-81ce-fdb0187070c3" valueTypeId="a58cc87e-9b71-476a-968e-8a20d9c9e94b"/>
+    <recordManagerType typeId="76b5ef9a-17f6-4d24-b302-57e6065dd93b" valueTypeId="b9bcefb9-19de-4a73-b481-7d51b6a3ccd3"/>
+  </producedTypes>
+  <name>КДЛ_Контейнеры</name>
+  <synonym>
+    <key>ru</key>
+    <value>(КДЛ-лаборатории) Контейнеры</value>
+  </synonym>
+  <comment>Containers</comment>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.КДЛ_Контейнеры.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4994140f-0bbe-443e-be91-f8a0aae876a5">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="becdb4ea-8236-40d1-bb1c-4ea5fdc84912">
+    <name>Лаборатория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лаборатория</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Лаборатории</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Внешняя лаборатория</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9bcddc36-5ae5-48e7-9ddf-0c97e74b2a9e">
+    <name>Код</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код контейнера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="785f8760-466a-4be5-a572-d6a99dc8de9c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e1d55336-cce1-433e-8872-49e79ea11628">
+    <name>СопоставлениеНаименованийКонтейнеров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сопоставление наименований контейнеров</value>
+    </synonym>
+  </templates>
+  <templates uuid="fb6dc463-f136-4ab5-ad65-0bba120bb333">
+    <name>КонтейнерыДляБактериологическогоИсследования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контейнеры для бактериологического исследования</value>
+    </synonym>
+  </templates>
+</mdclass:InformationRegister>

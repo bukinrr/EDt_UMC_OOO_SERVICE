@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core">
+	<filter>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">Документ.Дата</left>
+			<comparisonType>GreaterOrEqual</comparisonType>
+			<right xsi:type="v8:StandardBeginningDate">
+				<v8:variant xsi:type="v8:StandardBeginningDateVariant">Custom</v8:variant>
+				<v8:date>0001-01-01T00:00:00</v8:date>
+			</right>
+			<userSettingID>96626300-9b5c-421d-aaef-77102e5ee56a</userSettingID>
+			<userSettingPresentation xsi:type="xs:string">Дата</userSettingPresentation>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">Документ.Дата</left>
+			<comparisonType>Less</comparisonType>
+			<right xsi:type="v8:StandardBeginningDate">
+				<v8:variant xsi:type="v8:StandardBeginningDateVariant">Custom</v8:variant>
+				<v8:date>0001-01-01T00:00:00</v8:date>
+			</right>
+			<userSettingID>66ae251b-aa43-4afa-ad25-6625aa1df4e7</userSettingID>
+			<userSettingPresentation xsi:type="xs:string">Дата</userSettingPresentation>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">Диагноз</left>
+			<comparisonType>NotFilled</comparisonType>
+			<presentation xsi:type="xs:string">Диагноз не заполнен</presentation>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">Проверено</left>
+			<comparisonType>Equal</comparisonType>
+			<right xsi:type="xs:boolean">false</right>
+			<presentation xsi:type="xs:string">Только не проверенные</presentation>
+			<userSettingID>7608b1b2-ca2b-407a-b8ab-11de2be7bf29</userSettingID>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">Проверено</left>
+			<comparisonType>Equal</comparisonType>
+			<right xsi:type="xs:boolean">true</right>
+			<presentation xsi:type="xs:string">Только проверенные</presentation>
+			<userSettingID>48bd994e-eee2-4bb3-86f2-4a062028f06d</userSettingID>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">Документ.Документ.ВидПолиса</left>
+			<comparisonType>Equal</comparisonType>
+			<userSettingID>0752df79-5b6d-4c19-af25-4764d418278e</userSettingID>
+			<userSettingPresentation xsi:type="xs:string">Вид полиса</userSettingPresentation>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">Документ.Документ.ВидПолиса.СоглашениеСтрахования</left>
+			<comparisonType>Equal</comparisonType>
+			<userSettingID>ca99a072-ae76-46bc-810c-ec031684fa75</userSettingID>
+			<userSettingPresentation xsi:type="xs:string">СоглашениеСтрахования</userSettingPresentation>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">Документ.Документ.ВидПолиса.Контрагент</left>
+			<comparisonType>Equal</comparisonType>
+			<userSettingID>84e50c0f-3e44-4342-b4a3-22beb3499bef</userSettingID>
+			<userSettingPresentation xsi:type="xs:string">Контрагент</userSettingPresentation>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">СпособОпределенияПриема</left>
+			<comparisonType>NotEqual</comparisonType>
+			<right xsi:type="dcscor:DesignTimeValue">Перечисление.СпособыОпределенияПриемаДляПродажПоСтраховымПрограммам.УказанПользователем</right>
+			<userSettingID>b1fe32cf-d7c6-4f0c-b4c8-71b80def672e</userSettingID>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">СпособОпределенияДиагноза</left>
+			<comparisonType>NotEqual</comparisonType>
+			<right xsi:type="dcscor:DesignTimeValue">Перечисление.СпособыОпределенияДиагнозаДляПродажПоСтраховымПрограммам.УказанПользователем</right>
+			<userSettingID>a99e1944-273c-4805-93d1-d02b393c7958</userSettingID>
+		</item>
+		<viewMode>Normal</viewMode>
+		<userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</userSettingID>
+	</filter>
+	<order>
+		<item xsi:type="OrderItemField">
+			<field>Документ.Дата</field>
+			<orderType>Asc</orderType>
+		</item>
+		<viewMode>Normal</viewMode>
+		<userSettingID>0a648c52-88ec-4691-a22e-7a94d8588887</userSettingID>
+	</order>
+	<conditionalAppearance>
+		<viewMode>Normal</viewMode>
+	</conditionalAppearance>
+	<itemsViewMode>Normal</itemsViewMode>
+</Settings>

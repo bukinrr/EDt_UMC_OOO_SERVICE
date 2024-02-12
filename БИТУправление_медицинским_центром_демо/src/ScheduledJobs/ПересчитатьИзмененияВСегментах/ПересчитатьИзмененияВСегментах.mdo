@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d13e49f-d0aa-4c19-ba03-a0103da856db">
+  <name>ПересчитатьИзмененияВСегментах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сегментация: Пересчитать сегменты по изменениям данных</value>
+  </synonym>
+  <methodName>CommonModule.СегментацияСервер.ОбработатьОчередьИзменений</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

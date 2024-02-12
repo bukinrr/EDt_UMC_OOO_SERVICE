@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b83d6fd-9074-42a2-aeff-6c29760e5be2">
+  <name>ЛабораторныеИсследования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лаборатория</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ЛабораторныеИсследования</picture>
+  </picture>
+  <content>Document.ДействияНадАнализами</content>
+  <content>Catalog.ЗначенияПараметровЗабора</content>
+  <content>InformationRegister.удалитьИсследования</content>
+  <content>CommonModule.ЛабораторияСервер</content>
+  <content>Catalog.Лаборатории</content>
+  <content>Enum.ВидыОперацийАнализов</content>
+  <content>Enum.СостоянияИсследований</content>
+  <content>DataProcessor.ЛабораторныеИсследования</content>
+  <content>CommonCommand.ОткрытьРабочееМестоЛабИсследования</content>
+  <content>CommonPicture.ЛабораторныеИсследования</content>
+  <content>Report.СтатистикаПроизводительностиЛабораторий</content>
+  <content>InformationRegister.МаршрутыАнализов</content>
+  <content>InformationRegister.ГруппыНоменклатурыАнализов</content>
+  <content>ChartOfCharacteristicTypes.ПараметрыЗабораАнализов</content>
+  <content>SessionParameter.КешАнализовЛабораторий</content>
+  <content>InformationRegister.ПулыНомеровЗаявокЛабораторий</content>
+  <content>CommonModule.ЛабораторияКлиентСерверПовтИсп</content>
+  <content>SessionParameter.КешНСИЛабораторий</content>
+  <content>InformationRegister.ВерсииФайловСправочниковЛабораторий</content>
+  <content>CommonModule.ЛабораторияСерверПовтИсп</content>
+  <content>DataProcessor.ПодключениеМодулейБИТ</content>
+  <content>CommonModule.ЛабораторияКлиент</content>
+  <content>FunctionalOption.ИспользоватьЛабораторныеИсследования</content>
+  <subsystems>ИнтеграцияВнешниеЛаборатории</subsystems>
+  <subsystems>РасширеннаяВнутренняяЛаборатория</subsystems>
+</mdclass:Subsystem>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f799f69-41d2-4a1b-a89e-add4382a42b6">
+  <producedTypes>
+    <objectType typeId="ad0e5753-0bb2-4a58-b610-b8748ca09105" valueTypeId="5929351b-d685-4e74-b795-53670ce12f85"/>
+    <refType typeId="16d28f08-7275-4ebf-8af5-c144ada0cfe6" valueTypeId="e69de9f5-a3ad-4195-b30d-cdcd83bfef00"/>
+    <selectionType typeId="773156c4-3890-4fd6-9f1b-d56b8e6f6e4c" valueTypeId="cca47582-34e7-4b17-868a-59e286f333fd"/>
+    <listType typeId="6cc43788-6a6f-4e5e-927e-b939d05d820d" valueTypeId="55c1ed8b-0eb5-4063-af5b-c65c426bda86"/>
+    <managerType typeId="7ca266e1-166c-4823-a0c2-a3026fef91a3" valueTypeId="a3ffb251-91d8-4b04-8141-7fb01478bbb2"/>
+    <containerType typeId="7e196e0a-70f0-424c-89ae-6387983701a5" valueTypeId="5cf789fe-2437-4aa1-9c33-601deb0b018d"/>
+  </producedTypes>
+  <name>НазначенияСвойствКатегорийОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Назначения свойств категорий объектов</value>
+  </synonym>
+  <inputByString>ChartOfCharacteristicTypes.НазначенияСвойствКатегорийОбъектов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ValueType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родитель</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>ChartOfCharacteristicTypes.НазначенияСвойствКатегорийОбъектов.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>CatalogRef.Склады</types>
+    <types>CatalogRef.Номенклатура</types>
+    <types>DocumentRef.Заявка</types>
+    <types>CatalogRef.Клиенты</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    <types>CatalogRef.Сотрудники</types>
+    <types>CatalogRef.умцВидыОбследований</types>
+  </type>
+  <hierarchical>true</hierarchical>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="3195e819-8715-4226-9358-7197bfb1253f">
+      <name>Справочники</name>
+      <description>Справочники</description>
+      <isFolder>true</isFolder>
+      <code>00001</code>
+      <type/>
+      <content id="b9bd706a-9c0a-4742-8228-4af49cfb1616">
+        <name>Документ_Заявка</name>
+        <description>Документ &quot;Заявка&quot;</description>
+        <code>00105</code>
+        <type>
+          <types>DocumentRef.Заявка</types>
+        </type>
+      </content>
+      <content id="27ac5977-f823-45bc-a1c6-63d8fb4f0c79">
+        <name>Справочник_Клиенты</name>
+        <description>Справочник &quot;Клиенты&quot;</description>
+        <code>00104</code>
+        <type>
+          <types>CatalogRef.Клиенты</types>
+        </type>
+      </content>
+      <content id="cc7a19f7-81d7-4bf3-aba5-fb5ece6399d1">
+        <name>Справочник_Номенклатура</name>
+        <description>Справочник &quot;Номенклатура&quot;</description>
+        <code>00102</code>
+        <type>
+          <types>CatalogRef.Номенклатура</types>
+        </type>
+      </content>
+      <content id="b94e80d8-8826-43bb-9d09-0cf191ca5fb6">
+        <name>Справочник_Сотрудники</name>
+        <description>Справочник &quot;Сотрудники&quot;</description>
+        <code>00106</code>
+        <type>
+          <types>CatalogRef.Сотрудники</types>
+        </type>
+      </content>
+      <content id="b887cf22-2926-4963-ba19-2d53fa42a479">
+        <name>Справочник_ХарактеристикиНоменклатуры</name>
+        <description>Справочник &quot;Характеристики номенклатуры&quot;</description>
+        <code>00103</code>
+        <type>
+          <types>CatalogRef.Номенклатура</types>
+        </type>
+      </content>
+    </items>
+  </predefined>
+  <editType>BothWays</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ChartOfCharacteristicTypes.НазначенияСвойствКатегорийОбъектов.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="66bcb593-439a-4b4f-aa82-443f05a1de8b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ChartOfCharacteristicTypes>

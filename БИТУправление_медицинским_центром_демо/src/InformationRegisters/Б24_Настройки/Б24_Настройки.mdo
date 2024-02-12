@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e056d61b-0561-425e-a646-82f3cb273fd1">
+  <producedTypes>
+    <selectionType typeId="9e8eaf47-4865-49e1-922a-4cbab3c3de65" valueTypeId="1fb23d90-847e-42a4-9dd9-657d7e6ee7c5"/>
+    <listType typeId="801983b1-1309-4d96-bb9c-7ba6466ad686" valueTypeId="414c6cbd-b4c7-425a-b8d7-91f4c169caad"/>
+    <managerType typeId="fef58ecf-f6d3-4d85-bb29-3f57627b0f43" valueTypeId="c378c051-8a4d-416c-9a24-bc3972f93bbe"/>
+    <recordSetType typeId="277b32b9-ebb5-431b-b01e-d8d6582af441" valueTypeId="06655d80-1388-43b9-85fe-d57224f9523c"/>
+    <recordKeyType typeId="02e199dc-faf9-43ea-bcbd-71364158ec77" valueTypeId="f600d9a6-06bc-48ec-a761-dd8915723e5f"/>
+    <recordType typeId="26ddbcec-2a6e-4268-892f-7b9b190ee423" valueTypeId="d639f5e6-c46e-49ac-a849-3de71944ebe1"/>
+    <recordManagerType typeId="fa234a71-e2ae-4210-9e30-42fc089eeba3" valueTypeId="8d817858-4853-43e8-881e-707d481bb496"/>
+  </producedTypes>
+  <name>Б24_Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Битрикс24: Настройки обмена</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a5050206-a53f-46b4-b554-a9e880b1f59b">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НастройкиОбменаССайтом</types>
+      <types>Boolean</types>
+      <types>CatalogRef.Клиенты</types>
+      <types>String</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="5fcdefa1-d5e0-49b3-9e71-7b90e3e07b36">
+    <name>Настройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Б24_Настройки</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

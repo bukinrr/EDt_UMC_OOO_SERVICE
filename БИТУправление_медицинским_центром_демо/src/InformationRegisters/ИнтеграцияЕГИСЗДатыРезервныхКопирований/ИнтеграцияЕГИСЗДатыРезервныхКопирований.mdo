@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="61bd3fd8-a703-452f-9ff6-622176dbb3fe">
+  <producedTypes>
+    <selectionType typeId="c188b1d3-ce41-4c6e-a645-f25f1d9976c9" valueTypeId="f62fcb8d-806f-418e-ac18-4facd3428805"/>
+    <listType typeId="6331b081-9ee7-4e19-acd9-b941f885da92" valueTypeId="baed5b04-48bd-4fec-8b69-5c64f81e285b"/>
+    <managerType typeId="d1d09e5f-aeba-4c46-a11e-f3e4061359af" valueTypeId="632b3d28-96c4-485b-9787-3363134523ff"/>
+    <recordSetType typeId="0875f853-86f0-4029-b247-2154f423b880" valueTypeId="3ea3e14e-b112-4aa1-a15c-7a8a81c0d8f5"/>
+    <recordKeyType typeId="6c835dbd-f21c-4636-8d20-0aa2a6e80fd9" valueTypeId="d3844df0-92e6-4ed9-b61e-59c5ac28d4bd"/>
+    <recordType typeId="6a2256ba-a924-46ed-aef0-c5044d2d5476" valueTypeId="03d0e219-453e-49fc-9105-12b42268a686"/>
+    <recordManagerType typeId="1dfd65b4-0a02-4120-a6e3-7dd575c2226f" valueTypeId="74d1beee-09fd-4c37-99ef-ad358b0c0e24"/>
+  </producedTypes>
+  <name>ИнтеграцияЕГИСЗДатыРезервныхКопирований</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция ЕГИСЗ Даты резервных копирований</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="85d5d1ec-1bfc-4a99-ac02-da80d6d098c8">
+    <name>ДатаПоследнегоКопирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата последнего копирования</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7bc5c6a3-8f38-40ac-9d11-087926fdd542">
+    <name>МедицинскаяОрганизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Медицинская организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РеестрМедицинскихОрганизаций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9441616-f1ae-4a4c-9724-f7e767e3b0ca">
+  <name>бит_СинхронизацияНомеровСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>БИТ.Phone: Синхронизация номеров сотрудников с настройками БИТ.АТС</value>
+  </synonym>
+  <methodName>CommonModule.бит_АТССервер.СинхронизацияНомеровСотрудников</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

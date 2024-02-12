@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="576529ec-e85d-444a-b269-f5d48c84b3e8">
+  <name>УстановитьПометкуУдаленияПрисоединенныхФайловМДЛП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить пометку удаления присоединенных файлов МДЛП</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.УведомлениеОПриемкеНовымСобственникомЛПвЗТКМДЛП</types>
+    <types>DocumentObject.УведомлениеОВыбытииМДЛП</types>
+    <types>DocumentObject.УведомлениеОПеремещенииМДЛП</types>
+    <types>DocumentObject.УведомлениеОСменеСобственникаВЗТКМДЛП</types>
+    <types>DocumentObject.УведомлениеОбАгрегированииИТрансформацииУпаковокМДЛП</types>
+    <types>DocumentObject.УведомлениеОПередачеКМТаможенномуСкладуМДЛП</types>
+    <types>DocumentObject.УведомлениеОРезультатахТаможенногоОформленияМДЛП</types>
+    <types>DocumentObject.ИнвентаризационнаяОписьМДЛП</types>
+    <types>DocumentObject.УведомлениеОФактеУничтоженияМДЛП</types>
+    <types>DocumentObject.УведомлениеОПовторномВводеВОборотМДЛП</types>
+    <types>DocumentObject.УведомлениеОПередачеНаУничтожениеМДЛП</types>
+    <types>DocumentObject.УведомлениеВладельцаОбОприходованииМДЛП</types>
+    <types>DocumentObject.УведомлениеОбОтгрузкеМДЛП</types>
+    <types>DocumentObject.УведомлениеОЗавершенииЭтапаУпаковкиМДЛП</types>
+    <types>DocumentObject.ИнвентаризацияПотребительскихУпаковокМДЛП</types>
+    <types>DocumentObject.УведомлениеОВыдачеВОтделенияМДЛП</types>
+    <types>DocumentObject.УведомлениеОРозничнойПродажеМДЛП</types>
+    <types>DocumentObject.УведомлениеОПеремещенииМеждуЗТКМДЛП</types>
+    <types>DocumentObject.УведомлениеВладельцаОВвозеЛПвРФБезПодтвержденияМДЛП</types>
+    <types>DocumentObject.УведомлениеОВыпускеГотовойПродукцииЗаПределамиРФМДЛП</types>
+    <types>DocumentObject.УведомлениеОбЭмиссииКММДЛП</types>
+    <types>DocumentObject.УведомлениеОПриемкеНаСкладИмпортераМДЛП</types>
+    <types>DocumentObject.УведомлениеОПриемкеМДЛП</types>
+    <types>DocumentObject.УведомлениеОПеремещенииГЛОМДЛП</types>
+    <types>DocumentObject.УдалитьЗапросСоставаУпаковкиМДЛП</types>
+    <types>DocumentObject.УведомлениеОбОприходованииМДЛП</types>
+    <types>DocumentObject.УведомлениеОбОтпускеЛППоДокументамОтличнымОтЧекаМДЛП</types>
+    <types>DocumentObject.УведомлениеОВвозеЛПвРФБезПодтвержденияМДЛП</types>
+    <types>DocumentObject.УведомлениеОбОтгрузкеВРФМДЛП</types>
+    <types>DocumentObject.УведомлениеОВыпускеГотовойПродукцииМДЛП</types>
+    <types>DocumentObject.УведомлениеОВвозеЛПвРФМДЛП</types>
+    <types>DocumentObject.УведомлениеОВводеВОборотМДЛП</types>
+    <types>DocumentObject.УведомлениеОбОтсутствииЛПНаБалансеМДЛП</types>
+    <types>DocumentObject.УведомлениеОВвозеЛПвРФБезИмпортераМДЛП</types>
+    <types>DocumentObject.УведомлениеОбОтпускеПоЛьготномуРецептуМДЛП</types>
+    <types>DocumentObject.УведомлениеОбОтбореОбразцовМДЛП</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.РаботаСФайлами.УстановитьПометкуУдаленияПрисоединенныхФайловДокументов</handler>
+</mdclass:EventSubscription>

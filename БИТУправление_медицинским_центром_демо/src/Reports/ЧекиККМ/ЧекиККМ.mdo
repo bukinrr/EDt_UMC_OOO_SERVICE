@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="938afb1f-9412-4362-9555-84c2b359aa26">
+  <producedTypes>
+    <objectType typeId="0de9b298-7ca8-4685-badd-996a61476fe5" valueTypeId="624c5dc9-5953-46f7-bdb6-16e2aa6507d2"/>
+    <managerType typeId="1d8c4737-fe65-42c4-bc3c-b3d62f0c57b6" valueTypeId="c8fda372-ed7d-485f-916b-2636d1b42f5c"/>
+  </producedTypes>
+  <name>ЧекиККМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чеки ККМ</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ЧекиККМ.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="b92814d7-80fe-46e8-bf4c-81264b824ab3">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="a4b1c696-2e58-4f1c-b662-2cf4572ef8b8">
+    <name>ЧекиККМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет по чекам ККМ</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

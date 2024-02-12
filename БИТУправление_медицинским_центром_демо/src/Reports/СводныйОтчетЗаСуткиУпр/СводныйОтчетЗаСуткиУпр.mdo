@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cef5eb50-f9f3-4c38-9888-ee5bcd619bdf">
+  <producedTypes>
+    <objectType typeId="31cc976b-258a-40b8-a988-5f31c8976a54" valueTypeId="17bd9c9c-adcf-4b2d-88b1-40ad3093610f"/>
+    <managerType typeId="d28e8185-1faa-4414-a9c1-25c4a611b183" valueTypeId="2971d9b1-9eb1-4340-bc50-48ec29f7ae88"/>
+  </producedTypes>
+  <name>СводныйОтчетЗаСуткиУпр</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сводный отчет за сутки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.СводныйОтчетЗаСуткиУпр.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.СводныйОтчетЗаСуткиУпр.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ВспомогательнаяФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>Report.СводныйОтчетЗаСуткиУпр.Form.ФормаВарианта</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="71c9ee46-b645-4ed5-97c4-85f522dce4f9">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6d057f24-18f1-46fa-892a-daf28cafe7d4">
+    <name>ФормаВарианта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма варианта</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a7cabc19-605f-4720-b63d-0c48fc31b218">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
